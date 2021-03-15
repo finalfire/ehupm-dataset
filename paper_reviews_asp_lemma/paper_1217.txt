@@ -1,0 +1,44 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(12173,1217,3,1).
+% id paper, Reject/Accept
+paperProperties(1217, 0).
+% sourceId, line
+sentence(12173,150).
+sentence(12173,1855).
+sentence(12173,1869).
+% W, sourceId, line, position
+word(current, 12173, 150, 2).
+word(state, 12173, 150, 3).
+word(feel, 12173, 150, 9).
+word(like, 12173, 150, 10).
+word(appropriate, 12173, 150, 12).
+word(paper, 12173, 150, 13).
+word(particular, 12173, 150, 16).
+word(conference, 12173, 150, 17).
+word(general, 12173, 1855, 1).
+word(paper, 12173, 1855, 4).
+word(easy, 12173, 1855, 6).
+word(read, 12173, 1855, 8).
+word(current, 12173, 1855, 13).
+word(state, 12173, 1855, 14).
+word(feel, 12173, 1855, 20).
+word(like, 12173, 1855, 21).
+word(appropriate, 12173, 1855, 23).
+word(paper, 12173, 1855, 24).
+word(particular, 12173, 1855, 27).
+word(conference, 12173, 1855, 28).
+word(current, 12173, 1869, 2).
+word(state, 12173, 1869, 3).
+word(feel, 12173, 1869, 9).
+word(like, 12173, 1869, 10).
+word(appropriate, 12173, 1869, 12).
+word(paper, 12173, 1869, 13).
+word(particular, 12173, 1869, 16).
+word(conference, 12173, 1869, 17).
+word(propose, 12173, 1869, 21).
+word(idea, 12173, 1869, 22).
+word(interesting, 12173, 1869, 24).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(12173, 150, -1, 0, 0, 0, 0, 0, 0, 0).
+sentiment(12173, 1855, -1, 1, 0, 0, 0, 0, 0, 0).
+sentiment(12173, 1869, -1, 0, 1, 0, 0, 0, 0, 0).

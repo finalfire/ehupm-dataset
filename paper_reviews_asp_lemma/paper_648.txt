@@ -1,0 +1,115 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(6481,648,6,4).
+source(6483,648,6,4).
+% id paper, Reject/Accept
+paperProperties(648, 1).
+% sourceId, line
+sentence(6481,391).
+sentence(6481,1358).
+sentence(6481,1359).
+sentence(6481,1360).
+sentence(6481,2352).
+sentence(6481,2492).
+sentence(6483,1355).
+sentence(6483,1356).
+sentence(6483,1357).
+% W, sourceId, line, position
+word(observation, 6481, 391, 1).
+word(explain, 6481, 391, 3).
+word(substantiate, 6481, 391, 6).
+word(clear, 6481, 391, 8).
+word(experimental, 6481, 391, 9).
+word(evidence, 6481, 391, 10).
+word(conclusion, 6481, 1358, 1).
+word(paper, 6481, 1358, 4).
+word(training, 6481, 1358, 7).
+word(high, 6481, 1358, 9).
+word(momentum, 6481, 1358, 10).
+word(require, 6481, 1358, 11).
+word(additional, 6481, 1358, 12).
+word(training, 6481, 1358, 13).
+word(epoch, 6481, 1358, 14).
+word(a, 6481, 1358, 17).
+word(reach, 6481, 1358, 18).
+word(equilibrium, 6481, 1358, 20).
+word(value, 6481, 1358, 21).
+word(update, 6481, 1359, 1).
+word(step, 6481, 1359, 2).
+word(describe, 6481, 1359, 3).
+word(gradient, 6481, 1359, 4).
+word(ascent, 6481, 1359, 5).
+word(suggest, 6481, 1360, 1).
+word(number, 6481, 1360, 4).
+word(update, 6481, 1360, 6).
+word(segment, 6481, 1360, 9).
+word(choose, 6481, 1360, 11).
+word(unnecessarily, 6481, 1360, 12).
+word(large, 6481, 1360, 13).
+word(begin, 6481, 1360, 15).
+word(update, 6481, 2352, 1).
+word(step, 6481, 2352, 2).
+word(describe, 6481, 2352, 3).
+word(gradient, 6481, 2352, 4).
+word(ascent, 6481, 2352, 5).
+word(example, 6481, 2352, 9).
+word(appreciate, 6481, 2352, 15).
+word(see, 6481, 2352, 16).
+word(fms, 6481, 2352, 18).
+word(perform, 6481, 2352, 19).
+word(optimize, 6481, 2352, 21).
+word(manifold, 6481, 2352, 24).
+word(positive, 6481, 2352, 26).
+word(definite, 6481, 2352, 27).
+word(matrix, 6481, 2352, 28).
+word(reviewer, 6481, 2352, 32).
+word(mention, 6481, 2352, 33).
+word(conclusion, 6481, 2492, 1).
+word(paper, 6481, 2492, 4).
+word(training, 6481, 2492, 7).
+word(high, 6481, 2492, 9).
+word(momentum, 6481, 2492, 10).
+word(require, 6481, 2492, 11).
+word(additional, 6481, 2492, 12).
+word(training, 6481, 2492, 13).
+word(epoch, 6481, 2492, 14).
+word(a, 6481, 2492, 17).
+word(reach, 6481, 2492, 18).
+word(equilibrium, 6481, 2492, 20).
+word(value, 6481, 2492, 21).
+word(whilst, 6481, 2492, 24).
+word(table, 6481, 2492, 26).
+word(useful, 6481, 2492, 28).
+word(large, 6481, 2492, 33).
+word(scale, 6481, 2492, 35).
+word(fast, 6481, 2492, 39).
+word(speedcolumn, 6481, 2492, 41).
+word(well, 6481, 2492, 46).
+word(number, 6481, 2492, 51).
+word(attach, 6481, 2492, 52).
+word(e, 6481, 2492, 54).
+word(interesting, 6483, 1355, 0).
+word(surprising, 6483, 1355, 8).
+word(give, 6483, 1355, 9).
+word(recent, 6483, 1355, 11).
+word(work, 6483, 1355, 12).
+word(approach, 6483, 1356, 2).
+word(wallclock, 6483, 1356, 6).
+word(time, 6483, 1356, 7).
+word(actually, 6483, 1356, 9).
+word(save, 6483, 1356, 10).
+word(effort, 6483, 1357, 1).
+word(assess, 6483, 1357, 3).
+word(momentum, 6483, 1357, 4).
+word(adam, 6483, 1357, 6).
+word(modern, 6483, 1357, 9).
+word(method, 6483, 1357, 10).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(6481, 391, 0, 0, 0, 1, 0, 0, 0, 0).
+sentiment(6481, 1358, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6481, 1359, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6481, 1360, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(6481, 2352, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6481, 2492, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6483, 1355, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6483, 1356, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6483, 1357, 0, 0, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,50 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(2102,210,4,4).
+source(2103,210,4,4).
+% id paper, Reject/Accept
+paperProperties(210, 0).
+% sourceId, line
+sentence(2102,566).
+sentence(2102,1109).
+sentence(2102,1899).
+sentence(2102,2067).
+sentence(2103,1108).
+% W, sourceId, line, position
+word(think, 2102, 566, 1).
+word(technical, 2102, 566, 3).
+word(contribution, 2102, 566, 4).
+word(paper, 2102, 566, 7).
+word(limited, 2102, 566, 10).
+word(experiment, 2102, 1109, 1).
+word(include, 2102, 1109, 2).
+word(fish, 2102, 1109, 4).
+word(specie, 2102, 1109, 5).
+word(canine, 2102, 1109, 8).
+word(specie, 2102, 1109, 9).
+word(vehicle, 2102, 1109, 12).
+word(class, 2102, 1109, 13).
+word(apple, 2102, 1899, 3).
+word(apple, 2102, 1899, 7).
+word(comparison, 2102, 1899, 8).
+word(technical, 2102, 1899, 12).
+word(contribution, 2102, 1899, 13).
+word(paper, 2102, 1899, 16).
+word(clear, 2102, 1899, 19).
+word(think, 2102, 2067, 1).
+word(technical, 2102, 2067, 3).
+word(contribution, 2102, 2067, 4).
+word(paper, 2102, 2067, 7).
+word(limited, 2102, 2067, 10).
+word(empirical, 2102, 2067, 14).
+word(comparison, 2102, 2067, 15).
+word(helpful, 2102, 2067, 18).
+word(provide, 2102, 2067, 21).
+word(visual, 2103, 1108, 1).
+word(world, 2103, 1108, 2).
+word(hierarchy, 2103, 1108, 6).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(2102, 566, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(2102, 1109, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(2102, 1899, 0, 0, 0, 0, -1, 0, -1, 0).
+sentiment(2102, 2067, 0, 0, 0, 0, -1, 0, -1, 0).
+sentiment(2103, 1108, 0, 0, 0, 0, 0, 0, 0, 0).

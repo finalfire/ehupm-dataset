@@ -1,0 +1,83 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(9461,946,7,4).
+source(9462,946,6,4).
+source(9463,946,3,5).
+% id paper, Reject/Accept
+paperProperties(946, 0).
+% sourceId, line
+sentence(9461,805).
+sentence(9461,806).
+sentence(9461,1824).
+sentence(9461,2179).
+sentence(9461,2559).
+sentence(9462,808).
+sentence(9463,807).
+% W, sourceId, line, position
+word(think, 9461, 805, 1).
+word(claim, 9461, 805, 3).
+word(support, 9461, 805, 6).
+word(argument, 9461, 805, 9).
+word(evidence, 9461, 805, 12).
+word(remove, 9461, 805, 17).
+word(result, 9461, 806, 1).
+word(match, 9461, 806, 2).
+word(belief, 9461, 806, 4).
+word(think, 9461, 1824, 1).
+word(claim, 9461, 1824, 3).
+word(support, 9461, 1824, 6).
+word(argument, 9461, 1824, 9).
+word(evidence, 9461, 1824, 12).
+word(remove, 9461, 1824, 17).
+word(idea, 9461, 1824, 21).
+word(look, 9461, 1824, 22).
+word(original, 9461, 1824, 23).
+word(think, 9461, 2179, 1).
+word(claim, 9461, 2179, 3).
+word(support, 9461, 2179, 6).
+word(argument, 9461, 2179, 9).
+word(evidence, 9461, 2179, 12).
+word(remove, 9461, 2179, 17).
+word(theory, 9461, 2179, 21).
+word(step, 9461, 2179, 24).
+word(successful, 9461, 2179, 27).
+word(retrain, 9461, 2179, 30).
+word(necessary, 9461, 2179, 34).
+word(result, 9461, 2559, 1).
+word(match, 9461, 2559, 2).
+word(belief, 9461, 2559, 4).
+word(gecco, 9461, 2559, 7).
+word(page, 9461, 2559, 10).
+word(amsterdam, 9461, 2559, 15).
+word(mislead, 9462, 808, 2).
+word(claim, 9462, 808, 4).
+word(cnn, 9462, 808, 7).
+word(model, 9462, 808, 9).
+word(adasent, 9462, 808, 11).
+word(model, 9462, 808, 15).
+word(use, 9462, 808, 16).
+word(number, 9462, 808, 18).
+word(layer, 9462, 808, 20).
+word(vary, 9462, 808, 22).
+word(length, 9462, 808, 25).
+word(sentence, 9462, 808, 28).
+word(differ, 9462, 808, 31).
+word(important, 9462, 808, 40).
+word(way, 9462, 808, 41).
+word(find, 9463, 807, 1).
+word(theoretical, 9463, 807, 4).
+word(motivation, 9463, 807, 5).
+word(cnn, 9463, 807, 8).
+word(decoder, 9463, 807, 9).
+word(terribly, 9463, 807, 11).
+word(convincing, 9463, 807, 12).
+word(somewhat, 9463, 807, 15).
+word(post, 9463, 807, 16).
+word(hoc, 9463, 807, 18).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(9461, 805, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(9461, 806, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9461, 1824, 0, 0, 1, 0, -1, 0, 0, 0).
+sentiment(9461, 2179, 0, 1, 0, 0, -1, 0, 0, 0).
+sentiment(9461, 2559, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9462, 808, 0, -1, 0, -1, 0, 0, 0, 0).
+sentiment(9463, 807, 0, 0, 0, 0, 0, 0, 0, 0).

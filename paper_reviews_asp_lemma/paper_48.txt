@@ -1,0 +1,79 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(481,48,6,3).
+source(482,48,8,4).
+% id paper, Reject/Accept
+paperProperties(48, 1).
+% sourceId, line
+sentence(481,1026).
+sentence(481,1881).
+sentence(481,2120).
+sentence(482,1027).
+sentence(482,2407).
+% W, sourceId, line, position
+word(m, 481, 1026, 1).
+word(walk, 481, 1026, 2).
+word(video, 481, 1026, 3).
+word(bit, 481, 1026, 6).
+word(disappointing, 481, 1026, 7).
+word(m, 481, 1881, 1).
+word(walk, 481, 1881, 2).
+word(video, 481, 1881, 3).
+word(bit, 481, 1881, 6).
+word(disappointing, 481, 1881, 7).
+word(little, 481, 1881, 13).
+word(bit, 481, 1881, 14).
+word(abbreviate, 481, 1881, 15).
+word(major, 481, 1881, 18).
+word(focus, 481, 1881, 19).
+word(paper, 481, 1881, 22).
+word(guess, 481, 1881, 26).
+word(important, 481, 1881, 31).
+word(novel, 481, 1881, 33).
+word(educational, 481, 1881, 36).
+word(guess, 481, 1881, 37).
+word(guess, 481, 1881, 43).
+word(algorithm, 481, 1881, 47).
+word(smoothie, 481, 1881, 48).
+word(m, 481, 2120, 1).
+word(walk, 481, 2120, 2).
+word(video, 481, 2120, 3).
+word(bit, 481, 2120, 6).
+word(disappointing, 481, 2120, 7).
+word(randomly, 481, 2120, 15).
+word(choose, 481, 2120, 16).
+word(procedure, 481, 2120, 17).
+word(noisy, 481, 2120, 20).
+word(label, 481, 2120, 21).
+word(extensive, 482, 1027, 3).
+word(experimental, 482, 1027, 4).
+word(evaluation, 482, 1027, 5).
+word(analysis, 482, 1027, 7).
+word(author, 482, 1027, 9).
+word(provide, 482, 1027, 10).
+word(put, 482, 1027, 11).
+word(solid, 482, 1027, 14).
+word(ground, 482, 1027, 15).
+word(compare, 482, 1027, 20).
+word(extensive, 482, 2407, 3).
+word(experimental, 482, 2407, 4).
+word(evaluation, 482, 2407, 5).
+word(analysis, 482, 2407, 7).
+word(author, 482, 2407, 9).
+word(provide, 482, 2407, 10).
+word(put, 482, 2407, 11).
+word(solid, 482, 2407, 14).
+word(ground, 482, 2407, 15).
+word(compare, 482, 2407, 20).
+word(give, 482, 2407, 23).
+word(author, 482, 2407, 25).
+word(response, 482, 2407, 27).
+word(change, 482, 2407, 30).
+word(increase, 482, 2407, 34).
+word(review, 482, 2407, 36).
+word(score, 482, 2407, 37).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(481, 1026, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(481, 1881, 0, 0, -1, -1, 0, 0, 0, 0).
+sentiment(481, 2120, 0, -1, 0, -1, 0, 0, 0, 0).
+sentiment(482, 1027, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(482, 2407, 0, 0, 0, 0, 0, 0, 0, 0).

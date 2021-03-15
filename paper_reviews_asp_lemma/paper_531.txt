@@ -1,0 +1,57 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(5312,531,7,5).
+% id paper, Reject/Accept
+paperProperties(531, 1).
+% sourceId, line
+sentence(5312,472).
+sentence(5312,955).
+sentence(5312,956).
+sentence(5312,2362).
+sentence(5312,2465).
+% W, sourceId, line, position
+word(main, 5312, 472, 3).
+word(contribution, 5312, 472, 4).
+word(work, 5312, 472, 7).
+word(extremely, 5312, 955, 2).
+word(important, 5312, 955, 3).
+word(understand, 5312, 955, 5).
+word(motivation, 5312, 955, 7).
+word(hyperprior, 5312, 955, 10).
+word(think, 5312, 955, 13).
+word(need, 5312, 955, 15).
+word(little, 5312, 955, 17).
+word(explanation, 5312, 955, 19).
+word(balle, 5312, 956, 1).
+word(theis, 5312, 956, 4).
+word(publish, 5312, 956, 9).
+word(conference, 5312, 956, 13).
+word(year, 5312, 956, 16).
+word(balle, 5312, 2362, 1).
+word(theis, 5312, 2362, 4).
+word(publish, 5312, 2362, 9).
+word(conference, 5312, 2362, 13).
+word(year, 5312, 2362, 16).
+word(bengio, 5312, 2362, 19).
+word(advocate, 5312, 2362, 21).
+word(make, 5312, 2362, 22).
+word(prediction, 5312, 2362, 23).
+word(entire, 5312, 2362, 25).
+word(group, 5312, 2362, 26).
+word(unit, 5312, 2362, 28).
+word(time, 5312, 2362, 32).
+word(balle, 5312, 2465, 1).
+word(theis, 5312, 2465, 4).
+word(publish, 5312, 2465, 9).
+word(conference, 5312, 2465, 13).
+word(year, 5312, 2465, 16).
+word(correct, 5312, 2465, 22).
+word(think, 5312, 2465, 24).
+word(htt, 5312, 2465, 33).
+word(ht, 5312, 2465, 37).
+word(lt, 5312, 2465, 39).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(5312, 472, 0, 0, 0, 0, 0, 0, 1, 0).
+sentiment(5312, 955, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(5312, 956, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5312, 2362, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5312, 2465, 0, 0, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,70 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(10341,1034,6,4).
+source(10342,1034,6,4).
+source(10343,1034,6,5).
+% id paper, Reject/Accept
+paperProperties(1034, 0).
+% sourceId, line
+sentence(10341,1069).
+sentence(10341,1070).
+sentence(10341,2342).
+sentence(10341,2436).
+sentence(10342,280).
+sentence(10342,1823).
+sentence(10343,1071).
+% W, sourceId, line, position
+word(training, 10341, 1069, 3).
+word(take, 10341, 1069, 4).
+word(place, 10341, 1069, 5).
+word(skip, 10341, 1069, 8).
+word(connection, 10341, 1069, 9).
+word(remove, 10341, 1070, 1).
+word(alpha, 10341, 1070, 3).
+word(remove, 10341, 2342, 1).
+word(alpha, 10341, 2342, 3).
+word(issue, 10341, 2342, 12).
+word(bad, 10341, 2342, 14).
+word(task, 10341, 2342, 16).
+word(long, 10341, 2342, 18).
+word(term, 10341, 2342, 19).
+word(dependency, 10341, 2342, 20).
+word(require, 10341, 2342, 22).
+word(long, 10341, 2342, 23).
+word(rnn, 10341, 2342, 24).
+word(training, 10341, 2436, 3).
+word(take, 10341, 2436, 4).
+word(place, 10341, 2436, 5).
+word(skip, 10341, 2436, 8).
+word(connection, 10341, 2436, 9).
+word(great, 10341, 2436, 15).
+word(travel, 10341, 2436, 20).
+word(deal, 10341, 2436, 25).
+word(visa, 10341, 2436, 27).
+word(issue, 10341, 2436, 28).
+word(able, 10341, 2436, 32).
+word(extended, 10341, 2436, 35).
+word(conversation, 10341, 2436, 36).
+word(nice, 10342, 280, 3).
+word(simple, 10342, 280, 5).
+word(idea, 10342, 280, 6).
+word(nice, 10342, 1823, 3).
+word(simple, 10342, 1823, 5).
+word(idea, 10342, 1823, 6).
+word(paper, 10342, 1823, 10).
+word(accept, 10342, 1823, 14).
+word(toy, 10343, 1071, 1).
+word(model, 10343, 1071, 2).
+word(single, 10343, 1071, 5).
+word(unit, 10343, 1071, 6).
+word(illustrate, 10343, 1071, 10).
+word(basic, 10343, 1071, 12).
+word(idea, 10343, 1071, 13).
+word(method, 10343, 1071, 16).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(10341, 1069, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10341, 1070, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10341, 2342, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10341, 2436, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10342, 280, 0, 0, 1, 0, 0, 0, 0, 0).
+sentiment(10342, 1823, 0, 0, 1, 0, 0, 0, 0, -1).
+sentiment(10343, 1071, 0, 0, 0, 0, 0, 0, 0, 0).

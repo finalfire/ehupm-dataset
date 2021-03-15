@@ -1,0 +1,99 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(10051,1005,6,3).
+source(10052,1005,4,3).
+% id paper, Reject/Accept
+paperProperties(1005, 0).
+% sourceId, line
+sentence(10051,1467).
+sentence(10051,1468).
+sentence(10051,2488).
+sentence(10052,1469).
+sentence(10052,1470).
+sentence(10052,1471).
+sentence(10052,1480).
+sentence(10052,2276).
+sentence(10052,2295).
+sentence(10052,2502).
+% W, sourceId, line, position
+word(paper, 10051, 1467, 2).
+word(goal, 10051, 1467, 5).
+word(orient, 10051, 1467, 6).
+word(turn, 10051, 1467, 10).
+word(addition, 10051, 1468, 1).
+word(self, 10051, 1468, 6).
+word(contain, 10051, 1468, 8).
+word(addition, 10051, 2488, 1).
+word(self, 10051, 2488, 6).
+word(contain, 10051, 2488, 8).
+word(matter, 10051, 2488, 12).
+word(discover, 10051, 2488, 15).
+word(experiment, 10051, 2488, 18).
+word(show, 10051, 2488, 22).
+word(zzgaussian, 10051, 2488, 23).
+word(zpiecewise, 10051, 2488, 25).
+word(multimodal, 10051, 2488, 28).
+word(page, 10052, 1469, 1).
+word(t, 10052, 1469, 4).
+word(page, 10052, 1470, 1).
+word(second, 10052, 1470, 4).
+word(paragraph, 10052, 1470, 5).
+word(correctness, 10052, 1470, 9).
+word(correctness, 10052, 1470, 15).
+word(page, 10052, 1471, 1).
+word(second, 10052, 1471, 4).
+word(paragraph, 10052, 1471, 9).
+word(access, 10052, 1471, 12).
+word(piece, 10052, 1471, 15).
+word(access, 10052, 1471, 20).
+word(piece, 10052, 1471, 22).
+word(good, 10052, 1471, 28).
+word(good, 10052, 1471, 37).
+word(interesting, 10052, 1480, 0).
+word(use, 10052, 1480, 1).
+word(gan, 10052, 1480, 3).
+word(artificial, 10052, 1480, 6).
+word(instance, 10052, 1480, 7).
+word(name, 10052, 1480, 8).
+word(x, 10052, 1480, 9).
+word(page, 10052, 2276, 1).
+word(t, 10052, 2276, 4).
+word(training, 10052, 2276, 16).
+word(take, 10052, 2276, 17).
+word(place, 10052, 2276, 18).
+word(skip, 10052, 2276, 21).
+word(connection, 10052, 2276, 22).
+word(propose, 10052, 2295, 2).
+word(method, 10052, 2295, 3).
+word(extract, 10052, 2295, 5).
+word(color, 10052, 2295, 7).
+word(invariant, 10052, 2295, 9).
+word(representation, 10052, 2295, 10).
+word(page, 10052, 2295, 13).
+word(second, 10052, 2295, 16).
+word(paragraph, 10052, 2295, 21).
+word(access, 10052, 2295, 24).
+word(piece, 10052, 2295, 27).
+word(access, 10052, 2295, 32).
+word(piece, 10052, 2295, 34).
+word(good, 10052, 2295, 40).
+word(good, 10052, 2295, 49).
+word(page, 10052, 2502, 1).
+word(second, 10052, 2502, 4).
+word(paragraph, 10052, 2502, 5).
+word(correctness, 10052, 2502, 9).
+word(correctness, 10052, 2502, 15).
+word(similarly, 10052, 2502, 26).
+word(decode, 10052, 2502, 27).
+word(get, 10052, 2502, 39).
+word(decode, 10052, 2502, 40).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(10051, 1467, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10051, 1468, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10051, 2488, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10052, 1469, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10052, 1470, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10052, 1471, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10052, 1480, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10052, 2276, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10052, 2295, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10052, 2502, 0, 0, 0, 0, 0, 0, 0, 0).

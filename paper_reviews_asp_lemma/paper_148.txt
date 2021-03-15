@@ -1,0 +1,31 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(1481,148,8,5).
+source(1482,148,7,3).
+% id paper, Reject/Accept
+paperProperties(148, 1).
+% sourceId, line
+sentence(1481,831).
+sentence(1481,832).
+sentence(1482,334).
+% W, sourceId, line, position
+word(tradeoff, 1481, 831, 4).
+word(repeat, 1481, 831, 6).
+word(action, 1481, 831, 8).
+word(time, 1481, 831, 10).
+word(throw, 1481, 831, 12).
+word(away, 1481, 831, 13).
+word(information, 1481, 831, 15).
+word(train, 1481, 832, 2).
+word(model, 1481, 832, 4).
+word(process, 1481, 832, 7).
+word(intermediate, 1481, 832, 8).
+word(frame, 1481, 832, 9).
+word(idea, 1482, 334, 1).
+word(natural, 1482, 334, 3).
+word(wealth, 1482, 334, 8).
+word(experiment, 1482, 334, 10).
+word(support, 1482, 334, 12).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(1481, 831, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1481, 832, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1482, 334, 0, 0, 0, 0, 0, 0, 0, 0).

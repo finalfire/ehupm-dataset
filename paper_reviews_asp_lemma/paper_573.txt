@@ -1,0 +1,95 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(5731,573,6,2).
+source(5732,573,8,3).
+source(5733,573,8,2).
+% id paper, Reject/Accept
+paperProperties(573, 1).
+% sourceId, line
+sentence(5731,222).
+sentence(5731,1659).
+sentence(5731,1660).
+sentence(5731,1661).
+sentence(5731,2214).
+sentence(5731,2525).
+sentence(5732,1662).
+sentence(5733,1658).
+% W, sourceId, line, position
+word(overall, 5731, 222, 0).
+word(sure, 5731, 222, 5).
+word(learn, 5731, 222, 9).
+word(paper, 5731, 222, 12).
+word(author, 5731, 1659, 1).
+word(propose, 5731, 1659, 2).
+word(kind, 5731, 1659, 4).
+word(framework, 5731, 1659, 6).
+word(learn, 5731, 1659, 8).
+word(solve, 5731, 1659, 10).
+word(elemental, 5731, 1659, 11).
+word(task, 5731, 1659, 12).
+word(learn, 5731, 1659, 15).
+word(task, 5731, 1659, 16).
+word(switching, 5731, 1659, 17).
+word(multitask, 5731, 1659, 20).
+word(scenario, 5731, 1659, 21).
+word(good, 5731, 1660, 3).
+word(motivate, 5731, 1660, 5).
+word(action, 5731, 1660, 7).
+word(selection, 5731, 1660, 8).
+word(bit, 5731, 1660, 10).
+word(learn, 5731, 1661, 3).
+word(psychological, 5731, 1661, 4).
+word(task, 5731, 1661, 5).
+word(author, 5731, 2214, 1).
+word(propose, 5731, 2214, 2).
+word(kind, 5731, 2214, 4).
+word(framework, 5731, 2214, 6).
+word(learn, 5731, 2214, 8).
+word(solve, 5731, 2214, 10).
+word(elemental, 5731, 2214, 11).
+word(task, 5731, 2214, 12).
+word(learn, 5731, 2214, 15).
+word(task, 5731, 2214, 16).
+word(switching, 5731, 2214, 17).
+word(multitask, 5731, 2214, 20).
+word(scenario, 5731, 2214, 21).
+word(block, 5731, 2214, 24).
+word(wise, 5731, 2214, 26).
+word(cross, 5731, 2214, 27).
+word(validation, 5731, 2214, 29).
+word(leave, 5731, 2214, 31).
+word(subject, 5731, 2214, 33).
+word(cv, 5731, 2214, 35).
+word(author, 5731, 2525, 1).
+word(propose, 5731, 2525, 2).
+word(kind, 5731, 2525, 4).
+word(framework, 5731, 2525, 6).
+word(learn, 5731, 2525, 8).
+word(solve, 5731, 2525, 10).
+word(elemental, 5731, 2525, 11).
+word(task, 5731, 2525, 12).
+word(learn, 5731, 2525, 15).
+word(task, 5731, 2525, 16).
+word(switching, 5731, 2525, 17).
+word(multitask, 5731, 2525, 20).
+word(scenario, 5731, 2525, 21).
+word(convex, 5731, 2525, 24).
+word(combination, 5731, 2525, 25).
+word(natural, 5731, 2525, 27).
+word(image, 5731, 2525, 28).
+word(result, 5731, 2525, 31).
+word(natural, 5731, 2525, 33).
+word(image, 5731, 2525, 34).
+word(click, 5732, 1662, 2).
+word(screen, 5732, 1662, 5).
+word(sign, 5733, 1658, 4).
+word(w, 5733, 1658, 7).
+word(ax, 5733, 1658, 10).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(5731, 222, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(5731, 1659, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5731, 1660, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5731, 1661, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(5731, 2214, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5731, 2525, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5732, 1662, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(5733, 1658, 0, -1, 0, 0, 0, 0, 0, 0).

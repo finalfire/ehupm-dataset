@@ -1,0 +1,93 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(9001,900,4,4).
+source(9002,900,5,4).
+source(9003,900,5,5).
+% id paper, Reject/Accept
+paperProperties(900, 0).
+% sourceId, line
+sentence(9001,490).
+sentence(9001,578).
+sentence(9001,1248).
+sentence(9001,1402).
+sentence(9002,1398).
+sentence(9003,1399).
+sentence(9003,1400).
+sentence(9003,1401).
+sentence(9003,2501).
+% W, sourceId, line, position
+word(group, 9001, 490, 1).
+word(related, 9001, 490, 3).
+word(work, 9001, 490, 4).
+word(discuss, 9001, 490, 8).
+word(paper, 9001, 578, 1).
+word(general, 9001, 578, 4).
+word(need, 9001, 578, 6).
+word(polished, 9001, 578, 9).
+word(european, 9001, 1248, 1).
+word(conference, 9001, 1248, 2).
+word(computer, 9001, 1248, 4).
+word(vision, 9001, 1248, 5).
+word(figure, 9001, 1402, 0).
+word(graphic, 9001, 1402, 5).
+word(representation, 9001, 1402, 6).
+word(model, 9001, 1402, 9).
+word(hard, 9001, 1402, 11).
+word(read, 9001, 1402, 13).
+word(model, 9002, 1398, 2).
+word(draw, 9002, 1398, 5).
+word(fig, 9002, 1398, 6).
+word(reader, 9003, 1399, 1).
+word(find, 9003, 1399, 4).
+word(connection, 9003, 1399, 7).
+word(textual, 9003, 1399, 10).
+word(description, 9003, 1399, 11).
+word(model, 9003, 1399, 14).
+word(figure, 9003, 1399, 17).
+word(reference, 9003, 1399, 22).
+word(particular, 9003, 1399, 24).
+word(aspect, 9003, 1399, 25).
+word(figure, 9003, 1399, 28).
+word(reason, 9003, 1400, 3).
+word(addition, 9003, 1400, 6).
+word(small, 9003, 1400, 7).
+word(cnn, 9003, 1400, 8).
+word(block, 9003, 1400, 9).
+word(row, 9003, 1401, 3).
+word(interpolation, 9003, 1401, 5).
+word(purple, 9003, 1401, 10).
+word(triangle, 9003, 1401, 11).
+word(purple, 9003, 1401, 14).
+word(rectangle, 9003, 1401, 15).
+word(middle, 9003, 1401, 19).
+word(intermediate, 9003, 1401, 21).
+word(shape, 9003, 1401, 22).
+word(paint, 9003, 1401, 25).
+word(different, 9003, 1401, 28).
+word(color, 9003, 1401, 29).
+word(row, 9003, 2501, 3).
+word(interpolation, 9003, 2501, 5).
+word(purple, 9003, 2501, 10).
+word(triangle, 9003, 2501, 11).
+word(purple, 9003, 2501, 14).
+word(rectangle, 9003, 2501, 15).
+word(middle, 9003, 2501, 19).
+word(intermediate, 9003, 2501, 21).
+word(shape, 9003, 2501, 22).
+word(paint, 9003, 2501, 25).
+word(different, 9003, 2501, 28).
+word(color, 9003, 2501, 29).
+word(work, 9003, 2501, 34).
+word(ugrnn, 9003, 2501, 37).
+word(rnns, 9003, 2501, 41).
+word(bit, 9003, 2501, 44).
+word(preliminary, 9003, 2501, 45).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(9001, 490, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(9001, 578, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(9001, 1248, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9001, 1402, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(9002, 1398, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(9003, 1399, 0, -1, 0, 0, -1, 0, 0, 0).
+sentiment(9003, 1400, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(9003, 1401, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9003, 2501, 0, 0, 0, 0, 0, 0, 0, 0).

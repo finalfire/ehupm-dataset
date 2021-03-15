@@ -1,0 +1,61 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(3611,361,6,4).
+source(3613,361,5,3).
+% id paper, Reject/Accept
+paperProperties(361, 0).
+% sourceId, line
+sentence(3611,813).
+sentence(3613,156).
+sentence(3613,1919).
+sentence(3613,2029).
+% W, sourceId, line, position
+word(detail, 3611, 813, 3).
+word(give, 3611, 813, 6).
+word(network, 3611, 813, 9).
+word(e, 3611, 813, 11).
+word(maybe, 3613, 156, 0).
+word(paper, 3613, 156, 2).
+word(fit, 3613, 156, 3).
+word(well, 3613, 156, 4).
+word(application, 3613, 156, 7).
+word(target, 3613, 156, 8).
+word(conference, 3613, 156, 9).
+word(iclr, 3613, 156, 13).
+word(maybe, 3613, 1919, 0).
+word(paper, 3613, 1919, 2).
+word(fit, 3613, 1919, 3).
+word(well, 3613, 1919, 4).
+word(application, 3613, 1919, 7).
+word(target, 3613, 1919, 8).
+word(conference, 3613, 1919, 9).
+word(iclr, 3613, 1919, 13).
+word(main, 3613, 1919, 19).
+word(contribution, 3613, 1919, 20).
+word(work, 3613, 1919, 23).
+word(maybe, 3613, 2029, 0).
+word(paper, 3613, 2029, 2).
+word(fit, 3613, 2029, 3).
+word(well, 3613, 2029, 4).
+word(application, 3613, 2029, 7).
+word(target, 3613, 2029, 8).
+word(conference, 3613, 2029, 9).
+word(iclr, 3613, 2029, 13).
+word(little, 3613, 2029, 19).
+word(bit, 3613, 2029, 20).
+word(abbreviate, 3613, 2029, 21).
+word(major, 3613, 2029, 24).
+word(focus, 3613, 2029, 25).
+word(paper, 3613, 2029, 28).
+word(guess, 3613, 2029, 32).
+word(important, 3613, 2029, 37).
+word(novel, 3613, 2029, 39).
+word(educational, 3613, 2029, 42).
+word(guess, 3613, 2029, 43).
+word(guess, 3613, 2029, 49).
+word(algorithm, 3613, 2029, 53).
+word(smoothie, 3613, 2029, 54).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(3611, 813, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(3613, 156, -1, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3613, 1919, -1, 0, 0, 0, 0, 0, 1, 0).
+sentiment(3613, 2029, -1, 0, -1, 0, 0, 0, 0, 0).

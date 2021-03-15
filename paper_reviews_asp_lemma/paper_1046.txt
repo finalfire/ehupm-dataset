@@ -1,0 +1,55 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(10462,1046,3,4).
+% id paper, Reject/Accept
+paperProperties(1046, 0).
+% sourceId, line
+sentence(10462,246).
+sentence(10462,696).
+sentence(10462,1997).
+sentence(10462,2133).
+% W, sourceId, line, position
+word(experimental, 10462, 246, 1).
+word(section, 10462, 246, 2).
+word(paper, 10462, 246, 5).
+word(need, 10462, 246, 6).
+word(improvement, 10462, 246, 7).
+word(mnist, 10462, 696, 1).
+word(cifar10, 10462, 696, 3).
+word(dataset, 10462, 696, 4).
+word(lenet32, 10462, 696, 6).
+word(experiment, 10462, 696, 11).
+word(mnist, 10462, 1997, 1).
+word(cifar10, 10462, 1997, 3).
+word(dataset, 10462, 1997, 4).
+word(lenet32, 10462, 1997, 6).
+word(experiment, 10462, 1997, 11).
+word(utilize, 10462, 1997, 15).
+word(fact, 10462, 1997, 17).
+word(dnn, 10462, 1997, 19).
+word(tolerant, 10462, 1997, 22).
+word(low, 10462, 1997, 24).
+word(precision, 10462, 1997, 25).
+word(inference, 10462, 1997, 26).
+word(outperform, 10462, 1997, 28).
+word(state, 10462, 1997, 30).
+word(art, 10462, 1997, 36).
+word(bit, 10462, 1997, 37).
+word(parallel, 10462, 1997, 39).
+word(accelerator, 10462, 1997, 40).
+word(experimental, 10462, 2133, 1).
+word(section, 10462, 2133, 2).
+word(paper, 10462, 2133, 5).
+word(need, 10462, 2133, 6).
+word(improvement, 10462, 2133, 7).
+word(tiny, 10462, 2133, 10).
+word(column, 10462, 2133, 11).
+word(surround, 10462, 2133, 12).
+word(figure, 10462, 2133, 13).
+word(ugly, 10462, 2133, 15).
+word(hard, 10462, 2133, 17).
+word(read, 10462, 2133, 19).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(10462, 246, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(10462, 696, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(10462, 1997, 0, 1, 0, 0, 0, 0, -1, 0).
+sentiment(10462, 2133, 0, -1, 0, -1, 0, 0, 0, 0).

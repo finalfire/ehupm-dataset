@@ -1,0 +1,67 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(3251,325,4,5).
+source(3252,325,5,4).
+% id paper, Reject/Accept
+paperProperties(325, 0).
+% sourceId, line
+sentence(3251,829).
+sentence(3251,830).
+sentence(3251,2291).
+sentence(3251,2327).
+sentence(3252,828).
+sentence(3252,2281).
+% W, sourceId, line, position
+word(clear, 3251, 829, 5).
+word(image, 3251, 829, 9).
+word(feature, 3251, 829, 10).
+word(baseline, 3251, 829, 16).
+word(method, 3251, 829, 17).
+word(hypothesis, 3251, 830, 1).
+word(model, 3251, 830, 5).
+word(word, 3251, 830, 7).
+word(choice, 3251, 830, 8).
+word(shift, 3251, 830, 10).
+word(word, 3251, 830, 12).
+word(high, 3251, 830, 14).
+word(score, 3251, 830, 15).
+word(hypothesis, 3251, 2291, 1).
+word(model, 3251, 2291, 5).
+word(word, 3251, 2291, 7).
+word(choice, 3251, 2291, 8).
+word(shift, 3251, 2291, 10).
+word(word, 3251, 2291, 12).
+word(high, 3251, 2291, 14).
+word(score, 3251, 2291, 15).
+word(validate, 3251, 2291, 19).
+word(applicability, 3251, 2291, 21).
+word(different, 3251, 2291, 23).
+word(task, 3251, 2291, 24).
+word(domain, 3251, 2291, 26).
+word(hypothesis, 3251, 2327, 1).
+word(model, 3251, 2327, 5).
+word(word, 3251, 2327, 7).
+word(choice, 3251, 2327, 8).
+word(shift, 3251, 2327, 10).
+word(word, 3251, 2327, 12).
+word(high, 3251, 2327, 14).
+word(score, 3251, 2327, 15).
+word(wide, 3251, 2327, 20).
+word(resnet, 3251, 2327, 21).
+word(turn, 3252, 828, 6).
+word(work, 3252, 828, 9).
+word(comparably, 3252, 828, 10).
+word(turn, 3252, 2281, 6).
+word(work, 3252, 2281, 9).
+word(comparably, 3252, 2281, 10).
+word(key, 3252, 2281, 18).
+word(difficulty, 3252, 2281, 19).
+word(dialog, 3252, 2281, 21).
+word(delay, 3252, 2281, 23).
+word(feedback, 3252, 2281, 24).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(3251, 829, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(3251, 830, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3251, 2291, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3251, 2327, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3252, 828, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3252, 2281, 0, 0, 0, 0, 0, 0, 0, 0).

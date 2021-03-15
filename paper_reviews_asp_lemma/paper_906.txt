@@ -1,0 +1,39 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(9061,906,4,4).
+source(9062,906,4,5).
+% id paper, Reject/Accept
+paperProperties(906, 0).
+% sourceId, line
+sentence(9061,335).
+sentence(9061,1052).
+sentence(9062,1053).
+sentence(9062,1054).
+sentence(9062,2466).
+% W, sourceId, line, position
+word(point, 9061, 335, 2).
+word(novel, 9061, 335, 8).
+word(adversarial, 9061, 1052, 1).
+word(autoencoder, 9061, 1052, 2).
+word(gradient, 9062, 1053, 1).
+word(descent, 9062, 1053, 2).
+word(ascent, 9062, 1053, 4).
+word(backpropagation, 9062, 1053, 6).
+word(villani, 9062, 1054, 0).
+word(topic, 9062, 1054, 3).
+word(optimal, 9062, 1054, 5).
+word(transportation, 9062, 1054, 6).
+word(gradient, 9062, 2466, 1).
+word(descent, 9062, 2466, 2).
+word(ascent, 9062, 2466, 4).
+word(backpropagation, 9062, 2466, 6).
+word(practice, 9062, 2466, 10).
+word(people, 9062, 2466, 12).
+word(chop, 9062, 2466, 14).
+word(space, 9062, 2466, 17).
+word(round, 9062, 2466, 19).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(9061, 335, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(9061, 1052, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9062, 1053, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9062, 1054, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9062, 2466, 0, 0, 0, 0, 0, 0, 0, 0).

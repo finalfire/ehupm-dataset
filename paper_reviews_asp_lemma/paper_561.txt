@@ -1,0 +1,75 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(5611,561,6,4).
+source(5612,561,6,4).
+source(5613,561,7,4).
+% id paper, Reject/Accept
+paperProperties(561, 1).
+% sourceId, line
+sentence(5611,77).
+sentence(5611,1779).
+sentence(5611,1902).
+sentence(5611,1993).
+sentence(5611,2160).
+sentence(5612,1780).
+sentence(5613,1781).
+sentence(5613,2458).
+% W, sourceId, line, position
+word(think, 5611, 77, 1).
+word(paper, 5611, 77, 3).
+word(interesting, 5611, 77, 5).
+word(currently, 5611, 1779, 0).
+word(section, 5611, 1779, 3).
+word(easy, 5611, 1779, 7).
+word(follow, 5611, 1779, 9).
+word(follow, 5611, 1779, 15).
+word(reason, 5611, 1779, 16).
+word(think, 5611, 1902, 1).
+word(paper, 5611, 1902, 3).
+word(interesting, 5611, 1902, 5).
+word(experimental, 5611, 1902, 11).
+word(result, 5611, 1902, 12).
+word(report, 5611, 1902, 13).
+word(paper, 5611, 1902, 16).
+word(bit, 5611, 1902, 21).
+word(weak, 5611, 1902, 22).
+word(support, 5611, 1902, 24).
+word(claim, 5611, 1902, 26).
+word(author, 5611, 1902, 30).
+word(currently, 5611, 1993, 0).
+word(section, 5611, 1993, 3).
+word(easy, 5611, 1993, 7).
+word(follow, 5611, 1993, 9).
+word(follow, 5611, 1993, 15).
+word(reason, 5611, 1993, 16).
+word(like, 5611, 1993, 21).
+word(totally, 5611, 1993, 23).
+word(sensible, 5611, 1993, 24).
+word(idea, 5611, 1993, 25).
+word(think, 5611, 2160, 1).
+word(paper, 5611, 2160, 3).
+word(interesting, 5611, 2160, 5).
+word(proportional, 5611, 2160, 10).
+word(equal, 5611, 2160, 14).
+word(fix, 5612, 1780, 3).
+word(result, 5612, 1780, 5).
+word(result, 5612, 1780, 11).
+word(table, 5612, 1780, 13).
+word(inception, 5613, 1781, 1).
+word(score, 5613, 1781, 2).
+word(general, 5613, 1781, 4).
+word(inception, 5613, 2458, 1).
+word(score, 5613, 2458, 2).
+word(general, 5613, 2458, 4).
+word(cnn, 5613, 2458, 7).
+word(figure, 5613, 2458, 9).
+word(game, 5613, 2458, 11).
+word(rule, 5613, 2458, 12).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(5611, 77, 0, 0, 1, 0, 0, 0, 0, 0).
+sentiment(5611, 1779, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(5611, 1902, 0, 0, 1, 0, 0, 0, 0, 0).
+sentiment(5611, 1993, 0, -1, 0, 0, 0, 0, 1, 0).
+sentiment(5611, 2160, 0, -1, 1, 0, 0, 0, 0, 0).
+sentiment(5612, 1780, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5613, 1781, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5613, 2458, 0, 0, 0, 0, 0, 0, 0, 0).

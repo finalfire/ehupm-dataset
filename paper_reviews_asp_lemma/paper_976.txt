@@ -1,0 +1,53 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(9761,976,7,2).
+source(9762,976,5,3).
+% id paper, Reject/Accept
+paperProperties(976, 0).
+% sourceId, line
+sentence(9761,1611).
+sentence(9761,2519).
+sentence(9761,2577).
+sentence(9762,211).
+sentence(9762,1610).
+% W, sourceId, line, position
+word(eann, 9761, 1611, 3).
+word(scalable, 9761, 1611, 6).
+word(depth, 9761, 1611, 9).
+word(increase, 9761, 1611, 11).
+word(exponentially, 9761, 1611, 12).
+word(eann, 9761, 2519, 3).
+word(scalable, 9761, 2519, 6).
+word(depth, 9761, 2519, 9).
+word(increase, 9761, 2519, 11).
+word(exponentially, 9761, 2519, 12).
+word(neuroscience, 9761, 2519, 16).
+word(concept, 9761, 2519, 19).
+word(know, 9761, 2519, 21).
+word(reaction, 9761, 2519, 23).
+word(time, 9761, 2519, 24).
+word(eann, 9761, 2577, 3).
+word(scalable, 9761, 2577, 6).
+word(depth, 9761, 2577, 9).
+word(increase, 9761, 2577, 11).
+word(exponentially, 9761, 2577, 12).
+word(experiment, 9761, 2577, 16).
+word(run, 9761, 2577, 18).
+word(frey, 9761, 2577, 22).
+word(face, 9761, 2577, 24).
+word(dataset, 9761, 2577, 25).
+word(mnist, 9761, 2577, 28).
+word(dataset, 9761, 2577, 29).
+word(organization, 9762, 211, 1).
+word(paper, 9762, 211, 4).
+word(bit, 9762, 211, 7).
+word(confusing, 9762, 211, 8).
+word(evaluate, 9762, 1610, 6).
+word(near, 9762, 1610, 7).
+word(depth, 9762, 1610, 8).
+word(b3le, 9762, 1610, 9).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(9761, 1611, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9761, 2519, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9761, 2577, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9762, 211, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(9762, 1610, 0, 0, 0, 0, 0, 0, 0, 0).

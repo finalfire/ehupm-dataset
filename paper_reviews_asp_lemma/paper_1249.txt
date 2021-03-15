@@ -1,0 +1,100 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(12491,1249,4,4).
+source(12492,1249,4,3).
+% id paper, Reject/Accept
+paperProperties(1249, 0).
+% sourceId, line
+sentence(12491,1276).
+sentence(12491,1277).
+sentence(12492,204).
+sentence(12492,338).
+sentence(12492,419).
+sentence(12492,1275).
+sentence(12492,1882).
+sentence(12492,1966).
+sentence(12492,2153).
+% W, sourceId, line, position
+word(red, 12491, 1276, 1).
+word(set, 12491, 1276, 5).
+word(training, 12491, 1276, 7).
+word(example, 12491, 1276, 8).
+word(method, 12491, 1276, 12).
+word(provide, 12491, 1276, 13).
+word(explanation, 12491, 1276, 14).
+word(like, 12491, 1276, 15).
+word(red, 12491, 1276, 21).
+word(image, 12491, 1276, 24).
+word(model, 12491, 1276, 27).
+word(likely, 12491, 1276, 31).
+word(classify, 12491, 1276, 33).
+word(fire, 12491, 1276, 37).
+word(truck, 12491, 1276, 38).
+word(significant, 12491, 1277, 3).
+word(burden, 12491, 1277, 4).
+word(user, 12491, 1277, 6).
+word(provide, 12491, 1277, 8).
+word(image, 12491, 1277, 12).
+word(concept, 12491, 1277, 14).
+word(presentation, 12492, 204, 1).
+word(paper, 12492, 204, 4).
+word(weak, 12492, 204, 9).
+word(point, 12492, 204, 10).
+word(experiment, 12492, 338, 1).
+word(correspond, 12492, 338, 5).
+word(claim, 12492, 338, 9).
+word(introduction, 12492, 338, 13).
+word(abstract, 12492, 338, 15).
+word(substantiate, 12492, 419, 3).
+word(claim, 12492, 419, 6).
+word(introduction, 12492, 419, 10).
+word(ii, 12492, 419, 11).
+word(section, 12492, 1275, 1).
+word(clearly, 12492, 1275, 4).
+word(identify, 12492, 1275, 5).
+word(input, 12492, 1275, 9).
+word(output, 12492, 1275, 11).
+word(method, 12492, 1275, 14).
+word(section, 12492, 1882, 1).
+word(clearly, 12492, 1882, 4).
+word(identify, 12492, 1882, 5).
+word(input, 12492, 1882, 9).
+word(output, 12492, 1882, 11).
+word(method, 12492, 1882, 14).
+word(funny, 12492, 1882, 18).
+word(thing, 12492, 1882, 19).
+word(paper, 12492, 1882, 25).
+word(actually, 12492, 1882, 27).
+word(cite, 12492, 1882, 28).
+word(author, 12492, 1882, 31).
+word(simply, 12492, 1882, 35).
+word(pretend, 12492, 1882, 36).
+word(work, 12492, 1882, 39).
+word(exist, 12492, 1882, 42).
+word(discuss, 12492, 1882, 44).
+word(result, 12492, 1882, 46).
+word(substantiate, 12492, 1966, 3).
+word(claim, 12492, 1966, 6).
+word(introduction, 12492, 1966, 10).
+word(ii, 12492, 1966, 11).
+word(method, 12492, 1966, 15).
+word(straightforward, 12492, 1966, 17).
+word(clearly, 12492, 1966, 20).
+word(explain, 12492, 1966, 21).
+word(main, 12492, 2153, 1).
+word(idea, 12492, 2153, 2).
+word(new, 12492, 2153, 4).
+word(experiment, 12492, 2153, 8).
+word(correspond, 12492, 2153, 12).
+word(claim, 12492, 2153, 16).
+word(introduction, 12492, 2153, 20).
+word(abstract, 12492, 2153, 22).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(12491, 1276, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(12491, 1277, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(12492, 204, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(12492, 338, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(12492, 419, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(12492, 1275, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(12492, 1882, 0, -1, -1, 0, 0, 0, 0, 0).
+sentiment(12492, 1966, 0, 1, 0, -1, 0, 0, 0, 0).
+sentiment(12492, 2153, 0, 0, 1, -1, 0, 0, 0, 0).

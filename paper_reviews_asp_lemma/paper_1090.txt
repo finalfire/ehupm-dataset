@@ -1,0 +1,30 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(10901,1090,4,4).
+% id paper, Reject/Accept
+paperProperties(1090, 0).
+% sourceId, line
+sentence(10901,1145).
+sentence(10901,1146).
+sentence(10901,2309).
+% W, sourceId, line, position
+word(investigate, 10901, 1145, 4).
+word(propose, 10901, 1146, 3).
+word(train, 10901, 1146, 5).
+word(approach, 10901, 1146, 8).
+word(stage, 10901, 1146, 11).
+word(stage, 10901, 1146, 15).
+word(manner, 10901, 1146, 16).
+word(propose, 10901, 2309, 3).
+word(train, 10901, 2309, 5).
+word(approach, 10901, 2309, 8).
+word(stage, 10901, 2309, 11).
+word(stage, 10901, 2309, 15).
+word(manner, 10901, 2309, 16).
+word(large, 10901, 2309, 21).
+word(section, 10901, 2309, 22).
+word(blank, 10901, 2309, 24).
+word(page, 10901, 2309, 25).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(10901, 1145, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10901, 1146, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10901, 2309, 0, 0, 0, 0, 0, 0, 0, 0).

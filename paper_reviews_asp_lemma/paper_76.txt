@@ -1,0 +1,53 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(761,76,7,4).
+source(762,76,8,4).
+% id paper, Reject/Accept
+paperProperties(76, 1).
+% sourceId, line
+sentence(761,543).
+sentence(762,879).
+sentence(762,2518).
+% W, sourceId, line, position
+word(paper, 761, 543, 1).
+word(improve, 761, 543, 4).
+word(way, 761, 543, 7).
+word(approach, 762, 879, 1).
+word(sensible, 762, 879, 4).
+word(tau, 762, 879, 6).
+word(range, 762, 879, 11).
+word(logpiah, 762, 879, 13).
+word(try, 762, 879, 19).
+word(tau, 762, 879, 20).
+word(approach, 762, 2518, 1).
+word(sensible, 762, 2518, 4).
+word(tau, 762, 2518, 6).
+word(range, 762, 2518, 11).
+word(logpiah, 762, 2518, 13).
+word(try, 762, 2518, 19).
+word(tau, 762, 2518, 20).
+word(bunch, 762, 2518, 27).
+word(work, 762, 2518, 29).
+word(soft, 762, 2518, 32).
+word(attention, 762, 2518, 34).
+word(mechanism, 762, 2518, 35).
+word(different, 762, 2518, 38).
+word(application, 762, 2518, 39).
+word(include, 762, 2518, 40).
+word(visual, 762, 2518, 41).
+word(question, 762, 2518, 42).
+word(answer, 762, 2518, 43).
+word(c, 762, 2518, 47).
+word(attribute, 762, 2518, 50).
+word(prediction, 762, 2518, 51).
+word(d, 762, 2518, 53).
+word(image, 762, 2518, 56).
+word(caption, 762, 2518, 57).
+word(e, 762, 2518, 59).
+word(f, 762, 2518, 61).
+word(image, 762, 2518, 64).
+word(segmentation, 762, 2518, 65).
+word(g, 762, 2518, 67).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(761, 543, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(762, 879, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(762, 2518, 0, 0, 0, 0, 0, 0, 0, 0).

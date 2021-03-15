@@ -1,0 +1,19 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(3851,385,7,3).
+% id paper, Reject/Accept
+paperProperties(385, 0).
+% sourceId, line
+sentence(3851,1045).
+% W, sourceId, line, position
+word(paper, 3851, 1045, 1).
+word(explore, 3851, 1045, 2).
+word(cnn, 3851, 1045, 3).
+word(macroarchitecture, 3851, 1045, 4).
+word(microarchitecture, 3851, 1045, 6).
+word(develop, 3851, 1045, 8).
+word(squeezenet, 3851, 1045, 9).
+word(compose, 3851, 1045, 13).
+word(fire, 3851, 1045, 15).
+word(module, 3851, 1045, 16).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(3851, 1045, 0, 0, 0, 0, 0, 0, 0, 0).

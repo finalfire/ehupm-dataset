@@ -1,0 +1,70 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(6421,642,7,3).
+% id paper, Reject/Accept
+paperProperties(642, 1).
+% sourceId, line
+sentence(6421,827).
+sentence(6421,2053).
+sentence(6421,2112).
+% W, sourceId, line, position
+word(table, 6421, 827, 1).
+word(useful, 6421, 827, 7).
+word(result, 6421, 827, 11).
+word(kennen, 6421, 827, 13).
+word(o, 6421, 827, 15).
+word(split, 6421, 827, 20).
+word(e, 6421, 827, 22).
+word(realistic, 6421, 827, 28).
+word(problem, 6421, 827, 29).
+word(set, 6421, 827, 30).
+word(kennen, 6421, 827, 32).
+word(o, 6421, 827, 34).
+word(realistic, 6421, 827, 40).
+word(attack, 6421, 827, 41).
+word(kennen, 6421, 827, 43).
+word(kennen, 6421, 827, 47).
+word(io, 6421, 827, 49).
+word(table, 6421, 2053, 1).
+word(useful, 6421, 2053, 7).
+word(result, 6421, 2053, 11).
+word(kennen, 6421, 2053, 13).
+word(o, 6421, 2053, 15).
+word(split, 6421, 2053, 20).
+word(e, 6421, 2053, 22).
+word(realistic, 6421, 2053, 28).
+word(problem, 6421, 2053, 29).
+word(set, 6421, 2053, 30).
+word(kennen, 6421, 2053, 32).
+word(o, 6421, 2053, 34).
+word(realistic, 6421, 2053, 40).
+word(attack, 6421, 2053, 41).
+word(kennen, 6421, 2053, 43).
+word(kennen, 6421, 2053, 47).
+word(io, 6421, 2053, 49).
+word(paper, 6421, 2053, 53).
+word(incremental, 6421, 2053, 56).
+word(table, 6421, 2112, 1).
+word(useful, 6421, 2112, 7).
+word(result, 6421, 2112, 11).
+word(kennen, 6421, 2112, 13).
+word(o, 6421, 2112, 15).
+word(split, 6421, 2112, 20).
+word(e, 6421, 2112, 22).
+word(realistic, 6421, 2112, 28).
+word(problem, 6421, 2112, 29).
+word(set, 6421, 2112, 30).
+word(kennen, 6421, 2112, 32).
+word(o, 6421, 2112, 34).
+word(realistic, 6421, 2112, 40).
+word(attack, 6421, 2112, 41).
+word(kennen, 6421, 2112, 43).
+word(kennen, 6421, 2112, 47).
+word(io, 6421, 2112, 49).
+word(paper, 6421, 2112, 53).
+word(relatively, 6421, 2112, 55).
+word(easy, 6421, 2112, 56).
+word(follow, 6421, 2112, 58).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(6421, 827, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(6421, 2053, 0, 0, -1, 0, -1, 0, 0, 0).
+sentiment(6421, 2112, 0, 1, 0, 0, -1, 0, 0, 0).

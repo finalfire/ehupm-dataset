@@ -1,0 +1,44 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(2313,231,5,3).
+% id paper, Reject/Accept
+paperProperties(231, 0).
+% sourceId, line
+sentence(2313,1474).
+sentence(2313,2579).
+% W, sourceId, line, position
+word(previous, 2313, 1474, 0).
+word(work, 2313, 1474, 1).
+word(certainly, 2313, 1474, 3).
+word(seek, 2313, 1474, 4).
+word(include, 2313, 1474, 6).
+word(feature, 2313, 1474, 8).
+word(type, 2313, 1474, 9).
+word(improve, 2313, 1474, 11).
+word(rss, 2313, 1474, 12).
+word(combine, 2313, 1474, 15).
+word(different, 2313, 1474, 16).
+word(feature, 2313, 1474, 17).
+word(type, 2313, 1474, 18).
+word(successfully, 2313, 1474, 19).
+word(difficult, 2313, 1474, 21).
+word(previous, 2313, 2579, 0).
+word(work, 2313, 2579, 1).
+word(certainly, 2313, 2579, 3).
+word(seek, 2313, 2579, 4).
+word(include, 2313, 2579, 6).
+word(feature, 2313, 2579, 8).
+word(type, 2313, 2579, 9).
+word(improve, 2313, 2579, 11).
+word(rss, 2313, 2579, 12).
+word(combine, 2313, 2579, 15).
+word(different, 2313, 2579, 16).
+word(feature, 2313, 2579, 17).
+word(type, 2313, 2579, 18).
+word(successfully, 2313, 2579, 19).
+word(difficult, 2313, 2579, 21).
+word(require, 2313, 2579, 26).
+word(additional, 2313, 2579, 28).
+word(constraint, 2313, 2579, 29).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(2313, 1474, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(2313, 2579, 0, 0, 0, 0, 0, 0, 0, 0).

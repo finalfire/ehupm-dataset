@@ -1,0 +1,44 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(11161,1116,4,4).
+source(11162,1116,2,5).
+source(11163,1116,3,4).
+% id paper, Reject/Accept
+paperProperties(1116, 0).
+% sourceId, line
+sentence(11161,1267).
+sentence(11162,1268).
+sentence(11163,501).
+% W, sourceId, line, position
+word(pro, 11161, 1267, 0).
+word(con, 11161, 1267, 2).
+word(rss, 11161, 1267, 6).
+word(ac, 11161, 1267, 7).
+word(sum, 11161, 1267, 9).
+word(thought, 11161, 1267, 12).
+word(nicely, 11161, 1267, 13).
+word(funny, 11162, 1268, 1).
+word(thing, 11162, 1268, 2).
+word(paper, 11162, 1268, 8).
+word(actually, 11162, 1268, 10).
+word(cite, 11162, 1268, 11).
+word(author, 11162, 1268, 14).
+word(simply, 11162, 1268, 18).
+word(pretend, 11162, 1268, 19).
+word(work, 11162, 1268, 22).
+word(exist, 11162, 1268, 25).
+word(discuss, 11162, 1268, 27).
+word(result, 11162, 1268, 29).
+word(author, 11163, 501, 2).
+word(state, 11163, 501, 4).
+word(contribution, 11163, 501, 7).
+word(fairly, 11163, 501, 9).
+word(straightforward, 11163, 501, 10).
+word(contribution, 11163, 501, 14).
+word(largely, 11163, 501, 16).
+word(base, 11163, 501, 17).
+word(prior, 11163, 501, 19).
+word(work, 11163, 501, 20).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(11161, 1267, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11162, 1268, 0, 0, -1, 0, 0, 0, 0, 0).
+sentiment(11163, 501, 0, 0, 0, 0, 1, 0, 0, 0).

@@ -1,0 +1,39 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(10281,1028,5,4).
+% id paper, Reject/Accept
+paperProperties(1028, 0).
+% sourceId, line
+sentence(10281,550).
+sentence(10281,1942).
+sentence(10281,2021).
+% W, sourceId, line, position
+word(paper, 10281, 550, 1).
+word(structured, 10281, 550, 4).
+word(easy, 10281, 550, 6).
+word(follow, 10281, 550, 8).
+word(paper, 10281, 1942, 1).
+word(structured, 10281, 1942, 4).
+word(easy, 10281, 1942, 6).
+word(follow, 10281, 1942, 8).
+word(richness, 10281, 1942, 14).
+word(natural, 10281, 1942, 16).
+word(noise, 10281, 1942, 17).
+word(extremely, 10281, 1942, 19).
+word(interesting, 10281, 1942, 20).
+word(maybe, 10281, 1942, 23).
+word(iclr, 10281, 1942, 28).
+word(audience, 10281, 1942, 29).
+word(paper, 10281, 2021, 1).
+word(structured, 10281, 2021, 4).
+word(easy, 10281, 2021, 6).
+word(follow, 10281, 2021, 8).
+word(example, 10281, 2021, 12).
+word(refer, 10281, 2021, 14).
+word(follow, 10281, 2021, 17).
+word(recent, 10281, 2021, 18).
+word(paper, 10281, 2021, 19).
+word(reference, 10281, 2021, 21).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(10281, 550, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(10281, 1942, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(10281, 2021, 0, 1, 0, 0, -1, 0, 0, 0).

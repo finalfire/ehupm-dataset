@@ -1,0 +1,61 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(301,30,5,5).
+source(302,30,6,4).
+source(303,30,7,3).
+% id paper, Reject/Accept
+paperProperties(30, 1).
+% sourceId, line
+sentence(301,563).
+sentence(301,2119).
+sentence(302,467).
+sentence(303,714).
+sentence(303,1347).
+sentence(303,1875).
+% W, sourceId, line, position
+word(paper, 301, 563, 1).
+word(reasonably, 301, 563, 3).
+word(write, 301, 563, 4).
+word(paper, 301, 2119, 1).
+word(reasonably, 301, 2119, 3).
+word(write, 301, 2119, 4).
+word(idea, 301, 2119, 8).
+word(look, 301, 2119, 9).
+word(original, 301, 2119, 10).
+word(contribution, 302, 467, 3).
+word(paper, 302, 467, 6).
+word(author, 303, 714, 1).
+word(minimally, 303, 714, 6).
+word(viable, 303, 714, 7).
+word(real, 303, 714, 8).
+word(dataset, 303, 714, 9).
+word(aloi, 303, 714, 12).
+word(httpaloi, 303, 714, 13).
+word(experimental, 303, 1347, 1).
+word(suite, 303, 1347, 2).
+word(ok, 303, 1347, 4).
+word(disappointed, 303, 1347, 8).
+word(synthetic, 303, 1347, 14).
+word(author, 303, 1875, 1).
+word(minimally, 303, 1875, 6).
+word(viable, 303, 1875, 7).
+word(real, 303, 1875, 8).
+word(dataset, 303, 1875, 9).
+word(aloi, 303, 1875, 12).
+word(httpaloi, 303, 1875, 13).
+word(general, 303, 1875, 17).
+word(scope, 303, 1875, 21).
+word(paper, 303, 1875, 24).
+word(like, 303, 1875, 28).
+word(fairly, 303, 1875, 33).
+word(easily, 303, 1875, 34).
+word(short, 303, 1875, 40).
+word(paper, 303, 1875, 41).
+word(conference, 303, 1875, 44).
+word(category, 303, 1875, 48).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(301, 563, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(301, 2119, 0, 1, 1, 0, 0, 0, 0, 0).
+sentiment(302, 467, 0, 0, 0, 0, 1, 0, 0, 0).
+sentiment(303, 714, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(303, 1347, 0, 0, -1, 1, 0, 0, 0, 0).
+sentiment(303, 1875, -1, 0, 0, 0, 0, 0, -1, 0).

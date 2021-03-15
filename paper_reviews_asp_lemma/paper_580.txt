@@ -1,0 +1,105 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(5801,580,6,3).
+source(5802,580,7,4).
+source(5803,580,5,4).
+% id paper, Reject/Accept
+paperProperties(580, 1).
+% sourceId, line
+sentence(5801,1202).
+sentence(5801,2284).
+sentence(5802,1204).
+sentence(5803,384).
+sentence(5803,1203).
+sentence(5803,1860).
+sentence(5803,2146).
+% W, sourceId, line, position
+word(expectation, 5801, 1202, 3).
+word(set, 5801, 1202, 4).
+word(develop, 5801, 1202, 9).
+word(introduction, 5801, 1202, 10).
+word(background, 5801, 1202, 12).
+word(section, 5801, 1202, 13).
+word(moderate, 5801, 1202, 15).
+word(course, 5801, 1202, 18).
+word(paper, 5801, 1202, 21).
+word(expectation, 5801, 2284, 3).
+word(set, 5801, 2284, 4).
+word(develop, 5801, 2284, 9).
+word(introduction, 5801, 2284, 10).
+word(background, 5801, 2284, 12).
+word(section, 5801, 2284, 13).
+word(moderate, 5801, 2284, 15).
+word(course, 5801, 2284, 18).
+word(paper, 5801, 2284, 21).
+word(result, 5801, 2284, 26).
+word(think, 5801, 2284, 29).
+word(train, 5801, 2284, 32).
+word(test, 5801, 2284, 35).
+word(title, 5801, 2284, 40).
+word(claim, 5801, 2284, 43).
+word(suggest, 5801, 2284, 46).
+word(author, 5801, 2284, 48).
+word(change, 5801, 2284, 49).
+word(title, 5801, 2284, 51).
+word(concerned, 5802, 1204, 3).
+word(danger, 5802, 1204, 6).
+word(pose, 5802, 1204, 7).
+word(robot, 5802, 1204, 9).
+word(invent, 5802, 1204, 10).
+word(language, 5802, 1204, 13).
+word(perhap, 5802, 1204, 15).
+word(author, 5802, 1204, 17).
+word(shut, 5802, 1204, 19).
+word(exposition, 5803, 384, 1).
+word(experiment, 5803, 384, 4).
+word(unclear, 5803, 384, 9).
+word(experiment, 5803, 1203, 0).
+word(confirm, 5803, 1203, 2).
+word(agent, 5803, 1203, 4).
+word(seek, 5803, 1203, 6).
+word(maximise, 5803, 1203, 9).
+word(reward, 5803, 1203, 12).
+word(fail, 5803, 1203, 13).
+word(coordinate, 5803, 1203, 15).
+word(non, 5803, 1203, 18).
+word(binding, 5803, 1203, 20).
+word(communication, 5803, 1203, 21).
+word(channel, 5803, 1203, 22).
+word(experiment, 5803, 1860, 0).
+word(confirm, 5803, 1860, 2).
+word(agent, 5803, 1860, 4).
+word(seek, 5803, 1860, 6).
+word(maximise, 5803, 1860, 9).
+word(reward, 5803, 1860, 12).
+word(fail, 5803, 1860, 13).
+word(coordinate, 5803, 1860, 15).
+word(non, 5803, 1860, 18).
+word(binding, 5803, 1860, 20).
+word(communication, 5803, 1860, 21).
+word(channel, 5803, 1860, 22).
+word(feel, 5803, 1860, 26).
+word(like, 5803, 1860, 27).
+word(paper, 5803, 1860, 29).
+word(meet, 5803, 1860, 33).
+word(bar, 5803, 1860, 35).
+word(experiment, 5803, 2146, 0).
+word(confirm, 5803, 2146, 2).
+word(agent, 5803, 2146, 4).
+word(seek, 5803, 2146, 6).
+word(maximise, 5803, 2146, 9).
+word(reward, 5803, 2146, 12).
+word(fail, 5803, 2146, 13).
+word(coordinate, 5803, 2146, 15).
+word(non, 5803, 2146, 18).
+word(binding, 5803, 2146, 20).
+word(communication, 5803, 2146, 21).
+word(channel, 5803, 2146, 22).
+word(comparable, 5803, 2146, 32).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(5801, 1202, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5801, 2284, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5802, 1204, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5803, 384, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5803, 1203, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(5803, 1860, 0, 1, 0, 0, 0, 0, 0, -1).
+sentiment(5803, 2146, 0, 1, 0, 0, -1, 0, 0, 0).

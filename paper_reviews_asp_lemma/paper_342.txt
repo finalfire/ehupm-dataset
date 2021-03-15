@@ -1,0 +1,49 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(3422,342,5,3).
+% id paper, Reject/Accept
+paperProperties(342, 0).
+% sourceId, line
+sentence(3422,512).
+sentence(3422,1160).
+sentence(3422,1161).
+sentence(3422,2090).
+sentence(3422,2152).
+% W, sourceId, line, position
+word(important, 3422, 512, 2).
+word(comparison, 3422, 512, 5).
+word(apple, 3422, 512, 7).
+word(apple, 3422, 512, 11).
+word(think, 3422, 1160, 1).
+word(method, 3422, 1160, 4).
+word(interesting, 3422, 1160, 7).
+word(major, 3422, 1160, 11).
+word(issue, 3422, 1160, 12).
+word(paper, 3422, 1160, 17).
+word(lack, 3422, 1160, 20).
+word(clarity, 3422, 1160, 22).
+word(author, 3422, 1161, 2).
+word(clarify, 3422, 1161, 3).
+word(important, 3422, 2090, 2).
+word(comparison, 3422, 2090, 5).
+word(apple, 3422, 2090, 7).
+word(apple, 3422, 2090, 11).
+word(believe, 3422, 2090, 17).
+word(author, 3422, 2090, 19).
+word(gradient, 3422, 2090, 21).
+word(evaluate, 3422, 2090, 23).
+word(model, 3422, 2090, 25).
+word(important, 3422, 2152, 2).
+word(comparison, 3422, 2152, 5).
+word(apple, 3422, 2152, 7).
+word(apple, 3422, 2152, 11).
+word(overall, 3422, 2152, 14).
+word(paper, 3422, 2152, 17).
+word(lack, 3422, 2152, 18).
+word(clarity, 3422, 2152, 19).
+word(part, 3422, 2152, 22).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(3422, 512, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(3422, 1160, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(3422, 1161, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(3422, 2090, 0, 0, 0, -1, -1, 0, 0, 0).
+sentiment(3422, 2152, 0, -1, 0, 0, -1, 0, 0, 0).

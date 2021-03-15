@@ -1,0 +1,36 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(9751,975,3,4).
+source(9752,975,3,3).
+% id paper, Reject/Accept
+paperProperties(975, 0).
+% sourceId, line
+sentence(9751,441).
+sentence(9751,771).
+sentence(9752,772).
+% W, sourceId, line, position
+word(paper, 9751, 441, 2).
+word(number, 9751, 441, 5).
+word(strong, 9751, 441, 8).
+word(extraordinary, 9751, 441, 11).
+word(claim, 9751, 441, 13).
+word(quantum, 9751, 771, 7).
+word(despite, 9751, 771, 10).
+word(vague, 9751, 771, 13).
+word(remark, 9751, 771, 14).
+word(page, 9751, 771, 15).
+word(quantum, 9751, 771, 19).
+word(field, 9751, 771, 20).
+word(theory, 9751, 771, 21).
+word(solid, 9752, 772, 3).
+word(grasp, 9752, 772, 4).
+word(relevant, 9752, 772, 7).
+word(mathematic, 9752, 772, 8).
+word(superficial, 9752, 772, 12).
+word(understanding, 9752, 772, 13).
+word(qft, 9752, 772, 15).
+word(sense, 9752, 772, 23).
+word(paper, 9752, 772, 26).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(9751, 441, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9751, 771, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(9752, 772, 0, -1, 0, -1, 0, 0, 0, 0).

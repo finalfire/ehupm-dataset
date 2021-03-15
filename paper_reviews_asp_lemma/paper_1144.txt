@@ -1,0 +1,40 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(11442,1144,6,4).
+source(11443,1144,4,2).
+% id paper, Reject/Accept
+paperProperties(1144, 0).
+% sourceId, line
+sentence(11442,1761).
+sentence(11442,2365).
+sentence(11443,1762).
+% W, sourceId, line, position
+word(proceeding, 11442, 1761, 1).
+word(international, 11442, 1761, 5).
+word(conference, 11442, 1761, 6).
+word(machine, 11442, 1761, 8).
+word(learning, 11442, 1761, 9).
+word(jmlr, 11442, 1761, 11).
+word(wcp, 11442, 1761, 12).
+word(e, 11442, 2365, 10).
+word(proceeding, 11442, 2365, 14).
+word(international, 11442, 2365, 18).
+word(conference, 11442, 2365, 19).
+word(machine, 11442, 2365, 21).
+word(learning, 11442, 2365, 22).
+word(jmlr, 11442, 2365, 24).
+word(wcp, 11442, 2365, 25).
+word(worth, 11443, 1762, 4).
+word(consider, 11443, 1762, 5).
+word(split, 11443, 1762, 7).
+word(paper, 11443, 1762, 9).
+word(one, 11443, 1762, 12).
+word(paper, 11443, 1762, 15).
+word(propose, 11443, 1762, 16).
+word(idea, 11443, 1762, 18).
+word(component, 11443, 1762, 20).
+word(time, 11443, 1762, 24).
+word(detail, 11443, 1762, 27).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(11442, 1761, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11442, 2365, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11443, 1762, 0, 0, 0, -1, 0, 0, 0, 0).

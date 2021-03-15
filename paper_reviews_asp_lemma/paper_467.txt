@@ -1,0 +1,109 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(4671,467,7,3).
+source(4672,467,6,4).
+% id paper, Reject/Accept
+paperProperties(467, 1).
+% sourceId, line
+sentence(4671,1733).
+sentence(4671,1734).
+sentence(4671,1857).
+sentence(4672,1730).
+sentence(4672,1731).
+sentence(4672,1732).
+sentence(4672,2224).
+sentence(4672,2393).
+sentence(4672,2448).
+sentence(4672,2553).
+% W, sourceId, line, position
+word(error, 4671, 1733, 5).
+word(indexing, 4671, 1733, 8).
+word(exponent, 4671, 1733, 12).
+word(differ, 4671, 1733, 15).
+word(line, 4671, 1733, 18).
+word(line, 4671, 1733, 21).
+word(score, 4671, 1734, 1).
+word(remain, 4671, 1734, 2).
+word(score, 4671, 1857, 1).
+word(remain, 4671, 1857, 2).
+word(accept, 4671, 1857, 8).
+word(venue, 4671, 1857, 10).
+word(like, 4671, 1857, 11).
+word(iclr, 4671, 1857, 12).
+word(setting, 4672, 1730, 1).
+word(combination, 4672, 1730, 6).
+word(rl, 4672, 1730, 8).
+word(il, 4672, 1730, 10).
+word(multi, 4672, 1730, 13).
+word(task, 4672, 1730, 15).
+word(rl, 4672, 1730, 16).
+word(value, 4672, 1731, 2).
+word(network, 4672, 1731, 3).
+word(similar, 4672, 1731, 7).
+word(role, 4672, 1731, 8).
+word(ve, 4672, 1731, 10).
+word(b, 4672, 1732, 0).
+word(learn, 4672, 1732, 2).
+word(small, 4672, 1732, 5).
+word(horizon, 4672, 1732, 6).
+word(setting, 4672, 2224, 1).
+word(combination, 4672, 2224, 6).
+word(rl, 4672, 2224, 8).
+word(il, 4672, 2224, 10).
+word(multi, 4672, 2224, 13).
+word(task, 4672, 2224, 15).
+word(rl, 4672, 2224, 16).
+word(paper, 4672, 2224, 20).
+word(far, 4672, 2224, 22).
+word(long, 4672, 2224, 24).
+word(page, 4672, 2224, 27).
+word(refs, 4672, 2224, 30).
+word(appendix, 4672, 2224, 32).
+word(total, 4672, 2224, 35).
+word(page, 4672, 2224, 37).
+word(page, 4672, 2224, 42).
+word(limit, 4672, 2224, 43).
+word(page, 4672, 2224, 46).
+word(refs, 4672, 2224, 49).
+word(appendix, 4672, 2224, 51).
+word(b, 4672, 2393, 0).
+word(learn, 4672, 2393, 2).
+word(small, 4672, 2393, 5).
+word(horizon, 4672, 2393, 6).
+word(motivation, 4672, 2393, 11).
+word(stop, 4672, 2393, 16).
+word(read, 4672, 2393, 17).
+word(end, 4672, 2393, 20).
+word(text, 4672, 2393, 23).
+word(andor, 4672, 2393, 24).
+word(skip, 4672, 2393, 25).
+word(word, 4672, 2393, 27).
+word(arrive, 4672, 2393, 30).
+word(answer, 4672, 2393, 34).
+word(fast, 4672, 2393, 36).
+word(b, 4672, 2448, 0).
+word(learn, 4672, 2448, 2).
+word(small, 4672, 2448, 5).
+word(horizon, 4672, 2448, 6).
+word(section, 4672, 2448, 11).
+word(setting, 4672, 2553, 1).
+word(combination, 4672, 2553, 6).
+word(rl, 4672, 2553, 8).
+word(il, 4672, 2553, 10).
+word(multi, 4672, 2553, 13).
+word(task, 4672, 2553, 15).
+word(rl, 4672, 2553, 16).
+word(cause, 4672, 2553, 21).
+word(twist, 4672, 2553, 24).
+word(issue, 4672, 2553, 28).
+word(list, 4672, 2553, 29).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(4671, 1733, 0, -1, 0, -1, 0, 0, 0, 0).
+sentiment(4671, 1734, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4671, 1857, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4672, 1730, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4672, 1731, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4672, 1732, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4672, 2224, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4672, 2393, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4672, 2448, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4672, 2553, 0, 0, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,74 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(2231,223,4,4).
+source(2232,223,3,4).
+source(2233,223,3,3).
+% id paper, Reject/Accept
+paperProperties(223, 0).
+% sourceId, line
+sentence(2231,1171).
+sentence(2232,244).
+sentence(2232,579).
+sentence(2232,689).
+sentence(2232,1918).
+sentence(2232,2052).
+sentence(2232,2061).
+sentence(2233,474).
+% W, sourceId, line, position
+word(clean, 2231, 1171, 2).
+word(product, 2231, 1171, 3).
+word(image, 2231, 1171, 4).
+word(real, 2231, 1171, 6).
+word(world, 2231, 1171, 8).
+word(image, 2231, 1171, 9).
+word(technical, 2232, 244, 1).
+word(contribution, 2232, 244, 2).
+word(paper, 2232, 244, 5).
+word(clear, 2232, 244, 8).
+word(paper, 2232, 579, 1).
+word(write, 2232, 579, 5).
+word(result, 2232, 689, 1).
+word(report, 2232, 689, 3).
+word(internal, 2232, 689, 6).
+word(dataset, 2232, 689, 7).
+word(author, 2232, 689, 10).
+word(will, 2232, 689, 11).
+word(release, 2232, 689, 13).
+word(dataset, 2232, 689, 15).
+word(technical, 2232, 1918, 1).
+word(contribution, 2232, 1918, 2).
+word(paper, 2232, 1918, 5).
+word(clear, 2232, 1918, 8).
+word(paper, 2232, 1918, 12).
+word(write, 2232, 1918, 16).
+word(structure, 2232, 1918, 18).
+word(result, 2232, 2052, 1).
+word(report, 2232, 2052, 3).
+word(internal, 2232, 2052, 6).
+word(dataset, 2232, 2052, 7).
+word(author, 2232, 2052, 10).
+word(will, 2232, 2052, 11).
+word(release, 2232, 2052, 13).
+word(dataset, 2232, 2052, 15).
+word(claim, 2232, 2052, 22).
+word(support, 2232, 2052, 26).
+word(datum, 2232, 2052, 29).
+word(provide, 2232, 2052, 30).
+word(paper, 2232, 2052, 33).
+word(paper, 2232, 2061, 1).
+word(write, 2232, 2061, 5).
+word(paper, 2232, 2061, 9).
+word(make, 2232, 2061, 10).
+word(contribution, 2232, 2061, 12).
+word(footnote, 2233, 474, 1).
+word(link, 2233, 474, 2).
+word(httpimage, 2233, 474, 5).
+word(net, 2233, 474, 7).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(2231, 1171, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(2232, 244, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(2232, 579, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(2232, 689, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(2232, 1918, 0, 1, 0, 0, 0, 0, -1, 0).
+sentiment(2232, 2052, 0, 0, 0, -1, 0, 0, -1, 0).
+sentiment(2232, 2061, 0, -1, 0, 0, 0, 0, 1, 0).
+sentiment(2233, 474, 0, 0, 0, 0, 1, 0, 0, 0).

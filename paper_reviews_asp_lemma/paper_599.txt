@@ -1,0 +1,36 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(5991,599,6,3).
+source(5993,599,8,4).
+% id paper, Reject/Accept
+paperProperties(599, 1).
+% sourceId, line
+sentence(5991,1031).
+sentence(5991,1032).
+sentence(5993,1030).
+% W, sourceId, line, position
+word(gan, 5991, 1031, 1).
+word(wgan, 5991, 1031, 4).
+word(train, 5991, 1031, 5).
+word(train, 5991, 1031, 8).
+word(set, 5991, 1031, 9).
+word(generator, 5991, 1031, 15).
+word(magnet, 5991, 1032, 0).
+word(result, 5991, 1032, 1).
+word(bad, 5991, 1032, 5).
+word(defense, 5991, 1032, 8).
+word(table, 5991, 1032, 10).
+word(comment, 5991, 1032, 15).
+word(appear, 5993, 1030, 3).
+word(effective, 5993, 1030, 6).
+word(fgsm, 5993, 1030, 8).
+word(attack, 5993, 1030, 9).
+word(competitive, 5993, 1030, 12).
+word(adversarial, 5993, 1030, 14).
+word(training, 5993, 1030, 15).
+word(specifically, 5993, 1030, 16).
+word(defend, 5993, 1030, 18).
+word(fgsm, 5993, 1030, 20).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(5991, 1031, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5991, 1032, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(5993, 1030, 0, 0, 0, 0, 0, 0, 0, 0).

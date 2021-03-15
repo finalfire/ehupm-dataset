@@ -1,0 +1,84 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(691,69,9,4).
+source(692,69,6,4).
+source(693,69,7,4).
+% id paper, Reject/Accept
+paperProperties(69, 1).
+% sourceId, line
+sentence(691,1181).
+sentence(691,1490).
+sentence(692,482).
+sentence(692,1180).
+sentence(692,1888).
+sentence(693,291).
+sentence(693,560).
+sentence(693,1894).
+sentence(693,1937).
+% W, sourceId, line, position
+word(pairs, 691, 1181, 0).
+word(object, 691, 1181, 2).
+word(embed, 691, 1181, 4).
+word(common, 691, 1181, 7).
+word(space, 691, 1181, 8).
+word(effect, 691, 1181, 11).
+word(clear, 691, 1490, 0).
+word(train, 691, 1490, 2).
+word(test, 691, 1490, 4).
+word(different, 691, 1490, 6).
+word(number, 691, 1490, 7).
+word(block, 691, 1490, 9).
+word(make, 691, 1490, 13).
+word(work, 692, 482, 1).
+word(include, 692, 482, 2).
+word(relevant, 692, 482, 4).
+word(citation, 692, 482, 5).
+word(decoder, 692, 1180, 1).
+word(output, 692, 1180, 3).
+word(change, 692, 1180, 5).
+word(velocity, 692, 1180, 7).
+word(focus, 692, 1180, 10).
+word(object, 692, 1180, 11).
+word(time, 692, 1180, 15).
+word(step, 692, 1180, 16).
+word(work, 692, 1888, 1).
+word(include, 692, 1888, 2).
+word(relevant, 692, 1888, 4).
+word(citation, 692, 1888, 5).
+word(experimental, 692, 1888, 8).
+word(result, 692, 1888, 9).
+word(cifar, 692, 1888, 11).
+word(dataset, 692, 1888, 12).
+word(support, 692, 1888, 13).
+word(usefulness, 692, 1888, 15).
+word(method, 692, 1888, 18).
+word(approach, 693, 291, 1).
+word(interesting, 693, 291, 3).
+word(paper, 693, 560, 1).
+word(generally, 693, 560, 3).
+word(write, 693, 560, 5).
+word(approach, 693, 1894, 1).
+word(interesting, 693, 1894, 3).
+word(argument, 693, 1894, 7).
+word(support, 693, 1894, 11).
+word(experiment, 693, 1894, 14).
+word(paper, 693, 1937, 1).
+word(generally, 693, 1937, 3).
+word(write, 693, 1937, 5).
+word(overall, 693, 1937, 8).
+word(think, 693, 1937, 11).
+word(current, 693, 1937, 13).
+word(version, 693, 1937, 14).
+word(paper, 693, 1937, 17).
+word(ready, 693, 1937, 20).
+word(iclr, 693, 1937, 22).
+word(conference, 693, 1937, 23).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(691, 1181, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(691, 1490, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(692, 482, 0, 0, 0, 0, 1, 0, 0, 0).
+sentiment(692, 1180, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(692, 1888, 0, 0, 0, 0, 1, 0, 1, 0).
+sentiment(693, 291, 0, 0, 1, 0, 0, 0, 0, 0).
+sentiment(693, 560, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(693, 1894, 0, 0, 1, -1, 0, 0, 0, 0).
+sentiment(693, 1937, -1, 1, 0, 0, 0, 0, 0, 0).

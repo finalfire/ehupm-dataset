@@ -1,0 +1,38 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(9043,904,3,5).
+% id paper, Reject/Accept
+paperProperties(904, 0).
+% sourceId, line
+sentence(9043,1231).
+sentence(9043,1994).
+% W, sourceId, line, position
+word(overall, 9043, 1231, 0).
+word(think, 9043, 1231, 3).
+word(paper, 9043, 1231, 5).
+word(collection, 9043, 1231, 8).
+word(result, 9043, 1231, 10).
+word(know, 9043, 1231, 15).
+word(expert, 9043, 1231, 17).
+word(field, 9043, 1231, 20).
+word(add, 9043, 1231, 22).
+word(little, 9043, 1231, 23).
+word(novelty, 9043, 1231, 24).
+word(overall, 9043, 1994, 0).
+word(think, 9043, 1994, 3).
+word(paper, 9043, 1994, 5).
+word(collection, 9043, 1994, 8).
+word(result, 9043, 1994, 10).
+word(know, 9043, 1994, 15).
+word(expert, 9043, 1994, 17).
+word(field, 9043, 1994, 20).
+word(add, 9043, 1994, 22).
+word(little, 9043, 1994, 23).
+word(novelty, 9043, 1994, 24).
+word(current, 9043, 1994, 29).
+word(work, 9043, 1994, 30).
+word(compare, 9043, 1994, 31).
+word(exist, 9043, 1994, 34).
+word(literature, 9043, 1994, 36).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(9043, 1231, 0, 0, -1, 0, 0, 0, 0, 0).
+sentiment(9043, 1994, 0, 0, -1, 0, -1, 0, 0, 0).

@@ -1,0 +1,45 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(6041,604,7,3).
+% id paper, Reject/Accept
+paperProperties(604, 1).
+% sourceId, line
+sentence(6041,1136).
+sentence(6041,1137).
+sentence(6041,1925).
+% W, sourceId, line, position
+word(concern, 6041, 1136, 0).
+word(black, 6041, 1136, 1).
+word(box, 6041, 1136, 3).
+word(attack, 6041, 1136, 4).
+word(bnns, 6041, 1136, 9).
+word(beneficial, 6041, 1136, 11).
+word(way, 6041, 1136, 14).
+word(try, 6041, 1136, 16).
+word(type, 6041, 1136, 18).
+word(attack, 6041, 1136, 20).
+word(andor, 6041, 1136, 21).
+word(delve, 6041, 1136, 22).
+word(bit, 6041, 1136, 24).
+word(deepe, 6041, 1136, 25).
+word(nice, 6041, 1136, 31).
+word(overall, 6041, 1137, 0).
+word(think, 6041, 1137, 2).
+word(paper, 6041, 1137, 4).
+word(interesting, 6041, 1137, 6).
+word(relevant, 6041, 1137, 8).
+word(iclr, 6041, 1137, 10).
+word(overall, 6041, 1925, 0).
+word(think, 6041, 1925, 2).
+word(paper, 6041, 1925, 4).
+word(interesting, 6041, 1925, 6).
+word(relevant, 6041, 1925, 8).
+word(iclr, 6041, 1925, 10).
+word(novel, 6041, 1925, 15).
+word(deep, 6041, 1925, 18).
+word(model, 6041, 1925, 19).
+word(cnn, 6041, 1925, 21).
+word(treelstm, 6041, 1925, 23).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(6041, 1136, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6041, 1137, 0, 0, 0, 0, 0, 0, 1, 0).
+sentiment(6041, 1925, 0, 0, -1, 0, 0, 0, 1, 0).

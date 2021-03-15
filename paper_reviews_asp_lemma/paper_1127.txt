@@ -1,0 +1,111 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(11272,1127,3,3).
+source(11273,1127,2,4).
+% id paper, Reject/Accept
+paperProperties(1127, 0).
+% sourceId, line
+sentence(11272,980).
+sentence(11272,2410).
+sentence(11272,2460).
+sentence(11273,981).
+sentence(11273,2554).
+% W, sourceId, line, position
+word(specifically, 11272, 980, 0).
+word(definition, 11272, 980, 2).
+word(lemma, 11272, 980, 5).
+word(bound, 11272, 980, 9).
+word(success, 11272, 980, 12).
+word(probability, 11272, 980, 13).
+word(exponentially, 11272, 980, 17).
+word(small, 11272, 980, 18).
+word(dimension, 11272, 980, 21).
+word(d, 11272, 980, 22).
+word(essentially, 11272, 980, 30).
+word(bound, 11272, 980, 31).
+word(probability, 11272, 980, 33).
+word(onorm, 11272, 980, 36).
+word(random, 11272, 980, 37).
+word(vector, 11272, 980, 38).
+word(inner, 11272, 980, 42).
+word(product, 11272, 980, 43).
+word(fix, 11272, 980, 46).
+word(unit, 11272, 980, 47).
+word(vector, 11272, 980, 48).
+word(specifically, 11272, 2410, 0).
+word(definition, 11272, 2410, 2).
+word(lemma, 11272, 2410, 5).
+word(bound, 11272, 2410, 9).
+word(success, 11272, 2410, 12).
+word(probability, 11272, 2410, 13).
+word(exponentially, 11272, 2410, 17).
+word(small, 11272, 2410, 18).
+word(dimension, 11272, 2410, 21).
+word(d, 11272, 2410, 22).
+word(essentially, 11272, 2410, 30).
+word(bound, 11272, 2410, 31).
+word(probability, 11272, 2410, 33).
+word(onorm, 11272, 2410, 36).
+word(random, 11272, 2410, 37).
+word(vector, 11272, 2410, 38).
+word(inner, 11272, 2410, 42).
+word(product, 11272, 2410, 43).
+word(fix, 11272, 2410, 46).
+word(unit, 11272, 2410, 47).
+word(vector, 11272, 2410, 48).
+word(adversarial, 11272, 2410, 53).
+word(autoencoder, 11272, 2410, 54).
+word(specifically, 11272, 2460, 0).
+word(definition, 11272, 2460, 2).
+word(lemma, 11272, 2460, 5).
+word(bound, 11272, 2460, 9).
+word(success, 11272, 2460, 12).
+word(probability, 11272, 2460, 13).
+word(exponentially, 11272, 2460, 17).
+word(small, 11272, 2460, 18).
+word(dimension, 11272, 2460, 21).
+word(d, 11272, 2460, 22).
+word(essentially, 11272, 2460, 30).
+word(bound, 11272, 2460, 31).
+word(probability, 11272, 2460, 33).
+word(onorm, 11272, 2460, 36).
+word(random, 11272, 2460, 37).
+word(vector, 11272, 2460, 38).
+word(inner, 11272, 2460, 42).
+word(product, 11272, 2460, 43).
+word(fix, 11272, 2460, 46).
+word(unit, 11272, 2460, 47).
+word(vector, 11272, 2460, 48).
+word(counterfactual, 11272, 2460, 54).
+word(return, 11272, 2460, 55).
+word(extend, 11272, 2460, 61).
+word(reward, 11272, 2460, 62).
+word(need, 11272, 2460, 65).
+word(rewrite, 11272, 2460, 68).
+word(notation, 11273, 981, 2).
+word(section, 11273, 981, 3).
+word(bring, 11273, 981, 6).
+word(forward, 11273, 981, 7).
+word(refer, 11273, 981, 10).
+word(fist, 11273, 981, 12).
+word(time, 11273, 981, 13).
+word(notation, 11273, 981, 15).
+word(actually, 11273, 981, 17).
+word(notation, 11273, 2554, 2).
+word(section, 11273, 2554, 3).
+word(bring, 11273, 2554, 6).
+word(forward, 11273, 2554, 7).
+word(refer, 11273, 2554, 10).
+word(fist, 11273, 2554, 12).
+word(time, 11273, 2554, 13).
+word(notation, 11273, 2554, 15).
+word(actually, 11273, 2554, 17).
+word(hard, 11273, 2554, 25).
+word(excited, 11273, 2554, 28).
+word(result, 11273, 2554, 31).
+word(vacuum, 11273, 2554, 34).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(11272, 980, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11272, 2410, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11272, 2460, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11273, 981, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11273, 2554, 0, 0, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,77 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(5081,508,7,4).
+source(5082,508,7,2).
+% id paper, Reject/Accept
+paperProperties(508, 1).
+% sourceId, line
+sentence(5081,817).
+sentence(5081,818).
+sentence(5081,1834).
+sentence(5082,819).
+% W, sourceId, line, position
+word(assume, 5081, 817, 1).
+word(submission, 5081, 817, 4).
+word(write, 5081, 817, 7).
+word(rainbow, 5081, 817, 9).
+word(come, 5081, 817, 10).
+word(comparison, 5081, 817, 15).
+word(rainbow, 5081, 817, 17).
+word(hastily, 5081, 817, 19).
+word(add, 5081, 817, 20).
+word(iclr, 5081, 817, 24).
+word(deadline, 5081, 817, 25).
+word(explain, 5081, 817, 29).
+word(limited, 5081, 817, 34).
+word(opinion, 5081, 817, 39).
+word(remain, 5081, 817, 41).
+word(major, 5081, 817, 43).
+word(issue, 5081, 817, 44).
+word(main, 5081, 817, 49).
+word(reason, 5081, 817, 50).
+word(advocate, 5081, 817, 54).
+word(rejection, 5081, 817, 56).
+word(edit, 5081, 818, 0).
+word(revision, 5081, 818, 2).
+word(bump, 5081, 818, 4).
+word(score, 5081, 818, 5).
+word(author, 5081, 818, 14).
+word(improvement, 5081, 818, 17).
+word(paper, 5081, 818, 20).
+word(explanation, 5081, 818, 27).
+word(shed, 5081, 818, 28).
+word(light, 5081, 818, 29).
+word(concern, 5081, 818, 34).
+word(experiemntal, 5081, 1834, 2).
+word(evidence, 5081, 1834, 3).
+word(provide, 5081, 1834, 5).
+word(assume, 5081, 1834, 9).
+word(submission, 5081, 1834, 12).
+word(write, 5081, 1834, 15).
+word(rainbow, 5081, 1834, 17).
+word(come, 5081, 1834, 18).
+word(comparison, 5081, 1834, 23).
+word(rainbow, 5081, 1834, 25).
+word(hastily, 5081, 1834, 27).
+word(add, 5081, 1834, 28).
+word(iclr, 5081, 1834, 32).
+word(deadline, 5081, 1834, 33).
+word(explain, 5081, 1834, 37).
+word(limited, 5081, 1834, 42).
+word(opinion, 5081, 1834, 47).
+word(remain, 5081, 1834, 49).
+word(major, 5081, 1834, 51).
+word(issue, 5081, 1834, 52).
+word(main, 5081, 1834, 57).
+word(reason, 5081, 1834, 58).
+word(advocate, 5081, 1834, 62).
+word(rejection, 5081, 1834, 64).
+word(important, 5082, 819, 1).
+word(problem, 5082, 819, 2).
+word(active, 5082, 819, 5).
+word(area, 5082, 819, 6).
+word(research, 5082, 819, 8).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(5081, 817, 0, 0, 0, 0, 0, 0, 0, -1).
+sentiment(5081, 818, 0, 0, 0, 0, 0, 0, 0, 1).
+sentiment(5081, 1834, 0, 0, 0, -1, 0, 0, 0, -1).
+sentiment(5082, 819, 0, 0, 0, 0, 0, 0, 1, 0).

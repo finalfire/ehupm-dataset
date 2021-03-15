@@ -1,0 +1,81 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(1931,193,5,3).
+source(1933,193,6,4).
+% id paper, Reject/Accept
+paperProperties(193, 1).
+% sourceId, line
+sentence(1931,1561).
+sentence(1931,1562).
+sentence(1931,1563).
+sentence(1931,1853).
+sentence(1931,1884).
+sentence(1933,1560).
+% W, sourceId, line, position
+word(update, 1931, 1561, 0).
+word(rewritten, 1931, 1561, 3).
+word(paper, 1931, 1561, 4).
+word(focused, 1931, 1561, 7).
+word(precise, 1931, 1561, 9).
+word(previous, 1931, 1561, 12).
+word(version, 1931, 1561, 13).
+word(paper, 1931, 1562, 1).
+word(mention, 1931, 1562, 4).
+word(lg, 1931, 1562, 6).
+word(ld, 1931, 1562, 8).
+word(minimize, 1931, 1562, 10).
+word(maximize, 1931, 1562, 12).
+word(figure, 1931, 1563, 1).
+word(inception, 1931, 1563, 5).
+word(score, 1931, 1563, 6).
+word(typically, 1931, 1563, 8).
+word(express, 1931, 1563, 9).
+word(exponentiate, 1931, 1563, 12).
+word(kl, 1931, 1563, 13).
+word(divergence, 1931, 1563, 15).
+word(update, 1931, 1853, 0).
+word(rewritten, 1931, 1853, 3).
+word(paper, 1931, 1853, 4).
+word(focused, 1931, 1853, 7).
+word(precise, 1931, 1853, 9).
+word(previous, 1931, 1853, 12).
+word(version, 1931, 1853, 13).
+word(different, 1931, 1853, 20).
+word(initialization, 1931, 1853, 21).
+word(recurrent, 1931, 1853, 24).
+word(weight, 1931, 1853, 25).
+word(hexagonal, 1931, 1853, 28).
+word(vs, 1931, 1853, 29).
+word(environment, 1931, 1853, 31).
+word(update, 1931, 1884, 0).
+word(rewritten, 1931, 1884, 3).
+word(paper, 1931, 1884, 4).
+word(focused, 1931, 1884, 7).
+word(precise, 1931, 1884, 9).
+word(previous, 1931, 1884, 12).
+word(version, 1931, 1884, 13).
+word(alhough, 1931, 1884, 16).
+word(motivation, 1931, 1884, 18).
+word(dataset, 1931, 1884, 21).
+word(interesting, 1931, 1884, 23).
+word(dataset, 1931, 1884, 26).
+word(chanllenge, 1931, 1884, 30).
+word(open, 1931, 1884, 34).
+word(new, 1931, 1884, 36).
+word(research, 1931, 1884, 37).
+word(problem, 1931, 1884, 38).
+word(good, 1933, 1560, 5).
+word(idea, 1933, 1560, 6).
+word(extend, 1933, 1560, 8).
+word(appendix, 1933, 1560, 9).
+word(approach, 1933, 1560, 13).
+word(vae, 1933, 1560, 15).
+word(dcgan, 1933, 1560, 17).
+word(state, 1933, 1560, 20).
+word(art, 1933, 1560, 23).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(1931, 1561, 0, 0, 0, 0, 1, 0, 0, 0).
+sentiment(1931, 1562, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(1931, 1563, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1931, 1853, 0, -1, 0, 0, 1, 0, 0, 0).
+sentiment(1931, 1884, 0, 0, 0, 0, 1, 0, -1, 0).
+sentiment(1933, 1560, 0, -1, 0, 0, 0, 0, 0, 0).

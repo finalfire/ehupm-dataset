@@ -1,0 +1,12 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(5701,570,7,3).
+% id paper, Reject/Accept
+paperProperties(570, 1).
+% sourceId, line
+sentence(5701,117).
+% W, sourceId, line, position
+word(paper, 5701, 117, 1).
+word(provide, 5701, 117, 2).
+word(advance, 5701, 117, 4).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(5701, 117, 0, 0, 0, 0, 0, 0, 0, 0).

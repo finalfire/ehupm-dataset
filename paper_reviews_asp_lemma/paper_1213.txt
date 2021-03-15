@@ -1,0 +1,92 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(12131,1213,5,4).
+source(12132,1213,3,3).
+source(12133,1213,5,2).
+% id paper, Reject/Accept
+paperProperties(1213, 0).
+% sourceId, line
+sentence(12131,1366).
+sentence(12131,1367).
+sentence(12131,1368).
+sentence(12132,1369).
+sentence(12133,1370).
+sentence(12133,1371).
+sentence(12133,1372).
+sentence(12133,1373).
+sentence(12133,2366).
+sentence(12133,2542).
+% W, sourceId, line, position
+word(modification, 12131, 1366, 4).
+word(adversarial, 12131, 1367, 3).
+word(perturbation, 12131, 1367, 4).
+word(end, 12131, 1368, 2).
+word(unable, 12131, 1368, 6).
+word(interpret, 12131, 1368, 9).
+word(experiment, 12131, 1368, 12).
+word(try, 12131, 1368, 14).
+word(make, 12131, 1368, 20).
+word(hard, 12131, 1368, 22).
+word(tell, 12131, 1368, 26).
+word(method, 12131, 1368, 29).
+word(actually, 12131, 1368, 30).
+word(work, 12131, 1368, 31).
+word(improve, 12131, 1368, 33).
+word(link, 12132, 1369, 1).
+word(youtube, 12132, 1369, 4).
+word(video, 12132, 1369, 5).
+word(break, 12132, 1369, 6).
+word(author, 12132, 1369, 7).
+word(anonymity, 12132, 1369, 8).
+word(disregard, 12133, 1370, 0).
+word(anonymity, 12133, 1370, 2).
+word(style, 12133, 1370, 4).
+word(violation, 12133, 1370, 5).
+word(review, 12133, 1370, 9).
+word(paper, 12133, 1370, 11).
+word(paper, 12133, 1371, 1).
+word(switch, 12133, 1371, 2).
+word(reward, 12133, 1371, 5).
+word(cost, 12133, 1371, 7).
+word(page, 12133, 1372, 1).
+word(define, 12133, 1372, 6).
+word(expected, 12133, 1372, 9).
+word(reward, 12133, 1372, 10).
+word(equation, 12133, 1372, 13).
+word(like, 12133, 1372, 18).
+word(protaganist, 12133, 1372, 20).
+word(policy, 12133, 1372, 21).
+word(try, 12133, 1372, 23).
+word(minimize, 12133, 1372, 25).
+word(contradict, 12133, 1372, 28).
+word(early, 12133, 1372, 30).
+word(definition, 12133, 1372, 31).
+word(help, 12133, 1373, 2).
+word(direction, 12133, 1373, 9).
+word(derivation, 12133, 1373, 12).
+word(detail, 12133, 1373, 15).
+word(section, 12133, 1373, 17).
+word(way, 12133, 2366, 1).
+word(long, 12133, 2366, 3).
+word(disregard, 12133, 2366, 5).
+word(anonymity, 12133, 2366, 7).
+word(style, 12133, 2366, 9).
+word(violation, 12133, 2366, 10).
+word(review, 12133, 2366, 14).
+word(paper, 12133, 2366, 16).
+word(paper, 12133, 2542, 1).
+word(switch, 12133, 2542, 2).
+word(reward, 12133, 2542, 5).
+word(cost, 12133, 2542, 7).
+word(remove, 12133, 2542, 11).
+word(alpha, 12133, 2542, 13).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(12131, 1366, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(12131, 1367, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(12131, 1368, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(12132, 1369, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(12133, 1370, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(12133, 1371, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(12133, 1372, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(12133, 1373, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(12133, 2366, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(12133, 2542, 0, 0, 0, 0, 0, 0, 0, 0).

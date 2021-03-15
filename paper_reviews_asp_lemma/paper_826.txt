@@ -1,0 +1,92 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(8261,826,5,5).
+source(8262,826,4,4).
+% id paper, Reject/Accept
+paperProperties(826, 0).
+% sourceId, line
+sentence(8261,498).
+sentence(8261,1003).
+sentence(8261,2566).
+sentence(8262,1004).
+sentence(8262,1005).
+sentence(8262,2489).
+sentence(8262,2580).
+% W, sourceId, line, position
+word(consider, 8261, 498, 2).
+word(related, 8261, 498, 5).
+word(work, 8261, 498, 6).
+word(mention, 8261, 498, 7).
+word(paper, 8261, 498, 10).
+word(novelty, 8261, 498, 13).
+word(paper, 8261, 498, 16).
+word(limited, 8261, 498, 19).
+word(controllable, 8261, 1003, 0).
+word(image, 8261, 1003, 1).
+word(generation, 8261, 1003, 2).
+word(important, 8261, 1003, 5).
+word(task, 8261, 1003, 6).
+word(representation, 8261, 1003, 8).
+word(learning, 8261, 1003, 9).
+word(computer, 8261, 1003, 11).
+word(vision, 8261, 1003, 12).
+word(controllable, 8261, 2566, 0).
+word(image, 8261, 2566, 1).
+word(generation, 8261, 2566, 2).
+word(important, 8261, 2566, 5).
+word(task, 8261, 2566, 6).
+word(representation, 8261, 2566, 8).
+word(learning, 8261, 2566, 9).
+word(computer, 8261, 2566, 11).
+word(vision, 8261, 2566, 12).
+word(approach, 8261, 2566, 16).
+word(sensible, 8261, 2566, 19).
+word(tau, 8261, 2566, 21).
+word(range, 8261, 2566, 26).
+word(logpiah, 8261, 2566, 28).
+word(try, 8261, 2566, 34).
+word(tau, 8261, 2566, 35).
+word(add, 8262, 1004, 0).
+word(exclusive, 8262, 1004, 1).
+word(prior, 8262, 1004, 2).
+word(prior, 8262, 1004, 5).
+word(mask, 8262, 1004, 9).
+word(context, 8262, 1004, 11).
+word(m1, 8262, 1004, 14).
+word(semantic, 8262, 1004, 17).
+word(m2, 8262, 1004, 20).
+word(exclusive, 8262, 1004, 24).
+word(g2, 8262, 1005, 0).
+word(take, 8262, 1005, 1).
+word(duty, 8262, 1005, 4).
+word(obtain, 8262, 1005, 8).
+word(low, 8262, 1005, 10).
+word(lld, 8262, 1005, 11).
+word(g2, 8262, 2489, 0).
+word(take, 8262, 2489, 1).
+word(duty, 8262, 2489, 4).
+word(obtain, 8262, 2489, 8).
+word(low, 8262, 2489, 10).
+word(lld, 8262, 2489, 11).
+word(paper, 8262, 2489, 16).
+word(add, 8262, 2580, 0).
+word(exclusive, 8262, 2580, 1).
+word(prior, 8262, 2580, 2).
+word(prior, 8262, 2580, 5).
+word(mask, 8262, 2580, 9).
+word(context, 8262, 2580, 11).
+word(m1, 8262, 2580, 14).
+word(semantic, 8262, 2580, 17).
+word(m2, 8262, 2580, 20).
+word(exclusive, 8262, 2580, 24).
+word(think, 8262, 2580, 30).
+word(paper, 8262, 2580, 32).
+word(identify, 8262, 2580, 33).
+word(choice, 8262, 2580, 36).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(8261, 498, 0, 0, 0, 0, 1, 0, -1, 0).
+sentiment(8261, 1003, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8261, 2566, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8262, 1004, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8262, 1005, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8262, 2489, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8262, 2580, 0, 0, 0, 0, 0, 0, 0, 0).

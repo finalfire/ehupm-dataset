@@ -1,0 +1,11 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(9972,997,6,3).
+% id paper, Reject/Accept
+paperProperties(997, 0).
+% sourceId, line
+sentence(9972,1594).
+% W, sourceId, line, position
+word(cerebral, 9972, 1594, 1).
+word(cortex, 9972, 1594, 2).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(9972, 1594, 0, 0, 0, 0, 0, 0, 0, 0).

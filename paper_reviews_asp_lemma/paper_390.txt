@@ -1,0 +1,48 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(3901,390,3,3).
+source(3902,390,6,5).
+source(3903,390,5,3).
+% id paper, Reject/Accept
+paperProperties(390, 0).
+% sourceId, line
+sentence(3901,26).
+sentence(3902,27).
+sentence(3903,747).
+sentence(3903,2478).
+% W, sourceId, line, position
+word(finding, 3901, 26, 1).
+word(trivial, 3901, 26, 3).
+word(cons, 3902, 27, 0).
+word(paper, 3902, 27, 2).
+word(advance, 3902, 27, 4).
+word(elaborate, 3902, 27, 6).
+word(interesting, 3902, 27, 8).
+word(topic, 3902, 27, 9).
+word(appraisal, 3902, 27, 14).
+word(contribute, 3902, 27, 18).
+word(significantly, 3902, 27, 19).
+word(new, 3902, 27, 20).
+word(aspect, 3902, 27, 21).
+word(discussion, 3902, 27, 24).
+word(growth, 3903, 747, 1).
+word(factor, 3903, 747, 2).
+word(exponential, 3903, 747, 4).
+word(number, 3903, 747, 7).
+word(layer, 3903, 747, 9).
+word(growth, 3903, 2478, 1).
+word(factor, 3903, 2478, 2).
+word(exponential, 3903, 2478, 4).
+word(number, 3903, 2478, 7).
+word(layer, 3903, 2478, 9).
+word(chart, 3903, 2478, 12).
+word(different, 3903, 2478, 14).
+word(random, 3903, 2478, 15).
+word(seed, 3903, 2478, 16).
+word(hyperparameter, 3903, 2478, 18).
+word(indicate, 3903, 2478, 19).
+word(reproducibility, 3903, 2478, 21).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(3901, 26, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(3902, 27, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(3903, 747, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3903, 2478, 0, 0, 0, 0, 0, 0, 0, 0).

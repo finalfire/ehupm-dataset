@@ -1,0 +1,42 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(7302,730,7,4).
+% id paper, Reject/Accept
+paperProperties(730, 1).
+% sourceId, line
+sentence(7302,477).
+sentence(7302,1257).
+sentence(7302,1258).
+sentence(7302,1880).
+% W, sourceId, line, position
+word(work, 7302, 477, 1).
+word(write, 7302, 477, 5).
+word(cite, 7302, 477, 7).
+word(previous, 7302, 477, 8).
+word(work, 7302, 477, 9).
+word(appropriately, 7302, 477, 10).
+word(recent, 7302, 1257, 1).
+word(year, 7302, 1257, 2).
+word(notable, 7302, 1257, 7).
+word(success, 7302, 1257, 8).
+word(deep, 7302, 1257, 10).
+word(reinforcement, 7302, 1257, 11).
+word(learning, 7302, 1257, 12).
+word(silver, 7302, 1258, 1).
+word(d, 7302, 1258, 3).
+word(work, 7302, 1880, 1).
+word(write, 7302, 1880, 5).
+word(cite, 7302, 1880, 7).
+word(previous, 7302, 1880, 8).
+word(work, 7302, 1880, 9).
+word(appropriately, 7302, 1880, 10).
+word(generally, 7302, 1880, 13).
+word(result, 7302, 1880, 16).
+word(interesting, 7302, 1880, 18).
+word(presentation, 7302, 1880, 21).
+word(easy, 7302, 1880, 23).
+word(follow, 7302, 1880, 25).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(7302, 477, 0, 0, 0, 0, 1, 0, 0, 0).
+sentiment(7302, 1257, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7302, 1258, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7302, 1880, 0, 1, 0, 0, 1, 0, 0, 0).

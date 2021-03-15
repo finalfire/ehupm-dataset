@@ -1,0 +1,59 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(3331,333,2,5).
+source(3332,333,4,4).
+source(3333,333,4,4).
+% id paper, Reject/Accept
+paperProperties(333, 0).
+% sourceId, line
+sentence(3331,1429).
+sentence(3332,1430).
+sentence(3332,1431).
+sentence(3332,1432).
+sentence(3332,1433).
+sentence(3333,1434).
+sentence(3333,1435).
+% W, sourceId, line, position
+word(r, 3331, 1429, 1).
+word(discounted, 3331, 1429, 3).
+word(return, 3331, 1429, 4).
+word(time, 3331, 1429, 6).
+word(t, 3331, 1429, 7).
+word(reward, 3331, 1429, 11).
+word(time, 3331, 1429, 13).
+word(t, 3331, 1429, 14).
+word(point, 3332, 1430, 4).
+word(believe, 3332, 1430, 7).
+word(prevent, 3332, 1430, 8).
+word(work, 3332, 1430, 10).
+word(reach, 3332, 1430, 12).
+word(iclr, 3332, 1430, 14).
+word(bar, 3332, 1430, 15).
+word(detail, 3332, 1430, 18).
+word(fig, 3332, 1431, 5).
+word(fc, 3332, 1432, 2).
+word(mean, 3332, 1432, 4).
+word(fully, 3332, 1432, 6).
+word(connect, 3332, 1432, 7).
+word(nice, 3332, 1433, 4).
+word(architecture, 3332, 1433, 10).
+word(fig, 3332, 1433, 12).
+word(learn, 3333, 1434, 0).
+word(play, 3333, 1434, 2).
+word(atari, 3333, 1434, 4).
+word(game, 3333, 1434, 5).
+word(individually, 3333, 1434, 7).
+word(train, 3333, 1434, 10).
+word(prediction, 3333, 1435, 0).
+word(action, 3333, 1435, 3).
+word(sequence, 3333, 1435, 4).
+word(carefully, 3333, 1435, 7).
+word(choose, 3333, 1435, 8).
+word(start, 3333, 1435, 9).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(3331, 1429, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(3332, 1430, 0, 0, 0, 0, 0, 0, 0, -1).
+sentiment(3332, 1431, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(3332, 1432, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3332, 1433, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3333, 1434, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3333, 1435, 0, 0, 0, 0, 0, 0, 0, 0).

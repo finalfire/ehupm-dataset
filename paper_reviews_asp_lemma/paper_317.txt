@@ -1,0 +1,50 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(3171,317,6,4).
+source(3172,317,5,4).
+% id paper, Reject/Accept
+paperProperties(317, 0).
+% sourceId, line
+sentence(3171,837).
+sentence(3171,2299).
+sentence(3171,2395).
+sentence(3172,836).
+% W, sourceId, line, position
+word(error, 3171, 837, 1).
+word(propagation, 3171, 837, 4).
+word(label, 3171, 837, 6).
+word(smooth, 3171, 837, 7).
+word(softmax, 3171, 837, 9).
+word(straightforward, 3171, 837, 11).
+word(efficient, 3171, 837, 13).
+word(error, 3171, 2299, 1).
+word(propagation, 3171, 2299, 4).
+word(label, 3171, 2299, 6).
+word(smooth, 3171, 2299, 7).
+word(softmax, 3171, 2299, 9).
+word(straightforward, 3171, 2299, 11).
+word(efficient, 3171, 2299, 13).
+word(page, 3171, 2299, 16).
+word(paragraph, 3171, 2299, 19).
+word(train, 3171, 2299, 23).
+word(train, 3171, 2299, 30).
+word(error, 3171, 2395, 1).
+word(propagation, 3171, 2395, 4).
+word(label, 3171, 2395, 6).
+word(smooth, 3171, 2395, 7).
+word(softmax, 3171, 2395, 9).
+word(straightforward, 3171, 2395, 11).
+word(efficient, 3171, 2395, 13).
+word(disregard, 3171, 2395, 16).
+word(anonymity, 3171, 2395, 18).
+word(style, 3171, 2395, 20).
+word(violation, 3171, 2395, 21).
+word(review, 3171, 2395, 25).
+word(paper, 3171, 2395, 27).
+word(iclr, 3172, 836, 0).
+word(lot, 3172, 836, 2).
+word(submission, 3172, 836, 4).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(3171, 837, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3171, 2299, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3171, 2395, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3172, 836, 0, 0, 0, 0, 0, 0, 0, 0).

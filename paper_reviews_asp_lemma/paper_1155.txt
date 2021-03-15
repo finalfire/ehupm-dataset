@@ -1,0 +1,50 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(11551,1155,7,4).
+source(11552,1155,3,4).
+% id paper, Reject/Accept
+paperProperties(1155, 0).
+% sourceId, line
+sentence(11551,1621).
+sentence(11551,2235).
+sentence(11551,2396).
+sentence(11552,1622).
+% W, sourceId, line, position
+word(variational, 11551, 1621, 0).
+word(stick, 11551, 1621, 1).
+word(break, 11551, 1621, 3).
+word(method, 11551, 1621, 4).
+word(work, 11551, 1621, 9).
+word(variational, 11551, 2235, 0).
+word(stick, 11551, 2235, 1).
+word(break, 11551, 2235, 3).
+word(method, 11551, 2235, 4).
+word(work, 11551, 2235, 9).
+word(despite, 11551, 2235, 13).
+word(claim, 11551, 2235, 15).
+word(environment, 11551, 2235, 18).
+word(small, 11551, 2235, 21).
+word(instruction, 11551, 2235, 24).
+word(trivially, 11551, 2235, 26).
+word(simple, 11551, 2235, 27).
+word(variational, 11551, 2396, 0).
+word(stick, 11551, 2396, 1).
+word(break, 11551, 2396, 3).
+word(method, 11551, 2396, 4).
+word(work, 11551, 2396, 9).
+word(finally, 11551, 2396, 13).
+word(weight, 11551, 2396, 17).
+word(jointly, 11551, 2396, 20).
+word(train, 11551, 2396, 21).
+word(addition, 11552, 1622, 1).
+word(achieve, 11552, 1622, 3).
+word(good, 11552, 1622, 5).
+word(performance, 11552, 1622, 6).
+word(topic, 11552, 1622, 10).
+word(surprising, 11552, 1622, 13).
+word(rcv, 11552, 1622, 17).
+word(v2, 11552, 1622, 19).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(11551, 1621, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11551, 2235, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11551, 2396, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11552, 1622, 0, 0, 0, 0, 0, 0, 0, 0).

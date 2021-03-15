@@ -1,0 +1,31 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(2281,228,6,4).
+source(2282,228,5,5).
+% id paper, Reject/Accept
+paperProperties(228, 0).
+% sourceId, line
+sentence(2281,735).
+sentence(2282,585).
+% W, sourceId, line, position
+word(easily, 2281, 735, 5).
+word(formulate, 2281, 735, 6).
+word(plain, 2281, 735, 9).
+word(time, 2281, 735, 10).
+word(series, 2281, 735, 11).
+word(forecasting, 2281, 735, 12).
+word(problem, 2281, 735, 13).
+word(forecast, 2281, 735, 17).
+word(step, 2281, 735, 21).
+word(apply, 2281, 735, 24).
+word(trend, 2281, 735, 26).
+word(extractor, 2281, 735, 27).
+word(convert, 2281, 735, 29).
+word(prediction, 2281, 735, 31).
+word(trend, 2281, 735, 34).
+word(organization, 2282, 585, 1).
+word(paper, 2282, 585, 4).
+word(need, 2282, 585, 5).
+word(improvement, 2282, 585, 6).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(2281, 735, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(2282, 585, 0, -1, 0, 0, 0, 0, 0, 0).

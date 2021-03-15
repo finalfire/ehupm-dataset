@@ -1,0 +1,100 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(7121,712,7,4).
+source(7123,712,7,3).
+% id paper, Reject/Accept
+paperProperties(712, 1).
+% sourceId, line
+sentence(7121,1397).
+sentence(7123,1396).
+sentence(7123,2372).
+sentence(7123,2552).
+% W, sourceId, line, position
+word(nice, 7121, 1397, 5).
+word(result, 7121, 1397, 6).
+word(general, 7121, 1397, 12).
+word(issue, 7121, 1397, 13).
+word(rnns, 7121, 1397, 15).
+word(teacher, 7121, 1397, 17).
+word(force, 7121, 1397, 18).
+word(need, 7121, 1397, 24).
+word(thing, 7121, 1397, 25).
+word(like, 7121, 1397, 26).
+word(schedule, 7121, 1397, 27).
+word(sampling, 7121, 1397, 28).
+word(train, 7121, 1397, 30).
+word(free, 7121, 1397, 33).
+word(running, 7121, 1397, 35).
+word(phase, 7121, 1397, 36).
+word(paper, 7123, 1396, 1).
+word(provide, 7123, 1396, 2).
+word(symmetric, 7123, 1396, 4).
+word(modeling, 7123, 1396, 5).
+word(perspective, 7123, 1396, 6).
+word(generation, 7123, 1396, 9).
+word(inference, 7123, 1396, 13).
+word(different, 7123, 1396, 17).
+word(naming, 7123, 1396, 18).
+word(underlie, 7123, 1396, 21).
+word(technique, 7123, 1396, 22).
+word(exchange, 7123, 1396, 25).
+word(unify, 7123, 1396, 28).
+word(exist, 7123, 1396, 29).
+word(deep, 7123, 1396, 30).
+word(generative, 7123, 1396, 31).
+word(model, 7123, 1396, 32).
+word(particularly, 7123, 1396, 34).
+word(vae, 7123, 1396, 35).
+word(gan, 7123, 1396, 37).
+word(relation, 7123, 2372, 1).
+word(concept, 7123, 2372, 3).
+word(property, 7123, 2372, 5).
+word(raw, 7123, 2372, 7).
+word(pixel, 7123, 2372, 9).
+word(study, 7123, 2372, 10).
+word(paper, 7123, 2372, 13).
+word(provide, 7123, 2372, 14).
+word(symmetric, 7123, 2372, 16).
+word(modeling, 7123, 2372, 17).
+word(perspective, 7123, 2372, 18).
+word(generation, 7123, 2372, 21).
+word(inference, 7123, 2372, 25).
+word(different, 7123, 2372, 29).
+word(naming, 7123, 2372, 30).
+word(underlie, 7123, 2372, 33).
+word(technique, 7123, 2372, 34).
+word(exchange, 7123, 2372, 37).
+word(unify, 7123, 2372, 40).
+word(exist, 7123, 2372, 41).
+word(deep, 7123, 2372, 42).
+word(generative, 7123, 2372, 43).
+word(model, 7123, 2372, 44).
+word(particularly, 7123, 2372, 46).
+word(vae, 7123, 2372, 47).
+word(gan, 7123, 2372, 49).
+word(paper, 7123, 2552, 1).
+word(provide, 7123, 2552, 2).
+word(symmetric, 7123, 2552, 4).
+word(modeling, 7123, 2552, 5).
+word(perspective, 7123, 2552, 6).
+word(generation, 7123, 2552, 9).
+word(inference, 7123, 2552, 13).
+word(different, 7123, 2552, 17).
+word(naming, 7123, 2552, 18).
+word(underlie, 7123, 2552, 21).
+word(technique, 7123, 2552, 22).
+word(exchange, 7123, 2552, 25).
+word(unify, 7123, 2552, 28).
+word(exist, 7123, 2552, 29).
+word(deep, 7123, 2552, 30).
+word(generative, 7123, 2552, 31).
+word(model, 7123, 2552, 32).
+word(particularly, 7123, 2552, 34).
+word(vae, 7123, 2552, 35).
+word(gan, 7123, 2552, 37).
+word(content, 7123, 2552, 41).
+word(paper, 7123, 2552, 44).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(7121, 1397, 0, 0, 0, 1, 0, 0, 0, 0).
+sentiment(7123, 1396, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7123, 2372, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7123, 2552, 0, 0, 0, 0, 0, 0, 0, 0).

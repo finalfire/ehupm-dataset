@@ -1,0 +1,64 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(6451,645,5,4).
+% id paper, Reject/Accept
+paperProperties(645, 1).
+% sourceId, line
+sentence(6451,1717).
+sentence(6451,2286).
+% W, sourceId, line, position
+word(bunch, 6451, 1717, 4).
+word(work, 6451, 1717, 6).
+word(soft, 6451, 1717, 9).
+word(attention, 6451, 1717, 11).
+word(mechanism, 6451, 1717, 12).
+word(different, 6451, 1717, 15).
+word(application, 6451, 1717, 16).
+word(include, 6451, 1717, 17).
+word(visual, 6451, 1717, 18).
+word(question, 6451, 1717, 19).
+word(answer, 6451, 1717, 20).
+word(c, 6451, 1717, 24).
+word(attribute, 6451, 1717, 27).
+word(prediction, 6451, 1717, 28).
+word(d, 6451, 1717, 30).
+word(image, 6451, 1717, 33).
+word(caption, 6451, 1717, 34).
+word(e, 6451, 1717, 36).
+word(f, 6451, 1717, 38).
+word(image, 6451, 1717, 41).
+word(segmentation, 6451, 1717, 42).
+word(g, 6451, 1717, 44).
+word(bunch, 6451, 2286, 4).
+word(work, 6451, 2286, 6).
+word(soft, 6451, 2286, 9).
+word(attention, 6451, 2286, 11).
+word(mechanism, 6451, 2286, 12).
+word(different, 6451, 2286, 15).
+word(application, 6451, 2286, 16).
+word(include, 6451, 2286, 17).
+word(visual, 6451, 2286, 18).
+word(question, 6451, 2286, 19).
+word(answer, 6451, 2286, 20).
+word(c, 6451, 2286, 24).
+word(attribute, 6451, 2286, 27).
+word(prediction, 6451, 2286, 28).
+word(d, 6451, 2286, 30).
+word(image, 6451, 2286, 33).
+word(caption, 6451, 2286, 34).
+word(e, 6451, 2286, 36).
+word(f, 6451, 2286, 38).
+word(image, 6451, 2286, 41).
+word(segmentation, 6451, 2286, 42).
+word(g, 6451, 2286, 44).
+word(lifelong, 6451, 2286, 48).
+word(learning, 6451, 2286, 49).
+word(imply, 6451, 2286, 50).
+word(continual, 6451, 2286, 52).
+word(learning, 6451, 2286, 53).
+word(address, 6451, 2286, 55).
+word(catastrophic, 6451, 2286, 57).
+word(forget, 6451, 2286, 58).
+word(issue, 6451, 2286, 59).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(6451, 1717, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6451, 2286, 0, 0, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,59 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(11781,1178,6,3).
+source(11782,1178,4,3).
+% id paper, Reject/Accept
+paperProperties(1178, 0).
+% sourceId, line
+sentence(11781,1727).
+sentence(11782,1728).
+sentence(11782,1729).
+sentence(11782,1983).
+sentence(11782,2151).
+sentence(11782,2511).
+% W, sourceId, line, position
+word(strategy, 11781, 1727, 3).
+word(obtain, 11781, 1727, 7).
+word(parameter, 11781, 1727, 9).
+word(table, 11781, 1727, 11).
+word(image, 11782, 1728, 1).
+word(map, 11782, 1728, 4).
+word(high, 11782, 1728, 7).
+word(dimensional, 11782, 1728, 9).
+word(space, 11782, 1728, 10).
+word(slow, 11782, 1729, 6).
+word(implementation, 11782, 1729, 7).
+word(fine, 11782, 1729, 11).
+word(slow, 11782, 1983, 6).
+word(implementation, 11782, 1983, 7).
+word(fine, 11782, 1983, 11).
+word(synthetic, 11782, 1983, 17).
+word(dataset, 11782, 1983, 18).
+word(clear, 11782, 1983, 23).
+word(datum, 11782, 1983, 26).
+word(generate, 11782, 1983, 29).
+word(slow, 11782, 2151, 6).
+word(implementation, 11782, 2151, 7).
+word(fine, 11782, 2151, 11).
+word(main, 11782, 2151, 17).
+word(problem, 11782, 2151, 18).
+word(large, 11782, 2151, 22).
+word(dataset, 11782, 2151, 23).
+word(cifar, 11782, 2151, 26).
+word(small, 11782, 2151, 30).
+word(image, 11782, 2511, 1).
+word(map, 11782, 2511, 4).
+word(high, 11782, 2511, 7).
+word(dimensional, 11782, 2511, 9).
+word(space, 11782, 2511, 10).
+word(underlying, 11782, 2511, 19).
+word(issue, 11782, 2511, 20).
+word(negative, 11782, 2511, 24).
+word(transfer, 11782, 2511, 25).
+word(relate, 11782, 2511, 26).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(11781, 1727, 0, -1, 0, -1, 0, 0, 0, 0).
+sentiment(11782, 1728, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11782, 1729, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(11782, 1983, 0, -1, 0, 0, 0, 0, -1, 0).
+sentiment(11782, 2151, 0, -1, 0, 0, 0, 0, -1, 0).
+sentiment(11782, 2511, 0, 0, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,35 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(3991,399,5,2).
+% id paper, Reject/Accept
+paperProperties(399, 0).
+% sourceId, line
+sentence(3991,1747).
+sentence(3991,2311).
+sentence(3991,2319).
+% W, sourceId, line, position
+word(atari, 3991, 1747, 0).
+word(particularly, 3991, 1747, 2).
+word(apt, 3991, 1747, 3).
+word(game, 3991, 1747, 6).
+word(catastrophe, 3991, 1747, 10).
+word(atari, 3991, 2311, 0).
+word(particularly, 3991, 2311, 2).
+word(apt, 3991, 2311, 3).
+word(game, 3991, 2311, 6).
+word(catastrophe, 3991, 2311, 10).
+word(number, 3991, 2311, 18).
+word(issue, 3991, 2311, 20).
+word(paper, 3991, 2311, 23).
+word(atari, 3991, 2319, 0).
+word(particularly, 3991, 2319, 2).
+word(apt, 3991, 2319, 3).
+word(game, 3991, 2319, 6).
+word(catastrophe, 3991, 2319, 10).
+word(ask, 3991, 2319, 19).
+word(implement, 3991, 2319, 25).
+word(zhang, 3991, 2319, 26).
+word(et, 3991, 2319, 27).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(3991, 1747, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3991, 2311, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3991, 2319, 0, 0, 0, 0, 0, 0, 0, 0).

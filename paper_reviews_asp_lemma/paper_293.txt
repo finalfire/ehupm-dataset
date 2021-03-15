@@ -1,0 +1,72 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(2931,293,6,4).
+% id paper, Reject/Accept
+paperProperties(293, 0).
+% sourceId, line
+sentence(2931,36).
+sentence(2931,37).
+sentence(2931,38).
+sentence(2931,39).
+sentence(2931,195).
+sentence(2931,456).
+sentence(2931,2010).
+sentence(2931,2071).
+% W, sourceId, line, position
+word(novel, 2931, 36, 1).
+word(paper, 2931, 36, 4).
+word(relatively, 2931, 36, 6).
+word(small, 2931, 36, 7).
+word(perspective, 2931, 37, 2).
+word(solution, 2931, 37, 5).
+word(propose, 2931, 37, 6).
+word(paper, 2931, 37, 9).
+word(different, 2931, 37, 13).
+word(previous, 2931, 37, 15).
+word(work, 2931, 37, 16).
+word(rnn, 2931, 38, 2).
+word(lstm, 2931, 38, 4).
+word(simply, 2931, 38, 7).
+word(interpret, 2931, 38, 8).
+word(probabilistic, 2931, 38, 11).
+word(model, 2931, 38, 12).
+word(consider, 2931, 38, 16).
+word(small, 2931, 38, 19).
+word(novelty, 2931, 38, 20).
+word(simple, 2931, 39, 8).
+word(trick, 2931, 39, 9).
+word(paper, 2931, 195, 2).
+word(write, 2931, 195, 6).
+word(easy, 2931, 195, 8).
+word(follow, 2931, 195, 10).
+word(paper, 2931, 456, 1).
+word(represent, 2931, 456, 2).
+word(work, 2931, 456, 7).
+word(topic, 2931, 456, 10).
+word(paper, 2931, 2010, 2).
+word(write, 2931, 2010, 6).
+word(easy, 2931, 2010, 8).
+word(follow, 2931, 2010, 10).
+word(think, 2931, 2010, 17).
+word(paper, 2931, 2010, 20).
+word(appropriate, 2931, 2010, 22).
+word(conference, 2931, 2010, 25).
+word(like, 2931, 2010, 26).
+word(iclr, 2931, 2010, 27).
+word(paper, 2931, 2071, 1).
+word(represent, 2931, 2071, 2).
+word(work, 2931, 2071, 7).
+word(topic, 2931, 2071, 10).
+word(label, 2931, 2071, 16).
+word(test, 2931, 2071, 18).
+word(set, 2931, 2071, 19).
+word(sub, 2931, 2071, 22).
+word(graph, 2931, 2071, 24).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(2931, 36, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(2931, 37, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(2931, 38, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(2931, 39, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(2931, 195, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(2931, 456, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(2931, 2010, -1, 1, 0, 0, 0, 0, 0, 0).
+sentiment(2931, 2071, 0, -1, 0, 0, -1, 0, 0, 0).

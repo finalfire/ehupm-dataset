@@ -1,0 +1,70 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(11792,1179,4,5).
+source(11793,1179,3,4).
+% id paper, Reject/Accept
+paperProperties(1179, 0).
+% sourceId, line
+sentence(11792,1037).
+sentence(11792,1895).
+sentence(11793,621).
+sentence(11793,1995).
+sentence(11793,2138).
+% W, sourceId, line, position
+word(recommend, 11792, 1037, 6).
+word(acceptance, 11792, 1037, 9).
+word(need, 11792, 1037, 12).
+word(significant, 11792, 1037, 13).
+word(work, 11792, 1037, 14).
+word(accept, 11792, 1037, 19).
+word(conference, 11792, 1037, 22).
+word(recommend, 11792, 1895, 6).
+word(acceptance, 11792, 1895, 9).
+word(need, 11792, 1895, 12).
+word(significant, 11792, 1895, 13).
+word(work, 11792, 1895, 14).
+word(accept, 11792, 1895, 19).
+word(conference, 11792, 1895, 22).
+word(general, 11792, 1895, 26).
+word(scope, 11792, 1895, 30).
+word(paper, 11792, 1895, 33).
+word(like, 11792, 1895, 37).
+word(fairly, 11792, 1895, 42).
+word(easily, 11792, 1895, 43).
+word(short, 11792, 1895, 49).
+word(paper, 11792, 1895, 50).
+word(conference, 11792, 1895, 53).
+word(category, 11792, 1895, 57).
+word(give, 11793, 621, 0).
+word(small, 11793, 621, 2).
+word(size, 11793, 621, 3).
+word(dataset, 11793, 621, 6).
+word(unclear, 11793, 621, 11).
+word(generalizable, 11793, 621, 13).
+word(approach, 11793, 621, 15).
+word(potentially, 11793, 1995, 2).
+word(interesting, 11793, 1995, 4).
+word(idea, 11793, 1995, 5).
+word(give, 11793, 1995, 8).
+word(small, 11793, 1995, 10).
+word(size, 11793, 1995, 11).
+word(dataset, 11793, 1995, 14).
+word(unclear, 11793, 1995, 19).
+word(generalizable, 11793, 1995, 21).
+word(approach, 11793, 1995, 23).
+word(give, 11793, 2138, 0).
+word(small, 11793, 2138, 2).
+word(size, 11793, 2138, 3).
+word(dataset, 11793, 2138, 6).
+word(unclear, 11793, 2138, 11).
+word(generalizable, 11793, 2138, 13).
+word(approach, 11793, 2138, 15).
+word(main, 11793, 2138, 20).
+word(idea, 11793, 2138, 21).
+word(work, 11793, 2138, 24).
+word(interesting, 11793, 2138, 26).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(11792, 1037, 0, 0, 0, 0, 0, 0, 0, -1).
+sentiment(11792, 1895, -1, 0, 0, 0, 0, 0, 0, -1).
+sentiment(11793, 621, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(11793, 1995, 0, 0, 1, 0, 0, 0, -1, 0).
+sentiment(11793, 2138, 0, 0, 1, 0, 0, 0, -1, 0).

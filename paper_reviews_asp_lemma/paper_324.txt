@@ -1,0 +1,76 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(3241,324,5,3).
+source(3242,324,3,4).
+source(3243,324,5,4).
+% id paper, Reject/Accept
+paperProperties(324, 0).
+% sourceId, line
+sentence(3241,688).
+sentence(3241,1774).
+sentence(3241,2095).
+sentence(3242,112).
+sentence(3242,666).
+sentence(3242,2328).
+sentence(3243,595).
+% W, sourceId, line, position
+word(major, 3241, 688, 1).
+word(issue, 3241, 688, 2).
+word(dataset, 3241, 688, 10).
+word(specific, 3241, 688, 14).
+word(necessarily, 3241, 688, 18).
+word(justify, 3241, 688, 19).
+word(mention, 3241, 688, 22).
+word(anonreviewer3, 3241, 688, 24).
+word(understand, 3241, 1774, 6).
+word(performance, 3241, 1774, 9).
+word(ffnn, 3241, 1774, 11).
+word(model, 3241, 1774, 12).
+word(good, 3241, 1774, 16).
+word(elaborate, 3241, 1774, 19).
+word(comment, 3241, 1774, 25).
+word(major, 3241, 2095, 1).
+word(issue, 3241, 2095, 2).
+word(dataset, 3241, 2095, 10).
+word(specific, 3241, 2095, 14).
+word(necessarily, 3241, 2095, 18).
+word(justify, 3241, 2095, 19).
+word(mention, 3241, 2095, 22).
+word(anonreviewer3, 3241, 2095, 24).
+word(result, 3241, 2095, 30).
+word(ptb, 3241, 2095, 32).
+word(weak, 3241, 2095, 34).
+word(follow, 3242, 112, 2).
+word(issue, 3242, 112, 3).
+word(paper, 3242, 112, 6).
+word(have, 3242, 666, 1).
+word(dataset, 3242, 666, 3).
+word(bad, 3242, 666, 8).
+word(thing, 3242, 666, 9).
+word(feel, 3242, 666, 15).
+word(dataset, 3242, 666, 18).
+word(create, 3242, 666, 20).
+word(sole, 3242, 666, 23).
+word(purpose, 3242, 666, 24).
+word(make, 3242, 666, 26).
+word(propose, 3242, 666, 28).
+word(idea, 3242, 666, 29).
+word(work, 3242, 666, 30).
+word(follow, 3242, 2328, 2).
+word(issue, 3242, 2328, 3).
+word(paper, 3242, 2328, 6).
+word(selfish, 3242, 2328, 9).
+word(prosocial, 3242, 2328, 11).
+word(ccc, 3242, 2328, 13).
+word(maintain, 3242, 2328, 16).
+word(maximum, 3242, 2328, 17).
+word(reward, 3242, 2328, 18).
+word(paper, 3243, 595, 1).
+word(long, 3243, 595, 4).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(3241, 688, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(3241, 1774, 0, -1, 0, -1, 0, 0, 0, 0).
+sentiment(3241, 2095, 0, 0, 0, -1, 0, 0, -1, 0).
+sentiment(3242, 112, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3242, 666, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(3242, 2328, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3243, 595, 0, -1, 0, 0, 0, 0, 0, 0).

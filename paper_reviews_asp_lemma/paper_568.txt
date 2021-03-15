@@ -1,0 +1,58 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(5681,568,6,4).
+% id paper, Reject/Accept
+paperProperties(568, 1).
+% sourceId, line
+sentence(5681,1091).
+sentence(5681,2226).
+sentence(5681,2447).
+sentence(5681,2533).
+% W, sourceId, line, position
+word(large, 5681, 1091, 1).
+word(intro, 5681, 1091, 5).
+word(related, 5681, 1091, 7).
+word(work, 5681, 1091, 8).
+word(merge, 5681, 1091, 11).
+word(large, 5681, 2226, 1).
+word(intro, 5681, 2226, 5).
+word(related, 5681, 2226, 7).
+word(work, 5681, 2226, 8).
+word(merge, 5681, 2226, 11).
+word(feature, 5681, 2226, 18).
+word(e, 5681, 2226, 20).
+word(large, 5681, 2447, 1).
+word(intro, 5681, 2447, 5).
+word(related, 5681, 2447, 7).
+word(work, 5681, 2447, 8).
+word(merge, 5681, 2447, 11).
+word(previous, 5681, 2447, 14).
+word(work, 5681, 2447, 15).
+word(certainly, 5681, 2447, 17).
+word(seek, 5681, 2447, 18).
+word(include, 5681, 2447, 20).
+word(feature, 5681, 2447, 22).
+word(type, 5681, 2447, 23).
+word(improve, 5681, 2447, 25).
+word(rss, 5681, 2447, 26).
+word(combine, 5681, 2447, 29).
+word(different, 5681, 2447, 30).
+word(feature, 5681, 2447, 31).
+word(type, 5681, 2447, 32).
+word(successfully, 5681, 2447, 33).
+word(difficult, 5681, 2447, 35).
+word(large, 5681, 2533, 1).
+word(intro, 5681, 2533, 5).
+word(related, 5681, 2533, 7).
+word(work, 5681, 2533, 8).
+word(merge, 5681, 2533, 11).
+word(counterfactual, 5681, 2533, 16).
+word(return, 5681, 2533, 17).
+word(extend, 5681, 2533, 23).
+word(reward, 5681, 2533, 24).
+word(need, 5681, 2533, 27).
+word(rewrite, 5681, 2533, 30).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(5681, 1091, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5681, 2226, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5681, 2447, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5681, 2533, 0, 0, 0, 0, 0, 0, 0, 0).

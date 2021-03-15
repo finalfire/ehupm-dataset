@@ -1,0 +1,22 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(12212,1221,5,5).
+% id paper, Reject/Accept
+paperProperties(1221, 0).
+% sourceId, line
+sentence(12212,1523).
+% W, sourceId, line, position
+word(clarity, 12212, 1523, 1).
+word(writing, 12212, 1523, 3).
+word(improve, 12212, 1523, 6).
+word(typo, 12212, 1523, 9).
+word(manuscript, 12212, 1523, 12).
+word(notation, 12212, 1523, 14).
+word(define, 12212, 1523, 17).
+word(miss, 12212, 1523, 19).
+word(word, 12212, 1523, 20).
+word(poorly, 12212, 1523, 22).
+word(format, 12212, 1523, 23).
+word(citation, 12212, 1523, 24).
+word(etc, 12212, 1523, 26).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(12212, 1523, 0, -1, 0, 0, 0, 0, 0, 0).

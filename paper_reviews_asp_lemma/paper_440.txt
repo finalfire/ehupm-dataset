@@ -1,0 +1,48 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(4401,440,3,5).
+source(4403,440,4,5).
+% id paper, Reject/Accept
+paperProperties(440, 0).
+% sourceId, line
+sentence(4401,990).
+sentence(4401,2308).
+sentence(4403,991).
+% W, sourceId, line, position
+word(order, 4401, 990, 1).
+word(fair, 4401, 990, 5).
+word(comparison, 4401, 990, 6).
+word(dropout, 4401, 990, 8).
+word(dropout, 4401, 990, 12).
+word(tune, 4401, 990, 15).
+word(carefully, 4401, 990, 16).
+word(order, 4401, 2308, 1).
+word(fair, 4401, 2308, 5).
+word(comparison, 4401, 2308, 6).
+word(dropout, 4401, 2308, 8).
+word(dropout, 4401, 2308, 12).
+word(tune, 4401, 2308, 15).
+word(carefully, 4401, 2308, 16).
+word(add, 4401, 2308, 19).
+word(exclusive, 4401, 2308, 20).
+word(prior, 4401, 2308, 21).
+word(prior, 4401, 2308, 24).
+word(mask, 4401, 2308, 28).
+word(context, 4401, 2308, 30).
+word(m1, 4401, 2308, 33).
+word(semantic, 4401, 2308, 36).
+word(m2, 4401, 2308, 39).
+word(exclusive, 4401, 2308, 43).
+word(mlp, 4403, 991, 5).
+word(dropout, 4403, 991, 7).
+word(simple, 4403, 991, 10).
+word(max, 4403, 991, 11).
+word(norm, 4403, 991, 12).
+word(constraint, 4403, 991, 13).
+word(dropout, 4403, 991, 16).
+word(baseline, 4403, 991, 17).
+word(fail, 4403, 991, 19).
+word(break, 4403, 991, 21).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(4401, 990, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4401, 2308, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4403, 991, 0, 0, 0, 0, 0, 0, 0, 0).

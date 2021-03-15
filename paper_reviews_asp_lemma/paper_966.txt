@@ -1,0 +1,72 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(9661,966,4,5).
+source(9662,966,6,4).
+source(9663,966,3,4).
+% id paper, Reject/Accept
+paperProperties(966, 0).
+% sourceId, line
+sentence(9661,1649).
+sentence(9662,1650).
+sentence(9662,2245).
+sentence(9663,1648).
+sentence(9663,2421).
+% W, sourceId, line, position
+word(negative, 9661, 1649, 2).
+word(task, 9661, 1649, 8).
+word(rda, 9661, 1649, 10).
+word(par, 9661, 1649, 13).
+word(bad, 9661, 1649, 15).
+word(standard, 9661, 1649, 18).
+word(gru, 9661, 1649, 19).
+word(multicopy, 9661, 1649, 23).
+word(train, 9661, 1649, 26).
+word(fast, 9661, 1649, 27).
+word(well, 9661, 1649, 32).
+word(result, 9661, 1649, 33).
+word(look, 9661, 1649, 36).
+word(like, 9661, 1649, 37).
+word(difference, 9661, 1649, 39).
+word(training, 9661, 1649, 47).
+word(step, 9661, 1649, 48).
+word(propose, 9662, 1650, 1).
+word(method, 9662, 1650, 2).
+word(elman, 9662, 1650, 5).
+word(net, 9662, 1650, 6).
+word(base, 9662, 1650, 9).
+word(rnn, 9662, 1650, 10).
+word(propose, 9662, 2245, 1).
+word(method, 9662, 2245, 2).
+word(elman, 9662, 2245, 5).
+word(net, 9662, 2245, 6).
+word(base, 9662, 2245, 9).
+word(rnn, 9662, 2245, 10).
+word(aim, 9662, 2245, 14).
+word(paper, 9662, 2245, 17).
+word(propose, 9662, 2245, 20).
+word(alternative, 9662, 2245, 22).
+word(deep, 9662, 2245, 23).
+word(paper, 9663, 1648, 1).
+word(address, 9663, 1648, 2).
+word(problem, 9663, 1648, 4).
+word(issue, 9663, 1648, 7).
+word(rwas, 9663, 1648, 9).
+word(paper, 9663, 2421, 1).
+word(address, 9663, 2421, 2).
+word(problem, 9663, 2421, 4).
+word(issue, 9663, 2421, 7).
+word(rwas, 9663, 2421, 9).
+word(lifelong, 9663, 2421, 12).
+word(learning, 9663, 2421, 13).
+word(imply, 9663, 2421, 14).
+word(continual, 9663, 2421, 16).
+word(learning, 9663, 2421, 17).
+word(address, 9663, 2421, 19).
+word(catastrophic, 9663, 2421, 21).
+word(forget, 9663, 2421, 22).
+word(issue, 9663, 2421, 23).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(9661, 1649, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9662, 1650, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9662, 2245, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9663, 1648, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9663, 2421, 0, 0, 0, 0, 0, 0, 0, 0).

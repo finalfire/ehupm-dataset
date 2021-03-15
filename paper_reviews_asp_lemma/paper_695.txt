@@ -1,0 +1,67 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(6952,695,6,3).
+% id paper, Reject/Accept
+paperProperties(695, 1).
+% sourceId, line
+sentence(6952,571).
+sentence(6952,1155).
+sentence(6952,2237).
+sentence(6952,2505).
+% W, sourceId, line, position
+word(paper, 6952, 571, 1).
+word(self, 6952, 571, 4).
+word(contain, 6952, 571, 6).
+word(difference, 6952, 1155, 1).
+word(exist, 6952, 1155, 3).
+word(work, 6952, 1155, 4).
+word(train, 6952, 1155, 9).
+word(agent, 6952, 1155, 11).
+word(directly, 6952, 1155, 13).
+word(mimic, 6952, 1155, 14).
+word(demonstration, 6952, 1155, 16).
+word(use, 6952, 1155, 19).
+word(demonstration, 6952, 1155, 20).
+word(constrain, 6952, 1155, 22).
+word(exploration, 6952, 1155, 23).
+word(difference, 6952, 2237, 1).
+word(exist, 6952, 2237, 3).
+word(work, 6952, 2237, 4).
+word(train, 6952, 2237, 9).
+word(agent, 6952, 2237, 11).
+word(directly, 6952, 2237, 13).
+word(mimic, 6952, 2237, 14).
+word(demonstration, 6952, 2237, 16).
+word(use, 6952, 2237, 19).
+word(demonstration, 6952, 2237, 20).
+word(constrain, 6952, 2237, 22).
+word(exploration, 6952, 2237, 23).
+word(decoder, 6952, 2237, 27).
+word(output, 6952, 2237, 29).
+word(change, 6952, 2237, 31).
+word(velocity, 6952, 2237, 33).
+word(focus, 6952, 2237, 36).
+word(object, 6952, 2237, 37).
+word(time, 6952, 2237, 41).
+word(step, 6952, 2237, 42).
+word(difference, 6952, 2505, 1).
+word(exist, 6952, 2505, 3).
+word(work, 6952, 2505, 4).
+word(train, 6952, 2505, 9).
+word(agent, 6952, 2505, 11).
+word(directly, 6952, 2505, 13).
+word(mimic, 6952, 2505, 14).
+word(demonstration, 6952, 2505, 16).
+word(use, 6952, 2505, 19).
+word(demonstration, 6952, 2505, 20).
+word(constrain, 6952, 2505, 22).
+word(exploration, 6952, 2505, 23).
+word(idea, 6952, 2505, 27).
+word(natural, 6952, 2505, 29).
+word(wealth, 6952, 2505, 34).
+word(experiment, 6952, 2505, 36).
+word(support, 6952, 2505, 38).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(6952, 571, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6952, 1155, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6952, 2237, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6952, 2505, 0, 0, 0, 0, 0, 0, 0, 0).

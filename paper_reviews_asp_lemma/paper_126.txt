@@ -1,0 +1,42 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(1261,126,7,3).
+% id paper, Reject/Accept
+paperProperties(126, 1).
+% sourceId, line
+sentence(1261,896).
+sentence(1261,897).
+sentence(1261,2384).
+sentence(1261,2416).
+sentence(1261,2453).
+% W, sourceId, line, position
+word(scatter, 1261, 896, 4).
+word(plot, 1261, 896, 5).
+word(vs, 1261, 896, 8).
+word(lstms, 1261, 897, 0).
+word(concern, 1261, 897, 5).
+word(meet, 1261, 897, 10).
+word(iclr, 1261, 897, 11).
+word(cfp, 1261, 897, 13).
+word(blog, 1261, 2384, 2).
+word(post, 1261, 2384, 3).
+word(scatter, 1261, 2384, 10).
+word(plot, 1261, 2384, 11).
+word(vs, 1261, 2384, 14).
+word(scatter, 1261, 2416, 4).
+word(plot, 1261, 2416, 5).
+word(vs, 1261, 2416, 8).
+word(literature, 1261, 2416, 12).
+word(review, 1261, 2416, 13).
+word(fine, 1261, 2416, 15).
+word(analysis, 1261, 2453, 2).
+word(author, 1261, 2453, 4).
+word(claim, 1261, 2453, 5).
+word(read, 1261, 2453, 10).
+word(revise, 1261, 2453, 12).
+word(version, 1261, 2453, 13).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(1261, 896, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1261, 897, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(1261, 2384, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1261, 2416, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1261, 2453, 0, 0, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,74 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(491,49,6,4).
+% id paper, Reject/Accept
+paperProperties(49, 1).
+% sourceId, line
+sentence(491,252).
+sentence(491,319).
+sentence(491,1348).
+sentence(491,1349).
+sentence(491,1978).
+sentence(491,2055).
+sentence(491,2121).
+sentence(491,2513).
+sentence(491,2521).
+% W, sourceId, line, position
+word(interesting, 491, 252, 0).
+word(new, 491, 252, 1).
+word(idea, 491, 252, 2).
+word(application, 491, 319, 1).
+word(approach, 491, 319, 4).
+word(appear, 491, 319, 5).
+word(novel, 491, 319, 7).
+word(subject, 491, 1348, 0).
+word(different, 491, 1348, 2).
+word(class, 491, 1348, 3).
+word(think, 491, 1349, 1).
+word(release, 491, 1349, 2).
+word(code, 491, 1349, 4).
+word(promise, 491, 1349, 6).
+word(interesting, 491, 1978, 0).
+word(new, 491, 1978, 1).
+word(idea, 491, 1978, 2).
+word(statement, 491, 1978, 6).
+word(paper, 491, 1978, 9).
+word(clear, 491, 1978, 12).
+word(provide, 491, 2055, 3).
+word(meaningful, 491, 2055, 5).
+word(comparison, 491, 2055, 6).
+word(application, 491, 2055, 10).
+word(approach, 491, 2055, 13).
+word(appear, 491, 2055, 14).
+word(novel, 491, 2055, 16).
+word(interesting, 491, 2121, 0).
+word(new, 491, 2121, 1).
+word(idea, 491, 2121, 2).
+word(propose, 491, 2121, 6).
+word(method, 491, 2121, 7).
+word(evaluate, 491, 2121, 9).
+word(dataset, 491, 2121, 13).
+word(think, 491, 2513, 1).
+word(release, 491, 2513, 2).
+word(code, 491, 2513, 4).
+word(promise, 491, 2513, 6).
+word(physician, 491, 2513, 18).
+word(take, 491, 2513, 19).
+word(care, 491, 2513, 20).
+word(population, 491, 2513, 24).
+word(subject, 491, 2521, 0).
+word(different, 491, 2521, 2).
+word(class, 491, 2521, 3).
+word(easily, 491, 2521, 10).
+word(set, 491, 2521, 12).
+word(default, 491, 2521, 14).
+word(value, 491, 2521, 15).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(491, 252, 0, 0, 1, 0, 0, 0, 0, 0).
+sentiment(491, 319, 0, 0, 1, 0, 0, 0, 0, 0).
+sentiment(491, 1348, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(491, 1349, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(491, 1978, 0, -1, 1, 0, 0, 0, 0, 0).
+sentiment(491, 2055, 0, 0, 1, 0, -1, 0, 0, 0).
+sentiment(491, 2121, 0, 0, 1, 0, 0, 0, -1, 0).
+sentiment(491, 2513, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(491, 2521, 0, 0, 0, 0, 0, 0, 0, 0).

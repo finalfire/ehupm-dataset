@@ -1,0 +1,41 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(8611,861,5,4).
+% id paper, Reject/Accept
+paperProperties(861, 0).
+% sourceId, line
+sentence(8611,1510).
+sentence(8611,2307).
+sentence(8611,2398).
+% W, sourceId, line, position
+word(page, 8611, 1510, 1).
+word(long, 8611, 1510, 4).
+word(page, 8611, 1510, 7).
+word(suggest, 8611, 1510, 10).
+word(page, 8611, 1510, 11).
+word(limit, 8611, 1510, 12).
+word(page, 8611, 2307, 1).
+word(long, 8611, 2307, 4).
+word(page, 8611, 2307, 7).
+word(suggested, 8611, 2307, 10).
+word(page, 8611, 2307, 11).
+word(limit, 8611, 2307, 12).
+word(steganalysis, 8611, 2307, 15).
+word(like, 8611, 2307, 19).
+word(classification, 8611, 2307, 21).
+word(problem, 8611, 2307, 22).
+word(page, 8611, 2398, 1).
+word(long, 8611, 2398, 4).
+word(page, 8611, 2398, 7).
+word(suggested, 8611, 2398, 10).
+word(page, 8611, 2398, 11).
+word(limit, 8611, 2398, 12).
+word(transport, 8611, 2398, 16).
+word(cost, 8611, 2398, 17).
+word(sinkhorn, 8611, 2398, 22).
+word(learn, 8611, 2398, 25).
+word(adversarial, 8611, 2398, 28).
+word(fashion, 8611, 2398, 29).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(8611, 1510, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8611, 2307, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8611, 2398, 0, 0, 0, 0, 0, 0, 0, 0).

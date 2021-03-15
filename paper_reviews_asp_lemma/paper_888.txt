@@ -1,0 +1,57 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(8881,888,4,5).
+% id paper, Reject/Accept
+paperProperties(888, 0).
+% sourceId, line
+sentence(8881,716).
+sentence(8881,748).
+sentence(8881,2509).
+% W, sourceId, line, position
+word(time, 8881, 716, 2).
+word(split, 8881, 716, 4).
+word(dataset, 8881, 716, 5).
+word(course, 8881, 716, 8).
+word(challenging, 8881, 716, 10).
+word(like, 8881, 748, 4).
+word(suggest, 8881, 748, 6).
+word(community, 8881, 748, 11).
+word(start, 8881, 748, 13).
+word(step, 8881, 748, 15).
+word(away, 8881, 748, 16).
+word(task, 8881, 748, 19).
+word(rating, 8881, 748, 21).
+word(prediction, 8881, 748, 22).
+word(especially, 8881, 748, 29).
+word(machine, 8881, 748, 32).
+word(learn, 8881, 748, 34).
+word(orient, 8881, 748, 36).
+word(venue, 8881, 748, 37).
+word(nip, 8881, 748, 39).
+word(icml, 8881, 748, 41).
+word(iclr, 8881, 748, 43).
+word(etc, 8881, 748, 45).
+word(follow, 8881, 2509, 2).
+word(issue, 8881, 2509, 3).
+word(paper, 8881, 2509, 6).
+word(like, 8881, 2509, 13).
+word(suggest, 8881, 2509, 15).
+word(community, 8881, 2509, 20).
+word(start, 8881, 2509, 22).
+word(step, 8881, 2509, 24).
+word(away, 8881, 2509, 25).
+word(task, 8881, 2509, 28).
+word(rating, 8881, 2509, 30).
+word(prediction, 8881, 2509, 31).
+word(especially, 8881, 2509, 38).
+word(machine, 8881, 2509, 41).
+word(learn, 8881, 2509, 43).
+word(orient, 8881, 2509, 45).
+word(venue, 8881, 2509, 46).
+word(nip, 8881, 2509, 48).
+word(icml, 8881, 2509, 50).
+word(iclr, 8881, 2509, 52).
+word(etc, 8881, 2509, 54).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(8881, 716, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8881, 748, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8881, 2509, 0, 0, 0, 0, 0, 0, 0, 0).

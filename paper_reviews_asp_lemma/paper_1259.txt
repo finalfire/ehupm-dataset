@@ -1,0 +1,87 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(12591,1259,4,4).
+source(12592,1259,5,3).
+% id paper, Reject/Accept
+paperProperties(1259, 0).
+% sourceId, line
+sentence(12591,1680).
+sentence(12591,1681).
+sentence(12591,1957).
+sentence(12591,2312).
+sentence(12591,2411).
+sentence(12592,700).
+sentence(12592,1935).
+% W, sourceId, line, position
+word(correct, 12591, 1680, 3).
+word(think, 12591, 1680, 5).
+word(htt, 12591, 1680, 14).
+word(ht, 12591, 1680, 18).
+word(lt, 12591, 1680, 20).
+word(second, 12591, 1681, 1).
+word(point, 12591, 1681, 2).
+word(hold, 12591, 1681, 5).
+word(term, 12591, 1681, 9).
+word(reasonably, 12591, 1681, 11).
+word(small, 12591, 1681, 12).
+word(obvious, 12591, 1681, 19).
+word(second, 12591, 1957, 1).
+word(point, 12591, 1957, 2).
+word(hold, 12591, 1957, 5).
+word(term, 12591, 1957, 9).
+word(reasonably, 12591, 1957, 11).
+word(small, 12591, 1957, 12).
+word(obvious, 12591, 1957, 19).
+word(quality, 12591, 1957, 24).
+word(clarify, 12591, 1957, 26).
+word(find, 12591, 1957, 29).
+word(paper, 12591, 1957, 31).
+word(poorly, 12591, 1957, 34).
+word(write, 12591, 1957, 35).
+word(relatively, 12591, 1957, 37).
+word(hard, 12591, 1957, 38).
+word(understand, 12591, 1957, 40).
+word(correct, 12591, 2312, 3).
+word(think, 12591, 2312, 5).
+word(htt, 12591, 2312, 14).
+word(ht, 12591, 2312, 18).
+word(lt, 12591, 2312, 20).
+word(line, 12591, 2312, 28).
+word(hypothesis, 12591, 2312, 33).
+word(class, 12591, 2312, 34).
+word(set, 12591, 2312, 38).
+word(correct, 12591, 2411, 3).
+word(think, 12591, 2411, 5).
+word(htt, 12591, 2411, 14).
+word(ht, 12591, 2411, 18).
+word(lt, 12591, 2411, 20).
+word(page, 12591, 2411, 27).
+word(softmax, 12591, 2411, 31).
+word(gumbel, 12591, 2411, 33).
+word(tricksoftmax, 12591, 2411, 34).
+word(gumbel, 12591, 2411, 36).
+word(trick, 12591, 2411, 37).
+word(gumbel, 12591, 2411, 39).
+word(softmaxgumbel, 12591, 2411, 41).
+word(softmax, 12591, 2411, 43).
+word(dataset, 12592, 700, 1).
+word(small, 12592, 700, 4).
+word(number, 12592, 700, 9).
+word(long, 12592, 700, 13).
+word(sequence, 12592, 700, 14).
+word(dataset, 12592, 1935, 1).
+word(small, 12592, 1935, 4).
+word(number, 12592, 1935, 9).
+word(long, 12592, 1935, 13).
+word(sequence, 12592, 1935, 14).
+word(paper, 12592, 1935, 18).
+word(write, 12592, 1935, 21).
+word(easily, 12592, 1935, 25).
+word(understand, 12592, 1935, 26).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(12591, 1680, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(12591, 1681, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(12591, 1957, 0, -1, 0, -1, 0, 0, 0, 0).
+sentiment(12591, 2312, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(12591, 2411, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(12592, 700, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(12592, 1935, 0, 1, 0, 0, 0, 0, -1, 0).

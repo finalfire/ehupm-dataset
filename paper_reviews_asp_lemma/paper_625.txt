@@ -1,0 +1,39 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(6253,625,4,3).
+% id paper, Reject/Accept
+paperProperties(625, 1).
+% sourceId, line
+sentence(6253,847).
+sentence(6253,848).
+sentence(6253,1840).
+% W, sourceId, line, position
+word(convince, 6253, 847, 4).
+word(supervised, 6253, 847, 7).
+word(second, 6253, 847, 8).
+word(step, 6253, 847, 9).
+word(section, 6253, 847, 11).
+word(word, 6253, 848, 2).
+word(section, 6253, 848, 5).
+word(add, 6253, 848, 9).
+word(new, 6253, 848, 11).
+word(information, 6253, 848, 12).
+word(infer, 6253, 848, 18).
+word(give, 6253, 848, 19).
+word(stage, 6253, 848, 23).
+word(alignment, 6253, 848, 24).
+word(successful, 6253, 848, 27).
+word(convince, 6253, 1840, 4).
+word(supervised, 6253, 1840, 7).
+word(second, 6253, 1840, 8).
+word(step, 6253, 1840, 9).
+word(section, 6253, 1840, 11).
+word(wonder, 6253, 1840, 16).
+word(standard, 6253, 1840, 20).
+word(vae, 6253, 1840, 21).
+word(improve, 6253, 1840, 23).
+word(powerful, 6253, 1840, 28).
+word(decoder, 6253, 1840, 29).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(6253, 847, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(6253, 848, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6253, 1840, 0, -1, 0, -1, 0, 0, 0, 0).

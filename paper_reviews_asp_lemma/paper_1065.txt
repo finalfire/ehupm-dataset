@@ -1,0 +1,76 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(10651,1065,6,3).
+source(10652,1065,5,4).
+% id paper, Reject/Accept
+paperProperties(1065, 0).
+% sourceId, line
+sentence(10651,118).
+sentence(10652,992).
+sentence(10652,1893).
+sentence(10652,1948).
+sentence(10652,1953).
+sentence(10652,2051).
+% W, sourceId, line, position
+word(issue, 10651, 118, 3).
+word(paper, 10651, 118, 6).
+word(soundness, 10652, 992, 0).
+word(far, 10652, 992, 3).
+word(tell, 10652, 992, 7).
+word(work, 10652, 992, 10).
+word(sound, 10652, 992, 12).
+word(soundness, 10652, 1893, 0).
+word(far, 10652, 1893, 3).
+word(tell, 10652, 1893, 7).
+word(work, 10652, 1893, 10).
+word(sound, 10652, 1893, 12).
+word(maybe, 10652, 1893, 15).
+word(paper, 10652, 1893, 17).
+word(fit, 10652, 1893, 18).
+word(well, 10652, 1893, 19).
+word(application, 10652, 1893, 22).
+word(target, 10652, 1893, 23).
+word(conference, 10652, 1893, 24).
+word(iclr, 10652, 1893, 28).
+word(soundness, 10652, 1948, 0).
+word(far, 10652, 1948, 3).
+word(tell, 10652, 1948, 7).
+word(work, 10652, 1948, 10).
+word(sound, 10652, 1948, 12).
+word(end, 10652, 1948, 17).
+word(unable, 10652, 1948, 21).
+word(interpret, 10652, 1948, 24).
+word(experiment, 10652, 1948, 27).
+word(try, 10652, 1948, 29).
+word(make, 10652, 1948, 35).
+word(hard, 10652, 1948, 37).
+word(tell, 10652, 1948, 41).
+word(method, 10652, 1948, 44).
+word(actually, 10652, 1948, 45).
+word(work, 10652, 1948, 46).
+word(improve, 10652, 1948, 48).
+word(claim, 10652, 1953, 1).
+word(problematic, 10652, 1953, 4).
+word(reason, 10652, 1953, 7).
+word(soundness, 10652, 1953, 10).
+word(far, 10652, 1953, 13).
+word(tell, 10652, 1953, 17).
+word(work, 10652, 1953, 20).
+word(sound, 10652, 1953, 22).
+word(soundness, 10652, 2051, 0).
+word(far, 10652, 2051, 3).
+word(tell, 10652, 2051, 7).
+word(work, 10652, 2051, 10).
+word(sound, 10652, 2051, 12).
+word(signal, 10652, 2051, 17).
+word(different, 10652, 2051, 19).
+word(window, 10652, 2051, 20).
+word(intermix, 10652, 2051, 22).
+word(define, 10652, 2051, 28).
+word(window, 10652, 2051, 30).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(10651, 118, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10652, 992, 0, 0, 1, 0, 0, 0, 0, 0).
+sentiment(10652, 1893, -1, 0, 1, 0, 0, 0, 0, 0).
+sentiment(10652, 1948, 0, 0, 1, -1, 0, 0, 0, 0).
+sentiment(10652, 1953, 0, 0, 1, -1, 0, 0, 0, 0).
+sentiment(10652, 2051, 0, 0, 1, -1, 0, 0, 0, 0).

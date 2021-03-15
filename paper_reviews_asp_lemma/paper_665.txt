@@ -1,0 +1,148 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(6651,665,8,5).
+source(6652,665,8,5).
+% id paper, Reject/Accept
+paperProperties(665, 1).
+% sourceId, line
+sentence(6651,971).
+sentence(6651,972).
+sentence(6651,973).
+sentence(6651,2212).
+sentence(6651,2240).
+sentence(6651,2251).
+sentence(6651,2268).
+sentence(6651,2485).
+sentence(6652,974).
+sentence(6652,2563).
+% W, sourceId, line, position
+word(task, 6651, 971, 4).
+word(include, 6651, 971, 6).
+word(new, 6651, 972, 1).
+word(approach, 6651, 972, 2).
+word(unsupervise, 6651, 972, 10).
+word(task, 6651, 972, 11).
+word(suggest, 6651, 973, 2).
+word(include, 6651, 973, 3).
+word(citation, 6651, 973, 4).
+word(dataset, 6651, 973, 7).
+word(task, 6651, 973, 9).
+word(method, 6651, 973, 11).
+word(result, 6651, 973, 13).
+word(report, 6651, 973, 16).
+word(task, 6651, 2212, 4).
+word(include, 6651, 2212, 6).
+word(fig, 6651, 2212, 11).
+word(task, 6651, 2240, 4).
+word(include, 6651, 2240, 6).
+word(fever, 6651, 2240, 12).
+word(model, 6651, 2240, 13).
+word(suddenly, 6651, 2240, 14).
+word(shoot, 6651, 2240, 15).
+word(suggest, 6651, 2251, 2).
+word(include, 6651, 2251, 3).
+word(citation, 6651, 2251, 4).
+word(dataset, 6651, 2251, 7).
+word(task, 6651, 2251, 9).
+word(method, 6651, 2251, 11).
+word(result, 6651, 2251, 13).
+word(report, 6651, 2251, 16).
+word(example, 6651, 2251, 20).
+word(author, 6651, 2251, 23).
+word(state, 6651, 2251, 24).
+word(accurate, 6651, 2251, 28).
+word(method, 6651, 2251, 29).
+word(brute, 6651, 2251, 34).
+word(force, 6651, 2251, 36).
+word(new, 6651, 2268, 1).
+word(approach, 6651, 2268, 2).
+word(unsupervised, 6651, 2268, 10).
+word(task, 6651, 2268, 11).
+word(main, 6651, 2268, 15).
+word(goal, 6651, 2268, 16).
+word(explore, 6651, 2268, 19).
+word(strategy, 6651, 2268, 21).
+word(apply, 6651, 2268, 23).
+word(network, 6651, 2268, 25).
+word(train, 6651, 2268, 26).
+word(category, 6651, 2268, 29).
+word(imagenet, 6651, 2268, 31).
+word(image, 6651, 2268, 34).
+word(category, 6651, 2268, 38).
+word(take, 6651, 2268, 40).
+word(different, 6651, 2268, 42).
+word(condition, 6651, 2268, 43).
+word(basically, 6651, 2268, 45).
+word(take, 6651, 2268, 46).
+word(webcam, 6651, 2268, 49).
+word(task, 6651, 2485, 4).
+word(include, 6651, 2485, 6).
+word(validate, 6651, 2485, 10).
+word(applicability, 6651, 2485, 12).
+word(different, 6651, 2485, 14).
+word(task, 6651, 2485, 15).
+word(domain, 6651, 2485, 17).
+word(small, 6652, 974, 3).
+word(linger, 6652, 974, 4).
+word(concern, 6652, 974, 5).
+word(big, 6652, 974, 10).
+word(warrant, 6652, 974, 13).
+word(acceptance, 6652, 974, 14).
+word(r2, 6652, 974, 16).
+word(point, 6652, 974, 18).
+word(valid, 6652, 974, 21).
+word(use, 6652, 974, 24).
+word(multiple, 6652, 974, 26).
+word(rnn, 6652, 974, 27).
+word(train, 6652, 974, 28).
+word(different, 6652, 974, 30).
+word(objective, 6652, 974, 31).
+word(ablation, 6652, 974, 34).
+word(experiment, 6652, 974, 35).
+word(unexpected, 6652, 974, 36).
+word(unusual, 6652, 974, 38).
+word(deserve, 6652, 974, 41).
+word(mention, 6652, 974, 42).
+word(body, 6652, 974, 45).
+word(paper, 6652, 974, 48).
+word(appendix, 6652, 974, 55).
+word(small, 6652, 2563, 3).
+word(linger, 6652, 2563, 4).
+word(concern, 6652, 2563, 5).
+word(big, 6652, 2563, 10).
+word(warrant, 6652, 2563, 13).
+word(acceptance, 6652, 2563, 14).
+word(r2, 6652, 2563, 16).
+word(point, 6652, 2563, 18).
+word(valid, 6652, 2563, 21).
+word(use, 6652, 2563, 24).
+word(multiple, 6652, 2563, 26).
+word(rnn, 6652, 2563, 27).
+word(train, 6652, 2563, 28).
+word(different, 6652, 2563, 30).
+word(objective, 6652, 2563, 31).
+word(ablation, 6652, 2563, 34).
+word(experiment, 6652, 2563, 35).
+word(unexpected, 6652, 2563, 36).
+word(unusual, 6652, 2563, 38).
+word(deserve, 6652, 2563, 41).
+word(mention, 6652, 2563, 42).
+word(body, 6652, 2563, 45).
+word(paper, 6652, 2563, 48).
+word(appendix, 6652, 2563, 55).
+word(justification, 6652, 2563, 59).
+word(choice, 6652, 2563, 62).
+word(bin, 6652, 2563, 65).
+word(relu, 6652, 2563, 67).
+word(case, 6652, 2563, 68).
+word(helpful, 6652, 2563, 71).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(6651, 971, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6651, 972, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6651, 973, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6651, 2212, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6651, 2240, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6651, 2251, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6651, 2268, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6651, 2485, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6652, 974, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6652, 2563, 0, 0, 0, 0, 0, 0, 0, 0).

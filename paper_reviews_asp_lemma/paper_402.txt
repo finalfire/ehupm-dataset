@@ -1,0 +1,43 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(4022,402,6,4).
+source(4023,402,5,4).
+% id paper, Reject/Accept
+paperProperties(402, 0).
+% sourceId, line
+sentence(4022,0).
+sentence(4023,21).
+% W, sourceId, line, position
+word(overall, 4022, 0, 0).
+word(paper, 4022, 0, 2).
+word(dataset, 4022, 0, 5).
+word(likely, 4022, 0, 7).
+word(interesting, 4022, 0, 9).
+word(contribution, 4022, 0, 10).
+word(potential, 4022, 0, 17).
+word(issue, 4022, 0, 18).
+word(idea, 4023, 21, 1).
+word(attention, 4023, 21, 4).
+word(policy, 4023, 21, 5).
+word(take, 4023, 21, 7).
+word(advantage, 4023, 21, 8).
+word(expert, 4023, 21, 10).
+word(knowledge, 4023, 21, 11).
+word(nice, 4023, 21, 14).
+word(contribution, 4023, 21, 15).
+word(limit, 4023, 21, 20).
+word(novelty, 4023, 21, 21).
+word(example, 4023, 21, 24).
+word(maddison, 4023, 21, 26).
+word(tarlow, 4023, 21, 28).
+word(paper, 4023, 21, 30).
+word(author, 4023, 21, 34).
+word(cite, 4023, 21, 35).
+word(scope, 4023, 21, 38).
+word(rule, 4023, 21, 39).
+word(track, 4023, 21, 41).
+word(previously, 4023, 21, 42).
+word(identifier, 4023, 21, 44).
+word(scope, 4023, 21, 46).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(4022, 0, 0, 0, 0, 0, 0, 1, 0, 0).
+sentiment(4023, 21, 0, 0, 0, 0, 0, -1, 0, 0).

@@ -1,0 +1,115 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(1171,117,7,4).
+source(1172,117,7,4).
+source(1173,117,7,4).
+% id paper, Reject/Accept
+paperProperties(117, 1).
+% sourceId, line
+sentence(1171,1105).
+sentence(1171,2464).
+sentence(1171,2499).
+sentence(1172,1104).
+sentence(1172,2404).
+sentence(1172,2570).
+sentence(1173,1103).
+sentence(1173,2512).
+% W, sourceId, line, position
+word(add, 1171, 1105, 2).
+word(related, 1171, 1105, 5).
+word(work, 1171, 1105, 6).
+word(section, 1171, 1105, 7).
+word(add, 1171, 2464, 2).
+word(related, 1171, 2464, 5).
+word(work, 1171, 2464, 6).
+word(section, 1171, 2464, 7).
+word(think, 1171, 2464, 13).
+word(important, 1171, 2464, 16).
+word(assess, 1171, 2464, 18).
+word(generality, 1171, 2464, 20).
+word(approach, 1171, 2464, 23).
+word(necessary, 1171, 2499, 0).
+word(paper, 1171, 2499, 3).
+word(add, 1171, 2499, 8).
+word(related, 1171, 2499, 11).
+word(work, 1171, 2499, 12).
+word(section, 1171, 2499, 13).
+word(txt, 1172, 1104, 0).
+word(person, 1172, 1104, 4).
+word(name, 1172, 1104, 5).
+word(george, 1172, 1104, 7).
+word(abbot, 1172, 1104, 8).
+word(abbot, 1172, 1104, 13).
+word(mention, 1172, 1104, 17).
+word(sentence, 1172, 1104, 22).
+word(token, 1172, 1104, 24).
+word(later, 1172, 1104, 25).
+word(abbot, 1172, 1104, 32).
+word(token, 1172, 1104, 36).
+word(txt, 1172, 2404, 0).
+word(person, 1172, 2404, 4).
+word(name, 1172, 2404, 5).
+word(george, 1172, 2404, 7).
+word(abbot, 1172, 2404, 8).
+word(abbot, 1172, 2404, 13).
+word(mention, 1172, 2404, 17).
+word(sentence, 1172, 2404, 22).
+word(token, 1172, 2404, 24).
+word(later, 1172, 2404, 25).
+word(abbot, 1172, 2404, 32).
+word(token, 1172, 2404, 36).
+word(formula, 1172, 2404, 43).
+word(completely, 1172, 2404, 47).
+word(superfluous, 1172, 2404, 48).
+word(txt, 1172, 2570, 0).
+word(person, 1172, 2570, 4).
+word(name, 1172, 2570, 5).
+word(george, 1172, 2570, 7).
+word(abbot, 1172, 2570, 8).
+word(abbot, 1172, 2570, 13).
+word(mention, 1172, 2570, 17).
+word(sentence, 1172, 2570, 22).
+word(token, 1172, 2570, 24).
+word(later, 1172, 2570, 25).
+word(abbot, 1172, 2570, 32).
+word(token, 1172, 2570, 36).
+word(grammatical, 1172, 2570, 44).
+word(error, 1172, 2570, 45).
+word(wrong, 1172, 2570, 47).
+word(tense, 1172, 2570, 48).
+word(use, 1172, 2570, 49).
+word(misuse, 1172, 2570, 51).
+word(like, 1173, 1103, 3).
+word(see, 1173, 1103, 6).
+word(happen, 1173, 1103, 8).
+word(attention, 1173, 1103, 11).
+word(apply, 1173, 1103, 13).
+word(large, 1173, 1103, 17).
+word(context, 1173, 1103, 18).
+word(size, 1173, 1103, 19).
+word(like, 1173, 2512, 3).
+word(see, 1173, 2512, 6).
+word(happen, 1173, 2512, 8).
+word(attention, 1173, 2512, 11).
+word(apply, 1173, 2512, 13).
+word(large, 1173, 2512, 17).
+word(context, 1173, 2512, 18).
+word(size, 1173, 2512, 19).
+word(page, 1173, 2512, 23).
+word(choose, 1173, 2512, 28).
+word(copy, 1173, 2512, 30).
+word(pixel, 1173, 2512, 31).
+word(previous, 1173, 2512, 34).
+word(frame, 1173, 2512, 35).
+word(transform, 1173, 2512, 38).
+word(version, 1173, 2512, 39).
+word(previous, 1173, 2512, 42).
+word(frame, 1173, 2512, 43).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(1171, 1105, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1171, 2464, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1171, 2499, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1172, 1104, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1172, 2404, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1172, 2570, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1173, 1103, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1173, 2512, 0, 0, 0, 0, 0, 0, 0, 0).

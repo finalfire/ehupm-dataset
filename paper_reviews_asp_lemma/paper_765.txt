@@ -1,0 +1,20 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(7652,765,5,4).
+% id paper, Reject/Accept
+paperProperties(765, 1).
+% sourceId, line
+sentence(7652,1666).
+% W, sourceId, line, position
+word(like, 7652, 1666, 4).
+word(example, 7652, 1666, 8).
+word(question, 7652, 1666, 10).
+word(answer, 7652, 1666, 13).
+word(correctly, 7652, 1666, 14).
+word(level, 7652, 1666, 16).
+word(level, 7652, 1666, 21).
+word(example, 7652, 1666, 27).
+word(intuition, 7652, 1666, 32).
+word(level, 7652, 1666, 37).
+word(work, 7652, 1666, 38).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(7652, 1666, 0, 0, 0, 0, 0, 0, 0, 0).

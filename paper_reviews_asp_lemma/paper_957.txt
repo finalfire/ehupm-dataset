@@ -1,0 +1,54 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(9571,957,4,5).
+% id paper, Reject/Accept
+paperProperties(957, 0).
+% sourceId, line
+sentence(9571,144).
+sentence(9571,929).
+sentence(9571,2225).
+sentence(9571,2227).
+% W, sourceId, line, position
+word(overall, 9571, 144, 0).
+word(think, 9571, 144, 3).
+word(contribution, 9571, 144, 5).
+word(paper, 9571, 144, 8).
+word(marginal, 9571, 144, 11).
+word(acceptance, 9571, 144, 13).
+word(tier, 9571, 144, 17).
+word(conference, 9571, 144, 18).
+word(similary, 9571, 929, 0).
+word(hand, 9571, 929, 8).
+word(ensemble, 9571, 929, 11).
+word(model, 9571, 929, 12).
+word(explain, 9571, 929, 14).
+word(performance, 9571, 929, 16).
+word(improvement, 9571, 929, 17).
+word(easily, 9571, 929, 18).
+word(issue, 9571, 2225, 2).
+word(paper, 9571, 2225, 5).
+word(similary, 9571, 2225, 8).
+word(hand, 9571, 2225, 16).
+word(ensemble, 9571, 2225, 19).
+word(model, 9571, 2225, 20).
+word(explain, 9571, 2225, 22).
+word(performance, 9571, 2225, 24).
+word(improvement, 9571, 2225, 25).
+word(easily, 9571, 2225, 26).
+word(similary, 9571, 2227, 0).
+word(hand, 9571, 2227, 8).
+word(ensemble, 9571, 2227, 11).
+word(model, 9571, 2227, 12).
+word(explain, 9571, 2227, 14).
+word(performance, 9571, 2227, 16).
+word(improvement, 9571, 2227, 17).
+word(easily, 9571, 2227, 18).
+word(fact, 9571, 2227, 22).
+word(original, 9571, 2227, 24).
+word(paper, 9571, 2227, 25).
+word(report, 9571, 2227, 26).
+word(experiment, 9571, 2227, 28).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(9571, 144, -1, 0, 0, 0, 0, 0, -1, 0).
+sentiment(9571, 929, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9571, 2225, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9571, 2227, 0, 0, 0, 0, 0, 0, 0, 0).

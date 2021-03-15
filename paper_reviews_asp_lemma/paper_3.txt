@@ -1,0 +1,68 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(31,3,7,4).
+source(32,3,8,5).
+source(33,3,8,4).
+% id paper, Reject/Accept
+paperProperties(3, 1).
+% sourceId, line
+sentence(31,650).
+sentence(31,1491).
+sentence(31,1521).
+sentence(31,2066).
+sentence(32,288).
+sentence(32,385).
+sentence(32,2069).
+sentence(33,451).
+% W, sourceId, line, position
+word(detail, 31, 650, 1).
+word(give, 31, 650, 3).
+word(new, 31, 650, 11).
+word(dataset, 31, 650, 12).
+word(ask, 31, 1491, 4).
+word(implement, 31, 1491, 10).
+word(zhang, 31, 1491, 11).
+word(et, 31, 1491, 12).
+word(good, 31, 1521, 4).
+word(way, 31, 1521, 5).
+word(help, 31, 1521, 7).
+word(avoid, 31, 1521, 8).
+word(local, 31, 1521, 9).
+word(optimum, 31, 1521, 10).
+word(paper, 31, 2066, 1).
+word(propose, 31, 2066, 2).
+word(new, 31, 2066, 4).
+word(certainly, 31, 2066, 7).
+word(true, 31, 2066, 9).
+word(give, 31, 2066, 10).
+word(datum, 31, 2066, 11).
+word(interesting, 32, 288, 3).
+word(direction, 32, 288, 4).
+word(conclusion, 32, 385, 3).
+word(convincing, 32, 385, 6).
+word(interesting, 32, 2069, 3).
+word(direction, 32, 2069, 4).
+word(finding, 32, 2069, 9).
+word(show, 32, 2069, 11).
+word(experiment, 32, 2069, 12).
+word(interesting, 32, 2069, 14).
+word(sure, 32, 2069, 19).
+word(scale, 32, 2069, 22).
+word(contribution, 32, 2069, 26).
+word(significant, 32, 2069, 28).
+word(main, 32, 2069, 32).
+word(conference, 32, 2069, 33).
+word(track, 32, 2069, 34).
+word(encourage, 33, 451, 1).
+word(author, 33, 451, 3).
+word(look, 33, 451, 5).
+word(follow, 33, 451, 8).
+word(paper, 33, 451, 9).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(31, 650, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(31, 1491, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(31, 1521, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(31, 2066, 0, 0, 1, -1, 0, 0, 0, 0).
+sentiment(32, 288, 0, 0, 1, 0, 0, 0, 0, 0).
+sentiment(32, 385, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(32, 2069, 0, 0, 1, 0, -1, 0, 0, 0).
+sentiment(33, 451, 0, 0, 0, 0, -1, 0, 0, 0).

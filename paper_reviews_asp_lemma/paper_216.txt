@@ -1,0 +1,27 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(2161,216,4,4).
+% id paper, Reject/Accept
+paperProperties(216, 0).
+% sourceId, line
+sentence(2161,1421).
+% W, sourceId, line, position
+word(baffle, 2161, 1421, 3).
+word(cca, 2161, 1421, 5).
+word(recover, 2161, 1421, 8).
+word(true, 2161, 1421, 10).
+word(subspace, 2161, 1421, 11).
+word(arguably, 2161, 1421, 13).
+word(level, 2161, 1421, 17).
+word(additive, 2161, 1421, 19).
+word(noise, 2161, 1421, 20).
+word(impact, 2161, 1421, 23).
+word(recoverability, 2161, 1421, 25).
+word(propose, 2161, 1421, 29).
+word(method, 2161, 1421, 30).
+word(nearly, 2161, 1421, 32).
+word(exact, 2161, 1421, 33).
+word(noise, 2161, 1421, 36).
+word(level, 2161, 1421, 37).
+word(severe, 2161, 1421, 42).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(2161, 1421, 0, 0, 0, 0, 0, 0, 0, 0).

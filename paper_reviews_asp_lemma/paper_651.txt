@@ -1,0 +1,67 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(6512,651,6,3).
+source(6513,651,6,3).
+% id paper, Reject/Accept
+paperProperties(651, 1).
+% sourceId, line
+sentence(6512,1528).
+sentence(6512,2042).
+sentence(6512,2164).
+sentence(6513,1529).
+% W, sourceId, line, position
+word(simply, 6512, 1528, 2).
+word(throw, 6512, 1528, 3).
+word(new, 6512, 1528, 6).
+word(method, 6512, 1528, 7).
+word(new, 6512, 1528, 10).
+word(helpful, 6512, 1528, 16).
+word(understand, 6512, 1528, 18).
+word(step, 6512, 1528, 21).
+word(method, 6512, 1528, 24).
+word(implicitly, 6512, 1528, 26).
+word(simply, 6512, 2042, 2).
+word(throw, 6512, 2042, 3).
+word(new, 6512, 2042, 6).
+word(method, 6512, 2042, 7).
+word(new, 6512, 2042, 10).
+word(helpful, 6512, 2042, 16).
+word(understand, 6512, 2042, 18).
+word(step, 6512, 2042, 21).
+word(method, 6512, 2042, 24).
+word(implicitly, 6512, 2042, 26).
+word(strength, 6512, 2042, 30).
+word(approach, 6512, 2042, 32).
+word(semi, 6512, 2042, 34).
+word(supervised, 6512, 2042, 36).
+word(make, 6512, 2042, 38).
+word(use, 6512, 2042, 39).
+word(unlabeled, 6512, 2042, 41).
+word(weakly, 6512, 2042, 43).
+word(label, 6512, 2042, 44).
+word(datum, 6512, 2042, 45).
+word(outperform, 6512, 2042, 47).
+word(baseline, 6512, 2042, 49).
+word(wide, 6512, 2042, 52).
+word(margin, 6512, 2042, 53).
+word(simple, 6512, 2164, 2).
+word(idea, 6512, 2164, 3).
+word(important, 6512, 2164, 6).
+word(problem, 6512, 2164, 7).
+word(simply, 6512, 2164, 12).
+word(throw, 6512, 2164, 13).
+word(new, 6512, 2164, 16).
+word(method, 6512, 2164, 17).
+word(new, 6512, 2164, 20).
+word(helpful, 6512, 2164, 26).
+word(understand, 6512, 2164, 28).
+word(step, 6512, 2164, 31).
+word(method, 6512, 2164, 34).
+word(implicitly, 6512, 2164, 36).
+word(page, 6513, 1529, 0).
+word(equation, 6513, 1529, 4).
+word(o, 6513, 1529, 6).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(6512, 1528, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(6512, 2042, 0, 0, 0, -1, 0, 0, 1, 0).
+sentiment(6512, 2164, 0, 0, 1, -1, 0, 0, 0, 0).
+sentiment(6513, 1529, 0, 0, 0, 0, 0, 0, 0, 0).

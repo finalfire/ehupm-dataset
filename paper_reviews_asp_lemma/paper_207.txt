@@ -1,0 +1,90 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(2071,207,6,4).
+source(2072,207,4,3).
+% id paper, Reject/Accept
+paperProperties(207, 0).
+% sourceId, line
+sentence(2071,6).
+sentence(2071,1261).
+sentence(2071,1262).
+sentence(2071,2043).
+sentence(2072,43).
+sentence(2072,44).
+sentence(2072,45).
+sentence(2072,46).
+% W, sourceId, line, position
+word(result, 2071, 6, 1).
+word(indicate, 2071, 6, 2).
+word(approach, 2071, 6, 5).
+word(clearly, 2071, 6, 6).
+word(improve, 2071, 6, 7).
+word(baseline, 2071, 6, 10).
+word(discussion, 2071, 1261, 1).
+word(reviewer, 2071, 1261, 3).
+word(possible, 2071, 1261, 5).
+word(try, 2071, 1261, 10).
+word(assemble, 2071, 1261, 12).
+word(argument, 2071, 1261, 14).
+word(accept, 2071, 1261, 16).
+word(paper, 2071, 1261, 18).
+word(nonetheless, 2071, 1262, 0).
+word(interesting, 2071, 1262, 5).
+word(new, 2071, 1262, 6).
+word(contrasting, 2071, 1262, 7).
+word(approach, 2071, 1262, 8).
+word(exploration, 2071, 1262, 10).
+word(deserve, 2071, 1262, 12).
+word(attention, 2071, 1262, 13).
+word(nonetheless, 2071, 2043, 0).
+word(interesting, 2071, 2043, 5).
+word(new, 2071, 2043, 6).
+word(contrasting, 2071, 2043, 7).
+word(approach, 2071, 2043, 8).
+word(exploration, 2071, 2043, 10).
+word(deserve, 2071, 2043, 12).
+word(attention, 2071, 2043, 13).
+word(paper, 2071, 2043, 17).
+word(write, 2071, 2043, 20).
+word(easy, 2071, 2043, 24).
+word(follow, 2071, 2043, 26).
+word(complaint, 2072, 43, 6).
+word(hashing, 2072, 43, 12).
+word(author, 2072, 43, 15).
+word(able, 2072, 43, 21).
+word(achieve, 2072, 43, 23).
+word(significant, 2072, 43, 24).
+word(improvement, 2072, 43, 25).
+word(past, 2072, 43, 27).
+word(approach, 2072, 43, 28).
+word(feature, 2072, 44, 2).
+word(engineering, 2072, 44, 3).
+word(author, 2072, 44, 7).
+word(achieve, 2072, 44, 8).
+word(fraction, 2072, 44, 11).
+word(performance, 2072, 44, 14).
+word(achieve, 2072, 44, 15).
+word(bellemare, 2072, 44, 17).
+word(et, 2072, 44, 18).
+word(al, 2072, 44, 19).
+word(montezuma, 2072, 44, 22).
+word(revenge, 2072, 44, 24).
+word(propose, 2072, 45, 1).
+word(approach, 2072, 45, 2).
+word(control, 2072, 45, 5).
+word(domain, 2072, 45, 6).
+word(author, 2072, 45, 9).
+word(outperform, 2072, 45, 13).
+word(vime, 2072, 45, 14).
+word(experimentally, 2072, 46, 1).
+word(hard, 2072, 46, 6).
+word(justify, 2072, 46, 8).
+word(approach, 2072, 46, 10).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(2071, 6, 0, 0, 0, 0, 0, 1, 0, 0).
+sentiment(2071, 1261, 0, 0, 0, 0, 0, 0, 0, 1).
+sentiment(2071, 1262, 0, 0, 1, 0, 0, 0, 0, 0).
+sentiment(2071, 2043, 0, 1, 1, 0, 0, 0, 0, 0).
+sentiment(2072, 43, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(2072, 44, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(2072, 45, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(2072, 46, 0, 0, 0, 0, 0, -1, 0, 0).

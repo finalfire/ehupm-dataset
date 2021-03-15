@@ -1,0 +1,74 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(1421,142,5,4).
+source(1423,142,7,4).
+% id paper, Reject/Accept
+paperProperties(142, 1).
+% sourceId, line
+sentence(1421,520).
+sentence(1421,1446).
+sentence(1421,2288).
+sentence(1421,2490).
+sentence(1423,1447).
+sentence(1423,1448).
+sentence(1423,2574).
+% W, sourceId, line, position
+word(particular, 1421, 520, 1).
+word(comparison, 1421, 520, 4).
+word(update, 1421, 1446, 1).
+word(concern, 1421, 1446, 3).
+word(section, 1421, 1446, 6).
+word(address, 1421, 1446, 9).
+word(author, 1421, 1446, 12).
+word(update, 1421, 2288, 1).
+word(concern, 1421, 2288, 3).
+word(section, 1421, 2288, 6).
+word(address, 1421, 2288, 9).
+word(author, 1421, 2288, 12).
+word(b, 1421, 2288, 15).
+word(consequence, 1421, 2288, 18).
+word(approximation, 1421, 2288, 21).
+word(error, 1421, 2288, 22).
+word(general, 1421, 2288, 25).
+word(convergence, 1421, 2288, 26).
+word(propose, 1421, 2288, 29).
+word(method, 1421, 2288, 30).
+word(consistency, 1421, 2288, 32).
+word(rate, 1421, 2288, 34).
+word(manzagol, 1421, 2490, 1).
+word(p, 1421, 2490, 3).
+word(update, 1421, 2490, 7).
+word(concern, 1421, 2490, 9).
+word(section, 1421, 2490, 12).
+word(address, 1421, 2490, 15).
+word(author, 1421, 2490, 18).
+word(good, 1423, 1447, 3).
+word(supervision, 1423, 1447, 6).
+word(line, 1423, 1448, 3).
+word(previous, 1423, 1448, 6).
+word(question, 1423, 1448, 7).
+word(dialogue, 1423, 1448, 10).
+word(see, 1423, 1448, 13).
+word(form, 1423, 1448, 16).
+word(noisy, 1423, 1448, 18).
+word(supervision, 1423, 1448, 19).
+word(good, 1423, 2574, 3).
+word(supervision, 1423, 2574, 6).
+word(discussion, 1423, 2574, 12).
+word(cause, 1423, 2574, 15).
+word(difference, 1423, 2574, 18).
+word(elaborate, 1423, 2574, 21).
+word(appear, 1423, 2574, 27).
+word(substantial, 1423, 2574, 30).
+word(difference, 1423, 2574, 31).
+word(policy, 1423, 2574, 35).
+word(policy, 1423, 2574, 39).
+word(fitting, 1423, 2574, 40).
+word(q, 1423, 2574, 43).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(1421, 520, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(1421, 1446, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1421, 2288, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1421, 2490, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1423, 1447, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1423, 1448, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(1423, 2574, 0, 0, 0, 0, 0, 0, 0, 0).

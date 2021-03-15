@@ -1,0 +1,63 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(12183,1218,5,3).
+% id paper, Reject/Accept
+paperProperties(1218, 0).
+% sourceId, line
+sentence(12183,1273).
+sentence(12183,1961).
+sentence(12183,1991).
+% W, sourceId, line, position
+word(observation, 12183, 1273, 2).
+word(assume, 12183, 1273, 5).
+word(prevent, 12183, 1273, 7).
+word(noisy, 12183, 1273, 9).
+word(policy, 12183, 1273, 10).
+word(update, 12183, 1273, 11).
+word(state, 12183, 1273, 13).
+word(typical, 12183, 1273, 17).
+word(appear, 12183, 1273, 20).
+word(expert, 12183, 1273, 23).
+word(demonstration, 12183, 1273, 25).
+word(benefit, 12183, 1273, 26).
+word(imitation, 12183, 1273, 29).
+word(observation, 12183, 1961, 2).
+word(assume, 12183, 1961, 5).
+word(prevent, 12183, 1961, 7).
+word(noisy, 12183, 1961, 9).
+word(policy, 12183, 1961, 10).
+word(update, 12183, 1961, 11).
+word(state, 12183, 1961, 13).
+word(typical, 12183, 1961, 17).
+word(appear, 12183, 1961, 20).
+word(expert, 12183, 1961, 23).
+word(demonstration, 12183, 1961, 25).
+word(benefit, 12183, 1961, 26).
+word(imitation, 12183, 1961, 29).
+word(evaluate, 12183, 1961, 37).
+word(dataset, 12183, 1961, 38).
+word(small, 12183, 1961, 41).
+word(time, 12183, 1961, 42).
+word(point, 12183, 1961, 43).
+word(observation, 12183, 1991, 2).
+word(assume, 12183, 1991, 5).
+word(prevent, 12183, 1991, 7).
+word(noisy, 12183, 1991, 9).
+word(policy, 12183, 1991, 10).
+word(update, 12183, 1991, 11).
+word(state, 12183, 1991, 13).
+word(typical, 12183, 1991, 17).
+word(appear, 12183, 1991, 20).
+word(expert, 12183, 1991, 23).
+word(demonstration, 12183, 1991, 25).
+word(benefit, 12183, 1991, 26).
+word(imitation, 12183, 1991, 29).
+word(related, 12183, 1991, 35).
+word(work, 12183, 1991, 36).
+word(author, 12183, 1991, 39).
+word(cite, 12183, 1991, 42).
+word(highly, 12183, 1991, 45).
+word(relevant, 12183, 1991, 46).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(12183, 1273, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(12183, 1961, 0, 1, 0, 0, 0, 0, -1, 0).
+sentiment(12183, 1991, 0, 1, 0, 0, -1, 0, 0, 0).

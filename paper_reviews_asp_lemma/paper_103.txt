@@ -1,0 +1,65 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(1031,103,7,5).
+source(1032,103,5,4).
+% id paper, Reject/Accept
+paperProperties(103, 1).
+% sourceId, line
+sentence(1031,1085).
+sentence(1031,1940).
+sentence(1031,2073).
+sentence(1032,1084).
+sentence(1032,1788).
+% W, sourceId, line, position
+word(propose, 1031, 1085, 2).
+word(architecture, 1031, 1085, 3).
+word(novel, 1031, 1085, 7).
+word(achieve, 1031, 1085, 10).
+word(promising, 1031, 1085, 11).
+word(result, 1031, 1085, 12).
+word(atari, 1031, 1085, 14).
+word(game, 1031, 1085, 15).
+word(environment, 1031, 1085, 18).
+word(propose, 1031, 1940, 2).
+word(architecture, 1031, 1940, 3).
+word(novel, 1031, 1940, 7).
+word(achieve, 1031, 1940, 10).
+word(promising, 1031, 1940, 11).
+word(result, 1031, 1940, 12).
+word(atari, 1031, 1940, 14).
+word(game, 1031, 1940, 15).
+word(environment, 1031, 1940, 18).
+word(current, 1031, 1940, 23).
+word(work, 1031, 1940, 24).
+word(compare, 1031, 1940, 25).
+word(exist, 1031, 1940, 28).
+word(literature, 1031, 1940, 30).
+word(propose, 1031, 2073, 2).
+word(architecture, 1031, 2073, 3).
+word(novel, 1031, 2073, 7).
+word(achieve, 1031, 2073, 10).
+word(promising, 1031, 2073, 11).
+word(result, 1031, 2073, 12).
+word(atari, 1031, 2073, 14).
+word(game, 1031, 2073, 15).
+word(environment, 1031, 2073, 18).
+word(claim, 1031, 2073, 24).
+word(reference, 1031, 2073, 28).
+word(actual, 1031, 2073, 30).
+word(data, 1031, 2073, 31).
+word(point, 1031, 2073, 32).
+word(instance, 1032, 1084, 1).
+word(paper, 1032, 1084, 4).
+word(fig, 1032, 1084, 9).
+word(stand, 1032, 1788, 2).
+word(submission, 1032, 1788, 5).
+word(read, 1032, 1788, 6).
+word(like, 1032, 1788, 7).
+word(incremental, 1032, 1788, 9).
+word(contribution, 1032, 1788, 10).
+word(stapple, 1032, 1788, 11).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(1031, 1085, 0, 0, -1, 0, 0, 0, 0, 0).
+sentiment(1031, 1940, 0, 0, -1, 0, -1, 0, 0, 0).
+sentiment(1031, 2073, 0, 0, -1, -1, 0, 0, 0, 0).
+sentiment(1032, 1084, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(1032, 1788, 0, 0, 0, 0, 0, 0, 0, 0).

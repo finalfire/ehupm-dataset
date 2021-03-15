@@ -1,0 +1,47 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(7741,774,6,4).
+source(7742,774,6,4).
+source(7743,774,6,4).
+% id paper, Reject/Accept
+paperProperties(774, 1).
+% sourceId, line
+sentence(7741,1374).
+sentence(7742,115).
+sentence(7742,2210).
+sentence(7743,1153).
+sentence(7743,1154).
+% W, sourceId, line, position
+word(work, 7741, 1374, 1).
+word(contribute, 7741, 1374, 2).
+word(understanding, 7741, 1374, 5).
+word(learned, 7741, 1374, 7).
+word(representation, 7741, 1374, 8).
+word(follow, 7741, 1374, 11).
+word(way, 7741, 1374, 12).
+word(properly, 7742, 115, 2).
+word(acknowledge, 7742, 115, 3).
+word(paper, 7742, 115, 6).
+word(properly, 7742, 2210, 2).
+word(acknowledge, 7742, 2210, 3).
+word(paper, 7742, 2210, 6).
+word(add, 7742, 2210, 11).
+word(related, 7742, 2210, 14).
+word(work, 7742, 2210, 15).
+word(section, 7742, 2210, 16).
+word(double, 7743, 1153, 3).
+word(check, 7743, 1153, 4).
+word(display, 7743, 1154, 2).
+word(page, 7743, 1154, 4).
+word(change, 7743, 1154, 7).
+word(x, 7743, 1154, 8).
+word(x, 7743, 1154, 10).
+word(indicate, 7743, 1154, 14).
+word(upper, 7743, 1154, 15).
+word(limit, 7743, 1154, 16).
+word(sum, 7743, 1154, 19).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(7741, 1374, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7742, 115, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7742, 2210, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7743, 1153, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7743, 1154, 0, -1, 0, 0, 0, 0, 0, 0).

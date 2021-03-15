@@ -1,0 +1,65 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(1861,186,7,4).
+% id paper, Reject/Accept
+paperProperties(186, 1).
+% sourceId, line
+sentence(1861,678).
+sentence(1861,1051).
+sentence(1861,2187).
+sentence(1861,2274).
+% W, sourceId, line, position
+word(paper, 1861, 678, 1).
+word(introduce, 1861, 678, 3).
+word(new, 1861, 678, 5).
+word(language, 1861, 678, 6).
+word(modelling, 1861, 678, 7).
+word(dataset, 1861, 678, 8).
+word(overcome, 1861, 678, 11).
+word(shortcoming, 1861, 678, 15).
+word(previous, 1861, 678, 17).
+word(dataset, 1861, 678, 18).
+word(happy, 1861, 1051, 3).
+word(discuss, 1861, 1051, 5).
+word(author, 1861, 1051, 8).
+word(point, 1861, 1051, 10).
+word(raise, 1861, 1051, 12).
+word(open, 1861, 1051, 17).
+word(change, 1861, 1051, 19).
+word(vote, 1861, 1051, 21).
+word(misunderstanding, 1861, 1051, 26).
+word(paper, 1861, 2187, 1).
+word(introduce, 1861, 2187, 3).
+word(new, 1861, 2187, 5).
+word(language, 1861, 2187, 6).
+word(modelling, 1861, 2187, 7).
+word(dataset, 1861, 2187, 8).
+word(overcome, 1861, 2187, 11).
+word(shortcoming, 1861, 2187, 15).
+word(previous, 1861, 2187, 17).
+word(dataset, 1861, 2187, 18).
+word(ideally, 1861, 2187, 21).
+word(realistic, 1861, 2187, 24).
+word(dataset, 1861, 2187, 25).
+word(ucf101, 1861, 2187, 27).
+word(consider, 1861, 2187, 30).
+word(complement, 1861, 2187, 32).
+word(happy, 1861, 2274, 3).
+word(discuss, 1861, 2274, 5).
+word(author, 1861, 2274, 8).
+word(point, 1861, 2274, 10).
+word(raise, 1861, 2274, 12).
+word(open, 1861, 2274, 17).
+word(change, 1861, 2274, 19).
+word(vote, 1861, 2274, 21).
+word(misunderstanding, 1861, 2274, 26).
+word(softmax, 1861, 2274, 33).
+word(exploration, 1861, 2274, 34).
+word(fail, 1861, 2274, 35).
+word(softmax, 1861, 2274, 40).
+word(exploration, 1861, 2274, 41).
+word(fail, 1861, 2274, 42).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(1861, 678, 0, 0, 0, 0, 0, 0, 1, 0).
+sentiment(1861, 1051, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1861, 2187, 0, 0, 0, 0, -1, 0, 1, 0).
+sentiment(1861, 2274, 0, 0, 0, 0, 0, 0, 0, 0).

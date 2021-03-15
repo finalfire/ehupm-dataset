@@ -1,0 +1,43 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(9353,935,4,3).
+% id paper, Reject/Accept
+paperProperties(935, 0).
+% sourceId, line
+sentence(9353,1708).
+sentence(9353,1709).
+sentence(9353,2016).
+% W, sourceId, line, position
+word(paper, 9353, 1708, 1).
+word(clearly, 9353, 1708, 3).
+word(present, 9353, 1708, 4).
+word(enjoy, 9353, 1708, 7).
+word(aesthetic, 9353, 1708, 9).
+word(figure, 9353, 1708, 12).
+word(glance, 9353, 1709, 2).
+word(look, 9353, 1709, 4).
+word(like, 9353, 1709, 5).
+word(exciting, 9353, 1709, 7).
+word(new, 9353, 1709, 8).
+word(result, 9353, 1709, 9).
+word(think, 9353, 1709, 12).
+word(mislead, 9353, 1709, 15).
+word(casual, 9353, 1709, 16).
+word(reader, 9353, 1709, 17).
+word(glance, 9353, 2016, 2).
+word(look, 9353, 2016, 4).
+word(like, 9353, 2016, 5).
+word(exciting, 9353, 2016, 7).
+word(new, 9353, 2016, 8).
+word(result, 9353, 2016, 9).
+word(think, 9353, 2016, 12).
+word(mislead, 9353, 2016, 15).
+word(casual, 9353, 2016, 16).
+word(reader, 9353, 2016, 17).
+word(paper, 9353, 2016, 25).
+word(submit, 9353, 2016, 27).
+word(wrong, 9353, 2016, 30).
+word(venue, 9353, 2016, 31).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(9353, 1708, 0, 1, 0, 1, 0, 0, 0, 0).
+sentiment(9353, 1709, 0, 0, -1, 0, 0, 0, 0, 0).
+sentiment(9353, 2016, -1, 0, -1, 0, 0, 0, 0, 0).

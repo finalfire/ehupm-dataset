@@ -1,0 +1,15 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(173,17,6,4).
+% id paper, Reject/Accept
+paperProperties(17, 1).
+% sourceId, line
+sentence(173,1534).
+% W, sourceId, line, position
+word(student, 173, 1534, 3).
+word(network, 173, 1534, 4).
+word(perform, 173, 1534, 5).
+word(worst, 173, 1534, 6).
+word(teacher, 173, 1534, 9).
+word(attention, 173, 1534, 13).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(173, 1534, 0, 0, 0, 0, 0, 0, 0, 0).

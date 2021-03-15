@@ -1,0 +1,41 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(2171,217,4,4).
+% id paper, Reject/Accept
+paperProperties(217, 0).
+% sourceId, line
+sentence(2171,637).
+sentence(2171,2149).
+% W, sourceId, line, position
+word(pre, 2171, 637, 3).
+word(existing, 2171, 637, 5).
+word(dataset, 2171, 637, 6).
+word(evaluate, 2171, 637, 7).
+word(simple, 2171, 637, 10).
+word(tfidf, 2171, 637, 11).
+word(svm, 2171, 637, 13).
+word(method, 2171, 637, 14).
+word(state, 2171, 637, 16).
+word(art, 2171, 637, 22).
+word(result, 2171, 637, 25).
+word(unconvincing, 2171, 637, 27).
+word(pre, 2171, 2149, 3).
+word(existing, 2171, 2149, 5).
+word(dataset, 2171, 2149, 6).
+word(evaluate, 2171, 2149, 7).
+word(simple, 2171, 2149, 10).
+word(tfidf, 2171, 2149, 11).
+word(svm, 2171, 2149, 13).
+word(method, 2171, 2149, 14).
+word(state, 2171, 2149, 16).
+word(art, 2171, 2149, 22).
+word(result, 2171, 2149, 25).
+word(unconvince, 2171, 2149, 27).
+word(example, 2171, 2149, 31).
+word(refer, 2171, 2149, 33).
+word(follow, 2171, 2149, 36).
+word(recent, 2171, 2149, 37).
+word(paper, 2171, 2149, 38).
+word(reference, 2171, 2149, 40).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(2171, 637, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(2171, 2149, 0, 0, 0, 0, -1, 0, -1, 0).

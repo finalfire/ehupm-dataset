@@ -1,0 +1,43 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(10471,1047,4,4).
+source(10472,1047,1,5).
+% id paper, Reject/Accept
+paperProperties(1047, 0).
+% sourceId, line
+sentence(10471,682).
+sentence(10471,1839).
+sentence(10472,878).
+sentence(10472,2424).
+sentence(10472,2434).
+% W, sourceId, line, position
+word(limit, 10471, 682, 4).
+word(single, 10471, 682, 7).
+word(dataset, 10471, 682, 8).
+word(limit, 10471, 1839, 4).
+word(single, 10471, 1839, 7).
+word(dataset, 10471, 1839, 8).
+word(interesting, 10471, 1839, 14).
+word(proposition, 10471, 1839, 15).
+word(conclusion, 10472, 878, 1).
+word(draw, 10472, 878, 4).
+word(conclusion, 10472, 2424, 1).
+word(draw, 10472, 2424, 4).
+word(like, 10472, 2424, 10).
+word(see, 10472, 2424, 13).
+word(happen, 10472, 2424, 15).
+word(attention, 10472, 2424, 18).
+word(apply, 10472, 2424, 20).
+word(large, 10472, 2424, 24).
+word(context, 10472, 2424, 25).
+word(size, 10472, 2424, 26).
+word(conclusion, 10472, 2434, 1).
+word(draw, 10472, 2434, 4).
+word(result, 10472, 2434, 8).
+word(match, 10472, 2434, 9).
+word(belief, 10472, 2434, 11).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(10471, 682, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(10471, 1839, 0, 0, 1, 0, 0, 0, -1, 0).
+sentiment(10472, 878, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10472, 2424, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10472, 2434, 0, 0, 0, 0, 0, 0, 0, 0).

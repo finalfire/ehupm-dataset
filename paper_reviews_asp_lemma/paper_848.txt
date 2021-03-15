@@ -1,0 +1,76 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(8483,848,4,4).
+% id paper, Reject/Accept
+paperProperties(848, 0).
+% sourceId, line
+sentence(8483,885).
+sentence(8483,2320).
+sentence(8483,2461).
+sentence(8483,2572).
+% W, sourceId, line, position
+word(course, 8483, 885, 1).
+word(benefit, 8483, 885, 3).
+word(evaluate, 8483, 885, 8).
+word(ablation, 8483, 885, 10).
+word(study, 8483, 885, 11).
+word(tab, 8483, 885, 13).
+word(show, 8483, 885, 15).
+word(experiment, 8483, 885, 17).
+word(marginal, 8483, 885, 19).
+word(improvement, 8483, 885, 20).
+word(course, 8483, 2320, 1).
+word(benefit, 8483, 2320, 3).
+word(evaluate, 8483, 2320, 8).
+word(ablation, 8483, 2320, 10).
+word(study, 8483, 2320, 11).
+word(tab, 8483, 2320, 13).
+word(show, 8483, 2320, 15).
+word(experiment, 8483, 2320, 17).
+word(marginal, 8483, 2320, 19).
+word(improvement, 8483, 2320, 20).
+word(end, 8483, 2320, 26).
+word(par, 8483, 2320, 29).
+word(course, 8483, 2461, 1).
+word(benefit, 8483, 2461, 3).
+word(evaluate, 8483, 2461, 8).
+word(ablation, 8483, 2461, 10).
+word(study, 8483, 2461, 11).
+word(tab, 8483, 2461, 13).
+word(show, 8483, 2461, 15).
+word(experiment, 8483, 2461, 17).
+word(marginal, 8483, 2461, 19).
+word(improvement, 8483, 2461, 20).
+word(train, 8483, 2461, 25).
+word(vae, 8483, 2461, 27).
+word(image, 8483, 2461, 29).
+word(symbol, 8483, 2461, 34).
+word(align, 8483, 2461, 36).
+word(latent, 8483, 2461, 38).
+word(space, 8483, 2461, 39).
+word(course, 8483, 2572, 1).
+word(benefit, 8483, 2572, 3).
+word(evaluate, 8483, 2572, 8).
+word(ablation, 8483, 2572, 10).
+word(study, 8483, 2572, 11).
+word(tab, 8483, 2572, 13).
+word(show, 8483, 2572, 15).
+word(experiment, 8483, 2572, 17).
+word(marginal, 8483, 2572, 19).
+word(improvement, 8483, 2572, 20).
+word(txt, 8483, 2572, 24).
+word(person, 8483, 2572, 28).
+word(name, 8483, 2572, 29).
+word(george, 8483, 2572, 31).
+word(abbot, 8483, 2572, 32).
+word(abbot, 8483, 2572, 37).
+word(mention, 8483, 2572, 41).
+word(sentence, 8483, 2572, 46).
+word(token, 8483, 2572, 48).
+word(later, 8483, 2572, 49).
+word(abbot, 8483, 2572, 56).
+word(token, 8483, 2572, 60).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(8483, 885, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8483, 2320, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8483, 2461, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8483, 2572, 0, 0, 0, 0, 0, 0, 0, 0).

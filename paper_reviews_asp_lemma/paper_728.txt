@@ -1,0 +1,68 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(7281,728,7,5).
+source(7283,728,7,5).
+% id paper, Reject/Accept
+paperProperties(728, 1).
+% sourceId, line
+sentence(7281,952).
+sentence(7281,2159).
+sentence(7283,177).
+% W, sourceId, line, position
+word(caption, 7281, 952, 0).
+word(table, 7281, 952, 1).
+word(author, 7281, 952, 5).
+word(clarify, 7281, 952, 7).
+word(output, 7281, 952, 10).
+word(size, 7281, 952, 11).
+word(height, 7281, 952, 15).
+word(width, 7281, 952, 17).
+word(channel, 7281, 952, 19).
+word(explain, 7281, 952, 23).
+word(notation, 7281, 952, 25).
+word(description, 7281, 952, 28).
+word(refer, 7281, 952, 32).
+word(text, 7281, 952, 35).
+word(caption, 7281, 2159, 0).
+word(table, 7281, 2159, 1).
+word(author, 7281, 2159, 5).
+word(clarify, 7281, 2159, 7).
+word(output, 7281, 2159, 10).
+word(size, 7281, 2159, 11).
+word(height, 7281, 2159, 15).
+word(width, 7281, 2159, 17).
+word(channel, 7281, 2159, 19).
+word(explain, 7281, 2159, 23).
+word(notation, 7281, 2159, 25).
+word(description, 7281, 2159, 28).
+word(refer, 7281, 2159, 32).
+word(text, 7281, 2159, 35).
+word(convince, 7281, 2159, 41).
+word(claim, 7281, 2159, 44).
+word(paper, 7281, 2159, 47).
+word(test, 7281, 2159, 51).
+word(interaction, 7281, 2159, 54).
+word(capability, 7281, 2159, 56).
+word(agent, 7281, 2159, 58).
+word(task, 7281, 2159, 62).
+word(phrase, 7281, 2159, 64).
+word(kind, 7281, 2159, 67).
+word(interaction, 7281, 2159, 69).
+word(think, 7281, 2159, 72).
+word(aptly, 7281, 2159, 76).
+word(describe, 7281, 2159, 77).
+word(simply, 7281, 2159, 79).
+word(infer, 7281, 2159, 81).
+word(important, 7281, 2159, 82).
+word(unknown, 7281, 2159, 83).
+word(variable, 7281, 2159, 84).
+word(important, 7281, 2159, 90).
+word(related, 7281, 2159, 94).
+word(reasoning, 7281, 2159, 96).
+word(generally, 7283, 177, 1).
+word(paper, 7283, 177, 4).
+word(easy, 7283, 177, 6).
+word(read, 7283, 177, 8).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(7281, 952, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(7281, 2159, 0, -1, 0, -1, 0, 0, 0, 0).
+sentiment(7283, 177, 0, 1, 0, 0, 0, 0, 0, 0).

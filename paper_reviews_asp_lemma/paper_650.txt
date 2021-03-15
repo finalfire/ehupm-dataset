@@ -1,0 +1,99 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(6501,650,6,4).
+source(6503,650,7,4).
+% id paper, Reject/Accept
+paperProperties(650, 1).
+% sourceId, line
+sentence(6501,1500).
+sentence(6501,2346).
+sentence(6503,1501).
+sentence(6503,1502).
+sentence(6503,2297).
+sentence(6503,2306).
+% W, sourceId, line, position
+word(mention, 6501, 1500, 2).
+word(nesterov, 6501, 1500, 3).
+word(momentum, 6501, 1500, 4).
+word(method, 6501, 1500, 5).
+word(precise, 6501, 1500, 9).
+word(reference, 6501, 1500, 10).
+word(precise, 6501, 1500, 12).
+word(equation, 6501, 1500, 13).
+word(lift, 6501, 1500, 15).
+word(ambiguity, 6501, 1500, 16).
+word(helpful, 6501, 1500, 19).
+word(mention, 6501, 2346, 2).
+word(nesterov, 6501, 2346, 3).
+word(momentum, 6501, 2346, 4).
+word(method, 6501, 2346, 5).
+word(precise, 6501, 2346, 9).
+word(reference, 6501, 2346, 10).
+word(precise, 6501, 2346, 12).
+word(equation, 6501, 2346, 13).
+word(lift, 6501, 2346, 15).
+word(ambiguity, 6501, 2346, 16).
+word(helpful, 6501, 2346, 19).
+word(instead, 6501, 2346, 23).
+word(use, 6501, 2346, 26).
+word(publish, 6501, 2346, 28).
+word(score, 6501, 2346, 30).
+word(assume, 6501, 2346, 35).
+word(read, 6503, 1501, 1).
+word(abstract, 6503, 1501, 3).
+word(know, 6503, 1501, 5).
+word(bit, 6503, 1501, 8).
+word(proximal, 6503, 1501, 10).
+word(method, 6503, 1501, 11).
+word(initially, 6503, 1501, 15).
+word(skeptical, 6503, 1501, 16).
+word(think, 6503, 1501, 20).
+word(author, 6503, 1501, 22).
+word(good, 6503, 1501, 26).
+word(job, 6503, 1501, 27).
+word(make, 6503, 1501, 29).
+word(case, 6503, 1501, 31).
+word(right, 6503, 1502, 1).
+word(figure, 6503, 1502, 2).
+word(nice, 6503, 1502, 5).
+word(time, 6503, 1502, 9).
+word(x, 6503, 1502, 12).
+word(axis, 6503, 1502, 14).
+word(right, 6503, 2297, 1).
+word(figure, 6503, 2297, 2).
+word(nice, 6503, 2297, 5).
+word(time, 6503, 2297, 9).
+word(x, 6503, 2297, 12).
+word(axis, 6503, 2297, 14).
+word(class, 6503, 2297, 23).
+word(class, 6503, 2297, 30).
+word(right, 6503, 2306, 1).
+word(figure, 6503, 2306, 2).
+word(nice, 6503, 2306, 5).
+word(time, 6503, 2306, 9).
+word(x, 6503, 2306, 12).
+word(axis, 6503, 2306, 14).
+word(fundamentally, 6503, 2306, 20).
+word(feel, 6503, 2306, 23).
+word(focusse, 6503, 2306, 25).
+word(tag, 6503, 2306, 28).
+word(hide, 6503, 2306, 29).
+word(interesting, 6503, 2306, 33).
+word(challenge, 6503, 2306, 34).
+word(real, 6503, 2306, 36).
+word(task, 6503, 2306, 37).
+word(reasonable, 6503, 2306, 39).
+word(vocabulary, 6503, 2306, 41).
+word(imply, 6503, 2306, 42).
+word(great, 6503, 2306, 43).
+word(perplexity, 6503, 2306, 44).
+word(require, 6503, 2306, 47).
+word(great, 6503, 2306, 48).
+word(performance, 6503, 2306, 49).
+word(cnn, 6503, 2306, 52).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(6501, 1500, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6501, 2346, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6503, 1501, 0, 0, 0, 0, 0, 1, 0, 0).
+sentiment(6503, 1502, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6503, 2297, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6503, 2306, 0, 0, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,96 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(8732,873,3,5).
+source(8733,873,3,4).
+% id paper, Reject/Accept
+paperProperties(873, 0).
+% sourceId, line
+sentence(8732,631).
+sentence(8732,649).
+sentence(8732,754).
+sentence(8732,1829).
+sentence(8732,1907).
+sentence(8732,1932).
+sentence(8732,2156).
+sentence(8733,107).
+sentence(8733,505).
+% W, sourceId, line, position
+word(characterize, 8732, 631, 3).
+word(method, 8732, 631, 7).
+word(report, 8732, 631, 9).
+word(similar, 8732, 631, 10).
+word(result, 8732, 631, 11).
+word(dataset, 8732, 631, 15).
+word(derive, 8732, 649, 0).
+word(conclusion, 8732, 649, 1).
+word(result, 8732, 649, 3).
+word(single, 8732, 649, 6).
+word(dataset, 8732, 649, 7).
+word(suboptimal, 8732, 649, 9).
+word(currently, 8732, 754, 0).
+word(training, 8732, 754, 3).
+word(set, 8732, 754, 4).
+word(split, 8732, 754, 6).
+word(set, 8732, 754, 9).
+word(set, 8732, 754, 13).
+word(train, 8732, 754, 17).
+word(model, 8732, 754, 19).
+word(total, 8732, 754, 21).
+word(gp, 8732, 754, 23).
+word(expert, 8732, 754, 24).
+word(characterize, 8732, 1829, 3).
+word(method, 8732, 1829, 7).
+word(report, 8732, 1829, 9).
+word(similar, 8732, 1829, 10).
+word(result, 8732, 1829, 11).
+word(dataset, 8732, 1829, 15).
+word(argument, 8732, 1829, 19).
+word(support, 8732, 1829, 23).
+word(experiment, 8732, 1829, 26).
+word(characterize, 8732, 1907, 3).
+word(method, 8732, 1907, 7).
+word(report, 8732, 1907, 9).
+word(similar, 8732, 1907, 10).
+word(result, 8732, 1907, 11).
+word(dataset, 8732, 1907, 15).
+word(specifically, 8732, 1907, 19).
+word(content, 8732, 1907, 22).
+word(section, 8732, 1907, 24).
+word(experiment, 8732, 1907, 27).
+word(section, 8732, 1907, 28).
+word(messy, 8732, 1907, 30).
+word(characterize, 8732, 1932, 3).
+word(method, 8732, 1932, 7).
+word(report, 8732, 1932, 9).
+word(similar, 8732, 1932, 10).
+word(result, 8732, 1932, 11).
+word(dataset, 8732, 1932, 15).
+word(wonderful, 8732, 1932, 21).
+word(self, 8732, 1932, 24).
+word(contain, 8732, 1932, 26).
+word(paper, 8732, 1932, 27).
+word(derive, 8732, 2156, 0).
+word(conclusion, 8732, 2156, 1).
+word(result, 8732, 2156, 3).
+word(single, 8732, 2156, 6).
+word(dataset, 8732, 2156, 7).
+word(suboptimal, 8732, 2156, 9).
+word(think, 8732, 2156, 13).
+word(paper, 8732, 2156, 15).
+word(need, 8732, 2156, 17).
+word(clarification, 8732, 2156, 19).
+word(paper, 8733, 107, 4).
+word(stand, 8733, 505, 2).
+word(think, 8733, 505, 5).
+word(contribution, 8733, 505, 7).
+word(paper, 8733, 505, 10).
+word(limit, 8733, 505, 12).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(8732, 631, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8732, 649, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(8732, 754, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8732, 1829, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(8732, 1907, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(8732, 1932, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(8732, 2156, 0, -1, 0, 0, 0, 0, -1, 0).
+sentiment(8733, 107, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8733, 505, 0, 0, 0, 0, 0, 0, -1, 0).

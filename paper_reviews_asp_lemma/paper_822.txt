@@ -1,0 +1,60 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(8222,822,3,4).
+source(8223,822,5,4).
+% id paper, Reject/Accept
+paperProperties(822, 0).
+% sourceId, line
+sentence(8222,825).
+sentence(8223,826).
+sentence(8223,2111).
+% W, sourceId, line, position
+word(tab, 8222, 825, 1).
+word(real, 8222, 825, 6).
+word(experiment, 8222, 825, 8).
+word(miss, 8222, 825, 10).
+word(state, 8222, 825, 11).
+word(art, 8222, 825, 14).
+word(competitor, 8222, 825, 15).
+word(nice, 8223, 826, 3).
+word(introduction, 8223, 826, 6).
+word(set, 8223, 826, 7).
+word(background, 8223, 826, 9).
+word(cover, 8223, 826, 11).
+word(different, 8223, 826, 12).
+word(approach, 8223, 826, 13).
+word(aspect, 8223, 826, 15).
+word(condition, 8223, 826, 17).
+word(negative, 8223, 826, 19).
+word(transfer, 8223, 826, 20).
+word(transfer, 8223, 826, 22).
+word(learn, 8223, 826, 23).
+word(multi, 8223, 826, 25).
+word(task, 8223, 826, 27).
+word(learning, 8223, 826, 28).
+word(setting, 8223, 826, 29).
+word(clarity, 8223, 2111, 0).
+word(main, 8223, 2111, 2).
+word(idea, 8223, 2111, 3).
+word(clearly, 8223, 2111, 5).
+word(present, 8223, 2111, 6).
+word(nice, 8223, 2111, 12).
+word(introduction, 8223, 2111, 15).
+word(set, 8223, 2111, 16).
+word(background, 8223, 2111, 18).
+word(cover, 8223, 2111, 20).
+word(different, 8223, 2111, 21).
+word(approach, 8223, 2111, 22).
+word(aspect, 8223, 2111, 24).
+word(condition, 8223, 2111, 26).
+word(negative, 8223, 2111, 28).
+word(transfer, 8223, 2111, 29).
+word(transfer, 8223, 2111, 31).
+word(learn, 8223, 2111, 32).
+word(multi, 8223, 2111, 34).
+word(task, 8223, 2111, 36).
+word(learning, 8223, 2111, 37).
+word(setting, 8223, 2111, 38).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(8222, 825, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(8223, 826, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(8223, 2111, 0, 1, 0, -1, 0, 0, 0, 0).

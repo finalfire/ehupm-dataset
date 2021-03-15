@@ -1,0 +1,88 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(7392,739,6,4).
+source(7393,739,6,4).
+% id paper, Reject/Accept
+paperProperties(739, 1).
+% sourceId, line
+sentence(7392,909).
+sentence(7392,2459).
+sentence(7393,906).
+sentence(7393,907).
+sentence(7393,908).
+sentence(7393,2348).
+sentence(7393,2377).
+sentence(7393,2397).
+% W, sourceId, line, position
+word(apply, 7392, 909, 1).
+word(sarsa, 7392, 909, 2).
+word(policy, 7392, 909, 6).
+word(update, 7392, 909, 8).
+word(rule, 7392, 909, 9).
+word(e, 7392, 909, 12).
+word(value, 7392, 909, 14).
+word(mdp, 7392, 909, 15).
+word(act, 7392, 909, 19).
+word(policy, 7392, 909, 20).
+word(select, 7392, 909, 22).
+word(original, 7392, 909, 25).
+word(mdp, 7392, 909, 26).
+word(e, 7392, 2459, 10).
+word(apply, 7392, 2459, 14).
+word(sarsa, 7392, 2459, 15).
+word(policy, 7392, 2459, 19).
+word(update, 7392, 2459, 21).
+word(rule, 7392, 2459, 22).
+word(e, 7392, 2459, 25).
+word(value, 7392, 2459, 27).
+word(mdp, 7392, 2459, 28).
+word(act, 7392, 2459, 32).
+word(policy, 7392, 2459, 33).
+word(select, 7392, 2459, 35).
+word(original, 7392, 2459, 38).
+word(mdp, 7392, 2459, 39).
+word(evaluate, 7393, 906, 1).
+word(respect, 7393, 906, 3).
+word(immediate, 7393, 906, 7).
+word(outcome, 7393, 906, 8).
+word(pdf, 7393, 907, 0).
+word(drive, 7393, 907, 4).
+word(exploration, 7393, 907, 5).
+word(begin, 7393, 907, 7).
+word(softmax, 7393, 908, 1).
+word(exploration, 7393, 908, 2).
+word(fail, 7393, 908, 3).
+word(softmax, 7393, 908, 8).
+word(exploration, 7393, 908, 9).
+word(fail, 7393, 908, 10).
+word(adversarial, 7393, 2348, 1).
+word(autoencoder, 7393, 2348, 2).
+word(softmax, 7393, 2348, 7).
+word(exploration, 7393, 2348, 8).
+word(fail, 7393, 2348, 9).
+word(softmax, 7393, 2348, 14).
+word(exploration, 7393, 2348, 15).
+word(fail, 7393, 2348, 16).
+word(evaluate, 7393, 2377, 1).
+word(respect, 7393, 2377, 3).
+word(immediate, 7393, 2377, 7).
+word(outcome, 7393, 2377, 8).
+word(thing, 7393, 2377, 17).
+word(player, 7393, 2377, 19).
+word(know, 7393, 2377, 20).
+word(good, 7393, 2377, 23).
+word(adversarial, 7393, 2377, 24).
+word(policy, 7393, 2377, 25).
+word(evaluate, 7393, 2397, 1).
+word(respect, 7393, 2397, 3).
+word(immediate, 7393, 2397, 7).
+word(outcome, 7393, 2397, 8).
+word(statement, 7393, 2397, 16).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(7392, 909, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7392, 2459, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7393, 906, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7393, 907, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7393, 908, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7393, 2348, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7393, 2377, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7393, 2397, 0, 0, 0, 0, 0, 0, 0, 0).

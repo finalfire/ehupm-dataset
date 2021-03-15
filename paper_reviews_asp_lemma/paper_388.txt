@@ -1,0 +1,84 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(3882,388,5,4).
+source(3883,388,6,4).
+% id paper, Reject/Accept
+paperProperties(388, 0).
+% sourceId, line
+sentence(3882,1597).
+sentence(3883,1598).
+sentence(3883,2476).
+sentence(3883,2491).
+% W, sourceId, line, position
+word(believe, 3882, 1597, 1).
+word(apply, 3882, 1597, 3).
+word(framework, 3882, 1597, 5).
+word(generic, 3882, 1597, 9).
+word(architecture, 3882, 1597, 10).
+word(binary, 3882, 1597, 12).
+word(autoencoder, 3882, 1597, 13).
+word(paper, 3882, 1597, 16).
+word(appeal, 3882, 1597, 19).
+word(wide, 3882, 1597, 22).
+word(audience, 3882, 1597, 23).
+word(iclr, 3882, 1597, 25).
+word(weak, 3882, 1597, 28).
+word(reject, 3882, 1597, 29).
+word(w, 3883, 1598, 2).
+word(step, 3883, 1598, 3).
+word(different, 3883, 1598, 5).
+word(bit, 3883, 1598, 6).
+word(nn, 3883, 1598, 9).
+word(walk, 3883, 1598, 10).
+word(way, 3883, 1598, 12).
+word(cluster, 3883, 1598, 15).
+word(take, 3883, 1598, 17).
+word(sgd, 3883, 1598, 18).
+word(step, 3883, 1598, 19).
+word(w, 3883, 1598, 20).
+word(w, 3883, 2476, 2).
+word(step, 3883, 2476, 3).
+word(different, 3883, 2476, 5).
+word(bit, 3883, 2476, 6).
+word(nn, 3883, 2476, 9).
+word(walk, 3883, 2476, 10).
+word(way, 3883, 2476, 12).
+word(cluster, 3883, 2476, 15).
+word(take, 3883, 2476, 17).
+word(sgd, 3883, 2476, 18).
+word(step, 3883, 2476, 19).
+word(w, 3883, 2476, 20).
+word(feel, 3883, 2476, 24).
+word(like, 3883, 2476, 25).
+word(paper, 3883, 2476, 27).
+word(difficult, 3883, 2476, 31).
+word(position, 3883, 2476, 32).
+word(try, 3883, 2476, 34).
+word(cover, 3883, 2476, 36).
+word(lot, 3883, 2476, 38).
+word(material, 3883, 2476, 40).
+word(experiment, 3883, 2476, 42).
+word(short, 3883, 2476, 45).
+word(paper, 3883, 2476, 47).
+word(w, 3883, 2491, 2).
+word(step, 3883, 2491, 3).
+word(different, 3883, 2491, 5).
+word(bit, 3883, 2491, 6).
+word(nn, 3883, 2491, 9).
+word(walk, 3883, 2491, 10).
+word(way, 3883, 2491, 12).
+word(cluster, 3883, 2491, 15).
+word(take, 3883, 2491, 17).
+word(sgd, 3883, 2491, 18).
+word(step, 3883, 2491, 19).
+word(w, 3883, 2491, 20).
+word(logm, 3883, 2491, 24).
+word(define, 3883, 2491, 26).
+word(average, 3883, 2491, 29).
+word(log, 3883, 2491, 30).
+word(cnn, 3883, 2491, 33).
+word(weigth, 3883, 2491, 34).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(3882, 1597, -1, 0, 0, 0, 0, 0, 0, -1).
+sentiment(3883, 1598, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3883, 2476, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3883, 2491, 0, 0, 0, 0, 0, 0, 0, 0).

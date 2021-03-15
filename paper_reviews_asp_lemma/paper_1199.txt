@@ -1,0 +1,63 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(11992,1199,5,4).
+% id paper, Reject/Accept
+paperProperties(1199, 0).
+% sourceId, line
+sentence(11992,646).
+sentence(11992,1822).
+sentence(11992,1913).
+sentence(11992,2136).
+% W, sourceId, line, position
+word(improve, 11992, 646, 1).
+word(classification, 11992, 646, 2).
+word(performance, 11992, 646, 3).
+word(nicely, 11992, 646, 4).
+word(variety, 11992, 646, 7).
+word(dataset, 11992, 646, 9).
+word(improve, 11992, 1822, 1).
+word(classification, 11992, 1822, 2).
+word(performance, 11992, 1822, 3).
+word(nicely, 11992, 1822, 4).
+word(variety, 11992, 1822, 7).
+word(dataset, 11992, 1822, 9).
+word(funny, 11992, 1822, 13).
+word(thing, 11992, 1822, 14).
+word(paper, 11992, 1822, 20).
+word(actually, 11992, 1822, 22).
+word(cite, 11992, 1822, 23).
+word(author, 11992, 1822, 26).
+word(simply, 11992, 1822, 30).
+word(pretend, 11992, 1822, 31).
+word(work, 11992, 1822, 34).
+word(exist, 11992, 1822, 37).
+word(discuss, 11992, 1822, 39).
+word(result, 11992, 1822, 41).
+word(improve, 11992, 1913, 1).
+word(classification, 11992, 1913, 2).
+word(performance, 11992, 1913, 3).
+word(nicely, 11992, 1913, 4).
+word(variety, 11992, 1913, 7).
+word(dataset, 11992, 1913, 9).
+word(recommend, 11992, 1913, 18).
+word(acceptance, 11992, 1913, 21).
+word(need, 11992, 1913, 24).
+word(significant, 11992, 1913, 25).
+word(work, 11992, 1913, 26).
+word(accept, 11992, 1913, 31).
+word(conference, 11992, 1913, 34).
+word(improve, 11992, 2136, 1).
+word(classification, 11992, 2136, 2).
+word(performance, 11992, 2136, 3).
+word(nicely, 11992, 2136, 4).
+word(variety, 11992, 2136, 7).
+word(dataset, 11992, 2136, 9).
+word(citation, 11992, 2136, 13).
+word(non, 11992, 2136, 16).
+word(standard, 11992, 2136, 18).
+word(format, 11992, 2136, 19).
+word(section, 11992, 2136, 21).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(11992, 646, 0, 0, 0, 0, 0, 0, 1, 0).
+sentiment(11992, 1822, 0, 0, -1, 0, 0, 0, 1, 0).
+sentiment(11992, 1913, 0, 0, 0, 0, 0, 0, 1, -1).
+sentiment(11992, 2136, 0, 0, 0, 0, -1, 0, 1, 0).

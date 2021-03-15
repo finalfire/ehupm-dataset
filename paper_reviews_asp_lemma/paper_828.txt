@@ -1,0 +1,72 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(8281,828,7,5).
+source(8282,828,3,4).
+% id paper, Reject/Accept
+paperProperties(828, 0).
+% sourceId, line
+sentence(8281,1776).
+sentence(8281,1777).
+sentence(8281,2507).
+sentence(8281,2515).
+sentence(8282,1778).
+% W, sourceId, line, position
+word(generally, 8281, 1776, 1).
+word(quantitative, 8281, 1776, 4).
+word(impact, 8281, 1776, 5).
+word(adversarial, 8281, 1776, 8).
+word(loss, 8281, 1776, 9).
+word(come, 8281, 1776, 11).
+word(page, 8281, 1777, 1).
+word(choose, 8281, 1777, 6).
+word(copy, 8281, 1777, 8).
+word(pixel, 8281, 1777, 9).
+word(previous, 8281, 1777, 12).
+word(frame, 8281, 1777, 13).
+word(transform, 8281, 1777, 16).
+word(version, 8281, 1777, 17).
+word(previous, 8281, 1777, 20).
+word(frame, 8281, 1777, 21).
+word(generally, 8281, 2507, 1).
+word(quantitative, 8281, 2507, 4).
+word(impact, 8281, 2507, 5).
+word(adversarial, 8281, 2507, 8).
+word(loss, 8281, 2507, 9).
+word(come, 8281, 2507, 11).
+word(good, 8281, 2507, 15).
+word(result, 8281, 2507, 16).
+word(show, 8281, 2507, 18).
+word(cifar, 8281, 2507, 20).
+word(dataset, 8281, 2507, 21).
+word(generally, 8281, 2515, 1).
+word(quantitative, 8281, 2515, 4).
+word(impact, 8281, 2515, 5).
+word(adversarial, 8281, 2515, 8).
+word(loss, 8281, 2515, 9).
+word(come, 8281, 2515, 11).
+word(complex, 8281, 2515, 17).
+word(task, 8281, 2515, 18).
+word(text, 8281, 2515, 23).
+word(necessary, 8281, 2515, 28).
+word(outperform, 8281, 2515, 33).
+word(rn, 8281, 2515, 34).
+word(without, 8281, 2515, 35).
+word(consider, 8281, 2515, 36).
+word(object, 8281, 2515, 38).
+word(pairwise, 8281, 2515, 41).
+word(fashion, 8281, 2515, 42).
+word(task, 8282, 1778, 1).
+word(perform, 8282, 1778, 3).
+word(tabletop, 8282, 1778, 5).
+word(video, 8282, 1778, 6).
+word(robotic, 8282, 1778, 9).
+word(arm, 8282, 1778, 10).
+word(manipulator, 8282, 1778, 11).
+word(interact, 8282, 1778, 12).
+word(small, 8282, 1778, 15).
+word(object, 8282, 1778, 16).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(8281, 1776, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8281, 1777, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8281, 2507, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8281, 2515, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8282, 1778, 0, 0, 0, 0, 0, 0, 0, 0).

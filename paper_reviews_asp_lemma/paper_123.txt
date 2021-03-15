@@ -1,0 +1,27 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(1232,123,8,5).
+source(1233,123,6,3).
+% id paper, Reject/Accept
+paperProperties(123, 1).
+% sourceId, line
+sentence(1232,1323).
+sentence(1233,1413).
+% W, sourceId, line, position
+word(read, 1232, 1323, 2).
+word(revise, 1232, 1323, 4).
+word(version, 1232, 1323, 5).
+word(linguistic, 1233, 1413, 8).
+word(term, 1233, 1413, 10).
+word(cognate, 1233, 1413, 12).
+word(refer, 1233, 1413, 14).
+word(word, 1233, 1413, 16).
+word(common, 1233, 1413, 20).
+word(etymological, 1233, 1413, 21).
+word(origin, 1233, 1413, 22).
+word(necessarily, 1233, 1413, 27).
+word(write, 1233, 1413, 31).
+word(form, 1233, 1413, 32).
+word(e, 1233, 1413, 34).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(1232, 1323, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1233, 1413, 0, -1, 0, 0, 0, 0, 0, 0).

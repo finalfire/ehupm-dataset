@@ -1,0 +1,67 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(9992,999,4,4).
+% id paper, Reject/Accept
+paperProperties(999, 0).
+% sourceId, line
+sentence(9992,127).
+sentence(9992,1314).
+sentence(9992,1315).
+sentence(9992,1886).
+sentence(9992,1954).
+sentence(9992,2375).
+% W, sourceId, line, position
+word(opinion, 9992, 127, 2).
+word(substantial, 9992, 127, 6).
+word(improvement, 9992, 127, 7).
+word(section, 9992, 127, 10).
+word(paper, 9992, 127, 13).
+word(accept, 9992, 127, 17).
+word(introduction, 9992, 1314, 2).
+word(discuss, 9992, 1314, 4).
+word(related, 9992, 1314, 6).
+word(work, 9992, 1314, 7).
+word(general, 9992, 1315, 1).
+word(section, 9992, 1315, 4).
+word(verbose, 9992, 1315, 7).
+word(need, 9992, 1315, 9).
+word(lot, 9992, 1315, 11).
+word(work, 9992, 1315, 13).
+word(opinion, 9992, 1886, 2).
+word(substantial, 9992, 1886, 6).
+word(improvement, 9992, 1886, 7).
+word(section, 9992, 1886, 10).
+word(paper, 9992, 1886, 13).
+word(accept, 9992, 1886, 17).
+word(idea, 9992, 1886, 21).
+word(fine, 9992, 1886, 23).
+word(opinion, 9992, 1954, 2).
+word(substantial, 9992, 1954, 6).
+word(improvement, 9992, 1954, 7).
+word(section, 9992, 1954, 10).
+word(paper, 9992, 1954, 13).
+word(accept, 9992, 1954, 17).
+word(paper, 9992, 1954, 21).
+word(need, 9992, 1954, 22).
+word(lot, 9992, 1954, 24).
+word(improvement, 9992, 1954, 26).
+word(suitable, 9992, 1954, 29).
+word(publication, 9992, 1954, 31).
+word(introduction, 9992, 2375, 2).
+word(discuss, 9992, 2375, 4).
+word(related, 9992, 2375, 6).
+word(work, 9992, 2375, 7).
+word(great, 9992, 2375, 13).
+word(travel, 9992, 2375, 18).
+word(deal, 9992, 2375, 23).
+word(visa, 9992, 2375, 25).
+word(issue, 9992, 2375, 26).
+word(able, 9992, 2375, 30).
+word(extended, 9992, 2375, 33).
+word(conversation, 9992, 2375, 34).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(9992, 127, 0, 0, 0, 0, 0, 0, 0, -1).
+sentiment(9992, 1314, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9992, 1315, 0, 0, 0, -1, 0, -1, 0, 0).
+sentiment(9992, 1886, 0, 0, 0, 0, 0, 0, 0, -1).
+sentiment(9992, 1954, 0, -1, 0, 0, 0, 0, 0, -1).
+sentiment(9992, 2375, 0, 0, 0, 0, 0, 0, 0, 0).

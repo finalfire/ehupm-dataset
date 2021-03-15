@@ -1,0 +1,48 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(4221,422,5,4).
+% id paper, Reject/Accept
+paperProperties(422, 0).
+% sourceId, line
+sentence(4221,1602).
+sentence(4221,2206).
+% W, sourceId, line, position
+word(willing, 4221, 1602, 3).
+word(increase, 4221, 1602, 5).
+word(core, 4221, 1602, 7).
+word(author, 4221, 1602, 10).
+word(present, 4221, 1602, 12).
+word(case, 4221, 1602, 14).
+word(iclr, 4221, 1602, 17).
+word(appropriate, 4221, 1602, 20).
+word(venue, 4221, 1602, 21).
+word(work, 4221, 1602, 24).
+word(willing, 4221, 2206, 3).
+word(increase, 4221, 2206, 5).
+word(core, 4221, 2206, 7).
+word(author, 4221, 2206, 10).
+word(present, 4221, 2206, 12).
+word(case, 4221, 2206, 14).
+word(iclr, 4221, 2206, 17).
+word(appropriate, 4221, 2206, 20).
+word(venue, 4221, 2206, 21).
+word(work, 4221, 2206, 24).
+word(nicola, 4221, 2206, 30).
+word(usunier, 4221, 2206, 31).
+word(gabriel, 4221, 2206, 33).
+word(synnaeve, 4221, 2206, 34).
+word(zeming, 4221, 2206, 36).
+word(lin, 4221, 2206, 37).
+word(soumith, 4221, 2206, 39).
+word(chintala, 4221, 2206, 40).
+word(episodic, 4221, 2206, 42).
+word(exploration, 4221, 2206, 43).
+word(deep, 4221, 2206, 45).
+word(deterministic, 4221, 2206, 46).
+word(policy, 4221, 2206, 47).
+word(application, 4221, 2206, 50).
+word(starcraft, 4221, 2206, 52).
+word(micromanagement, 4221, 2206, 53).
+word(task, 4221, 2206, 54).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(4221, 1602, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4221, 2206, 0, 0, 0, 0, 0, 0, 0, 0).

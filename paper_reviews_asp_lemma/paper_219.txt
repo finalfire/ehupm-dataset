@@ -1,0 +1,58 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(2191,219,4,4).
+% id paper, Reject/Accept
+paperProperties(219, 0).
+% sourceId, line
+sentence(2191,922).
+sentence(2191,923).
+sentence(2191,2273).
+sentence(2191,2344).
+% W, sourceId, line, position
+word(candidate, 2191, 922, 1).
+word(answer, 2191, 922, 2).
+word(pick, 2191, 922, 4).
+word(union, 2191, 922, 6).
+word(corpus, 2191, 922, 9).
+word(pick, 2191, 922, 12).
+word(respective, 2191, 922, 14).
+word(corpus, 2191, 922, 15).
+word(corpus, 2191, 922, 17).
+word(sympathy, 2191, 922, 19).
+word(conclusion, 2191, 922, 21).
+word(etc, 2191, 922, 22).
+word(minor, 2191, 923, 0).
+word(correction, 2191, 923, 1).
+word(remove, 2191, 923, 3).
+word(space, 2191, 923, 4).
+word(abstract, 2191, 923, 10).
+word(minor, 2191, 2273, 0).
+word(correction, 2191, 2273, 1).
+word(remove, 2191, 2273, 3).
+word(space, 2191, 2273, 4).
+word(abstract, 2191, 2273, 10).
+word(complete, 2191, 2273, 13).
+word(task, 2191, 2273, 15).
+word(number, 2191, 2273, 17).
+word(frame, 2191, 2273, 19).
+word(candidate, 2191, 2344, 1).
+word(answer, 2191, 2344, 2).
+word(pick, 2191, 2344, 4).
+word(union, 2191, 2344, 6).
+word(corpus, 2191, 2344, 9).
+word(pick, 2191, 2344, 12).
+word(respective, 2191, 2344, 14).
+word(corpus, 2191, 2344, 15).
+word(corpus, 2191, 2344, 17).
+word(sympathy, 2191, 2344, 19).
+word(conclusion, 2191, 2344, 21).
+word(etc, 2191, 2344, 22).
+word(mask, 2191, 2344, 26).
+word(noise, 2191, 2344, 29).
+word(unbiase, 2191, 2344, 31).
+word(far, 2191, 2344, 33).
+word(tell, 2191, 2344, 37).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(2191, 922, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(2191, 923, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(2191, 2273, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(2191, 2344, 0, 0, 0, 0, 0, 0, 0, 0).

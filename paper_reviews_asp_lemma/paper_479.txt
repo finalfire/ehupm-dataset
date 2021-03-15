@@ -1,0 +1,32 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(4792,479,4,3).
+source(4793,479,6,4).
+% id paper, Reject/Accept
+paperProperties(479, 1).
+% sourceId, line
+sentence(4792,1111).
+sentence(4792,2477).
+sentence(4793,1112).
+% W, sourceId, line, position
+word(pain, 4792, 1111, 1).
+word(point, 4792, 1111, 2).
+word(know, 4792, 1111, 4).
+word(task, 4792, 1111, 6).
+word(begin, 4792, 1111, 8).
+word(end, 4792, 1111, 10).
+word(pain, 4792, 2477, 1).
+word(point, 4792, 2477, 2).
+word(know, 4792, 2477, 4).
+word(task, 4792, 2477, 6).
+word(begin, 4792, 2477, 8).
+word(end, 4792, 2477, 10).
+word(manzagol, 4792, 2477, 14).
+word(p, 4792, 2477, 16).
+word(paper, 4793, 1112, 1).
+word(encode, 4793, 1112, 2).
+word(mode, 4793, 1112, 4).
+word(hidden, 4793, 1112, 7).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(4792, 1111, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4792, 2477, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4793, 1112, 0, 0, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,28 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(5333,533,6,4).
+% id paper, Reject/Accept
+paperProperties(533, 1).
+% sourceId, line
+sentence(5333,1294).
+% W, sourceId, line, position
+word(make, 5333, 1294, 1).
+word(wonder, 5333, 1294, 3).
+word(author, 5333, 1294, 6).
+word(well, 5333, 1294, 10).
+word(job, 5333, 1294, 11).
+word(put, 5333, 1294, 13).
+word(forward, 5333, 1294, 14).
+word(actual, 5333, 1294, 16).
+word(advantage, 5333, 1294, 17).
+word(method, 5333, 1294, 20).
+word(end, 5333, 1294, 23).
+word(result, 5333, 1294, 25).
+word(wall, 5333, 1294, 28).
+word(clock, 5333, 1294, 29).
+word(measure, 5333, 1294, 30).
+word(forward, 5333, 1294, 34).
+word(justify, 5333, 1294, 37).
+word(extra, 5333, 1294, 39).
+word(work, 5333, 1294, 40).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(5333, 1294, 0, 0, 0, 0, 0, 0, 0, 0).

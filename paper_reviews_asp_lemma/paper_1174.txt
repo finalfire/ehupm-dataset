@@ -1,0 +1,67 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(11742,1174,5,5).
+source(11743,1174,5,4).
+% id paper, Reject/Accept
+paperProperties(1174, 0).
+% sourceId, line
+sentence(11742,1495).
+sentence(11742,1496).
+sentence(11742,1497).
+sentence(11743,1498).
+sentence(11743,2014).
+% W, sourceId, line, position
+word(clear, 11742, 1495, 3).
+word(state, 11742, 1495, 6).
+word(explicitly, 11742, 1495, 7).
+word(alignment, 11742, 1495, 10).
+word(covariate, 11742, 1495, 13).
+word(specific, 11742, 1495, 15).
+word(embedding, 11742, 1495, 16).
+word(paragraph, 11742, 1496, 3).
+word(start, 11742, 1496, 5).
+word(consider, 11742, 1496, 10).
+word(natural, 11742, 1496, 12).
+word(extension, 11742, 1496, 13).
+word(model, 11742, 1496, 16).
+word(covariate, 11742, 1497, 1).
+word(specific, 11742, 1497, 2).
+word(analogy, 11742, 1497, 3).
+word(present, 11742, 1497, 4).
+word(confusingly, 11742, 1497, 5).
+word(similar, 11742, 1497, 7).
+word(simple, 11742, 1497, 9).
+word(analysis, 11742, 1497, 10).
+word(possible, 11742, 1497, 13).
+word(look, 11742, 1497, 15).
+word(variance, 11742, 1497, 17).
+word(neighbours, 11742, 1497, 19).
+word(vb, 11742, 1497, 20).
+word(vd, 11742, 1497, 22).
+word(involve, 11742, 1497, 24).
+word(va, 11742, 1497, 25).
+word(vc, 11742, 1497, 27).
+word(method, 11743, 1498, 1).
+word(corpus, 11743, 1498, 4).
+word(book, 11743, 1498, 6).
+word(author, 11743, 1498, 9).
+word(corpus, 11743, 1498, 13).
+word(subreddit, 11743, 1498, 15).
+word(method, 11743, 2014, 1).
+word(corpus, 11743, 2014, 4).
+word(book, 11743, 2014, 6).
+word(author, 11743, 2014, 9).
+word(corpus, 11743, 2014, 13).
+word(subreddit, 11743, 2014, 15).
+word(propose, 11743, 2014, 20).
+word(method, 11743, 2014, 21).
+word(show, 11743, 2014, 22).
+word(good, 11743, 2014, 23).
+word(performancebut, 11743, 2014, 24).
+word(state, 11743, 2014, 26).
+word(art, 11743, 2014, 32).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(11742, 1495, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(11742, 1496, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11742, 1497, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(11743, 1498, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11743, 2014, 0, 0, 0, 0, 0, 0, -1, 0).

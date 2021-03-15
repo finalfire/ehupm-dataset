@@ -1,0 +1,60 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(1811,181,6,3).
+source(1813,181,7,5).
+% id paper, Reject/Accept
+paperProperties(181, 1).
+% sourceId, line
+sentence(1811,489).
+sentence(1811,1878).
+sentence(1811,2074).
+sentence(1813,1225).
+% W, sourceId, line, position
+word(work, 1811, 489, 3).
+word(refer, 1811, 489, 5).
+word(related, 1811, 489, 8).
+word(work, 1811, 489, 9).
+word(highly, 1811, 489, 15).
+word(relevant, 1811, 489, 16).
+word(analysis, 1811, 489, 19).
+word(present, 1811, 489, 20).
+word(work, 1811, 1878, 3).
+word(refer, 1811, 1878, 5).
+word(related, 1811, 1878, 8).
+word(work, 1811, 1878, 9).
+word(highly, 1811, 1878, 15).
+word(relevant, 1811, 1878, 16).
+word(analysis, 1811, 1878, 19).
+word(present, 1811, 1878, 20).
+word(overall, 1811, 1878, 24).
+word(think, 1811, 1878, 27).
+word(paper, 1811, 1878, 29).
+word(collection, 1811, 1878, 32).
+word(result, 1811, 1878, 34).
+word(know, 1811, 1878, 39).
+word(expert, 1811, 1878, 41).
+word(field, 1811, 1878, 44).
+word(add, 1811, 1878, 46).
+word(little, 1811, 1878, 47).
+word(novelty, 1811, 1878, 48).
+word(work, 1811, 2074, 3).
+word(refer, 1811, 2074, 5).
+word(related, 1811, 2074, 8).
+word(work, 1811, 2074, 9).
+word(highly, 1811, 2074, 15).
+word(relevant, 1811, 2074, 16).
+word(analysis, 1811, 2074, 19).
+word(present, 1811, 2074, 20).
+word(important, 1811, 2074, 25).
+word(problem, 1811, 2074, 26).
+word(active, 1811, 2074, 29).
+word(area, 1811, 2074, 30).
+word(research, 1811, 2074, 32).
+word(discriminator, 1813, 1225, 3).
+word(gans, 1813, 1225, 5).
+word(unstable, 1813, 1225, 8).
+word(mean, 1813, 1225, 14).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(1811, 489, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(1811, 1878, 0, 0, -1, 0, -1, 0, 0, 0).
+sentiment(1811, 2074, 0, 0, 0, 0, -1, 0, 1, 0).
+sentiment(1813, 1225, 0, -1, 0, 0, 0, 0, 0, 0).

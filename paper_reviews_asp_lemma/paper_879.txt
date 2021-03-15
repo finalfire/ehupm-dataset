@@ -1,0 +1,79 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(8791,879,5,3).
+source(8792,879,6,3).
+source(8793,879,4,4).
+% id paper, Reject/Accept
+paperProperties(879, 0).
+% sourceId, line
+sentence(8791,436).
+sentence(8792,1546).
+sentence(8792,1547).
+sentence(8793,206).
+sentence(8793,1548).
+sentence(8793,2530).
+sentence(8793,2575).
+% W, sourceId, line, position
+word(claim, 8791, 436, 1).
+word(highly, 8791, 436, 3).
+word(biased, 8791, 436, 4).
+word(give, 8791, 436, 8).
+word(intuitive, 8791, 436, 11).
+word(sense, 8791, 436, 12).
+word(pushforward, 8792, 1546, 5).
+word(measure, 8792, 1546, 6).
+word(error, 8792, 1547, 4).
+word(figure, 8792, 1547, 6).
+word(think, 8792, 1547, 9).
+word(mention, 8792, 1547, 12).
+word(previous, 8792, 1547, 14).
+word(commentator, 8792, 1547, 15).
+word(easy, 8793, 206, 3).
+word(follow, 8793, 206, 5).
+word(main, 8793, 206, 7).
+word(idea, 8793, 206, 8).
+word(paper, 8793, 206, 11).
+word(paper, 8793, 1548, 1).
+word(tell, 8793, 1548, 3).
+word(difference, 8793, 1548, 4).
+word(story, 8793, 1548, 5).
+word(section, 8793, 1548, 6).
+word(section, 8793, 1548, 8).
+word(paper, 8793, 2530, 1).
+word(tell, 8793, 2530, 3).
+word(difference, 8793, 2530, 4).
+word(story, 8793, 2530, 5).
+word(section, 8793, 2530, 6).
+word(section, 8793, 2530, 8).
+word(page, 8793, 2530, 12).
+word(say, 8793, 2530, 16).
+word(merge, 8793, 2530, 18).
+word(block, 8793, 2530, 19).
+word(take, 8793, 2530, 20).
+word(input, 8793, 2530, 22).
+word(sequence, 8793, 2530, 24).
+word(paper, 8793, 2575, 1).
+word(tell, 8793, 2575, 3).
+word(difference, 8793, 2575, 4).
+word(story, 8793, 2575, 5).
+word(section, 8793, 2575, 6).
+word(section, 8793, 2575, 8).
+word(example, 8793, 2575, 12).
+word(appreciate, 8793, 2575, 18).
+word(see, 8793, 2575, 19).
+word(fms, 8793, 2575, 21).
+word(perform, 8793, 2575, 22).
+word(optimize, 8793, 2575, 24).
+word(manifold, 8793, 2575, 27).
+word(positive, 8793, 2575, 29).
+word(definite, 8793, 2575, 30).
+word(matrix, 8793, 2575, 31).
+word(reviewer, 8793, 2575, 35).
+word(mention, 8793, 2575, 36).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(8791, 436, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(8792, 1546, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(8792, 1547, 0, -1, 0, -1, 0, 0, 0, 0).
+sentiment(8793, 206, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(8793, 1548, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8793, 2530, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8793, 2575, 0, 0, 0, 0, 0, 0, 0, 0).

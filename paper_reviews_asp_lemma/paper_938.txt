@@ -1,0 +1,50 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(9381,938,5,2).
+source(9382,938,5,4).
+source(9383,938,6,5).
+% id paper, Reject/Accept
+paperProperties(938, 0).
+% sourceId, line
+sentence(9381,899).
+sentence(9381,2259).
+sentence(9382,898).
+sentence(9383,625).
+% W, sourceId, line, position
+word(basic, 9381, 899, 1).
+word(idea, 9381, 899, 2).
+word(introduce, 9381, 899, 4).
+word(long, 9381, 899, 5).
+word(rage, 9381, 899, 6).
+word(dependecy, 9381, 899, 7).
+word(interesting, 9381, 899, 11).
+word(basic, 9381, 2259, 1).
+word(idea, 9381, 2259, 2).
+word(introduce, 9381, 2259, 4).
+word(long, 9381, 2259, 5).
+word(rage, 9381, 2259, 6).
+word(dependecy, 9381, 2259, 7).
+word(interesting, 9381, 2259, 11).
+word(bengio, 9381, 2259, 14).
+word(advocate, 9381, 2259, 16).
+word(make, 9381, 2259, 17).
+word(prediction, 9381, 2259, 18).
+word(entire, 9381, 2259, 20).
+word(group, 9381, 2259, 21).
+word(unit, 9381, 2259, 23).
+word(time, 9381, 2259, 27).
+word(way, 9382, 898, 1).
+word(effect, 9382, 898, 3).
+word(different, 9382, 898, 5).
+word(degree, 9382, 898, 6).
+word(neighborhood, 9382, 898, 8).
+word(graph, 9382, 898, 11).
+word(understand, 9382, 898, 14).
+word(well, 9382, 898, 15).
+word(true, 9383, 625, 3).
+word(small, 9383, 625, 6).
+word(dataset, 9383, 625, 7).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(9381, 899, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9381, 2259, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9382, 898, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9383, 625, 0, 0, 0, 0, 0, 0, -1, 0).

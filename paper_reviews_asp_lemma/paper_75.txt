@@ -1,0 +1,65 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(751,75,7,4).
+source(752,75,7,3).
+source(753,75,6,3).
+% id paper, Reject/Accept
+paperProperties(75, 1).
+% sourceId, line
+sentence(751,95).
+sentence(751,586).
+sentence(752,481).
+sentence(753,227).
+sentence(753,1278).
+sentence(753,1279).
+sentence(753,1844).
+% W, sourceId, line, position
+word(mixed, 751, 95, 3).
+word(opinion, 751, 95, 4).
+word(paper, 751, 95, 7).
+word(paper, 751, 586, 1).
+word(write, 751, 586, 3).
+word(clearly, 751, 586, 4).
+word(author, 752, 481, 3).
+word(note, 752, 481, 5).
+word(novel, 752, 481, 12).
+word(explore, 752, 481, 17).
+word(work, 752, 481, 20).
+word(e, 752, 481, 22).
+word(think, 753, 227, 1).
+word(paper, 753, 227, 3).
+word(need, 753, 227, 5).
+word(clarification, 753, 227, 7).
+word(experimental, 753, 1278, 1).
+word(setup, 753, 1278, 2).
+word(interesting, 753, 1278, 5).
+word(page, 753, 1279, 3).
+word(make, 753, 1279, 7).
+word(distinguishing, 753, 1279, 8).
+word(heavy, 753, 1279, 12).
+word(block, 753, 1279, 13).
+word(difficult, 753, 1279, 15).
+word(bit, 753, 1279, 21).
+word(confused, 753, 1279, 22).
+word(have, 753, 1279, 24).
+word(small, 753, 1279, 26).
+word(mass, 753, 1279, 27).
+word(gap, 753, 1279, 28).
+word(make, 753, 1279, 29).
+word(task, 753, 1279, 31).
+word(hard, 753, 1279, 32).
+word(close, 753, 1279, 38).
+word(simply, 753, 1844, 1).
+word(report, 753, 1844, 2).
+word(accuracy, 753, 1844, 3).
+word(dataset, 753, 1844, 7).
+word(experimental, 753, 1844, 11).
+word(setup, 753, 1844, 12).
+word(interesting, 753, 1844, 15).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(751, 95, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(751, 586, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(752, 481, 0, 0, 0, 0, 1, 0, 0, 0).
+sentiment(753, 227, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(753, 1278, 0, 0, 0, 1, 0, 0, 0, 0).
+sentiment(753, 1279, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(753, 1844, 0, 0, 0, 1, 0, 0, -1, 0).

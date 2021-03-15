@@ -1,0 +1,95 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(7021,702,7,3).
+source(7022,702,6,5).
+source(7023,702,4,5).
+% id paper, Reject/Accept
+paperProperties(702, 1).
+% sourceId, line
+sentence(7021,1311).
+sentence(7021,2217).
+sentence(7021,2257).
+sentence(7021,2498).
+sentence(7022,1309).
+sentence(7023,1310).
+% W, sourceId, line, position
+word(smola, 7021, 1311, 0).
+word(le, 7021, 1311, 2).
+word(song, 7021, 1311, 3).
+word(andrew, 7021, 1311, 5).
+word(gordon, 7021, 1311, 6).
+word(wilson, 7021, 1311, 7).
+word(smola, 7021, 2217, 0).
+word(le, 7021, 2217, 2).
+word(song, 7021, 2217, 3).
+word(andrew, 7021, 2217, 5).
+word(gordon, 7021, 2217, 6).
+word(wilson, 7021, 2217, 7).
+word(motion, 7021, 2217, 11).
+word(perform, 7021, 2217, 12).
+word(actor, 7021, 2217, 15).
+word(action, 7021, 2217, 18).
+word(highly, 7021, 2217, 19).
+word(overlaps, 7021, 2217, 20).
+word(talk, 7021, 2217, 22).
+word(phone, 7021, 2217, 25).
+word(action, 7021, 2217, 26).
+word(sit, 7021, 2217, 30).
+word(walk, 7021, 2217, 32).
+word(little, 7021, 2217, 34).
+word(sit, 7021, 2217, 36).
+word(smola, 7021, 2257, 0).
+word(le, 7021, 2257, 2).
+word(song, 7021, 2257, 3).
+word(andrew, 7021, 2257, 5).
+word(gordon, 7021, 2257, 6).
+word(wilson, 7021, 2257, 7).
+word(encourage, 7021, 2257, 12).
+word(author, 7021, 2257, 14).
+word(address, 7021, 2257, 16).
+word(concern, 7021, 2257, 18).
+word(raise, 7021, 2257, 19).
+word(review, 7021, 2257, 22).
+word(smola, 7021, 2498, 0).
+word(le, 7021, 2498, 2).
+word(song, 7021, 2498, 3).
+word(andrew, 7021, 2498, 5).
+word(gordon, 7021, 2498, 6).
+word(wilson, 7021, 2498, 7).
+word(greedy, 7021, 2498, 11).
+word(empirically, 7022, 1309, 0).
+word(performance, 7022, 1309, 5).
+word(well, 7022, 1309, 7).
+word(random, 7022, 1309, 9).
+word(feature, 7022, 1309, 10).
+word(lkrf, 7022, 1309, 13).
+word(informative, 7023, 1310, 5).
+word(author, 7023, 1310, 8).
+word(refer, 7023, 1310, 9).
+word(appendix, 7023, 1310, 12).
+word(carefully, 7023, 1310, 15).
+word(read, 7023, 1310, 16).
+word(appendix, 7023, 1310, 21).
+word(extremely, 7023, 1310, 26).
+word(vague, 7023, 1310, 27).
+word(clear, 7023, 1310, 32).
+word(langevin, 7023, 1310, 37).
+word(dynamic, 7023, 1310, 38).
+word(emulate, 7023, 1310, 42).
+word(discrete, 7023, 1310, 46).
+word(markov, 7023, 1310, 47).
+word(chain, 7023, 1310, 48).
+word(mix, 7023, 1310, 50).
+word(fast, 7023, 1310, 51).
+word(author, 7023, 1310, 54).
+word(provide, 7023, 1310, 57).
+word(justification, 7023, 1310, 59).
+word(approach, 7023, 1310, 62).
+word(mix, 7023, 1310, 67).
+word(time, 7023, 1310, 68).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(7021, 1311, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7021, 2217, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7021, 2257, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7021, 2498, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7022, 1309, 0, 0, 0, 1, 0, 0, 0, 0).
+sentiment(7023, 1310, 0, -1, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,49 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(3272,327,4,4).
+source(3273,327,3,4).
+% id paper, Reject/Accept
+paperProperties(327, 0).
+% sourceId, line
+sentence(3272,1769).
+sentence(3272,2452).
+sentence(3273,411).
+sentence(3273,1972).
+% W, sourceId, line, position
+word(system, 3272, 1769, 1).
+word(present, 3272, 1769, 3).
+word(short, 3272, 1769, 7).
+word(story, 3272, 1769, 8).
+word(answer, 3272, 1769, 12).
+word(question, 3272, 1769, 14).
+word(system, 3272, 2452, 1).
+word(present, 3272, 2452, 3).
+word(short, 3272, 2452, 7).
+word(story, 3272, 2452, 8).
+word(answer, 3272, 2452, 12).
+word(question, 3272, 2452, 14).
+word(block, 3272, 2452, 19).
+word(wise, 3272, 2452, 21).
+word(cross, 3272, 2452, 22).
+word(validation, 3272, 2452, 24).
+word(leave, 3272, 2452, 26).
+word(subject, 3272, 2452, 28).
+word(cv, 3272, 2452, 30).
+word(claim, 3273, 411, 1).
+word(require, 3273, 411, 4).
+word(comprehensive, 3273, 411, 7).
+word(analysis, 3273, 411, 8).
+word(claim, 3273, 1972, 1).
+word(require, 3273, 1972, 4).
+word(comprehensive, 3273, 1972, 7).
+word(analysis, 3273, 1972, 8).
+word(generally, 3273, 1972, 11).
+word(result, 3273, 1972, 14).
+word(interesting, 3273, 1972, 16).
+word(presentation, 3273, 1972, 19).
+word(easy, 3273, 1972, 21).
+word(follow, 3273, 1972, 23).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(3272, 1769, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3272, 2452, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3273, 411, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3273, 1972, 0, 1, 0, 0, 0, 0, 0, 0).

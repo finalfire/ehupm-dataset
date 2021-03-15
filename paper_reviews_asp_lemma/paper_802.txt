@@ -1,0 +1,48 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(8021,802,6,4).
+% id paper, Reject/Accept
+paperProperties(802, 0).
+% sourceId, line
+sentence(8021,820).
+sentence(8021,821).
+sentence(8021,2272).
+sentence(8021,2318).
+% W, sourceId, line, position
+word(encourage, 8021, 820, 1).
+word(author, 8021, 820, 3).
+word(address, 8021, 820, 5).
+word(flaw, 8021, 820, 7).
+word(possible, 8021, 820, 11).
+word(review, 8021, 820, 14).
+word(period, 8021, 820, 15).
+word(paper, 8021, 821, 1).
+word(clearly, 8021, 821, 3).
+word(write, 8021, 821, 4).
+word(room, 8021, 821, 13).
+word(improvement, 8021, 821, 15).
+word(encourage, 8021, 2272, 1).
+word(author, 8021, 2272, 3).
+word(address, 8021, 2272, 5).
+word(flaw, 8021, 2272, 7).
+word(possible, 8021, 2272, 11).
+word(review, 8021, 2272, 14).
+word(period, 8021, 2272, 15).
+word(use, 8021, 2272, 19).
+word(image, 8021, 2272, 20).
+word(encourage, 8021, 2318, 1).
+word(author, 8021, 2318, 3).
+word(address, 8021, 2318, 5).
+word(flaw, 8021, 2318, 7).
+word(possible, 8021, 2318, 11).
+word(review, 8021, 2318, 14).
+word(period, 8021, 2318, 15).
+word(update, 8021, 2318, 19).
+word(concern, 8021, 2318, 21).
+word(section, 8021, 2318, 24).
+word(address, 8021, 2318, 27).
+word(author, 8021, 2318, 30).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(8021, 820, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8021, 821, 0, 1, 0, -1, 0, 0, 0, 0).
+sentiment(8021, 2272, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8021, 2318, 0, 0, 0, 0, 0, 0, 0, 0).

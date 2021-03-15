@@ -1,0 +1,68 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(11461,1146,4,4).
+source(11462,1146,6,4).
+source(11463,1146,3,4).
+% id paper, Reject/Accept
+paperProperties(1146, 0).
+% sourceId, line
+sentence(11461,883).
+sentence(11461,2263).
+sentence(11462,882).
+sentence(11463,491).
+sentence(11463,884).
+sentence(11463,2321).
+% W, sourceId, line, position
+word(background, 11461, 883, 1).
+word(white, 11461, 883, 3).
+word(single, 11461, 883, 9).
+word(object, 11461, 883, 10).
+word(image, 11461, 883, 13).
+word(sparsity, 11461, 2263, 0).
+word(non, 11461, 2263, 3).
+word(smooth, 11461, 2263, 5).
+word(gradient, 11461, 2263, 6).
+word(background, 11461, 2263, 10).
+word(white, 11461, 2263, 12).
+word(single, 11461, 2263, 18).
+word(object, 11461, 2263, 19).
+word(image, 11461, 2263, 22).
+word(encourage, 11462, 882, 2).
+word(author, 11462, 882, 4).
+word(address, 11462, 882, 6).
+word(concern, 11462, 882, 8).
+word(raise, 11462, 882, 9).
+word(review, 11462, 882, 12).
+word(conversely, 11463, 491, 0).
+word(related, 11463, 491, 3).
+word(work, 11463, 491, 4).
+word(cite, 11463, 491, 5).
+word(handful, 11463, 491, 7).
+word(paper, 11463, 491, 9).
+word(e, 11463, 491, 11).
+word(misclassification, 11463, 884, 7).
+word(rate, 11463, 884, 8).
+word(random, 11463, 884, 11).
+word(baseline, 11463, 884, 12).
+word(policy, 11463, 884, 13).
+word(involve, 11463, 884, 15).
+word(navigation, 11463, 884, 16).
+word(learning, 11463, 884, 17).
+word(e, 11463, 884, 19).
+word(misclassification, 11463, 2321, 7).
+word(rate, 11463, 2321, 8).
+word(random, 11463, 2321, 11).
+word(baseline, 11463, 2321, 12).
+word(policy, 11463, 2321, 13).
+word(involve, 11463, 2321, 15).
+word(navigation, 11463, 2321, 16).
+word(learn, 11463, 2321, 17).
+word(e, 11463, 2321, 19).
+word(alternative, 11463, 2321, 24).
+word(solution, 11463, 2321, 25).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(11461, 883, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11461, 2263, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11462, 882, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11463, 491, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11463, 884, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11463, 2321, 0, 0, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,45 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(8001,800,5,3).
+source(8002,800,4,3).
+% id paper, Reject/Accept
+paperProperties(800, 0).
+% sourceId, line
+sentence(8001,194).
+sentence(8001,1317).
+sentence(8001,1647).
+sentence(8002,1316).
+sentence(8002,2470).
+% W, sourceId, line, position
+word(problem, 8001, 194, 3).
+word(paper, 8001, 194, 6).
+word(clarity, 8001, 194, 9).
+word(m, 8001, 1317, 1).
+word(unsupervised, 8001, 1317, 3).
+word(training, 8001, 1317, 4).
+word(english, 8001, 1317, 6).
+word(german, 8001, 1317, 8).
+word(task, 8001, 1317, 9).
+word(difficult, 8001, 1647, 6).
+word(problem, 8001, 1647, 7).
+word(approach, 8001, 1647, 10).
+word(non, 8001, 1647, 12).
+word(differentiable, 8001, 1647, 14).
+word(elegantly, 8001, 1647, 17).
+word(solve, 8001, 1647, 18).
+word(employ, 8001, 1647, 20).
+word(gumbel, 8001, 1647, 21).
+word(softmax, 8001, 1647, 23).
+word(lot, 8002, 1316, 1).
+word(content, 8002, 1316, 3).
+word(sec, 8002, 1316, 5).
+word(lot, 8002, 2470, 1).
+word(content, 8002, 2470, 3).
+word(sec, 8002, 2470, 5).
+word(proposition, 8002, 2470, 9).
+word(e, 8002, 2470, 10).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(8001, 194, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(8001, 1317, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8001, 1647, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8002, 1316, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8002, 2470, 0, 0, 0, 0, 0, 0, 0, 0).

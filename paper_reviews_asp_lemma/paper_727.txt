@@ -1,0 +1,80 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(7271,727,3,4).
+source(7273,727,7,4).
+% id paper, Reject/Accept
+paperProperties(727, 1).
+% sourceId, line
+sentence(7271,1167).
+sentence(7271,2280).
+sentence(7273,1164).
+sentence(7273,1165).
+sentence(7273,1166).
+sentence(7273,2092).
+sentence(7273,2125).
+% W, sourceId, line, position
+word(paper, 7271, 1167, 1).
+word(far, 7271, 1167, 3).
+word(long, 7271, 1167, 5).
+word(page, 7271, 1167, 8).
+word(refs, 7271, 1167, 11).
+word(appendix, 7271, 1167, 13).
+word(total, 7271, 1167, 16).
+word(page, 7271, 1167, 18).
+word(page, 7271, 1167, 23).
+word(limit, 7271, 1167, 24).
+word(page, 7271, 1167, 27).
+word(refs, 7271, 1167, 30).
+word(appendix, 7271, 1167, 32).
+word(necessary, 7271, 2280, 0).
+word(paper, 7271, 2280, 3).
+word(paper, 7271, 2280, 7).
+word(far, 7271, 2280, 9).
+word(long, 7271, 2280, 11).
+word(page, 7271, 2280, 14).
+word(refs, 7271, 2280, 17).
+word(appendix, 7271, 2280, 19).
+word(total, 7271, 2280, 22).
+word(page, 7271, 2280, 24).
+word(page, 7271, 2280, 29).
+word(limit, 7271, 2280, 30).
+word(page, 7271, 2280, 33).
+word(refs, 7271, 2280, 36).
+word(appendix, 7271, 2280, 38).
+word(generally, 7273, 1164, 2).
+word(positive, 7273, 1164, 3).
+word(accept, 7273, 1164, 5).
+word(paper, 7273, 1164, 7).
+word(iclr, 7273, 1164, 9).
+word(p3, 7273, 1165, 1).
+word(learn, 7273, 1165, 3).
+word(interpreting, 7273, 1165, 5).
+word(learn, 7273, 1165, 8).
+word(interpret, 7273, 1165, 10).
+word(p11, 7273, 1166, 1).
+word(det, 7273, 1166, 5).
+word(generally, 7273, 2092, 2).
+word(positive, 7273, 2092, 3).
+word(accept, 7273, 2092, 5).
+word(paper, 7273, 2092, 7).
+word(iclr, 7273, 2092, 9).
+word(paper, 7273, 2092, 13).
+word(write, 7273, 2092, 16).
+word(clearly, 7273, 2092, 18).
+word(present, 7273, 2092, 19).
+word(generally, 7273, 2125, 2).
+word(positive, 7273, 2125, 3).
+word(accept, 7273, 2125, 5).
+word(paper, 7273, 2125, 7).
+word(iclr, 7273, 2125, 9).
+word(paper, 7273, 2125, 13).
+word(write, 7273, 2125, 16).
+word(easy, 7273, 2125, 18).
+word(understand, 7273, 2125, 20).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(7271, 1167, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7271, 2280, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7273, 1164, 0, 0, 0, 0, 0, 0, 1, 0).
+sentiment(7273, 1165, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7273, 1166, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(7273, 2092, 0, 1, 0, 0, 0, 0, 1, 0).
+sentiment(7273, 2125, 0, 1, 0, 0, 0, 0, 1, 0).

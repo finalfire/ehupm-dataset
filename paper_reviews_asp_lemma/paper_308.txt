@@ -1,0 +1,109 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(3082,308,5,3).
+source(3083,308,4,5).
+% id paper, Reject/Accept
+paperProperties(308, 0).
+% sourceId, line
+sentence(3082,4).
+sentence(3082,50).
+sentence(3082,51).
+sentence(3083,32).
+sentence(3083,33).
+sentence(3083,52).
+% W, sourceId, line, position
+word(find, 3082, 4, 1).
+word(paper, 3082, 4, 3).
+word(write, 3082, 4, 8).
+word(thorough, 3082, 4, 13).
+word(experiment, 3082, 4, 14).
+word(analysis, 3082, 4, 16).
+word(concern, 3082, 50, 2).
+word(work, 3082, 50, 5).
+word(particularly, 3082, 50, 8).
+word(different, 3082, 50, 9).
+word(previous, 3082, 50, 11).
+word(approach, 3082, 50, 12).
+word(focused, 3082, 50, 18).
+word(contribution, 3082, 50, 19).
+word(limit, 3082, 50, 22).
+word(application, 3082, 50, 25).
+word(type, 3082, 50, 28).
+word(short, 3082, 50, 30).
+word(input, 3082, 50, 31).
+word(author, 3082, 50, 34).
+word(suggest, 3082, 50, 36).
+word(approach, 3082, 50, 40).
+word(sufficient, 3082, 50, 42).
+word(short, 3082, 50, 44).
+word(sequence, 3082, 50, 45).
+word(compare, 3082, 50, 50).
+word(approach, 3082, 50, 53).
+word(chorowski, 3082, 50, 55).
+word(et, 3082, 50, 56).
+word(al, 3082, 50, 57).
+word(jailty, 3082, 50, 61).
+word(el, 3082, 50, 62).
+word(summary, 3082, 51, 1).
+word(find, 3082, 51, 4).
+word(paper, 3082, 51, 6).
+word(execute, 3082, 51, 11).
+word(write, 3082, 51, 15).
+word(novelty, 3082, 51, 20).
+word(scope, 3082, 51, 22).
+word(small, 3082, 51, 24).
+word(discuss, 3083, 32, 2).
+word(pre, 3083, 32, 5).
+word(review, 3083, 32, 7).
+word(period, 3083, 32, 8).
+word(lot, 3083, 32, 14).
+word(strongly, 3083, 32, 16).
+word(overlap, 3083, 32, 17).
+word(related, 3083, 32, 18).
+word(work, 3083, 32, 19).
+word(probabilistic, 3083, 32, 23).
+word(model, 3083, 32, 24).
+word(hard, 3083, 32, 26).
+word(alignment, 3083, 32, 28).
+word(sequence, 3083, 32, 30).
+word(transduction, 3083, 32, 31).
+word(recurrent, 3083, 32, 33).
+word(neural, 3083, 32, 34).
+word(network, 3083, 32, 35).
+word(graves, 3083, 32, 37).
+word(et, 3083, 32, 38).
+word(al, 3083, 32, 39).
+word(attempt, 3083, 32, 45).
+word(use, 3083, 32, 47).
+word(external, 3083, 32, 48).
+word(alignment, 3083, 32, 49).
+word(end, 3083, 32, 51).
+word(end, 3083, 32, 55).
+word(model, 3083, 32, 56).
+word(neural, 3083, 32, 59).
+word(transducer, 3083, 32, 60).
+word(jaitly, 3083, 32, 62).
+word(et, 3083, 32, 63).
+word(al, 3083, 32, 64).
+word(say, 3083, 33, 1).
+word(think, 3083, 33, 6).
+word(approach, 3083, 33, 8).
+word(sufficiently, 3083, 33, 10).
+word(novel, 3083, 33, 11).
+word(sum, 3083, 52, 1).
+word(main, 3083, 52, 5).
+word(issue, 3083, 52, 6).
+word(lack, 3083, 52, 11).
+word(novelty, 3083, 52, 13).
+word(b, 3083, 52, 15).
+word(comparison, 3083, 52, 18).
+word(model, 3083, 52, 21).
+word(train, 3083, 52, 22).
+word(external, 3083, 52, 24).
+word(alignment, 3083, 52, 25).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(3082, 4, 0, 0, 0, 0, 0, 1, 0, 0).
+sentiment(3082, 50, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(3082, 51, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(3083, 32, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(3083, 33, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(3083, 52, 0, 0, 0, 0, 0, -1, 0, 0).

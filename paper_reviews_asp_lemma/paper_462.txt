@@ -1,0 +1,39 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(4621,462,8,4).
+% id paper, Reject/Accept
+paperProperties(462, 1).
+% sourceId, line
+sentence(4621,1541).
+sentence(4621,1542).
+sentence(4621,2241).
+% W, sourceId, line, position
+word(video, 4621, 1541, 2).
+word(people, 4621, 1541, 8).
+word(chair, 4621, 1541, 10).
+word(place, 4621, 1541, 16).
+word(video, 4621, 1542, 2).
+word(useful, 4621, 1542, 7).
+word(indicate, 4621, 1542, 9).
+word(goal, 4621, 1542, 12).
+word(detect, 4621, 1542, 14).
+word(let, 4621, 1542, 18).
+word(run, 4621, 1542, 20).
+word(couple, 4621, 1542, 22).
+word(step, 4621, 1542, 24).
+word(stop, 4621, 1542, 26).
+word(second, 4621, 1542, 29).
+word(video, 4621, 2241, 2).
+word(people, 4621, 2241, 8).
+word(chair, 4621, 2241, 10).
+word(place, 4621, 2241, 16).
+word(look, 4621, 2241, 21).
+word(forward, 4621, 2241, 22).
+word(reply, 4621, 2241, 25).
+word(question, 4621, 2241, 28).
+word(final, 4621, 2241, 32).
+word(score, 4621, 2241, 33).
+word(depend, 4621, 2241, 35).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(4621, 1541, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4621, 1542, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4621, 2241, 0, 0, 0, 0, 0, 0, 0, 0).

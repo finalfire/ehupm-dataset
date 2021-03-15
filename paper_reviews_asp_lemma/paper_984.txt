@@ -1,0 +1,91 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(9842,984,5,4).
+% id paper, Reject/Accept
+paperProperties(984, 0).
+% sourceId, line
+sentence(9842,327).
+sentence(9842,1363).
+sentence(9842,2000).
+sentence(9842,2020).
+sentence(9842,2435).
+% W, sourceId, line, position
+word(require, 9842, 327, 2).
+word(additional, 9842, 327, 4).
+word(constraint, 9842, 327, 5).
+word(second, 9842, 1363, 3).
+word(experiment, 9842, 1363, 4).
+word(claim, 9842, 1363, 5).
+word(improve, 9842, 1363, 7).
+word(accuracy, 9842, 1363, 9).
+word(task, 9842, 1363, 12).
+word(reduce, 9842, 1363, 14).
+word(parameter, 9842, 1363, 16).
+word(great, 9842, 1363, 22).
+word(understand, 9842, 1363, 24).
+word(improvement, 9842, 1363, 29).
+word(second, 9842, 2000, 3).
+word(experiment, 9842, 2000, 4).
+word(claim, 9842, 2000, 5).
+word(improve, 9842, 2000, 7).
+word(accuracy, 9842, 2000, 9).
+word(task, 9842, 2000, 12).
+word(reduce, 9842, 2000, 14).
+word(parameter, 9842, 2000, 16).
+word(great, 9842, 2000, 22).
+word(understand, 9842, 2000, 24).
+word(improvement, 9842, 2000, 29).
+word(red, 9842, 2000, 33).
+word(set, 9842, 2000, 37).
+word(training, 9842, 2000, 39).
+word(example, 9842, 2000, 40).
+word(method, 9842, 2000, 44).
+word(provide, 9842, 2000, 45).
+word(explanation, 9842, 2000, 46).
+word(like, 9842, 2000, 47).
+word(red, 9842, 2000, 53).
+word(image, 9842, 2000, 56).
+word(model, 9842, 2000, 59).
+word(likely, 9842, 2000, 63).
+word(classify, 9842, 2000, 65).
+word(fire, 9842, 2000, 69).
+word(truck, 9842, 2000, 70).
+word(second, 9842, 2020, 3).
+word(experiment, 9842, 2020, 4).
+word(claim, 9842, 2020, 5).
+word(improve, 9842, 2020, 7).
+word(accuracy, 9842, 2020, 9).
+word(task, 9842, 2020, 12).
+word(reduce, 9842, 2020, 14).
+word(parameter, 9842, 2020, 16).
+word(great, 9842, 2020, 22).
+word(understand, 9842, 2020, 24).
+word(improvement, 9842, 2020, 29).
+word(paper, 9842, 2020, 33).
+word(aim, 9842, 2020, 34).
+word(answer, 9842, 2020, 36).
+word(single, 9842, 2020, 38).
+word(question, 9842, 2020, 39).
+word(dae, 9842, 2020, 44).
+word(network, 9842, 2020, 45).
+word(segmentation, 9842, 2020, 50).
+word(network, 9842, 2020, 51).
+word(output, 9842, 2020, 52).
+word(condition, 9842, 2020, 56).
+word(predict, 9842, 2020, 59).
+word(ground, 9842, 2020, 63).
+word(truth, 9842, 2020, 64).
+word(segmentation, 9842, 2020, 65).
+word(require, 9842, 2435, 2).
+word(additional, 9842, 2435, 4).
+word(constraint, 9842, 2435, 5).
+word(assumption, 9842, 2435, 9).
+word(right, 9842, 2435, 14).
+word(page, 9842, 2435, 19).
+word(upi, 9842, 2435, 23).
+word(v, 9842, 2435, 27).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(9842, 327, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9842, 1363, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9842, 2000, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(9842, 2020, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9842, 2435, 0, 0, 0, 0, 0, 0, 0, 0).

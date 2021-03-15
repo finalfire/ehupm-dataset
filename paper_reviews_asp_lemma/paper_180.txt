@@ -1,0 +1,60 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(1802,180,7,3).
+source(1803,180,6,3).
+% id paper, Reject/Accept
+paperProperties(180, 1).
+% sourceId, line
+sentence(1802,1682).
+sentence(1802,2475).
+sentence(1803,1683).
+sentence(1803,2333).
+% W, sourceId, line, position
+word(basic, 1802, 1682, 0).
+word(hand, 1802, 1682, 1).
+word(craft, 1802, 1682, 3).
+word(pattern, 1802, 1682, 4).
+word(detector, 1802, 1682, 5).
+word(computer, 1802, 1682, 13).
+word(vision, 1802, 1682, 14).
+word(decade, 1802, 1682, 16).
+word(job, 1802, 1682, 22).
+word(basic, 1802, 2475, 0).
+word(hand, 1802, 2475, 1).
+word(craft, 1802, 2475, 3).
+word(pattern, 1802, 2475, 4).
+word(detector, 1802, 2475, 5).
+word(computer, 1802, 2475, 13).
+word(vision, 1802, 2475, 14).
+word(decade, 1802, 2475, 16).
+word(job, 1802, 2475, 22).
+word(develop, 1802, 2475, 26).
+word(theme, 1802, 2475, 29).
+word(real, 1802, 2475, 32).
+word(world, 1802, 2475, 34).
+word(transformation, 1802, 2475, 36).
+word(typically, 1802, 2475, 37).
+word(provide, 1802, 2475, 38).
+word(pool, 1803, 1683, 0).
+word(operation, 1803, 1683, 1).
+word(bring, 1803, 1683, 2).
+word(information, 1803, 1683, 4).
+word(pool, 1803, 2333, 0).
+word(operation, 1803, 2333, 1).
+word(bring, 1803, 2333, 2).
+word(information, 1803, 2333, 4).
+word(interesting, 1803, 2333, 9).
+word(good, 1803, 2333, 13).
+word(baseline, 1803, 2333, 15).
+word(use, 1803, 2333, 18).
+word(co, 1803, 2333, 20).
+word(occurrence, 1803, 2333, 22).
+word(letter, 1803, 2333, 24).
+word(frequency, 1803, 2333, 27).
+word(character, 1803, 2333, 29).
+word(n, 1803, 2333, 30).
+word(gram, 1803, 2333, 32).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(1802, 1682, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1802, 2475, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1803, 1683, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1803, 2333, 0, 0, 0, 0, 0, 0, 0, 0).

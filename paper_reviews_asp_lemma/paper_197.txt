@@ -1,0 +1,17 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(1971,197,7,3).
+% id paper, Reject/Accept
+paperProperties(197, 1).
+% sourceId, line
+sentence(1971,1340).
+% W, sourceId, line, position
+word(like, 1971, 1340, 2).
+word(author, 1971, 1340, 4).
+word(explicitly, 1971, 1340, 6).
+word(mention, 1971, 1340, 7).
+word(difference, 1971, 1340, 9).
+word(mrn, 1971, 1340, 11).
+word(marn, 1971, 1340, 13).
+word(mlb, 1971, 1340, 15).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(1971, 1340, 0, -1, 0, 0, 0, 0, 0, 0).

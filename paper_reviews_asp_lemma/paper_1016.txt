@@ -1,0 +1,56 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(10161,1016,5,5).
+source(10162,1016,5,4).
+% id paper, Reject/Accept
+paperProperties(1016, 0).
+% sourceId, line
+sentence(10161,1033).
+sentence(10161,2541).
+sentence(10162,476).
+sentence(10162,1832).
+% W, sourceId, line, position
+word(binary, 10161, 1033, 5).
+word(classification, 10161, 1033, 6).
+word(experiment, 10161, 1033, 7).
+word(strange, 10161, 1033, 12).
+word(randomly, 10161, 1033, 15).
+word(group, 10161, 1033, 16).
+word(different, 10161, 1033, 18).
+word(class, 10161, 1033, 19).
+word(image, 10161, 1033, 21).
+word(category, 10161, 1033, 25).
+word(binary, 10161, 2541, 5).
+word(classification, 10161, 2541, 6).
+word(experiment, 10161, 2541, 7).
+word(strange, 10161, 2541, 12).
+word(randomly, 10161, 2541, 15).
+word(group, 10161, 2541, 16).
+word(different, 10161, 2541, 18).
+word(class, 10161, 2541, 19).
+word(image, 10161, 2541, 21).
+word(category, 10161, 2541, 25).
+word(pool, 10161, 2541, 28).
+word(operation, 10161, 2541, 29).
+word(bring, 10161, 2541, 30).
+word(information, 10161, 2541, 32).
+word(topic, 10162, 476, 1).
+word(wealth, 10162, 476, 4).
+word(previous, 10162, 476, 6).
+word(work, 10162, 476, 7).
+word(topic, 10162, 1832, 1).
+word(wealth, 10162, 1832, 4).
+word(previous, 10162, 1832, 6).
+word(work, 10162, 1832, 7).
+word(con, 10162, 1832, 10).
+word(fearnet, 10162, 1832, 17).
+word(perform, 10162, 1832, 19).
+word(imbalanced, 10162, 1832, 21).
+word(class, 10162, 1832, 22).
+word(see, 10162, 1832, 24).
+word(study, 10162, 1832, 29).
+word(session, 10162, 1832, 30).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(10161, 1033, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10161, 2541, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10162, 476, 0, 0, 0, 0, 1, 0, 0, 0).
+sentiment(10162, 1832, 0, 0, 0, -1, 1, 0, 0, 0).

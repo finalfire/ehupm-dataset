@@ -1,0 +1,60 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(11881,1188,6,3).
+source(11883,1188,4,4).
+% id paper, Reject/Accept
+paperProperties(1188, 0).
+% sourceId, line
+sentence(11881,889).
+sentence(11881,890).
+sentence(11881,891).
+sentence(11881,2427).
+sentence(11883,887).
+sentence(11883,888).
+% W, sourceId, line, position
+word(discussion, 11881, 889, 1).
+word(sepsis, 11881, 889, 4).
+word(application, 11881, 889, 5).
+word(strong, 11881, 889, 8).
+word(text, 11881, 890, 2).
+word(figure, 11881, 890, 5).
+word(virtually, 11881, 890, 7).
+word(impossible, 11881, 890, 8).
+word(read, 11881, 890, 10).
+word(small, 11881, 890, 13).
+word(provide, 11881, 891, 4).
+word(sober, 11881, 891, 6).
+word(critical, 11881, 891, 8).
+word(discussion, 11881, 891, 9).
+word(result, 11881, 891, 12).
+word(simply, 11881, 891, 16).
+word(applaud, 11881, 891, 17).
+word(get, 11881, 891, 20).
+word(good, 11881, 891, 22).
+word(score, 11881, 891, 23).
+word(compete, 11881, 891, 25).
+word(approach, 11881, 891, 26).
+word(discussion, 11881, 2427, 1).
+word(sepsis, 11881, 2427, 4).
+word(application, 11881, 2427, 5).
+word(strong, 11881, 2427, 8).
+word(way, 11881, 2427, 12).
+word(long, 11881, 2427, 14).
+word(physician, 11883, 887, 5).
+word(take, 11883, 887, 6).
+word(care, 11883, 887, 7).
+word(population, 11883, 887, 11).
+word(model, 11883, 888, 3).
+word(update, 11883, 888, 5).
+word(clinician, 11883, 888, 8).
+word(acknowledge, 11883, 888, 10).
+word(action, 11883, 888, 12).
+word(suggestion, 11883, 888, 13).
+word(dismiss, 11883, 888, 15).
+word(incorrect, 11883, 888, 18).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(11881, 889, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11881, 890, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(11881, 891, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(11881, 2427, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11883, 887, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11883, 888, 0, -1, 0, 0, 0, 0, 0, 0).

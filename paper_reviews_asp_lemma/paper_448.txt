@@ -1,0 +1,39 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(4481,448,7,5).
+% id paper, Reject/Accept
+paperProperties(448, 1).
+% sourceId, line
+sentence(4481,652).
+sentence(4481,2143).
+% W, sourceId, line, position
+word(evaluation, 4481, 652, 0).
+word(searchqa, 4481, 652, 3).
+word(dataset, 4481, 652, 4).
+word(show, 4481, 652, 5).
+word(significant, 4481, 652, 6).
+word(improvement, 4481, 652, 7).
+word(state, 4481, 652, 10).
+word(art, 4481, 652, 16).
+word(model, 4481, 652, 17).
+word(use, 4481, 652, 19).
+word(original, 4481, 652, 21).
+word(question, 4481, 652, 22).
+word(evaluation, 4481, 2143, 0).
+word(searchqa, 4481, 2143, 3).
+word(dataset, 4481, 2143, 4).
+word(show, 4481, 2143, 5).
+word(significant, 4481, 2143, 6).
+word(improvement, 4481, 2143, 7).
+word(state, 4481, 2143, 10).
+word(art, 4481, 2143, 16).
+word(model, 4481, 2143, 17).
+word(use, 4481, 2143, 19).
+word(original, 4481, 2143, 21).
+word(question, 4481, 2143, 22).
+word(think, 4481, 2143, 26).
+word(comparison, 4481, 2143, 28).
+word(work, 4481, 2143, 31).
+word(necessary, 4481, 2143, 33).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(4481, 652, 0, 0, 0, 0, 0, 0, 1, 0).
+sentiment(4481, 2143, 0, 0, 0, 0, -1, 0, 1, 0).

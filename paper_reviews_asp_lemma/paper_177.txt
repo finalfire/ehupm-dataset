@@ -1,0 +1,76 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(1771,177,7,3).
+source(1772,177,6,4).
+source(1773,177,6,4).
+% id paper, Reject/Accept
+paperProperties(177, 1).
+% sourceId, line
+sentence(1771,496).
+sentence(1772,643).
+sentence(1772,661).
+sentence(1772,1900).
+sentence(1772,1933).
+sentence(1773,73).
+% W, sourceId, line, position
+word(paper, 1771, 496, 1).
+word(main, 1771, 496, 4).
+word(contribution, 1771, 496, 5).
+word(example, 1772, 643, 1).
+word(dataset, 1772, 643, 4).
+word(imagenet, 1772, 643, 6).
+word(infer, 1772, 643, 9).
+word(conclusion, 1772, 643, 11).
+word(large, 1772, 643, 14).
+word(scale, 1772, 643, 16).
+word(dataset, 1772, 643, 17).
+word(effect, 1772, 661, 2).
+word(significant, 1772, 661, 5).
+word(dataset, 1772, 661, 8).
+word(large, 1772, 661, 10).
+word(carefully, 1772, 661, 15).
+word(handle, 1772, 661, 16).
+word(future, 1772, 661, 19).
+word(research, 1772, 661, 20).
+word(work, 1772, 661, 21).
+word(line, 1772, 661, 24).
+word(effect, 1772, 1900, 2).
+word(significant, 1772, 1900, 5).
+word(dataset, 1772, 1900, 8).
+word(large, 1772, 1900, 10).
+word(carefully, 1772, 1900, 15).
+word(handle, 1772, 1900, 16).
+word(future, 1772, 1900, 19).
+word(research, 1772, 1900, 20).
+word(work, 1772, 1900, 21).
+word(line, 1772, 1900, 24).
+word(wonderful, 1772, 1900, 30).
+word(self, 1772, 1900, 33).
+word(contain, 1772, 1900, 35).
+word(paper, 1772, 1900, 36).
+word(effect, 1772, 1933, 2).
+word(significant, 1772, 1933, 5).
+word(dataset, 1772, 1933, 8).
+word(large, 1772, 1933, 10).
+word(carefully, 1772, 1933, 15).
+word(handle, 1772, 1933, 16).
+word(future, 1772, 1933, 19).
+word(research, 1772, 1933, 20).
+word(work, 1772, 1933, 21).
+word(line, 1772, 1933, 24).
+word(recommend, 1772, 1933, 33).
+word(acceptance, 1772, 1933, 36).
+word(need, 1772, 1933, 39).
+word(significant, 1772, 1933, 40).
+word(work, 1772, 1933, 41).
+word(accept, 1772, 1933, 46).
+word(conference, 1772, 1933, 49).
+word(paper, 1773, 73, 1).
+word(write, 1773, 73, 5).
+word(paper, 1773, 73, 6).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(1771, 496, 0, 0, 0, 0, 0, 0, 1, 0).
+sentiment(1772, 643, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(1772, 661, 0, 0, 0, 0, 0, 0, 1, 0).
+sentiment(1772, 1900, 0, 1, 0, 0, 0, 0, 1, 0).
+sentiment(1772, 1933, 0, 0, 0, 0, 0, 0, 1, -1).
+sentiment(1773, 73, 0, 1, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,64 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(10433,1043,4,3).
+% id paper, Reject/Accept
+paperProperties(1043, 0).
+% sourceId, line
+sentence(10433,780).
+sentence(10433,781).
+sentence(10433,2124).
+% W, sourceId, line, position
+word(paper, 10433, 780, 1).
+word(provide, 10433, 780, 2).
+word(verbal, 10433, 780, 4).
+word(explanation, 10433, 780, 5).
+word(discrepancy, 10433, 780, 8).
+word(say, 10433, 780, 10).
+word(possible, 10433, 780, 14).
+word(s, 10433, 780, 17).
+word(reduce, 10433, 780, 20).
+word(minimum, 10433, 780, 23).
+word(s, 10433, 780, 25).
+word(objective, 10433, 780, 28).
+word(increase, 10433, 780, 31).
+word(code, 10433, 781, 1).
+word(suggest, 10433, 781, 2).
+word(update, 10433, 781, 7).
+word(step, 10433, 781, 8).
+word(gradually, 10433, 781, 11).
+word(increase, 10433, 781, 12).
+word(batch, 10433, 781, 14).
+word(size, 10433, 781, 15).
+word(large, 10433, 781, 19).
+word(equal, 10433, 781, 21).
+word(run, 10433, 781, 24).
+word(estimate, 10433, 781, 25).
+word(optimal, 10433, 781, 28).
+word(batch, 10433, 781, 29).
+word(size, 10433, 781, 30).
+word(paper, 10433, 2124, 1).
+word(provide, 10433, 2124, 2).
+word(verbal, 10433, 2124, 4).
+word(explanation, 10433, 2124, 5).
+word(discrepancy, 10433, 2124, 8).
+word(say, 10433, 2124, 10).
+word(possible, 10433, 2124, 14).
+word(s, 10433, 2124, 17).
+word(reduce, 10433, 2124, 20).
+word(minimum, 10433, 2124, 23).
+word(s, 10433, 2124, 25).
+word(objective, 10433, 2124, 28).
+word(increase, 10433, 2124, 31).
+word(ade20k, 10433, 2124, 37).
+word(dataset, 10433, 2124, 38).
+word(paper, 10433, 2124, 43).
+word(sample, 10433, 2124, 44).
+word(substantially, 10433, 2124, 47).
+word(large, 10433, 2124, 48).
+word(establish, 10433, 2124, 52).
+word(benchmarke, 10433, 2124, 53).
+word(methodology, 10433, 2124, 54).
+word(httpplaceschallenge, 10433, 2124, 57).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(10433, 780, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(10433, 781, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10433, 2124, 0, 1, 0, 0, 0, 0, 1, 0).

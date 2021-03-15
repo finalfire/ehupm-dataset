@@ -1,0 +1,61 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(741,74,8,4).
+source(743,74,8,4).
+% id paper, Reject/Accept
+paperProperties(74, 1).
+% sourceId, line
+sentence(741,959).
+sentence(741,2387).
+sentence(743,957).
+sentence(743,958).
+sentence(743,2070).
+% W, sourceId, line, position
+word(work, 741, 959, 2).
+word(ugrnn, 741, 959, 5).
+word(rnns, 741, 959, 9).
+word(bit, 741, 959, 12).
+word(preliminary, 741, 959, 13).
+word(work, 741, 2387, 2).
+word(ugrnn, 741, 2387, 5).
+word(rnns, 741, 2387, 9).
+word(bit, 741, 2387, 12).
+word(preliminary, 741, 2387, 13).
+word(discussion, 741, 2387, 19).
+word(cause, 741, 2387, 22).
+word(difference, 741, 2387, 25).
+word(elaborate, 741, 2387, 28).
+word(appear, 741, 2387, 34).
+word(substantial, 741, 2387, 37).
+word(difference, 741, 2387, 38).
+word(policy, 741, 2387, 42).
+word(policy, 741, 2387, 46).
+word(fitting, 741, 2387, 47).
+word(q, 741, 2387, 50).
+word(description, 743, 957, 1).
+word(model, 743, 957, 4).
+word(objective, 743, 957, 7).
+word(clear, 743, 957, 10).
+word(novelty, 743, 958, 0).
+word(aim, 743, 958, 5).
+word(paper, 743, 958, 8).
+word(investigate, 743, 958, 12).
+word(exist, 743, 958, 13).
+word(architecture, 743, 958, 14).
+word(novelty, 743, 2070, 0).
+word(aim, 743, 2070, 5).
+word(paper, 743, 2070, 8).
+word(investigate, 743, 2070, 12).
+word(exist, 743, 2070, 13).
+word(architecture, 743, 2070, 14).
+word(overall, 743, 2070, 17).
+word(think, 743, 2070, 19).
+word(paper, 743, 2070, 21).
+word(interesting, 743, 2070, 23).
+word(relevant, 743, 2070, 25).
+word(iclr, 743, 2070, 27).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(741, 959, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(741, 2387, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(743, 957, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(743, 958, 0, 0, -1, 0, 0, 0, 0, 0).
+sentiment(743, 2070, 0, 0, -1, 0, 0, 0, 1, 0).

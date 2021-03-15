@@ -1,0 +1,34 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(921,92,7,4).
+source(922,92,8,4).
+% id paper, Reject/Accept
+paperProperties(92, 1).
+% sourceId, line
+sentence(921,770).
+sentence(922,768).
+sentence(922,769).
+sentence(922,2287).
+% W, sourceId, line, position
+word(great, 921, 770, 4).
+word(ground, 921, 770, 7).
+word(cover, 921, 770, 9).
+word(simple, 922, 768, 1).
+word(idea, 922, 768, 2).
+word(work, 922, 768, 4).
+word(validate, 922, 769, 1).
+word(applicability, 922, 769, 3).
+word(different, 922, 769, 5).
+word(task, 922, 769, 6).
+word(domain, 922, 769, 8).
+word(simple, 922, 2287, 1).
+word(idea, 922, 2287, 2).
+word(work, 922, 2287, 4).
+word(experiment, 922, 2287, 8).
+word(improvement, 922, 2287, 10).
+word(previous, 922, 2287, 13).
+word(work, 922, 2287, 14).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(921, 770, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(922, 768, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(922, 769, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(922, 2287, 0, 0, 0, 0, 0, 0, 0, 0).

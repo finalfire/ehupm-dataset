@@ -1,0 +1,28 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(3133,313,4,3).
+% id paper, Reject/Accept
+paperProperties(313, 0).
+% sourceId, line
+sentence(3133,1809).
+sentence(3133,2343).
+% W, sourceId, line, position
+word(steganalysis, 3133, 1809, 0).
+word(like, 3133, 1809, 4).
+word(classification, 3133, 1809, 6).
+word(problem, 3133, 1809, 7).
+word(steganalysis, 3133, 2343, 0).
+word(like, 3133, 2343, 4).
+word(classification, 3133, 2343, 6).
+word(problem, 3133, 2343, 7).
+word(notation, 3133, 2343, 14).
+word(section, 3133, 2343, 15).
+word(bring, 3133, 2343, 18).
+word(forward, 3133, 2343, 19).
+word(refer, 3133, 2343, 22).
+word(fist, 3133, 2343, 24).
+word(time, 3133, 2343, 25).
+word(notation, 3133, 2343, 27).
+word(actually, 3133, 2343, 29).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(3133, 1809, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3133, 2343, 0, 0, 0, 0, 0, 0, 0, 0).

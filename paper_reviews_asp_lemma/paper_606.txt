@@ -1,0 +1,44 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(6061,606,5,3).
+source(6062,606,7,4).
+source(6063,606,6,4).
+% id paper, Reject/Accept
+paperProperties(606, 1).
+% sourceId, line
+sentence(6061,1244).
+sentence(6062,1245).
+sentence(6063,1241).
+sentence(6063,1243).
+% W, sourceId, line, position
+word(expect, 6061, 1244, 1).
+word(exploration, 6061, 1244, 4).
+word(heuristic, 6061, 1244, 5).
+word(noise, 6061, 1244, 11).
+word(weight, 6061, 1244, 12).
+word(layer, 6061, 1244, 16).
+word(slowly, 6061, 1244, 18).
+word(tend, 6061, 1244, 20).
+word(zero, 6061, 1244, 22).
+word(big, 6062, 1245, 3).
+word(table, 6062, 1245, 4).
+word(list, 6062, 1245, 7).
+word(performance, 6062, 1245, 9).
+word(figure, 6062, 1245, 10).
+word(additional, 6062, 1245, 17).
+word(appendix, 6062, 1245, 18).
+word(justification, 6063, 1241, 4).
+word(epsilon, 6063, 1241, 7).
+word(instead, 6063, 1241, 9).
+word(epsilon, 6063, 1241, 11).
+word(eq, 6063, 1241, 13).
+word(combine, 6063, 1243, 3).
+word(single, 6063, 1243, 6).
+word(algorithm, 6063, 1243, 7).
+word(simple, 6063, 1243, 10).
+word(dueling, 6063, 1243, 13).
+word(l, 6063, 1243, 16).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(6061, 1244, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(6062, 1245, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6063, 1241, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(6063, 1243, 0, 0, 0, 0, 0, 0, 0, 0).

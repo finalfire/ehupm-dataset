@@ -1,0 +1,65 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(82,8,9,4).
+source(83,8,9,5).
+% id paper, Reject/Accept
+paperProperties(8, 1).
+% sourceId, line
+sentence(82,561).
+sentence(82,1458).
+sentence(82,2361).
+sentence(82,2496).
+sentence(82,2506).
+sentence(83,193).
+sentence(83,397).
+sentence(83,1810).
+% W, sourceId, line, position
+word(paper, 82, 561, 1).
+word(write, 82, 561, 3).
+word(clearly, 82, 561, 5).
+word(accessible, 82, 561, 10).
+word(small, 82, 1458, 4).
+word(compare, 82, 1458, 5).
+word(web, 82, 1458, 7).
+word(annotation, 82, 1458, 8).
+word(personal, 82, 1458, 11).
+word(photo, 82, 1458, 12).
+word(gallery, 82, 1458, 13).
+word(annotation, 82, 1458, 14).
+word(paper, 82, 2361, 1).
+word(propose, 82, 2361, 3).
+word(parallelize, 82, 2361, 5).
+word(scheme, 82, 2361, 6).
+word(greedy, 82, 2361, 10).
+word(reviewer, 82, 2496, 2).
+word(bf00, 82, 2496, 4).
+word(introduce, 82, 2496, 15).
+word(paper, 82, 2506, 1).
+word(claim, 82, 2506, 4).
+word(formula, 82, 2506, 9).
+word(completely, 82, 2506, 13).
+word(superfluous, 82, 2506, 14).
+word(clarity, 83, 193, 1).
+word(paper, 83, 193, 4).
+word(poor, 83, 193, 6).
+word(say, 83, 397, 1).
+word(couple, 83, 397, 3).
+word(claim, 83, 397, 5).
+word(author, 83, 397, 8).
+word(true, 83, 397, 11).
+word(poor, 83, 1810, 1).
+word(explanation, 83, 1810, 2).
+word(relatively, 83, 1810, 5).
+word(simple, 83, 1810, 6).
+word(idea, 83, 1810, 7).
+word(hold, 83, 1810, 8).
+word(paper, 83, 1810, 10).
+word(slightly, 83, 1810, 12).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(82, 561, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(82, 1458, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(82, 2361, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(82, 2496, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(82, 2506, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(83, 193, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(83, 397, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(83, 1810, 0, 0, 0, -1, 0, 0, 0, 0).

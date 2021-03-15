@@ -1,0 +1,45 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(2962,296,4,4).
+% id paper, Reject/Accept
+paperProperties(296, 0).
+% sourceId, line
+sentence(2962,40).
+sentence(2962,41).
+% W, sourceId, line, position
+word(unfortunately, 2962, 40, 0).
+word(read, 2962, 40, 4).
+word(author, 2962, 40, 6).
+word(response, 2962, 40, 8).
+word(pre, 2962, 40, 11).
+word(review, 2962, 40, 13).
+word(question, 2962, 40, 14).
+word(feel, 2962, 40, 17).
+word(paper, 2962, 40, 19).
+word(current, 2962, 40, 22).
+word(form, 2962, 40, 23).
+word(lack, 2962, 40, 24).
+word(sufficient, 2962, 40, 25).
+word(novelty, 2962, 40, 26).
+word(accept, 2962, 40, 29).
+word(iclr, 2962, 40, 31).
+word(r3, 2962, 41, 1).
+word(note, 2962, 41, 3).
+word(un, 2962, 41, 5).
+word(roll, 2962, 41, 7).
+word(network, 2962, 41, 8).
+word(iterative, 2962, 41, 10).
+word(inference, 2962, 41, 11).
+word(new, 2962, 41, 14).
+word(ve, 2962, 41, 18).
+word(replace, 2962, 41, 22).
+word(crf, 2962, 41, 23).
+word(type, 2962, 41, 25).
+word(inference, 2962, 41, 26).
+word(solve, 2962, 41, 33).
+word(image, 2962, 41, 34).
+word(inverse, 2962, 41, 35).
+word(problem, 2962, 41, 36).
+word(ref, 2962, 41, 39).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(2962, 40, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(2962, 41, 0, 0, 0, 0, 0, -1, 0, 0).

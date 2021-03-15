@@ -1,0 +1,70 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(6471,647,6,3).
+source(6473,647,7,3).
+% id paper, Reject/Accept
+paperProperties(647, 1).
+% sourceId, line
+sentence(6471,1604).
+sentence(6471,1605).
+sentence(6473,1603).
+sentence(6473,2244).
+sentence(6473,2314).
+sentence(6473,2546).
+% W, sourceId, line, position
+word(paper, 6471, 1604, 1).
+word(present, 6471, 1604, 2).
+word(interesting, 6471, 1604, 4).
+word(view, 6471, 1604, 5).
+word(recently, 6471, 1604, 8).
+word(propose, 6471, 1604, 9).
+word(maml, 6471, 1604, 10).
+word(formulation, 6471, 1604, 11).
+word(meta, 6471, 1604, 13).
+word(learning, 6471, 1604, 15).
+word(finn, 6471, 1604, 17).
+word(et, 6471, 1604, 18).
+word(al, 6471, 1604, 19).
+word(b, 6471, 1605, 0).
+word(consequence, 6471, 1605, 3).
+word(approximation, 6471, 1605, 6).
+word(error, 6471, 1605, 7).
+word(general, 6471, 1605, 10).
+word(convergence, 6471, 1605, 11).
+word(propose, 6471, 1605, 14).
+word(method, 6471, 1605, 15).
+word(consistency, 6471, 1605, 17).
+word(rate, 6471, 1605, 19).
+word(provide, 6473, 1603, 1).
+word(use, 6473, 1603, 5).
+word(subjunctive, 6473, 1603, 8).
+word(definitely, 6473, 1603, 11).
+word(dated, 6473, 1603, 12).
+word(fig, 6473, 2244, 2).
+word(provide, 6473, 2244, 9).
+word(use, 6473, 2244, 13).
+word(subjunctive, 6473, 2244, 16).
+word(definitely, 6473, 2244, 19).
+word(dated, 6473, 2244, 20).
+word(provide, 6473, 2314, 1).
+word(use, 6473, 2314, 5).
+word(subjunctive, 6473, 2314, 8).
+word(definitely, 6473, 2314, 11).
+word(dated, 6473, 2314, 12).
+word(content, 6473, 2314, 17).
+word(paper, 6473, 2314, 20).
+word(complete, 6473, 2546, 0).
+word(task, 6473, 2546, 2).
+word(number, 6473, 2546, 4).
+word(frame, 6473, 2546, 6).
+word(provide, 6473, 2546, 11).
+word(use, 6473, 2546, 15).
+word(subjunctive, 6473, 2546, 18).
+word(definitely, 6473, 2546, 21).
+word(dated, 6473, 2546, 22).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(6471, 1604, 0, 0, 0, 1, 0, 0, 0, 0).
+sentiment(6471, 1605, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6473, 1603, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6473, 2244, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6473, 2314, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6473, 2546, 0, 0, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,33 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(7772,777,7,3).
+% id paper, Reject/Accept
+paperProperties(777, 1).
+% sourceId, line
+sentence(7772,1307).
+sentence(7772,2573).
+% W, sourceId, line, position
+word(justification, 7772, 1307, 1).
+word(choice, 7772, 1307, 4).
+word(bin, 7772, 1307, 7).
+word(relu, 7772, 1307, 9).
+word(case, 7772, 1307, 10).
+word(helpful, 7772, 1307, 13).
+word(justification, 7772, 2573, 1).
+word(choice, 7772, 2573, 4).
+word(bin, 7772, 2573, 7).
+word(relu, 7772, 2573, 9).
+word(case, 7772, 2573, 10).
+word(helpful, 7772, 2573, 13).
+word(course, 7772, 2573, 17).
+word(benefit, 7772, 2573, 19).
+word(evaluate, 7772, 2573, 24).
+word(ablation, 7772, 2573, 26).
+word(study, 7772, 2573, 27).
+word(tab, 7772, 2573, 29).
+word(show, 7772, 2573, 31).
+word(experiment, 7772, 2573, 33).
+word(marginal, 7772, 2573, 35).
+word(improvement, 7772, 2573, 36).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(7772, 1307, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7772, 2573, 0, 0, 0, 0, 0, 0, 0, 0).

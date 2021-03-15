@@ -1,0 +1,48 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(7401,740,7,4).
+source(7402,740,4,4).
+% id paper, Reject/Accept
+paperProperties(740, 1).
+% sourceId, line
+sentence(7401,875).
+sentence(7401,2222).
+sentence(7402,874).
+% W, sourceId, line, position
+word(outperform, 7401, 875, 2).
+word(ddpg, 7401, 875, 3).
+word(bit, 7401, 875, 6).
+word(term, 7401, 875, 8).
+word(sample, 7401, 875, 10).
+word(efficiency, 7401, 875, 11).
+word(real, 7401, 875, 14).
+word(robotic, 7401, 875, 15).
+word(arm, 7401, 875, 16).
+word(outperform, 7401, 2222, 2).
+word(ddpg, 7401, 2222, 3).
+word(bit, 7401, 2222, 6).
+word(term, 7401, 2222, 8).
+word(sample, 7401, 2222, 10).
+word(efficiency, 7401, 2222, 11).
+word(real, 7401, 2222, 14).
+word(robotic, 7401, 2222, 15).
+word(arm, 7401, 2222, 16).
+word(learning, 7401, 2222, 22).
+word(relatively, 7401, 2222, 25).
+word(recent, 7401, 2222, 27).
+word(addition, 7401, 2222, 28).
+word(setting, 7402, 874, 4).
+word(model, 7402, 874, 7).
+word(base, 7402, 874, 9).
+word(approach, 7402, 874, 10).
+word(work, 7402, 874, 13).
+word(task, 7402, 874, 21).
+word(soon, 7402, 874, 25).
+word(perform, 7402, 874, 26).
+word(episode, 7402, 874, 34).
+word(task, 7402, 874, 38).
+word(appear, 7402, 874, 43).
+word(converge, 7402, 874, 46).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(7401, 875, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7401, 2222, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7402, 874, 0, 0, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,37 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(432,43,7,4).
+% id paper, Reject/Accept
+paperProperties(43, 1).
+% sourceId, line
+sentence(432,1215).
+sentence(432,1437).
+sentence(432,1438).
+% W, sourceId, line, position
+word(page, 432, 1215, 0).
+word(double, 432, 1215, 4).
+word(progress, 432, 1215, 6).
+word(vanilla, 432, 1215, 8).
+word(sgd, 432, 1215, 9).
+word(particularly, 432, 1215, 13).
+word(excellent, 432, 1215, 15).
+word(course, 432, 1437, 1).
+word(drawback, 432, 1437, 6).
+word(method, 432, 1437, 9).
+word(work, 432, 1437, 14).
+word(vgg, 432, 1437, 16).
+word(render, 432, 1437, 19).
+word(method, 432, 1437, 21).
+word(unusable, 432, 1437, 22).
+word(production, 432, 1437, 24).
+word(right, 432, 1437, 29).
+word(maybe, 432, 1437, 32).
+word(improve, 432, 1437, 36).
+word(section, 432, 1438, 0).
+word(short, 432, 1438, 8).
+word(contain, 432, 1438, 12).
+word(relevant, 432, 1438, 14).
+word(information, 432, 1438, 15).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(432, 1215, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(432, 1437, 0, 0, 0, -1, 0, 0, -1, 0).
+sentiment(432, 1438, 0, 0, 0, 0, 0, 0, 0, 0).

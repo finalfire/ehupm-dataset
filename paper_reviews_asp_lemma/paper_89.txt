@@ -1,0 +1,101 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(892,89,6,4).
+% id paper, Reject/Accept
+paperProperties(89, 1).
+% sourceId, line
+sentence(892,3).
+sentence(892,29).
+sentence(892,30).
+sentence(892,31).
+sentence(892,55).
+sentence(892,205).
+sentence(892,235).
+sentence(892,521).
+sentence(892,1516).
+% W, sourceId, line, position
+word(pro, 892, 3, 0).
+word(propose, 892, 3, 3).
+word(method, 892, 3, 4).
+word(successful, 892, 3, 6).
+word(reduce, 892, 3, 8).
+word(number, 892, 3, 10).
+word(parameter, 892, 3, 12).
+word(rnn, 892, 3, 14).
+word(substantially, 892, 3, 15).
+word(sacrifice, 892, 3, 17).
+word(performance, 892, 3, 21).
+word(propose, 892, 29, 1).
+word(method, 892, 29, 2).
+word(similar, 892, 29, 6).
+word(work, 892, 29, 9).
+word(han, 892, 29, 11).
+word(et, 892, 29, 12).
+word(al, 892, 29, 13).
+word(threshold, 892, 29, 21).
+word(prune, 892, 29, 25).
+word(weight, 892, 29, 26).
+word(training, 892, 29, 28).
+word(follow, 892, 29, 30).
+word(retrain, 892, 29, 33).
+word(phase, 892, 29, 34).
+word(remain, 892, 29, 37).
+word(weight, 892, 29, 38).
+word(think, 892, 30, 4).
+word(paper, 892, 30, 6).
+word(present, 892, 30, 7).
+word(novelty, 892, 30, 9).
+word(idea, 892, 30, 11).
+word(scientific, 892, 30, 13).
+word(insight, 892, 30, 14).
+word(con, 892, 31, 0).
+word(propose, 892, 31, 3).
+word(method, 892, 31, 4).
+word(similar, 892, 31, 7).
+word(early, 892, 31, 9).
+word(work, 892, 31, 10).
+word(barely, 892, 31, 12).
+word(novel, 892, 31, 13).
+word(think, 892, 55, 4).
+word(paper, 892, 55, 6).
+word(present, 892, 55, 7).
+word(novelty, 892, 55, 9).
+word(idea, 892, 55, 11).
+word(scientific, 892, 55, 13).
+word(insight, 892, 55, 14).
+word(weight, 892, 55, 20).
+word(pruning, 892, 55, 21).
+word(successfully, 892, 55, 24).
+word(apply, 892, 55, 25).
+word(large, 892, 55, 27).
+word(practical, 892, 55, 28).
+word(rnn, 892, 55, 29).
+word(system, 892, 55, 30).
+word(sacrifice, 892, 55, 32).
+word(performance, 892, 55, 35).
+word(general, 892, 205, 1).
+word(paper, 892, 205, 4).
+word(easy, 892, 205, 6).
+word(read, 892, 205, 8).
+word(wish, 892, 235, 1).
+word(paper, 892, 235, 3).
+word(easy, 892, 235, 5).
+word(read, 892, 235, 7).
+word(comparison, 892, 521, 3).
+word(fact, 892, 521, 8).
+word(mention, 892, 521, 10).
+word(possibility, 892, 521, 13).
+word(clarity, 892, 1516, 0).
+word(main, 892, 1516, 2).
+word(idea, 892, 1516, 3).
+word(clearly, 892, 1516, 5).
+word(present, 892, 1516, 6).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(892, 3, 0, 0, 0, 0, 0, 1, 0, 0).
+sentiment(892, 29, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(892, 30, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(892, 31, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(892, 55, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(892, 205, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(892, 235, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(892, 521, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(892, 1516, 0, 1, 0, 0, 0, 0, 0, 0).

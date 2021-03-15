@@ -1,0 +1,68 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(10213,1021,5,4).
+% id paper, Reject/Accept
+paperProperties(1021, 0).
+% sourceId, line
+sentence(10213,547).
+sentence(10213,1885).
+sentence(10213,2184).
+sentence(10213,2191).
+sentence(10213,2194).
+% W, sourceId, line, position
+word(paper, 10213, 547, 1).
+word(organize, 10213, 547, 5).
+word(easy, 10213, 547, 7).
+word(follow, 10213, 547, 9).
+word(paper, 10213, 1885, 1).
+word(organize, 10213, 1885, 5).
+word(easy, 10213, 1885, 7).
+word(follow, 10213, 1885, 9).
+word(recommend, 10213, 1885, 18).
+word(acceptance, 10213, 1885, 21).
+word(need, 10213, 1885, 24).
+word(significant, 10213, 1885, 25).
+word(work, 10213, 1885, 26).
+word(accept, 10213, 1885, 31).
+word(conference, 10213, 1885, 34).
+word(paper, 10213, 2184, 1).
+word(organize, 10213, 2184, 5).
+word(easy, 10213, 2184, 7).
+word(follow, 10213, 2184, 9).
+word(substantial, 10213, 2184, 15).
+word(prior, 10213, 2184, 18).
+word(work, 10213, 2184, 19).
+word(author, 10213, 2184, 22).
+word(appropriately, 10213, 2184, 25).
+word(address, 10213, 2184, 26).
+word(list, 10213, 2184, 32).
+word(previous, 10213, 2184, 34).
+word(comment, 10213, 2184, 35).
+word(paper, 10213, 2191, 1).
+word(organize, 10213, 2191, 5).
+word(easy, 10213, 2191, 7).
+word(follow, 10213, 2191, 9).
+word(paper, 10213, 2191, 13).
+word(show, 10213, 2191, 14).
+word(dataset, 10213, 2191, 17).
+word(reduce, 10213, 2191, 18).
+word(remove, 10213, 2191, 23).
+word(completely, 10213, 2191, 24).
+word(dataset, 10213, 2191, 25).
+word(bias, 10213, 2191, 26).
+word(paper, 10213, 2194, 1).
+word(organize, 10213, 2194, 5).
+word(easy, 10213, 2194, 7).
+word(follow, 10213, 2194, 9).
+word(dataset, 10213, 2194, 13).
+word(twice, 10213, 2194, 15).
+word(large, 10213, 2194, 16).
+word(easy, 10213, 2194, 18).
+word(object, 10213, 2194, 20).
+word(action, 10213, 2194, 22).
+word(separation, 10213, 2194, 23).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(10213, 547, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(10213, 1885, 0, 1, 0, 0, 0, 0, 0, -1).
+sentiment(10213, 2184, 0, 1, 0, 0, -1, 0, 0, 0).
+sentiment(10213, 2191, 0, 1, 0, 0, 0, 0, 1, 0).
+sentiment(10213, 2194, 0, 1, 0, 0, 0, 0, 1, 0).

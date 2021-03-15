@@ -1,0 +1,48 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(473,47,7,3).
+% id paper, Reject/Accept
+paperProperties(47, 1).
+% sourceId, line
+sentence(473,359).
+sentence(473,1082).
+sentence(473,2078).
+% W, sourceId, line, position
+word(experimental, 473, 359, 1).
+word(method, 473, 359, 2).
+word(sound, 473, 359, 4).
+word(conclusion, 473, 359, 7).
+word(line, 473, 359, 10).
+word(result, 473, 359, 13).
+word(convince, 473, 1082, 3).
+word(claim, 473, 1082, 6).
+word(paper, 473, 1082, 9).
+word(test, 473, 1082, 13).
+word(interaction, 473, 1082, 16).
+word(capability, 473, 1082, 18).
+word(agent, 473, 1082, 20).
+word(task, 473, 1082, 24).
+word(phrase, 473, 1082, 26).
+word(kind, 473, 1082, 29).
+word(interaction, 473, 1082, 31).
+word(think, 473, 1082, 34).
+word(aptly, 473, 1082, 38).
+word(describe, 473, 1082, 39).
+word(simply, 473, 1082, 41).
+word(infer, 473, 1082, 43).
+word(important, 473, 1082, 44).
+word(unknown, 473, 1082, 45).
+word(variable, 473, 1082, 46).
+word(important, 473, 1082, 52).
+word(related, 473, 1082, 56).
+word(reasoning, 473, 1082, 58).
+word(paper, 473, 2078, 1).
+word(incremental, 473, 2078, 5).
+word(citation, 473, 2078, 9).
+word(non, 473, 2078, 12).
+word(standard, 473, 2078, 14).
+word(format, 473, 2078, 15).
+word(section, 473, 2078, 17).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(473, 359, 0, 0, 0, 1, 0, 0, 0, 0).
+sentiment(473, 1082, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(473, 2078, 0, 0, -1, 0, -1, 0, 0, 0).

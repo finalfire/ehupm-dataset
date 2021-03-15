@@ -1,0 +1,62 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(11873,1187,4,4).
+% id paper, Reject/Accept
+paperProperties(1187, 0).
+% sourceId, line
+sentence(11873,1643).
+sentence(11873,1644).
+sentence(11873,2322).
+sentence(11873,2432).
+sentence(11873,2462).
+% W, sourceId, line, position
+word(neurophysiological, 11873, 1643, 0).
+word(realism, 11873, 1643, 1).
+word(appear, 11873, 1643, 5).
+word(author, 11873, 1643, 7).
+word(interested, 11873, 1643, 10).
+word(direction, 11873, 1643, 13).
+word(give, 11873, 1643, 14).
+word(focus, 11873, 1643, 16).
+word(manuscript, 11873, 1643, 19).
+word(mention, 11873, 1643, 23).
+word(brain, 11873, 1643, 25).
+word(motivation, 11873, 1643, 27).
+word(focus, 11873, 1644, 1).
+word(direction, 11873, 1644, 4).
+word(find, 11873, 1644, 6).
+word(applied, 11873, 1644, 8).
+word(audience, 11873, 1644, 9).
+word(focus, 11873, 2322, 8).
+word(direction, 11873, 2322, 11).
+word(find, 11873, 2322, 13).
+word(applied, 11873, 2322, 15).
+word(audience, 11873, 2322, 16).
+word(focus, 11873, 2432, 1).
+word(direction, 11873, 2432, 4).
+word(find, 11873, 2432, 6).
+word(applied, 11873, 2432, 8).
+word(audience, 11873, 2432, 9).
+word(abbeel, 11873, 2432, 14).
+word(p, 11873, 2432, 16).
+word(neurophysiological, 11873, 2462, 0).
+word(realism, 11873, 2462, 1).
+word(appear, 11873, 2462, 5).
+word(author, 11873, 2462, 7).
+word(interested, 11873, 2462, 10).
+word(direction, 11873, 2462, 13).
+word(give, 11873, 2462, 14).
+word(focus, 11873, 2462, 16).
+word(manuscript, 11873, 2462, 19).
+word(mention, 11873, 2462, 23).
+word(brain, 11873, 2462, 25).
+word(motivation, 11873, 2462, 27).
+word(hard, 11873, 2462, 34).
+word(excited, 11873, 2462, 37).
+word(result, 11873, 2462, 40).
+word(vacuum, 11873, 2462, 43).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(11873, 1643, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11873, 1644, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11873, 2322, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11873, 2432, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11873, 2462, 0, 0, 0, 0, 0, 0, 0, 0).

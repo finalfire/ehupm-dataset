@@ -1,0 +1,47 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(12082,1208,7,3).
+source(12083,1208,5,3).
+% id paper, Reject/Accept
+paperProperties(1208, 0).
+% sourceId, line
+sentence(12082,250).
+sentence(12082,766).
+sentence(12083,767).
+% W, sourceId, line, position
+word(like, 12082, 250, 2).
+word(completely, 12082, 250, 4).
+word(factorise, 12082, 250, 5).
+word(approach, 12082, 250, 6).
+word(predator, 12082, 766, 1).
+word(prey, 12082, 766, 2).
+word(game, 12082, 766, 3).
+word(agent, 12082, 766, 5).
+word(agent, 12082, 766, 7).
+word(physically, 12082, 766, 8).
+word(distribute, 12082, 766, 9).
+word(environment, 12082, 766, 12).
+word(probably, 12082, 766, 14).
+word(good, 12082, 766, 17).
+word(motivational, 12082, 766, 18).
+word(example, 12082, 766, 19).
+word(nicola, 12083, 767, 3).
+word(usunier, 12083, 767, 4).
+word(gabriel, 12083, 767, 6).
+word(synnaeve, 12083, 767, 7).
+word(zeming, 12083, 767, 9).
+word(lin, 12083, 767, 10).
+word(soumith, 12083, 767, 12).
+word(chintala, 12083, 767, 13).
+word(episodic, 12083, 767, 15).
+word(exploration, 12083, 767, 16).
+word(deep, 12083, 767, 18).
+word(deterministic, 12083, 767, 19).
+word(policy, 12083, 767, 20).
+word(application, 12083, 767, 23).
+word(starcraft, 12083, 767, 25).
+word(micromanagement, 12083, 767, 26).
+word(task, 12083, 767, 27).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(12082, 250, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(12082, 766, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(12083, 767, 0, 0, 0, 0, 0, 0, 0, 0).

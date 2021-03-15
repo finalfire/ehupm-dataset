@@ -1,0 +1,99 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(6221,622,9,4).
+source(6222,622,3,4).
+source(6223,622,6,3).
+% id paper, Reject/Accept
+paperProperties(622, 1).
+% sourceId, line
+sentence(6221,1627).
+sentence(6222,1624).
+sentence(6222,1625).
+sentence(6222,1626).
+sentence(6222,2556).
+sentence(6223,92).
+% W, sourceId, line, position
+word(greatly, 6221, 1627, 1).
+word(enjoy, 6221, 1627, 2).
+word(read, 6221, 1627, 3).
+word(paper, 6221, 1627, 5).
+word(obverter, 6221, 1627, 9).
+word(idea, 6221, 1627, 10).
+word(new, 6221, 1627, 13).
+word(nice, 6221, 1627, 17).
+word(apply, 6221, 1627, 21).
+word(context, 6221, 1627, 24).
+word(modern, 6221, 1627, 26).
+word(deep, 6221, 1627, 27).
+word(learning, 6221, 1627, 28).
+word(architecture, 6221, 1627, 29).
+word(analysis, 6221, 1627, 33).
+word(result, 6221, 1627, 36).
+word(interesting, 6221, 1627, 39).
+word(thought, 6222, 1624, 1).
+word(start, 6222, 1624, 5).
+word(talk, 6222, 1624, 8).
+word(string, 6222, 1624, 10).
+word(value, 6222, 1624, 12).
+word(thing, 6222, 1624, 13).
+word(compositionality, 6222, 1624, 15).
+word(certainly, 6222, 1624, 17).
+word(need, 6222, 1624, 18).
+word(syntax, 6222, 1624, 24).
+word(phenomenon, 6222, 1625, 1).
+word(color, 6222, 1625, 4).
+word(different, 6222, 1625, 9).
+word(name, 6222, 1625, 10).
+word(depend, 6222, 1625, 11).
+word(shape, 6222, 1625, 14).
+word(pair, 6222, 1625, 17).
+word(generally, 6222, 1625, 20).
+word(call, 6222, 1625, 22).
+word(non, 6222, 1625, 24).
+word(compositional, 6222, 1625, 26).
+word(appear, 6222, 1625, 30).
+word(natural, 6222, 1625, 33).
+word(language, 6222, 1625, 34).
+word(paper, 6222, 1626, 1).
+word(agi, 6222, 1626, 7).
+word(human, 6222, 1626, 9).
+word(human, 6222, 1626, 12).
+word(language, 6222, 1626, 13).
+word(blunt, 6222, 1626, 17).
+word(kind, 6222, 1626, 20).
+word(positioning, 6222, 1626, 22).
+word(good, 6222, 1626, 25).
+word(inappropriate, 6222, 1626, 26).
+word(bad, 6222, 1626, 29).
+word(irresponsible, 6222, 1626, 30).
+word(phenomenon, 6222, 2556, 1).
+word(color, 6222, 2556, 4).
+word(different, 6222, 2556, 9).
+word(name, 6222, 2556, 10).
+word(depend, 6222, 2556, 11).
+word(shape, 6222, 2556, 14).
+word(pair, 6222, 2556, 17).
+word(generally, 6222, 2556, 20).
+word(call, 6222, 2556, 22).
+word(non, 6222, 2556, 24).
+word(compositional, 6222, 2556, 26).
+word(appear, 6222, 2556, 30).
+word(natural, 6222, 2556, 33).
+word(language, 6222, 2556, 34).
+word(fully, 6222, 2556, 37).
+word(page, 6222, 2556, 39).
+word(spend, 6222, 2556, 41).
+word(giant, 6222, 2556, 43).
+word(simple, 6222, 2556, 45).
+word(architecture, 6222, 2556, 46).
+word(diagram, 6222, 2556, 47).
+word(conclusion, 6223, 92, 1).
+word(paper, 6223, 92, 4).
+word(major, 6223, 92, 9).
+word(flaw, 6223, 92, 10).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(6221, 1627, 0, 0, -1, 1, 0, 0, 0, 0).
+sentiment(6222, 1624, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(6222, 1625, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6222, 1626, 0, -1, 0, -1, 0, 0, 0, 0).
+sentiment(6222, 2556, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6223, 92, 0, 0, 0, 1, 0, 0, 0, 0).

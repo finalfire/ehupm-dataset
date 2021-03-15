@@ -1,0 +1,116 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(4191,419,5,3).
+source(4192,419,3,4).
+% id paper, Reject/Accept
+paperProperties(419, 0).
+% sourceId, line
+sentence(4191,1698).
+sentence(4191,1897).
+sentence(4191,2011).
+sentence(4191,2037).
+sentence(4192,128).
+% W, sourceId, line, position
+word(related, 4191, 1698, 4).
+word(work, 4191, 1698, 5).
+word(section, 4191, 1698, 6).
+word(paper, 4191, 1698, 8).
+word(mention, 4191, 1698, 10).
+word(learn, 4191, 1698, 12).
+word(embedding, 4191, 1698, 13).
+word(combination, 4191, 1698, 16).
+word(lexica, 4191, 1698, 18).
+word(corpora, 4191, 1698, 20).
+word(repeatedly, 4191, 1698, 25).
+word(say, 4191, 1698, 26).
+word(work, 4191, 1698, 32).
+word(kind, 4191, 1698, 36).
+word(work, 4191, 1698, 44).
+word(related, 4191, 1897, 4).
+word(work, 4191, 1897, 5).
+word(section, 4191, 1897, 6).
+word(paper, 4191, 1897, 8).
+word(mention, 4191, 1897, 10).
+word(learn, 4191, 1897, 12).
+word(embedding, 4191, 1897, 13).
+word(combination, 4191, 1897, 16).
+word(lexica, 4191, 1897, 18).
+word(corpora, 4191, 1897, 20).
+word(repeatedly, 4191, 1897, 25).
+word(say, 4191, 1897, 26).
+word(work, 4191, 1897, 32).
+word(kind, 4191, 1897, 36).
+word(work, 4191, 1897, 44).
+word(summary, 4191, 1897, 50).
+word(idea, 4191, 1897, 53).
+word(paper, 4191, 1897, 56).
+word(interesting, 4191, 1897, 59).
+word(learn, 4191, 1897, 61).
+word(data, 4191, 1897, 62).
+word(augmentation, 4191, 1897, 64).
+word(convince, 4191, 1897, 70).
+word(current, 4191, 1897, 72).
+word(paper, 4191, 1897, 73).
+word(novelty, 4191, 1897, 76).
+word(contribution, 4191, 1897, 78).
+word(contribution, 4191, 1897, 82).
+word(paper, 4191, 1897, 84).
+word(application, 4191, 1897, 89).
+word(model, 4191, 1897, 94).
+word(problem, 4191, 1897, 96).
+word(related, 4191, 2011, 4).
+word(work, 4191, 2011, 5).
+word(section, 4191, 2011, 6).
+word(paper, 4191, 2011, 8).
+word(mention, 4191, 2011, 10).
+word(learn, 4191, 2011, 12).
+word(embedding, 4191, 2011, 13).
+word(combination, 4191, 2011, 16).
+word(lexica, 4191, 2011, 18).
+word(corpora, 4191, 2011, 20).
+word(repeatedly, 4191, 2011, 25).
+word(say, 4191, 2011, 26).
+word(work, 4191, 2011, 32).
+word(kind, 4191, 2011, 36).
+word(work, 4191, 2011, 44).
+word(clarity, 4191, 2011, 49).
+word(main, 4191, 2011, 51).
+word(idea, 4191, 2011, 52).
+word(clearly, 4191, 2011, 54).
+word(present, 4191, 2011, 55).
+word(related, 4191, 2037, 4).
+word(work, 4191, 2037, 5).
+word(section, 4191, 2037, 6).
+word(paper, 4191, 2037, 8).
+word(mention, 4191, 2037, 10).
+word(learn, 4191, 2037, 12).
+word(embedding, 4191, 2037, 13).
+word(combination, 4191, 2037, 16).
+word(lexica, 4191, 2037, 18).
+word(corpora, 4191, 2037, 20).
+word(repeatedly, 4191, 2037, 25).
+word(say, 4191, 2037, 26).
+word(work, 4191, 2037, 32).
+word(kind, 4191, 2037, 36).
+word(work, 4191, 2037, 44).
+word(important, 4191, 2037, 51).
+word(comparison, 4191, 2037, 54).
+word(apple, 4191, 2037, 56).
+word(apple, 4191, 2037, 60).
+word(important, 4192, 128, 4).
+word(criterion, 4192, 128, 5).
+word(conference, 4192, 128, 8).
+word(paper, 4192, 128, 9).
+word(communicate, 4192, 128, 12).
+word(idea, 4192, 128, 15).
+word(clearly, 4192, 128, 16).
+word(unfortunately, 4192, 128, 18).
+word(feel, 4192, 128, 23).
+word(paper, 4192, 128, 26).
+word(meet, 4192, 128, 27).
+word(standard, 4192, 128, 29).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(4191, 1698, 0, 0, -1, 0, 0, 0, 0, 0).
+sentiment(4191, 1897, 0, 0, -1, 0, 0, 0, 0, 0).
+sentiment(4191, 2011, 0, 1, -1, 0, 0, 0, 0, 0).
+sentiment(4191, 2037, 0, 0, -1, 0, -1, 0, 0, 0).
+sentiment(4192, 128, -1, -1, 0, 0, 0, 0, 0, 0).

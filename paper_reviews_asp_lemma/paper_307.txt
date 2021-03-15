@@ -1,0 +1,41 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(3072,307,3,3).
+source(3073,307,6,4).
+% id paper, Reject/Accept
+paperProperties(307, 0).
+% sourceId, line
+sentence(3072,161).
+sentence(3073,184).
+sentence(3073,1423).
+% W, sourceId, line, position
+word(essence, 3072, 161, 2).
+word(paper, 3072, 161, 4).
+word(simply, 3072, 161, 5).
+word(deliver, 3072, 161, 8).
+word(point, 3072, 161, 11).
+word(promise, 3072, 161, 14).
+word(far, 3072, 161, 17).
+word(concern, 3072, 161, 21).
+word(sense, 3072, 161, 26).
+word(suggest, 3072, 161, 28).
+word(clear, 3072, 161, 31).
+word(reject, 3072, 161, 32).
+word(conference, 3072, 161, 35).
+word(paper, 3073, 184, 1).
+word(fairly, 3073, 184, 3).
+word(dense, 3073, 184, 4).
+word(bit, 3073, 184, 7).
+word(hard, 3073, 184, 8).
+word(read, 3073, 184, 10).
+word(shortcut, 3073, 1423, 2).
+word(let, 3073, 1423, 3).
+word(paper, 3073, 1423, 7).
+word(dense, 3073, 1423, 9).
+word(few, 3073, 1423, 11).
+word(word, 3073, 1423, 12).
+word(cost, 3073, 1423, 16).
+word(readability, 3073, 1423, 18).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(3072, 161, 0, 0, 0, 0, 0, 0, 0, -1).
+sentiment(3073, 184, 0, 0, 0, 0, 0, 1, 0, 0).
+sentiment(3073, 1423, 0, 0, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,44 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(5051,505,6,2).
+source(5053,505,6,4).
+% id paper, Reject/Accept
+paperProperties(505, 1).
+% sourceId, line
+sentence(5051,1477).
+sentence(5051,1825).
+sentence(5051,1870).
+sentence(5053,301).
+% W, sourceId, line, position
+word(new, 5051, 1477, 1).
+word(method, 5051, 1477, 2).
+word(motivated, 5051, 1477, 4).
+word(depart, 5051, 1477, 7).
+word(prior, 5051, 1477, 9).
+word(work, 5051, 1477, 10).
+word(new, 5051, 1825, 1).
+word(method, 5051, 1825, 2).
+word(motivated, 5051, 1825, 4).
+word(depart, 5051, 1825, 7).
+word(prior, 5051, 1825, 9).
+word(work, 5051, 1825, 10).
+word(method, 5051, 1825, 14).
+word(corpus, 5051, 1825, 17).
+word(book, 5051, 1825, 19).
+word(author, 5051, 1825, 22).
+word(corpus, 5051, 1825, 26).
+word(subreddit, 5051, 1825, 28).
+word(new, 5051, 1870, 1).
+word(method, 5051, 1870, 2).
+word(motivated, 5051, 1870, 4).
+word(depart, 5051, 1870, 7).
+word(prior, 5051, 1870, 9).
+word(work, 5051, 1870, 10).
+word(paper, 5051, 1870, 14).
+word(accept, 5051, 1870, 18).
+word(idea, 5053, 301, 1).
+word(incremental, 5053, 301, 3).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(5051, 1477, 0, 0, 0, 0, 1, 0, 0, 0).
+sentiment(5051, 1825, 0, 0, 0, 0, 1, 0, 0, 0).
+sentiment(5051, 1870, 0, 0, 0, 0, 1, 0, 0, -1).
+sentiment(5053, 301, 0, 0, 1, 0, 0, 0, 0, 0).

@@ -1,0 +1,32 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(1981,198,5,4).
+source(1982,198,5,4).
+% id paper, Reject/Accept
+paperProperties(198, 0).
+% sourceId, line
+sentence(1981,627).
+sentence(1982,42).
+% W, sourceId, line, position
+word(dataset, 1981, 627, 3).
+word(cifar, 1981, 627, 5).
+word(propose, 1981, 627, 9).
+word(method, 1981, 627, 10).
+word(perform, 1981, 627, 11).
+word(slightly, 1981, 627, 12).
+word(well, 1981, 627, 13).
+word(crelu, 1981, 627, 16).
+word(baseline, 1981, 627, 17).
+word(improvement, 1981, 627, 21).
+word(small, 1981, 627, 24).
+word(con, 1982, 42, 0).
+word(unroll, 1982, 42, 3).
+word(sparse, 1982, 42, 4).
+word(code, 1982, 42, 5).
+word(inference, 1982, 42, 6).
+word(feed, 1982, 42, 9).
+word(foward, 1982, 42, 11).
+word(network, 1982, 42, 12).
+word(new, 1982, 42, 15).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(1981, 627, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(1982, 42, 0, 0, 0, 0, 0, -1, 0, 0).

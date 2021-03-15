@@ -1,0 +1,24 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(9163,916,4,3).
+% id paper, Reject/Accept
+paperProperties(916, 0).
+% sourceId, line
+sentence(9163,1364).
+sentence(9163,1365).
+% W, sourceId, line, position
+word(gmezo, 9163, 1364, 0).
+word(win, 9163, 1364, 1).
+word(rate, 9163, 1364, 2).
+word(low, 9163, 1364, 4).
+word(compare, 9163, 1364, 5).
+word(original, 9163, 1364, 8).
+word(publication, 9163, 1364, 9).
+word(rational, 9163, 1365, 3).
+word(choose, 9163, 1365, 5).
+word(vanilla, 9163, 1365, 7).
+word(rnn, 9163, 1365, 8).
+word(slave, 9163, 1365, 11).
+word(module, 9163, 1365, 12).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(9163, 1364, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9163, 1365, 0, -1, 0, 0, 0, 0, 0, 0).

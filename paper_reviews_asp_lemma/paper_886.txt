@@ -1,0 +1,51 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(8862,886,7,4).
+% id paper, Reject/Accept
+paperProperties(886, 0).
+% sourceId, line
+sentence(8862,416).
+sentence(8862,617).
+sentence(8862,1874).
+sentence(8862,2012).
+% W, sourceId, line, position
+word(claim, 8862, 416, 1).
+word(problematic, 8862, 416, 4).
+word(reason, 8862, 416, 7).
+word(overall, 8862, 617, 0).
+word(paper, 8862, 617, 3).
+word(contribute, 8862, 617, 4).
+word(useful, 8862, 617, 6).
+word(dataset, 8862, 617, 7).
+word(analysis, 8862, 617, 10).
+word(improve, 8862, 617, 13).
+word(place, 8862, 617, 16).
+word(overall, 8862, 1874, 0).
+word(paper, 8862, 1874, 3).
+word(contribute, 8862, 1874, 4).
+word(useful, 8862, 1874, 6).
+word(dataset, 8862, 1874, 7).
+word(analysis, 8862, 1874, 10).
+word(improve, 8862, 1874, 13).
+word(place, 8862, 1874, 16).
+word(claim, 8862, 1874, 20).
+word(highly, 8862, 1874, 22).
+word(biased, 8862, 1874, 23).
+word(give, 8862, 1874, 27).
+word(intuitive, 8862, 1874, 30).
+word(sense, 8862, 1874, 31).
+word(overall, 8862, 2012, 0).
+word(paper, 8862, 2012, 3).
+word(contribute, 8862, 2012, 4).
+word(useful, 8862, 2012, 6).
+word(dataset, 8862, 2012, 7).
+word(analysis, 8862, 2012, 10).
+word(improve, 8862, 2012, 13).
+word(place, 8862, 2012, 16).
+word(overall, 8862, 2012, 19).
+word(motivation, 8862, 2012, 26).
+word(study, 8862, 2012, 29).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(8862, 416, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(8862, 617, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8862, 1874, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(8862, 2012, 0, 0, 0, 0, -1, 0, 0, 0).

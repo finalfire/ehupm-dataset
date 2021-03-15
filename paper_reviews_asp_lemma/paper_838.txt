@@ -1,0 +1,87 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(8382,838,4,4).
+source(8383,838,4,4).
+% id paper, Reject/Accept
+paperProperties(838, 0).
+% sourceId, line
+sentence(8382,933).
+sentence(8382,2303).
+sentence(8383,934).
+sentence(8383,2401).
+% W, sourceId, line, position
+word(complex, 8382, 933, 2).
+word(task, 8382, 933, 3).
+word(text, 8382, 933, 8).
+word(necessary, 8382, 933, 13).
+word(outperform, 8382, 933, 18).
+word(rn, 8382, 933, 19).
+word(without, 8382, 933, 20).
+word(consider, 8382, 933, 21).
+word(object, 8382, 933, 23).
+word(pairwise, 8382, 933, 26).
+word(fashion, 8382, 933, 27).
+word(complex, 8382, 2303, 2).
+word(task, 8382, 2303, 3).
+word(text, 8382, 2303, 8).
+word(necessary, 8382, 2303, 13).
+word(outperform, 8382, 2303, 18).
+word(rn, 8382, 2303, 19).
+word(without, 8382, 2303, 20).
+word(consider, 8382, 2303, 21).
+word(object, 8382, 2303, 23).
+word(pairwise, 8382, 2303, 26).
+word(fashion, 8382, 2303, 27).
+word(check, 8382, 2303, 31).
+word(accent, 8382, 2303, 32).
+word(nicolo, 8382, 2303, 34).
+word(cesa, 8382, 2303, 35).
+word(bianchi, 8382, 2303, 37).
+word(bibliography, 8382, 2303, 39).
+word(understand, 8383, 934, 3).
+word(work, 8383, 934, 6).
+word(compute, 8383, 934, 8).
+word(weighted, 8383, 934, 10).
+word(average, 8383, 934, 11).
+word(sentence, 8383, 934, 13).
+word(representation, 8383, 934, 14).
+word(input, 8383, 934, 17).
+word(story, 8383, 934, 18).
+word(attention, 8383, 934, 21).
+word(weight, 8383, 934, 22).
+word(output, 8383, 934, 25).
+word(mlp, 8383, 934, 28).
+word(input, 8383, 934, 30).
+word(sentence, 8383, 934, 34).
+word(question, 8383, 934, 36).
+word(sentence, 8383, 934, 40).
+word(question, 8383, 934, 43).
+word(understand, 8383, 2401, 3).
+word(work, 8383, 2401, 6).
+word(compute, 8383, 2401, 8).
+word(weighted, 8383, 2401, 10).
+word(average, 8383, 2401, 11).
+word(sentence, 8383, 2401, 13).
+word(representation, 8383, 2401, 14).
+word(input, 8383, 2401, 17).
+word(story, 8383, 2401, 18).
+word(attention, 8383, 2401, 21).
+word(weight, 8383, 2401, 22).
+word(output, 8383, 2401, 25).
+word(mlp, 8383, 2401, 28).
+word(input, 8383, 2401, 30).
+word(sentence, 8383, 2401, 34).
+word(question, 8383, 2401, 36).
+word(sentence, 8383, 2401, 40).
+word(question, 8383, 2401, 43).
+word(recent, 8383, 2401, 48).
+word(year, 8383, 2401, 49).
+word(notable, 8383, 2401, 54).
+word(success, 8383, 2401, 55).
+word(deep, 8383, 2401, 57).
+word(reinforcement, 8383, 2401, 58).
+word(learning, 8383, 2401, 59).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(8382, 933, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8382, 2303, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8383, 934, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8383, 2401, 0, 0, 0, 0, 0, 0, 0, 0).

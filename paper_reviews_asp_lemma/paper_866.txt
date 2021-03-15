@@ -1,0 +1,61 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(8661,866,6,4).
+% id paper, Reject/Accept
+paperProperties(866, 0).
+% sourceId, line
+sentence(8661,854).
+sentence(8661,2035).
+sentence(8661,2041).
+% W, sourceId, line, position
+word(little, 8661, 854, 3).
+word(bit, 8661, 854, 4).
+word(abbreviate, 8661, 854, 5).
+word(major, 8661, 854, 8).
+word(focus, 8661, 854, 9).
+word(paper, 8661, 854, 12).
+word(guess, 8661, 854, 16).
+word(important, 8661, 854, 21).
+word(novel, 8661, 854, 23).
+word(educational, 8661, 854, 26).
+word(guess, 8661, 854, 27).
+word(guess, 8661, 854, 33).
+word(algorithm, 8661, 854, 37).
+word(smoothie, 8661, 854, 38).
+word(little, 8661, 2035, 3).
+word(bit, 8661, 2035, 4).
+word(abbreviate, 8661, 2035, 5).
+word(major, 8661, 2035, 8).
+word(focus, 8661, 2035, 9).
+word(paper, 8661, 2035, 12).
+word(guess, 8661, 2035, 16).
+word(important, 8661, 2035, 21).
+word(novel, 8661, 2035, 23).
+word(educational, 8661, 2035, 26).
+word(guess, 8661, 2035, 27).
+word(guess, 8661, 2035, 33).
+word(algorithm, 8661, 2035, 37).
+word(smoothie, 8661, 2035, 38).
+word(concern, 8661, 2035, 45).
+word(paper, 8661, 2035, 49).
+word(suit, 8661, 2035, 56).
+word(iclr, 8661, 2035, 58).
+word(little, 8661, 2041, 3).
+word(bit, 8661, 2041, 4).
+word(abbreviate, 8661, 2041, 5).
+word(major, 8661, 2041, 8).
+word(focus, 8661, 2041, 9).
+word(paper, 8661, 2041, 12).
+word(guess, 8661, 2041, 16).
+word(important, 8661, 2041, 21).
+word(novel, 8661, 2041, 23).
+word(educational, 8661, 2041, 26).
+word(guess, 8661, 2041, 27).
+word(guess, 8661, 2041, 33).
+word(algorithm, 8661, 2041, 37).
+word(smoothie, 8661, 2041, 38).
+word(unfair, 8661, 2041, 46).
+word(comparison, 8661, 2041, 47).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(8661, 854, 0, 0, -1, 0, 0, 0, 0, 0).
+sentiment(8661, 2035, -1, 0, -1, 0, 0, 0, 0, 0).
+sentiment(8661, 2041, 0, 0, -1, 0, -1, 0, 0, 0).

@@ -1,0 +1,55 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(10611,1061,3,4).
+source(10612,1061,4,4).
+% id paper, Reject/Accept
+paperProperties(1061, 0).
+% sourceId, line
+sentence(10611,1179).
+sentence(10612,1177).
+sentence(10612,1178).
+sentence(10612,2261).
+sentence(10612,2481).
+sentence(10612,2484).
+% W, sourceId, line, position
+word(common, 10611, 1179, 4).
+word(use, 10611, 1179, 6).
+word(birnn, 10611, 1179, 8).
+word(layer, 10611, 1179, 9).
+word(paper, 10611, 1179, 13).
+word(use, 10611, 1179, 15).
+word(slstm, 10612, 1177, 4).
+word(ii, 10612, 1177, 6).
+word(loose, 10612, 1177, 8).
+word(capability, 10612, 1177, 10).
+word(forget, 10612, 1177, 12).
+word(le, 10612, 1178, 0).
+word(interesting, 10612, 1178, 3).
+word(slstm, 10612, 2261, 4).
+word(ii, 10612, 2261, 6).
+word(loose, 10612, 2261, 8).
+word(capability, 10612, 2261, 10).
+word(forget, 10612, 2261, 12).
+word(example, 10612, 2261, 22).
+word(argument, 10612, 2261, 24).
+word(reduce, 10612, 2261, 29).
+word(computation, 10612, 2261, 33).
+word(require, 10612, 2261, 34).
+word(question, 10612, 2261, 36).
+word(le, 10612, 2481, 0).
+word(interesting, 10612, 2481, 3).
+word(gradient, 10612, 2481, 7).
+word(descent, 10612, 2481, 8).
+word(ascent, 10612, 2481, 10).
+word(backpropagation, 10612, 2481, 12).
+word(le, 10612, 2484, 0).
+word(interesting, 10612, 2484, 3).
+word(presentation, 10612, 2484, 7).
+word(complex, 10612, 2484, 11).
+word(need, 10612, 2484, 13).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(10611, 1179, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(10612, 1177, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10612, 1178, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10612, 2261, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10612, 2481, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10612, 2484, 0, 0, 0, 0, 0, 0, 0, 0).

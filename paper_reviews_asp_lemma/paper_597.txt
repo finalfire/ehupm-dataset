@@ -1,0 +1,44 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(5971,597,7,4).
+source(5972,597,7,4).
+% id paper, Reject/Accept
+paperProperties(597, 1).
+% sourceId, line
+sentence(5971,1792).
+sentence(5971,2305).
+sentence(5972,1793).
+% W, sourceId, line, position
+word(furthermore, 5971, 1792, 0).
+word(author, 5971, 1792, 3).
+word(prescribe, 5971, 1792, 4).
+word(method, 5971, 1792, 6).
+word(cleaning, 5971, 1792, 8).
+word(santize, 5971, 1792, 11).
+word(adversarial, 5971, 1792, 14).
+word(image, 5971, 1792, 15).
+word(employ, 5971, 1792, 17).
+word(generative, 5971, 1792, 19).
+word(model, 5971, 1792, 20).
+word(furthermore, 5971, 2305, 0).
+word(author, 5971, 2305, 3).
+word(prescribe, 5971, 2305, 4).
+word(method, 5971, 2305, 6).
+word(cleaning, 5971, 2305, 8).
+word(santize, 5971, 2305, 11).
+word(adversarial, 5971, 2305, 14).
+word(image, 5971, 2305, 15).
+word(employ, 5971, 2305, 17).
+word(generative, 5971, 2305, 19).
+word(model, 5971, 2305, 20).
+word(reference, 5971, 2305, 23).
+word(classic, 5971, 2305, 25).
+word(weight, 5971, 2305, 26).
+word(sampling, 5971, 2305, 27).
+word(fact, 5972, 1793, 1).
+word(earler, 5972, 1793, 4).
+word(intriguing, 5972, 1793, 9).
+word(propoertie, 5972, 1793, 10).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(5971, 1792, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5971, 2305, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5972, 1793, 0, 0, 0, 0, 0, 0, 0, 0).

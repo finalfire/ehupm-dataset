@@ -1,0 +1,92 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(8351,835,6,3).
+source(8352,835,4,4).
+source(8353,835,5,4).
+% id paper, Reject/Accept
+paperProperties(835, 0).
+% sourceId, line
+sentence(8351,99).
+sentence(8351,207).
+sentence(8351,1951).
+sentence(8351,1992).
+sentence(8351,2193).
+sentence(8352,320).
+sentence(8352,1139).
+sentence(8352,1998).
+sentence(8353,1140).
+% W, sourceId, line, position
+word(summary, 8351, 99, 1).
+word(think, 8351, 99, 4).
+word(paper, 8351, 99, 6).
+word(accept, 8351, 99, 9).
+word(iclr, 8351, 99, 11).
+word(paper, 8351, 207, 1).
+word(easy, 8351, 207, 3).
+word(follow, 8351, 207, 5).
+word(adequate, 8351, 207, 11).
+word(technical, 8351, 207, 12).
+word(level, 8351, 207, 13).
+word(paper, 8351, 1951, 1).
+word(easy, 8351, 1951, 3).
+word(follow, 8351, 1951, 5).
+word(adequate, 8351, 1951, 11).
+word(technical, 8351, 1951, 12).
+word(level, 8351, 1951, 13).
+word(baseline, 8351, 1951, 17).
+word(list, 8351, 1951, 18).
+word(state, 8351, 1951, 22).
+word(art, 8351, 1951, 28).
+word(paper, 8351, 1992, 1).
+word(easy, 8351, 1992, 3).
+word(follow, 8351, 1992, 5).
+word(adequate, 8351, 1992, 11).
+word(technical, 8351, 1992, 12).
+word(level, 8351, 1992, 13).
+word(overall, 8351, 1992, 16).
+word(like, 8351, 1992, 20).
+word(natural, 8351, 1992, 22).
+word(effective, 8351, 1992, 24).
+word(approach, 8351, 1992, 25).
+word(achieve, 8351, 1992, 28).
+word(good, 8351, 1992, 29).
+word(result, 8351, 1992, 30).
+word(paper, 8351, 2193, 1).
+word(easy, 8351, 2193, 3).
+word(follow, 8351, 2193, 5).
+word(adequate, 8351, 2193, 11).
+word(technical, 8351, 2193, 12).
+word(level, 8351, 2193, 13).
+word(contribution, 8351, 2193, 17).
+word(paper, 8351, 2193, 20).
+word(paper, 8351, 2193, 23).
+word(fold, 8351, 2193, 27).
+word(finally, 8352, 320, 0).
+word(tagcn, 8352, 320, 6).
+word(idea, 8352, 320, 7).
+word(interesting, 8352, 320, 9).
+word(network, 8352, 1139, 0).
+word(irregular, 8352, 1139, 3).
+word(domain, 8352, 1139, 4).
+word(finally, 8352, 1998, 0).
+word(tagcn, 8352, 1998, 6).
+word(idea, 8352, 1998, 7).
+word(interesting, 8352, 1998, 9).
+word(problem, 8352, 1998, 14).
+word(understand, 8352, 1998, 15).
+word(motivation, 8352, 1998, 17).
+word(paper, 8352, 1998, 20).
+word(gcn, 8353, 1140, 0).
+word(look, 8353, 1140, 1).
+word(near, 8353, 1140, 4).
+word(neighbor, 8353, 1140, 5).
+word(paper, 8353, 1140, 8).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(8351, 99, 1, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8351, 207, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(8351, 1951, 0, 1, 0, 0, -1, 0, 0, 0).
+sentiment(8351, 1992, 0, 1, 0, 0, 0, 0, 1, 0).
+sentiment(8351, 2193, 0, 1, 0, 0, 0, 0, 1, 0).
+sentiment(8352, 320, 0, 0, 1, 0, 0, 0, 0, 0).
+sentiment(8352, 1139, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8352, 1998, 0, 0, 1, 0, 0, 0, 0, 0).
+sentiment(8353, 1140, 0, 0, 0, 0, 0, 0, 0, 0).

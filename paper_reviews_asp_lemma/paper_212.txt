@@ -1,0 +1,50 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(2121,212,5,3).
+source(2122,212,6,4).
+source(2123,212,4,3).
+% id paper, Reject/Accept
+paperProperties(212, 0).
+% sourceId, line
+sentence(2121,407).
+sentence(2122,1403).
+sentence(2123,1404).
+sentence(2123,2535).
+% W, sourceId, line, position
+word(completely, 2121, 407, 2).
+word(hand, 2121, 407, 3).
+word(wavey, 2121, 407, 5).
+word(evidence, 2121, 407, 9).
+word(give, 2121, 407, 11).
+word(claim, 2121, 407, 15).
+word(experiment, 2122, 1403, 1).
+word(leave, 2122, 1403, 2).
+word(bit, 2122, 1403, 5).
+word(confused, 2122, 1403, 6).
+word(illuminate, 2122, 1403, 11).
+word(choice, 2122, 1403, 14).
+word(f, 2122, 1403, 16).
+word(overall, 2123, 1404, 0).
+word(believe, 2123, 1404, 3).
+word(submission, 2123, 1404, 5).
+word(call, 2123, 1404, 6).
+word(significant, 2123, 1404, 8).
+word(improvement, 2123, 1404, 9).
+word(consider, 2123, 1404, 12).
+word(publication, 2123, 1404, 14).
+word(overall, 2123, 2535, 0).
+word(believe, 2123, 2535, 3).
+word(submission, 2123, 2535, 5).
+word(call, 2123, 2535, 6).
+word(significant, 2123, 2535, 8).
+word(improvement, 2123, 2535, 9).
+word(consider, 2123, 2535, 12).
+word(publication, 2123, 2535, 14).
+word(instruction, 2123, 2535, 18).
+word(overloaded, 2123, 2535, 21).
+word(word, 2123, 2535, 22).
+word(roomtype, 2123, 2535, 28).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(2121, 407, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(2122, 1403, 0, -1, 0, -1, 0, 0, 0, 0).
+sentiment(2123, 1404, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(2123, 2535, 0, 0, 0, 0, 0, 0, 0, 0).

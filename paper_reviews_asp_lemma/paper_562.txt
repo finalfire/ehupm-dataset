@@ -1,0 +1,25 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(5621,562,6,3).
+% id paper, Reject/Accept
+paperProperties(562, 1).
+% sourceId, line
+sentence(5621,910).
+sentence(5621,911).
+% W, sourceId, line, position
+word(thing, 5621, 910, 2).
+word(player, 5621, 910, 4).
+word(know, 5621, 910, 5).
+word(good, 5621, 910, 8).
+word(adversarial, 5621, 910, 9).
+word(policy, 5621, 910, 10).
+word(section, 5621, 911, 1).
+word(understand, 5621, 911, 7).
+word(adversary, 5621, 911, 10).
+word(use, 5621, 911, 11).
+word(sign, 5621, 911, 14).
+word(value, 5621, 911, 19).
+word(estimate, 5621, 911, 22).
+word(gradient, 5621, 911, 23).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(5621, 910, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5621, 911, 0, -1, 0, 0, 0, 0, 0, 0).

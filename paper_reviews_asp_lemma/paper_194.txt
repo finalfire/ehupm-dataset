@@ -1,0 +1,49 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(1942,194,7,4).
+source(1943,194,8,3).
+% id paper, Reject/Accept
+paperProperties(194, 1).
+% sourceId, line
+sentence(1942,137).
+sentence(1943,1063).
+sentence(1943,1850).
+% W, sourceId, line, position
+word(overall, 1942, 137, 0).
+word(good, 1942, 137, 4).
+word(paper, 1942, 137, 5).
+word(think, 1942, 137, 8).
+word(accept, 1942, 137, 11).
+word(discuss, 1942, 137, 13).
+word(conference, 1942, 137, 16).
+word(belief, 1943, 1063, 4).
+word(approach, 1943, 1063, 7).
+word(large, 1943, 1063, 11).
+word(impact, 1943, 1063, 12).
+word(practitioner, 1943, 1063, 15).
+word(train, 1943, 1063, 16).
+word(model, 1943, 1063, 17).
+word(belief, 1943, 1850, 4).
+word(approach, 1943, 1850, 7).
+word(large, 1943, 1850, 11).
+word(impact, 1943, 1850, 12).
+word(practitioner, 1943, 1850, 15).
+word(train, 1943, 1850, 16).
+word(model, 1943, 1850, 17).
+word(provide, 1943, 1850, 21).
+word(theoretical, 1943, 1850, 22).
+word(argument, 1943, 1850, 23).
+word(hali, 1943, 1850, 26).
+word(adversarial, 1943, 1850, 28).
+word(game, 1943, 1850, 29).
+word(sufficient, 1943, 1850, 32).
+word(minimize, 1943, 1850, 34).
+word(reconstruction, 1943, 1850, 36).
+word(cost, 1943, 1850, 37).
+word(empirical, 1943, 1850, 40).
+word(evidence, 1943, 1850, 41).
+word(support, 1943, 1850, 42).
+word(perspective, 1943, 1850, 44).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(1942, 137, 1, 0, 0, 0, 0, 0, 0, 1).
+sentiment(1943, 1063, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(1943, 1850, 0, 0, 0, 1, 0, 0, -1, 0).

@@ -1,0 +1,49 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(2291,229,6,4).
+source(2293,229,6,4).
+% id paper, Reject/Accept
+paperProperties(229, 0).
+% sourceId, line
+sentence(2291,676).
+sentence(2293,1461).
+sentence(2293,1462).
+sentence(2293,2279).
+sentence(2293,2294).
+% W, sourceId, line, position
+word(unclear, 2291, 676, 2).
+word(author, 2291, 676, 5).
+word(consider, 2291, 676, 8).
+word(common, 2291, 676, 11).
+word(dataset, 2291, 676, 12).
+word(consider, 2291, 676, 17).
+word(single, 2291, 676, 19).
+word(dataset, 2291, 676, 20).
+word(like, 2293, 1461, 1).
+word(visualization, 2293, 1461, 3).
+word(educational, 2293, 1461, 6).
+word(tool, 2293, 1461, 7).
+word(lime, 2293, 1462, 1).
+word(paper, 2293, 1462, 2).
+word(lime, 2293, 2279, 1).
+word(paper, 2293, 2279, 2).
+word(propose, 2293, 2279, 7).
+word(approach, 2293, 2279, 8).
+word(evaluate, 2293, 2279, 10).
+word(camvid, 2293, 2279, 13).
+word(dataset, 2293, 2279, 14).
+word(lime, 2293, 2294, 1).
+word(paper, 2293, 2294, 2).
+word(think, 2293, 2294, 9).
+word(assume, 2293, 2294, 14).
+word(priori, 2293, 2294, 16).
+word(human, 2293, 2294, 18).
+word(super, 2293, 2294, 21).
+word(good, 2293, 2294, 22).
+word(form, 2293, 2294, 24).
+word(generalization, 2293, 2294, 26).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(2291, 676, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(2293, 1461, 0, 0, 0, 1, 0, 0, 0, 0).
+sentiment(2293, 1462, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(2293, 2279, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(2293, 2294, 0, 0, 0, 0, 0, 0, 0, 0).

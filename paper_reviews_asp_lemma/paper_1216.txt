@@ -1,0 +1,61 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(12162,1216,3,4).
+% id paper, Reject/Accept
+paperProperties(1216, 0).
+% sourceId, line
+sentence(12162,59).
+sentence(12162,1408).
+sentence(12162,1409).
+sentence(12162,1410).
+sentence(12162,2419).
+sentence(12162,2564).
+% W, sourceId, line, position
+word(paper, 12162, 59, 1).
+word(reasonably, 12162, 59, 3).
+word(readable, 12162, 59, 4).
+word(highly, 12162, 1408, 2).
+word(problematic, 12162, 1408, 3).
+word(simply, 12162, 1408, 5).
+word(remove, 12162, 1408, 6).
+word(gradient, 12162, 1408, 12).
+word(reduce, 12162, 1408, 15).
+word(effect, 12162, 1408, 16).
+word(state, 12162, 1408, 20).
+word(experiment, 12162, 1409, 2).
+word(baseline, 12162, 1409, 5).
+word(include, 12162, 1409, 8).
+word(particularly, 12162, 1409, 10).
+word(regular, 12162, 1409, 12).
+word(q, 12162, 1409, 13).
+word(learning, 12162, 1409, 15).
+word(gradient, 12162, 1410, 3).
+word(st, 12162, 1410, 5).
+word(change, 12162, 1410, 9).
+word(value, 12162, 1410, 11).
+word(colloquial, 12162, 1410, 20).
+word(experiment, 12162, 2419, 2).
+word(baseline, 12162, 2419, 5).
+word(include, 12162, 2419, 8).
+word(particularly, 12162, 2419, 10).
+word(regular, 12162, 2419, 12).
+word(q, 12162, 2419, 13).
+word(learn, 12162, 2419, 15).
+word(author, 12162, 2419, 19).
+word(experiment, 12162, 2419, 21).
+word(mnist, 12162, 2419, 23).
+word(dataset, 12162, 2419, 24).
+word(strong, 12162, 2564, 0).
+word(point, 12162, 2564, 1).
+word(paper, 12162, 2564, 4).
+word(gradient, 12162, 2564, 10).
+word(st, 12162, 2564, 12).
+word(change, 12162, 2564, 16).
+word(value, 12162, 2564, 18).
+word(colloquial, 12162, 2564, 27).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(12162, 59, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(12162, 1408, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(12162, 1409, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(12162, 1410, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(12162, 2419, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(12162, 2564, 0, 0, 0, 0, 0, 0, 0, 0).

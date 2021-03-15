@@ -1,0 +1,147 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(11,1,7,4).
+source(12,1,8,4).
+% id paper, Reject/Accept
+paperProperties(1, 1).
+% sourceId, line
+sentence(11,316).
+sentence(11,356).
+sentence(11,726).
+sentence(11,903).
+sentence(11,915).
+sentence(11,1087).
+sentence(11,1651).
+sentence(11,1756).
+sentence(11,1758).
+sentence(12,93).
+sentence(12,237).
+sentence(12,386).
+sentence(12,392).
+sentence(12,435).
+sentence(12,555).
+sentence(12,1214).
+sentence(12,1379).
+sentence(12,1811).
+sentence(12,2359).
+sentence(12,2581).
+sentence(12,2582).
+sentence(12,2583).
+sentence(12,2584).
+sentence(12,2585).
+% W, sourceId, line, position
+word(think, 11, 316, 1).
+word(broad, 11, 316, 3).
+word(approach, 11, 316, 4).
+word(warrant, 11, 316, 7).
+word(problem, 11, 316, 10).
+word(detailed, 11, 356, 3).
+word(experiment, 11, 356, 4).
+word(analysis, 11, 356, 6).
+word(need, 11, 356, 8).
+word(great, 11, 726, 6).
+word(result, 11, 726, 7).
+word(correct, 11, 726, 9).
+word(clarify, 11, 903, 5).
+word(rename, 11, 903, 8).
+word(sgd, 11, 903, 11).
+word(time, 11, 915, 3).
+word(algorithm, 11, 915, 6).
+word(choose, 11, 915, 7).
+word(reread, 11, 915, 9).
+word(sample, 11, 1087, 2).
+word(well, 11, 1087, 3).
+word(e, 11, 1087, 5).
+word(fine, 11, 1651, 3).
+word(tuning, 11, 1651, 4).
+word(cnn, 11, 1651, 7).
+word(good, 11, 1756, 4).
+word(reason, 11, 1756, 5).
+word(limit, 11, 1756, 7).
+word(section, 11, 1756, 8).
+word(state, 11, 1758, 2).
+word(expectation, 11, 1758, 5).
+word(respect, 11, 1758, 8).
+word(p, 11, 1758, 10).
+word(hetax, 11, 1758, 14).
+word(paper, 12, 93, 5).
+word(submit, 12, 93, 7).
+word(wrong, 12, 93, 10).
+word(venue, 12, 93, 11).
+word(paper, 12, 237, 1).
+word(write, 12, 237, 4).
+word(clearly, 12, 237, 5).
+word(validity, 12, 386, 3).
+word(hypothesis, 12, 386, 6).
+word(experimentally, 12, 386, 9).
+word(demonstrated, 12, 386, 11).
+word(paper, 12, 392, 1).
+word(write, 12, 392, 4).
+word(claim, 12, 392, 7).
+word(support, 12, 392, 10).
+word(experiment, 12, 392, 13).
+word(claim, 12, 435, 3).
+word(reference, 12, 435, 7).
+word(actual, 12, 435, 9).
+word(data, 12, 435, 10).
+word(point, 12, 435, 11).
+word(paper, 12, 555, 1).
+word(incremental, 12, 555, 5).
+word(mask, 12, 1214, 1).
+word(noise, 12, 1214, 4).
+word(unbiase, 12, 1214, 6).
+word(far, 12, 1214, 8).
+word(tell, 12, 1214, 12).
+word(aim, 12, 1379, 1).
+word(paper, 12, 1379, 4).
+word(propose, 12, 1379, 7).
+word(alternative, 12, 1379, 9).
+word(deep, 12, 1379, 10).
+word(revise, 12, 1811, 3).
+word(paper, 12, 1811, 4).
+word(explanation, 12, 1811, 8).
+word(provide, 12, 1811, 10).
+word(uhat, 12, 1811, 12).
+word(paper, 12, 2359, 3).
+word(lack, 12, 2359, 4).
+word(zero, 12, 2359, 7).
+word(shot, 12, 2359, 9).
+word(shot, 12, 2359, 13).
+word(application, 12, 2359, 14).
+word(writing, 12, 2581, 1).
+word(extrmly, 12, 2581, 3).
+word(clear, 12, 2581, 4).
+word(clarity, 12, 2582, 1).
+word(good, 12, 2582, 4).
+word(paper, 12, 2583, 1).
+word(clear, 12, 2583, 3).
+word(paper, 12, 2584, 1).
+word(high, 12, 2584, 3).
+word(clarity, 12, 2584, 4).
+word(paper, 12, 2585, 1).
+word(breeze, 12, 2585, 4).
+word(understand, 12, 2585, 6).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(11, 316, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11, 356, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11, 726, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(11, 903, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(11, 915, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(11, 1087, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11, 1651, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(11, 1756, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(11, 1758, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(12, 93, -1, 0, 0, 0, 0, 0, 0, 0).
+sentiment(12, 237, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(12, 386, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(12, 392, 0, 1, 0, 1, 0, 0, 0, 0).
+sentiment(12, 435, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(12, 555, 0, 0, -1, 0, 0, 0, 0, 0).
+sentiment(12, 1214, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(12, 1379, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(12, 1811, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(12, 2359, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(12, 2581, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(12, 2582, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(12, 2583, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(12, 2584, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(12, 2585, 0, 1, 0, 0, 0, 0, 0, 0).

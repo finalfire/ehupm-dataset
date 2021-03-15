@@ -1,0 +1,45 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(5001,500,7,5).
+source(5003,500,5,4).
+% id paper, Reject/Accept
+paperProperties(500, 1).
+% sourceId, line
+sentence(5001,1552).
+sentence(5001,2232).
+sentence(5003,340).
+% W, sourceId, line, position
+word(algorithm, 5001, 1552, 1).
+word(combination, 5001, 1552, 5).
+word(retrace, 5001, 1552, 8).
+word(algorithm, 5001, 1552, 9).
+word(estimate, 5001, 1552, 11).
+word(q, 5001, 1552, 13).
+word(function, 5001, 1552, 15).
+word(need, 5001, 1552, 20).
+word(policy, 5001, 1552, 23).
+word(update, 5001, 1552, 24).
+word(algorithm, 5001, 2232, 1).
+word(combination, 5001, 2232, 5).
+word(retrace, 5001, 2232, 8).
+word(algorithm, 5001, 2232, 9).
+word(estimate, 5001, 2232, 11).
+word(q, 5001, 2232, 13).
+word(function, 5001, 2232, 15).
+word(need, 5001, 2232, 20).
+word(policy, 5001, 2232, 23).
+word(update, 5001, 2232, 24).
+word(counterfactual, 5001, 2232, 29).
+word(return, 5001, 2232, 30).
+word(extend, 5001, 2232, 36).
+word(reward, 5001, 2232, 37).
+word(need, 5001, 2232, 40).
+word(rewrite, 5001, 2232, 43).
+word(experimental, 5003, 340, 1).
+word(conclusion, 5003, 340, 2).
+word(conduct, 5003, 340, 4).
+word(sound, 5003, 340, 6).
+word(evidence, 5003, 340, 7).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(5001, 1552, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5001, 2232, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5003, 340, 0, 0, 0, -1, 0, 0, 0, 0).

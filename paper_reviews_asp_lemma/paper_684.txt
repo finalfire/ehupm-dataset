@@ -1,0 +1,44 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(6841,684,7,5).
+source(6843,684,7,4).
+% id paper, Reject/Accept
+paperProperties(684, 1).
+% sourceId, line
+sentence(6841,1233).
+sentence(6843,1232).
+% W, sourceId, line, position
+word(nice, 6841, 1233, 1).
+word(engineering, 6841, 1233, 2).
+word(achievement, 6841, 1233, 3).
+word(reach, 6841, 1233, 5).
+word(leaderboard, 6841, 1233, 10).
+word(early, 6841, 1233, 13).
+word(october, 6841, 1233, 14).
+word(think, 6843, 1232, 1).
+word(author, 6843, 1232, 3).
+word(take, 6843, 1232, 5).
+word(feedback, 6843, 1232, 8).
+word(reviewer, 6843, 1232, 10).
+word(anonymous, 6843, 1232, 14).
+word(commenter, 6843, 1232, 15).
+word(thoroughly, 6843, 1232, 16).
+word(account, 6843, 1232, 18).
+word(run, 6843, 1232, 20).
+word(ablation, 6843, 1232, 22).
+word(report, 6843, 1232, 26).
+word(nice, 6843, 1232, 27).
+word(result, 6843, 1232, 28).
+word(entirely, 6843, 1232, 31).
+word(new, 6843, 1232, 32).
+word(dataset, 6843, 1232, 33).
+word(multinli, 6843, 1232, 35).
+word(multi, 6843, 1232, 42).
+word(level, 6843, 1232, 43).
+word(fusion, 6843, 1232, 44).
+word(mechanism, 6843, 1232, 45).
+word(improve, 6843, 1232, 46).
+word(baseline, 6843, 1232, 48).
+word(significantly, 6843, 1232, 49).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(6841, 1233, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6843, 1232, 0, 1, 0, 0, 1, 0, 0, 0).

@@ -1,0 +1,56 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(9451,945,3,5).
+source(9452,945,4,5).
+source(9453,945,4,5).
+% id paper, Reject/Accept
+paperProperties(945, 0).
+% sourceId, line
+sentence(9451,574).
+sentence(9452,1385).
+sentence(9452,1386).
+sentence(9453,1384).
+% W, sourceId, line, position
+word(paper, 9451, 574, 1).
+word(ready, 9451, 574, 4).
+word(accept, 9451, 574, 7).
+word(know, 9452, 1385, 2).
+word(network, 9452, 1385, 5).
+word(expressibility, 9452, 1385, 6).
+word(highly, 9452, 1385, 8).
+word(related, 9452, 1385, 9).
+word(depth, 9452, 1385, 12).
+word(eldan, 9452, 1385, 14).
+word(shamir, 9452, 1385, 16).
+word(relationship, 9452, 1386, 4).
+word(vietoris, 9452, 1386, 7).
+word(rip, 9452, 1386, 9).
+word(filtration, 9452, 1386, 10).
+word(persistent, 9452, 1386, 11).
+word(homology, 9452, 1386, 12).
+word(homology, 9452, 1386, 15).
+word(classifier, 9452, 1386, 18).
+word(region, 9452, 1386, 19).
+word(boundary, 9452, 1386, 21).
+word(establish, 9452, 1386, 25).
+word(phenomenon, 9453, 1384, 1).
+word(turn, 9453, 1384, 3).
+word(point, 9453, 1384, 4).
+word(observe, 9453, 1384, 7).
+word(experiment, 9453, 1384, 10).
+word(usually, 9453, 1384, 13).
+word(researcher, 9453, 1384, 14).
+word(investigate, 9453, 1384, 15).
+word(critical, 9453, 1384, 19).
+word(point, 9453, 1384, 20).
+word(training, 9453, 1384, 22).
+word(loss, 9453, 1384, 23).
+word(local, 9453, 1384, 26).
+word(optimality, 9453, 1384, 27).
+word(andor, 9453, 1384, 28).
+word(saddle, 9453, 1384, 29).
+word(point, 9453, 1384, 30).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(9451, 574, 0, 0, 0, 0, 0, 0, 0, -1).
+sentiment(9452, 1385, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9452, 1386, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(9453, 1384, 0, 0, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,25 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(8471,847,6,3).
+source(8472,847,3,4).
+% id paper, Reject/Accept
+paperProperties(847, 0).
+% sourceId, line
+sentence(8471,488).
+sentence(8472,663).
+% W, sourceId, line, position
+word(work, 8471, 488, 1).
+word(present, 8471, 488, 2).
+word(novel, 8471, 488, 4).
+word(notable, 8471, 488, 9).
+word(omission, 8471, 488, 10).
+word(author, 8472, 663, 1).
+word(experiment, 8472, 663, 2).
+word(classification, 8472, 663, 4).
+word(accuracy, 8472, 663, 5).
+word(mnist, 8472, 663, 7).
+word(fashionmnist, 8472, 663, 9).
+word(cifar, 8472, 663, 12).
+word(dataset, 8472, 663, 13).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(8471, 488, 0, 0, 0, 0, -1, 0, 1, 0).
+sentiment(8472, 663, 0, 0, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,77 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(4431,443,7,4).
+source(4432,443,7,4).
+source(4433,443,8,4).
+% id paper, Reject/Accept
+paperProperties(443, 1).
+% sourceId, line
+sentence(4431,1557).
+sentence(4431,1883).
+sentence(4431,1934).
+sentence(4431,1971).
+sentence(4432,1556).
+sentence(4433,1558).
+% W, sourceId, line, position
+word(richness, 4431, 1557, 3).
+word(natural, 4431, 1557, 5).
+word(noise, 4431, 1557, 6).
+word(extremely, 4431, 1557, 8).
+word(interesting, 4431, 1557, 9).
+word(maybe, 4431, 1557, 12).
+word(iclr, 4431, 1557, 17).
+word(audience, 4431, 1557, 18).
+word(wish, 4431, 1883, 1).
+word(paper, 4431, 1883, 3).
+word(easy, 4431, 1883, 5).
+word(read, 4431, 1883, 7).
+word(richness, 4431, 1883, 13).
+word(natural, 4431, 1883, 15).
+word(noise, 4431, 1883, 16).
+word(extremely, 4431, 1883, 18).
+word(interesting, 4431, 1883, 19).
+word(maybe, 4431, 1883, 22).
+word(iclr, 4431, 1883, 27).
+word(audience, 4431, 1883, 28).
+word(richness, 4431, 1934, 3).
+word(natural, 4431, 1934, 5).
+word(noise, 4431, 1934, 6).
+word(extremely, 4431, 1934, 8).
+word(interesting, 4431, 1934, 9).
+word(maybe, 4431, 1934, 12).
+word(iclr, 4431, 1934, 17).
+word(audience, 4431, 1934, 18).
+word(author, 4431, 1934, 24).
+word(response, 4431, 1934, 26).
+word(convincing, 4431, 1934, 30).
+word(richness, 4431, 1971, 3).
+word(natural, 4431, 1971, 5).
+word(noise, 4431, 1971, 6).
+word(extremely, 4431, 1971, 8).
+word(interesting, 4431, 1971, 9).
+word(maybe, 4431, 1971, 12).
+word(iclr, 4431, 1971, 17).
+word(audience, 4431, 1971, 18).
+word(make, 4431, 1971, 22).
+word(paper, 4431, 1971, 24).
+word(hard, 4431, 1971, 25).
+word(understand, 4431, 1971, 27).
+word(view, 4431, 1971, 31).
+word(careful, 4432, 1556, 3).
+word(curiosity, 4432, 1556, 5).
+word(drive, 4432, 1556, 7).
+word(empirical, 4432, 1556, 8).
+word(research, 4432, 1556, 9).
+word(type, 4432, 1556, 12).
+word(matter, 4432, 1556, 14).
+word(iclr, 4432, 1556, 21).
+word(introduce, 4433, 1558, 1).
+word(noise, 4433, 1558, 2).
+word(line, 4433, 1558, 6).
+word(training, 4433, 1558, 12).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(4431, 1557, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4431, 1883, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(4431, 1934, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(4431, 1971, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(4432, 1556, 1, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4433, 1558, 0, -1, 0, 0, 0, 0, 0, 0).

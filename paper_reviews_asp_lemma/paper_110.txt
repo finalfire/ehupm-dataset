@@ -1,0 +1,47 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(1101,110,5,4).
+source(1103,110,6,4).
+% id paper, Reject/Accept
+paperProperties(110, 1).
+% sourceId, line
+sentence(1101,695).
+sentence(1101,949).
+sentence(1103,950).
+sentence(1103,1721).
+sentence(1103,2437).
+% W, sourceId, line, position
+word(cifar, 1101, 695, 2).
+word(relatively, 1101, 695, 5).
+word(small, 1101, 695, 6).
+word(dataset, 1101, 695, 7).
+word(exist, 1101, 949, 3).
+word(work, 1101, 949, 4).
+word(report, 1101, 949, 6).
+word(course, 1103, 950, 1).
+word(gain, 1103, 950, 5).
+word(guarantee, 1103, 950, 11).
+word(coordinate, 1103, 950, 14).
+word(descent, 1103, 950, 15).
+word(step, 1103, 950, 16).
+word(improve, 1103, 950, 18).
+word(objective, 1103, 950, 20).
+word(case, 1103, 1721, 2).
+word(clear, 1103, 1721, 7).
+word(attention, 1103, 1721, 13).
+word(layer, 1103, 1721, 15).
+word(issue, 1103, 2437, 2).
+word(paper, 1103, 2437, 5).
+word(course, 1103, 2437, 9).
+word(gain, 1103, 2437, 13).
+word(guarantee, 1103, 2437, 19).
+word(coordinate, 1103, 2437, 22).
+word(descent, 1103, 2437, 23).
+word(step, 1103, 2437, 24).
+word(improve, 1103, 2437, 26).
+word(objective, 1103, 2437, 28).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(1101, 695, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1101, 949, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1103, 950, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1103, 1721, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(1103, 2437, 0, 0, 0, 0, 0, 0, 0, 0).

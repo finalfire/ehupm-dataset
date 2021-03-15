@@ -1,0 +1,49 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(9332,933,4,5).
+source(9333,933,5,3).
+% id paper, Reject/Accept
+paperProperties(933, 0).
+% sourceId, line
+sentence(9332,1531).
+sentence(9332,1532).
+sentence(9333,406).
+sentence(9333,446).
+sentence(9333,1530).
+% W, sourceId, line, position
+word(despite, 9332, 1531, 0).
+word(claim, 9332, 1531, 2).
+word(environment, 9332, 1531, 5).
+word(small, 9332, 1531, 8).
+word(instruction, 9332, 1531, 11).
+word(trivially, 9332, 1531, 13).
+word(simple, 9332, 1531, 14).
+word(manual, 9332, 1532, 1).
+word(cap, 9332, 1532, 2).
+word(total, 9332, 1532, 9).
+word(word, 9332, 1532, 12).
+word(vs, 9332, 1532, 14).
+word(experiemental, 9333, 406, 3).
+word(result, 9333, 406, 4).
+word(support, 9333, 406, 9).
+word(claim, 9333, 406, 11).
+word(experiemental, 9333, 446, 1).
+word(result, 9333, 446, 2).
+word(support, 9333, 446, 5).
+word(claim, 9333, 446, 7).
+word(state, 9333, 446, 8).
+word(paper, 9333, 446, 11).
+word(ideally, 9333, 1530, 0).
+word(filter, 9333, 1530, 3).
+word(attend, 9333, 1530, 5).
+word(target, 9333, 1530, 8).
+word(object, 9333, 1530, 9).
+word(attend, 9333, 1530, 13).
+word(non, 9333, 1530, 15).
+word(target, 9333, 1530, 17).
+word(object, 9333, 1530, 18).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(9332, 1531, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9332, 1532, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9333, 406, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(9333, 446, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(9333, 1530, 0, 0, 0, 0, 0, 0, 0, 0).

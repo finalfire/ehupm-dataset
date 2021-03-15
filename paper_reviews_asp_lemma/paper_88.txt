@@ -1,0 +1,57 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(882,88,8,3).
+source(883,88,7,3).
+% id paper, Reject/Accept
+paperProperties(88, 1).
+% sourceId, line
+sentence(882,670).
+sentence(882,1936).
+sentence(882,2116).
+sentence(883,2495).
+% W, sourceId, line, position
+word(dataset, 882, 670, 1).
+word(constitute, 882, 670, 2).
+word(ancillary, 882, 670, 4).
+word(contribution, 882, 670, 5).
+word(positively, 882, 670, 8).
+word(impact, 882, 670, 9).
+word(future, 882, 670, 10).
+word(research, 882, 670, 11).
+word(area, 882, 670, 14).
+word(dataset, 882, 1936, 1).
+word(constitute, 882, 1936, 2).
+word(ancillary, 882, 1936, 4).
+word(contribution, 882, 1936, 5).
+word(positively, 882, 1936, 8).
+word(impact, 882, 1936, 9).
+word(future, 882, 1936, 10).
+word(research, 882, 1936, 11).
+word(area, 882, 1936, 14).
+word(novel, 882, 1936, 19).
+word(deep, 882, 1936, 22).
+word(model, 882, 1936, 23).
+word(cnn, 882, 1936, 25).
+word(treelstm, 882, 1936, 27).
+word(dataset, 882, 2116, 1).
+word(constitute, 882, 2116, 2).
+word(ancillary, 882, 2116, 4).
+word(contribution, 882, 2116, 5).
+word(positively, 882, 2116, 8).
+word(impact, 882, 2116, 9).
+word(future, 882, 2116, 10).
+word(research, 882, 2116, 11).
+word(area, 882, 2116, 14).
+word(paper, 882, 2116, 18).
+word(write, 882, 2116, 21).
+word(easy, 882, 2116, 25).
+word(follow, 882, 2116, 27).
+word(circuit, 883, 2495, 1).
+word(system, 883, 2495, 3).
+word(video, 883, 2495, 5).
+word(tech, 883, 2495, 6).
+word(reward, 883, 2495, 11).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(882, 670, 0, 0, 0, 0, 0, 0, 1, 0).
+sentiment(882, 1936, 0, 0, -1, 0, 0, 0, 1, 0).
+sentiment(882, 2116, 0, 1, 0, 0, 0, 0, 1, 0).
+sentiment(883, 2495, 0, 0, 0, 0, 0, 0, 0, 0).

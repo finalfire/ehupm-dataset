@@ -1,0 +1,58 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(1163,116,8,4).
+% id paper, Reject/Accept
+paperProperties(116, 1).
+% sourceId, line
+sentence(1163,174).
+sentence(1163,236).
+sentence(1163,1719).
+sentence(1163,1720).
+sentence(1163,1986).
+sentence(1163,2189).
+% W, sourceId, line, position
+word(paper, 1163, 174, 1).
+word(write, 1163, 174, 4).
+word(easy, 1163, 174, 6).
+word(understand, 1163, 174, 8).
+word(quality, 1163, 236, 0).
+word(clarify, 1163, 236, 2).
+word(find, 1163, 236, 5).
+word(paper, 1163, 236, 7).
+word(poorly, 1163, 236, 10).
+word(write, 1163, 236, 11).
+word(relatively, 1163, 236, 13).
+word(hard, 1163, 236, 14).
+word(understand, 1163, 236, 16).
+word(state, 1163, 1719, 1).
+word(rnn, 1163, 1719, 4).
+word(result, 1163, 1720, 3).
+word(ptb, 1163, 1720, 5).
+word(weak, 1163, 1720, 7).
+word(paper, 1163, 1986, 1).
+word(write, 1163, 1986, 4).
+word(easy, 1163, 1986, 6).
+word(understand, 1163, 1986, 8).
+word(summary, 1163, 1986, 12).
+word(paper, 1163, 1986, 15).
+word(make, 1163, 1986, 16).
+word(interesting, 1163, 1986, 19).
+word(observation, 1163, 1986, 20).
+word(paper, 1163, 2189, 1).
+word(write, 1163, 2189, 4).
+word(easy, 1163, 2189, 6).
+word(understand, 1163, 2189, 8).
+word(experimental, 1163, 2189, 13).
+word(result, 1163, 2189, 14).
+word(convincing, 1163, 2189, 17).
+word(comparison, 1163, 2189, 19).
+word(state, 1163, 2189, 22).
+word(art, 1163, 2189, 25).
+word(relate, 1163, 2189, 26).
+word(work, 1163, 2189, 27).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(1163, 174, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(1163, 236, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(1163, 1719, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1163, 1720, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(1163, 1986, 0, 1, 1, 0, 0, 0, 0, 0).
+sentiment(1163, 2189, 0, 1, 0, 0, -1, 0, 0, 0).

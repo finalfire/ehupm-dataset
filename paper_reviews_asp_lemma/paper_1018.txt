@@ -1,0 +1,83 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(10181,1018,4,4).
+% id paper, Reject/Accept
+paperProperties(1018, 0).
+% sourceId, line
+sentence(10181,363).
+sentence(10181,1672).
+sentence(10181,1674).
+sentence(10181,1929).
+sentence(10181,2056).
+sentence(10181,2098).
+sentence(10181,2163).
+% W, sourceId, line, position
+word(experiment, 10181, 363, 2).
+word(conduct, 10181, 363, 6).
+word(thoroughly, 10181, 363, 7).
+word(result, 10181, 363, 11).
+word(interpretation, 10181, 363, 14).
+word(result, 10181, 363, 17).
+word(complete, 10181, 363, 20).
+word(specifically, 10181, 1672, 1).
+word(content, 10181, 1672, 4).
+word(section, 10181, 1672, 6).
+word(experiment, 10181, 1672, 9).
+word(section, 10181, 1672, 10).
+word(messy, 10181, 1672, 12).
+word(paper, 10181, 1674, 4).
+word(experiment, 10181, 1674, 6).
+word(z, 10181, 1674, 11).
+word(z, 10181, 1674, 14).
+word(z, 10181, 1674, 17).
+word(experiment, 10181, 1929, 2).
+word(conduct, 10181, 1929, 6).
+word(thoroughly, 10181, 1929, 7).
+word(result, 10181, 1929, 11).
+word(interpretation, 10181, 1929, 14).
+word(result, 10181, 1929, 17).
+word(complete, 10181, 1929, 20).
+word(dataset, 10181, 1929, 25).
+word(evaluation, 10181, 1929, 30).
+word(limited, 10181, 1929, 37).
+word(small, 10181, 1929, 39).
+word(experiment, 10181, 2056, 2).
+word(conduct, 10181, 2056, 6).
+word(thoroughly, 10181, 2056, 7).
+word(result, 10181, 2056, 11).
+word(interpretation, 10181, 2056, 14).
+word(result, 10181, 2056, 17).
+word(complete, 10181, 2056, 20).
+word(idea, 10181, 2056, 24).
+word(interesting, 10181, 2056, 26).
+word(paper, 10181, 2098, 4).
+word(experiment, 10181, 2098, 6).
+word(z, 10181, 2098, 11).
+word(z, 10181, 2098, 14).
+word(z, 10181, 2098, 17).
+word(paper, 10181, 2098, 22).
+word(propose, 10181, 2098, 23).
+word(new, 10181, 2098, 25).
+word(specifically, 10181, 2163, 1).
+word(content, 10181, 2163, 4).
+word(section, 10181, 2163, 6).
+word(experiment, 10181, 2163, 9).
+word(section, 10181, 2163, 10).
+word(messy, 10181, 2163, 12).
+word(ade20k, 10181, 2163, 17).
+word(dataset, 10181, 2163, 18).
+word(paper, 10181, 2163, 23).
+word(sample, 10181, 2163, 24).
+word(substantially, 10181, 2163, 27).
+word(large, 10181, 2163, 28).
+word(establish, 10181, 2163, 32).
+word(benchmarke, 10181, 2163, 33).
+word(methodology, 10181, 2163, 34).
+word(httpplaceschallenge, 10181, 2163, 37).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(10181, 363, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(10181, 1672, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(10181, 1674, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(10181, 1929, 0, 0, 0, -1, 0, 0, -1, 0).
+sentiment(10181, 2056, 0, 0, 1, -1, 0, 0, 0, 0).
+sentiment(10181, 2098, 0, -1, 1, 0, 0, 0, 0, 0).
+sentiment(10181, 2163, 0, -1, 0, 0, 0, 0, 1, 0).

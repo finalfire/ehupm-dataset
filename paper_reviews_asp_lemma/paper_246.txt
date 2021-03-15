@@ -1,0 +1,79 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(2461,246,6,4).
+source(2462,246,6,4).
+% id paper, Reject/Accept
+paperProperties(246, 0).
+% sourceId, line
+sentence(2461,229).
+sentence(2461,1101).
+sentence(2461,1102).
+sentence(2461,2292).
+sentence(2461,2298).
+sentence(2461,2325).
+sentence(2462,1100).
+% W, sourceId, line, position
+word(tear, 2461, 229, 2).
+word(paper, 2461, 229, 5).
+word(example, 2461, 1101, 1).
+word(nip, 2461, 1101, 4).
+word(see, 2461, 1101, 7).
+word(figure, 2461, 1101, 9).
+word(talk, 2461, 1101, 15).
+word(sure, 2461, 1101, 20).
+word(anymore, 2461, 1101, 21).
+word(think, 2461, 1101, 29).
+word(author, 2461, 1101, 34).
+word(narrative, 2461, 1101, 38).
+word(rnn, 2461, 1101, 41).
+word(clearly, 2461, 1101, 44).
+word(perform, 2461, 1101, 45).
+word(well, 2461, 1101, 46).
+word(local, 2461, 1101, 48).
+word(search, 2461, 1101, 49).
+word(note, 2461, 1102, 4).
+word(author, 2461, 1102, 7).
+word(probably, 2461, 1102, 8).
+word(stop, 2461, 1102, 11).
+word(lk, 2461, 1102, 12).
+word(h, 2461, 1102, 14).
+word(find, 2461, 1102, 18).
+word(optimal, 2461, 1102, 20).
+word(solution, 2461, 1102, 21).
+word(like, 2461, 1102, 23).
+word(method, 2461, 1102, 29).
+word(find, 2461, 1102, 31).
+word(local, 2461, 1102, 33).
+word(optimum, 2461, 1102, 34).
+word(paper, 2461, 2292, 1).
+word(encode, 2461, 2292, 2).
+word(mode, 2461, 2292, 4).
+word(hidden, 2461, 2292, 7).
+word(tear, 2461, 2292, 11).
+word(paper, 2461, 2292, 14).
+word(tear, 2461, 2298, 2).
+word(paper, 2461, 2298, 5).
+word(logm, 2461, 2298, 9).
+word(define, 2461, 2298, 11).
+word(average, 2461, 2298, 14).
+word(log, 2461, 2298, 15).
+word(cnn, 2461, 2298, 18).
+word(weigth, 2461, 2298, 19).
+word(tear, 2461, 2325, 2).
+word(paper, 2461, 2325, 5).
+word(test, 2461, 2325, 9).
+word(time, 2461, 2325, 10).
+word(different, 2461, 2325, 11).
+word(label, 2461, 2325, 13).
+word(available, 2461, 2325, 16).
+word(train, 2461, 2325, 19).
+word(time, 2461, 2325, 20).
+word(suggestion, 2462, 1100, 2).
+word(algorithm, 2462, 1100, 4).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(2461, 229, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(2461, 1101, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(2461, 1102, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(2461, 2292, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(2461, 2298, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(2461, 2325, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(2462, 1100, 0, 0, 0, 0, 0, 0, 0, 0).

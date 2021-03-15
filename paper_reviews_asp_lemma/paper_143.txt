@@ -1,0 +1,44 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(1431,143,7,4).
+source(1432,143,7,3).
+% id paper, Reject/Accept
+paperProperties(143, 1).
+% sourceId, line
+sentence(1431,961).
+sentence(1432,293).
+sentence(1432,2081).
+sentence(1432,2142).
+% W, sourceId, line, position
+word(maybe, 1431, 961, 0).
+word(key, 1431, 961, 2).
+word(bitmap, 1431, 961, 7).
+word(list, 1431, 961, 8).
+word(view, 1431, 961, 10).
+word(help, 1431, 961, 12).
+word(approach, 1432, 293, 1).
+word(promise, 1432, 293, 4).
+word(reported, 1432, 293, 6).
+word(result, 1432, 293, 7).
+word(approach, 1432, 2081, 1).
+word(promise, 1432, 2081, 4).
+word(reported, 1432, 2081, 6).
+word(result, 1432, 2081, 7).
+word(theory, 1432, 2081, 11).
+word(step, 1432, 2081, 14).
+word(successful, 1432, 2081, 17).
+word(retrain, 1432, 2081, 20).
+word(necessary, 1432, 2081, 24).
+word(approach, 1432, 2142, 1).
+word(promise, 1432, 2142, 4).
+word(reported, 1432, 2142, 6).
+word(result, 1432, 2142, 7).
+word(believe, 1432, 2142, 13).
+word(author, 1432, 2142, 15).
+word(gradient, 1432, 2142, 17).
+word(evaluate, 1432, 2142, 19).
+word(model, 1432, 2142, 21).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(1431, 961, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1432, 293, 0, 0, 0, 0, 0, 0, 1, 0).
+sentiment(1432, 2081, 0, 1, 0, 0, 0, 0, 1, 0).
+sentiment(1432, 2142, 0, 0, 0, -1, 0, 0, 1, 0).

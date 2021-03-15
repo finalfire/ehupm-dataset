@@ -1,0 +1,41 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(4442,444,7,4).
+source(4443,444,10,4).
+% id paper, Reject/Accept
+paperProperties(444, 1).
+% sourceId, line
+sentence(4442,272).
+sentence(4442,1964).
+sentence(4443,856).
+% W, sourceId, line, position
+word(overall, 4442, 272, 0).
+word(like, 4442, 272, 4).
+word(natural, 4442, 272, 6).
+word(effective, 4442, 272, 8).
+word(approach, 4442, 272, 9).
+word(achieve, 4442, 272, 12).
+word(good, 4442, 272, 13).
+word(result, 4442, 272, 14).
+word(overall, 4442, 1964, 0).
+word(like, 4442, 1964, 4).
+word(natural, 4442, 1964, 6).
+word(effective, 4442, 1964, 8).
+word(approach, 4442, 1964, 9).
+word(achieve, 4442, 1964, 12).
+word(good, 4442, 1964, 13).
+word(result, 4442, 1964, 14).
+word(familiar, 4442, 1964, 21).
+word(field, 4442, 1964, 24).
+word(imaging, 4442, 1964, 27).
+word(difficult, 4442, 1964, 32).
+word(asse, 4442, 1964, 36).
+word(novelty, 4442, 1964, 38).
+word(work, 4442, 1964, 41).
+word(experimental, 4443, 856, 1).
+word(evaluation, 4443, 856, 2).
+word(complete, 4443, 856, 4).
+word(accurate, 4443, 856, 6).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(4442, 272, 0, 0, 0, 0, 0, 0, 1, 0).
+sentiment(4442, 1964, 0, 0, 0, 0, 0, 0, 1, 0).
+sentiment(4443, 856, 0, 0, 0, 1, 1, 0, 0, 0).

@@ -1,0 +1,33 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(9073,907,5,4).
+% id paper, Reject/Accept
+paperProperties(907, 0).
+% sourceId, line
+sentence(9073,1138).
+% W, sourceId, line, position
+word(suggestion, 9073, 1138, 0).
+word(strongly, 9073, 1138, 3).
+word(suggest, 9073, 1138, 4).
+word(author, 9073, 1138, 6).
+word(work, 9073, 1138, 8).
+word(detailed, 9073, 1138, 12).
+word(proof, 9073, 1138, 13).
+word(rl, 9073, 1138, 16).
+word(case, 9073, 1138, 17).
+word(explain, 9073, 1138, 18).
+word(instance, 9073, 1138, 20).
+word(minimal, 9073, 1138, 22).
+word(condition, 9073, 1138, 23).
+word(reward, 9073, 1138, 27).
+word(ergodicity, 9073, 1138, 31).
+word(mdp, 9073, 1138, 34).
+word(equivalence, 9073, 1138, 39).
+word(hold, 9073, 1138, 40).
+word(submit, 9073, 1138, 42).
+word(theoretically, 9073, 1138, 47).
+word(orient, 9073, 1138, 48).
+word(conference, 9073, 1138, 49).
+word(colt, 9073, 1138, 52).
+word(nip, 9073, 1138, 54).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(9073, 1138, 0, 0, 0, -1, 0, 0, -1, 0).

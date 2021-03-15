@@ -1,0 +1,59 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(1122,112,5,4).
+source(1123,112,8,4).
+% id paper, Reject/Accept
+paperProperties(112, 1).
+% sourceId, line
+sentence(1122,469).
+sentence(1122,2086).
+sentence(1123,529).
+sentence(1123,1974).
+sentence(1123,2201).
+% W, sourceId, line, position
+word(substantial, 1122, 469, 3).
+word(prior, 1122, 469, 6).
+word(work, 1122, 469, 7).
+word(author, 1122, 469, 10).
+word(appropriately, 1122, 469, 13).
+word(address, 1122, 469, 14).
+word(list, 1122, 469, 20).
+word(previous, 1122, 469, 22).
+word(comment, 1122, 469, 23).
+word(substantial, 1122, 2086, 3).
+word(prior, 1122, 2086, 6).
+word(work, 1122, 2086, 7).
+word(author, 1122, 2086, 10).
+word(appropriately, 1122, 2086, 13).
+word(address, 1122, 2086, 14).
+word(list, 1122, 2086, 20).
+word(previous, 1122, 2086, 22).
+word(comment, 1122, 2086, 23).
+word(paper, 1122, 2086, 27).
+word(main, 1122, 2086, 30).
+word(contribution, 1122, 2086, 31).
+word(brief, 1123, 529, 1).
+word(explicit, 1123, 529, 2).
+word(comparison, 1123, 529, 3).
+word(nice, 1123, 529, 6).
+word(brief, 1123, 1974, 1).
+word(explicit, 1123, 1974, 2).
+word(comparison, 1123, 1974, 3).
+word(nice, 1123, 1974, 6).
+word(paper, 1123, 1974, 11).
+word(thorough, 1123, 1974, 13).
+word(clearly, 1123, 1974, 18).
+word(present, 1123, 1974, 19).
+word(brief, 1123, 2201, 1).
+word(explicit, 1123, 2201, 2).
+word(comparison, 1123, 2201, 3).
+word(nice, 1123, 2201, 6).
+word(paper, 1123, 2201, 11).
+word(write, 1123, 2201, 14).
+word(easy, 1123, 2201, 16).
+word(understand, 1123, 2201, 18).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(1122, 469, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(1122, 2086, 0, 0, 0, 0, -1, 0, 1, 0).
+sentiment(1123, 529, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(1123, 1974, 0, 1, 0, 0, -1, 0, 0, 0).
+sentiment(1123, 2201, 0, 1, 0, 0, -1, 0, 0, 0).

@@ -1,0 +1,50 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(7102,710,4,4).
+source(7103,710,4,5).
+% id paper, Reject/Accept
+paperProperties(710, 1).
+% sourceId, line
+sentence(7102,1692).
+sentence(7103,499).
+sentence(7103,1831).
+% W, sourceId, line, position
+word(author, 7102, 1692, 1).
+word(suggest, 7102, 1692, 2).
+word(interesting, 7102, 1692, 4).
+word(hypothesis, 7102, 1692, 5).
+word(internal, 7102, 1692, 8).
+word(representation, 7102, 1692, 9).
+word(world, 7102, 1692, 12).
+word(useful, 7102, 1692, 15).
+word(control, 7102, 1692, 17).
+word(obtain, 7102, 1692, 20).
+word(force, 7102, 1692, 23).
+word(agent, 7102, 1692, 25).
+word(able, 7102, 1692, 28).
+word(predict, 7102, 1692, 30).
+word(outcome, 7102, 1692, 32).
+word(action, 7102, 1692, 35).
+word(world, 7102, 1692, 38).
+word(related, 7103, 499, 3).
+word(work, 7103, 499, 4).
+word(author, 7103, 499, 7).
+word(cite, 7103, 499, 10).
+word(highly, 7103, 499, 13).
+word(relevant, 7103, 499, 14).
+word(related, 7103, 1831, 3).
+word(work, 7103, 1831, 4).
+word(author, 7103, 1831, 7).
+word(cite, 7103, 1831, 10).
+word(highly, 7103, 1831, 13).
+word(relevant, 7103, 1831, 14).
+word(move, 7103, 1831, 22).
+word(part, 7103, 1831, 23).
+word(system, 7103, 1831, 26).
+word(physics, 7103, 1831, 32).
+word(background, 7103, 1831, 33).
+word(struggle, 7103, 1831, 35).
+word(understand, 7103, 1831, 37).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(7102, 1692, 0, 0, 0, 1, 0, 0, 0, 0).
+sentiment(7103, 499, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(7103, 1831, 0, -1, 0, 0, -1, 0, 0, 0).

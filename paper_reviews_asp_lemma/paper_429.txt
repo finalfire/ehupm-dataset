@@ -1,0 +1,23 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(4293,429,3,4).
+% id paper, Reject/Accept
+paperProperties(429, 0).
+% sourceId, line
+sentence(4293,209).
+sentence(4293,393).
+sentence(4293,1967).
+% W, sourceId, line, position
+word(find, 4293, 209, 1).
+word(paper, 4293, 209, 3).
+word(unclear, 4293, 209, 5).
+word(experiment, 4293, 393, 1).
+word(illustrative, 4293, 393, 4).
+word(learn, 4293, 1967, 3).
+word(psychological, 4293, 1967, 4).
+word(task, 4293, 1967, 5).
+word(experiment, 4293, 1967, 9).
+word(illustrative, 4293, 1967, 12).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(4293, 209, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(4293, 393, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4293, 1967, 0, -1, 0, 0, 0, 0, 0, 0).

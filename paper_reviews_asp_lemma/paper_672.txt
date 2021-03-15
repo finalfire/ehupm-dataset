@@ -1,0 +1,98 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(6721,672,7,3).
+source(6722,672,5,4).
+% id paper, Reject/Accept
+paperProperties(672, 1).
+% sourceId, line
+sentence(6721,1452).
+sentence(6722,1453).
+sentence(6722,1454).
+sentence(6722,1455).
+sentence(6722,1970).
+sentence(6722,1977).
+% W, sourceId, line, position
+word(selfish, 6721, 1452, 0).
+word(prosocial, 6721, 1452, 2).
+word(ccc, 6721, 1452, 4).
+word(maintain, 6721, 1452, 7).
+word(maximum, 6721, 1452, 8).
+word(reward, 6721, 1452, 9).
+word(note, 6722, 1453, 4).
+word(ask, 6722, 1453, 8).
+word(review, 6722, 1453, 10).
+word(iclr, 6722, 1453, 12).
+word(submission, 6722, 1453, 13).
+word(entitle, 6722, 1453, 14).
+word(maintain, 6722, 1453, 16).
+word(cooperation, 6722, 1453, 17).
+word(complex, 6722, 1453, 19).
+word(social, 6722, 1453, 20).
+word(dilemma, 6722, 1453, 21).
+word(deep, 6722, 1453, 23).
+word(reinforcement, 6722, 1453, 24).
+word(learning, 6722, 1453, 25).
+word(amazingly, 6722, 1453, 28).
+word(introduce, 6722, 1453, 29).
+word(pong, 6722, 1453, 33).
+word(player, 6722, 1453, 34).
+word(dilemma, 6722, 1453, 36).
+word(game, 6722, 1453, 38).
+word(paper, 6722, 1453, 42).
+word(play, 6722, 1454, 4).
+word(selfish, 6722, 1454, 7).
+word(agent, 6722, 1454, 8).
+word(tempt, 6722, 1454, 11).
+word(defect, 6722, 1454, 13).
+word(try, 6722, 1454, 15).
+word(score, 6722, 1454, 17).
+word(point, 6722, 1454, 18).
+word(decrease, 6722, 1455, 1).
+word(total, 6722, 1455, 2).
+word(social, 6722, 1455, 3).
+word(reward, 6722, 1455, 4).
+word(note, 6722, 1970, 4).
+word(ask, 6722, 1970, 8).
+word(review, 6722, 1970, 10).
+word(iclr, 6722, 1970, 12).
+word(submission, 6722, 1970, 13).
+word(entitle, 6722, 1970, 14).
+word(maintain, 6722, 1970, 16).
+word(cooperation, 6722, 1970, 17).
+word(complex, 6722, 1970, 19).
+word(social, 6722, 1970, 20).
+word(dilemma, 6722, 1970, 21).
+word(deep, 6722, 1970, 23).
+word(reinforcement, 6722, 1970, 24).
+word(learning, 6722, 1970, 25).
+word(amazingly, 6722, 1970, 28).
+word(introduce, 6722, 1970, 29).
+word(pong, 6722, 1970, 33).
+word(player, 6722, 1970, 34).
+word(dilemma, 6722, 1970, 36).
+word(game, 6722, 1970, 38).
+word(paper, 6722, 1970, 42).
+word(overall, 6722, 1970, 45).
+word(think, 6722, 1970, 47).
+word(significant, 6722, 1970, 52).
+word(contribution, 6722, 1970, 53).
+word(exposition, 6722, 1970, 56).
+word(improve, 6722, 1970, 59).
+word(decrease, 6722, 1977, 1).
+word(total, 6722, 1977, 2).
+word(social, 6722, 1977, 3).
+word(reward, 6722, 1977, 4).
+word(current, 6722, 1977, 9).
+word(state, 6722, 1977, 10).
+word(feel, 6722, 1977, 16).
+word(like, 6722, 1977, 17).
+word(appropriate, 6722, 1977, 19).
+word(paper, 6722, 1977, 20).
+word(particular, 6722, 1977, 23).
+word(conference, 6722, 1977, 24).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(6721, 1452, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6722, 1453, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6722, 1454, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6722, 1455, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(6722, 1970, 0, 0, 0, 0, 0, 0, 1, 0).
+sentiment(6722, 1977, -1, 0, 0, 0, 0, 0, 0, 0).

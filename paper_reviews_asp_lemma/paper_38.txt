@@ -1,0 +1,52 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(382,38,6,3).
+% id paper, Reject/Accept
+paperProperties(38, 1).
+% sourceId, line
+sentence(382,180).
+sentence(382,478).
+sentence(382,2048).
+sentence(382,2068).
+% W, sourceId, line, position
+word(paper, 382, 180, 1).
+word(relatively, 382, 180, 3).
+word(easy, 382, 180, 4).
+word(follow, 382, 180, 6).
+word(f, 382, 478, 0).
+word(constancy, 382, 478, 2).
+word(main, 382, 478, 5).
+word(novelty, 382, 478, 6).
+word(work, 382, 478, 9).
+word(paper, 382, 2048, 1).
+word(relatively, 382, 2048, 3).
+word(easy, 382, 2048, 4).
+word(follow, 382, 2048, 6).
+word(glance, 382, 2048, 11).
+word(look, 382, 2048, 13).
+word(like, 382, 2048, 14).
+word(exciting, 382, 2048, 16).
+word(new, 382, 2048, 17).
+word(result, 382, 2048, 18).
+word(think, 382, 2048, 21).
+word(mislead, 382, 2048, 24).
+word(casual, 382, 2048, 25).
+word(reader, 382, 2048, 26).
+word(paper, 382, 2068, 1).
+word(relatively, 382, 2068, 3).
+word(easy, 382, 2068, 4).
+word(follow, 382, 2068, 6).
+word(bear, 382, 2068, 13).
+word(mind, 382, 2068, 15).
+word(solution, 382, 2068, 18).
+word(employ, 382, 2068, 19).
+word(literature, 382, 2068, 25).
+word(make, 382, 2068, 28).
+word(difficult, 382, 2068, 29).
+word(judge, 382, 2068, 31).
+word(novelty, 382, 2068, 33).
+word(w, 382, 2068, 37).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(382, 180, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(382, 478, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(382, 2048, 0, 1, -1, 0, 0, 0, 0, 0).
+sentiment(382, 2068, 0, 1, -1, 0, 0, 0, 0, 0).

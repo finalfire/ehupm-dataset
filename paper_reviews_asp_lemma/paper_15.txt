@@ -1,0 +1,93 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(151,15,6,4).
+source(152,15,6,4).
+source(153,15,9,5).
+% id paper, Reject/Accept
+paperProperties(15, 1).
+% sourceId, line
+sentence(151,183).
+sentence(151,2023).
+sentence(151,2202).
+sentence(152,185).
+sentence(152,199).
+sentence(152,2018).
+sentence(153,1320).
+% W, sourceId, line, position
+word(paper, 151, 183, 1).
+word(clearly, 151, 183, 3).
+word(write, 151, 183, 4).
+word(easy, 151, 183, 6).
+word(follow, 151, 183, 8).
+word(paper, 151, 2023, 1).
+word(clearly, 151, 2023, 3).
+word(write, 151, 2023, 4).
+word(easy, 151, 2023, 6).
+word(follow, 151, 2023, 8).
+word(strength, 151, 2023, 11).
+word(approach, 151, 2023, 13).
+word(semi, 151, 2023, 15).
+word(supervised, 151, 2023, 17).
+word(make, 151, 2023, 19).
+word(use, 151, 2023, 20).
+word(unlabeled, 151, 2023, 22).
+word(weakly, 151, 2023, 24).
+word(label, 151, 2023, 25).
+word(datum, 151, 2023, 26).
+word(outperform, 151, 2023, 28).
+word(baseline, 151, 2023, 30).
+word(wide, 151, 2023, 33).
+word(margin, 151, 2023, 34).
+word(paper, 151, 2202, 1).
+word(clearly, 151, 2202, 3).
+word(write, 151, 2202, 4).
+word(easy, 151, 2202, 6).
+word(follow, 151, 2202, 8).
+word(experiment, 151, 2202, 11).
+word(power, 151, 2202, 12).
+word(experimental, 151, 2202, 16).
+word(setup, 151, 2202, 17).
+word(think, 151, 2202, 20).
+word(paper, 152, 185, 1).
+word(write, 152, 185, 4).
+word(clear, 152, 185, 6).
+word(easy, 152, 185, 8).
+word(understand, 152, 185, 10).
+word(paper, 152, 199, 1).
+word(clearly, 152, 199, 3).
+word(write, 152, 199, 4).
+word(easy, 152, 199, 7).
+word(follow, 152, 199, 9).
+word(paper, 152, 2018, 1).
+word(clearly, 152, 2018, 3).
+word(write, 152, 2018, 4).
+word(easy, 152, 2018, 7).
+word(follow, 152, 2018, 9).
+word(evaluation, 152, 2018, 12).
+word(searchqa, 152, 2018, 15).
+word(dataset, 152, 2018, 16).
+word(show, 152, 2018, 17).
+word(significant, 152, 2018, 18).
+word(improvement, 152, 2018, 19).
+word(state, 152, 2018, 22).
+word(art, 152, 2018, 28).
+word(model, 152, 2018, 29).
+word(use, 152, 2018, 31).
+word(original, 152, 2018, 33).
+word(question, 152, 2018, 34).
+word(con, 153, 1320, 0).
+word(require, 153, 1320, 2).
+word(significant, 153, 1320, 3).
+word(effort, 153, 1320, 4).
+word(read, 153, 1320, 6).
+word(depth, 153, 1320, 8).
+word(little, 153, 1320, 10).
+word(practical, 153, 1320, 11).
+word(use, 153, 1320, 12).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(151, 183, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(151, 2023, 0, 1, 0, 0, 0, 0, 1, 0).
+sentiment(151, 2202, 0, 1, 0, 0, 0, 0, 1, 0).
+sentiment(152, 185, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(152, 199, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(152, 2018, 0, 1, 0, 0, 0, 0, 1, 0).
+sentiment(153, 1320, 0, -1, 0, 0, 0, 0, -1, 0).

@@ -1,0 +1,51 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(7793,779,5,4).
+% id paper, Reject/Accept
+paperProperties(779, 0).
+% sourceId, line
+sentence(7793,146).
+sentence(7793,1976).
+sentence(7793,2040).
+% W, sourceId, line, position
+word(general, 7793, 146, 1).
+word(scope, 7793, 146, 5).
+word(paper, 7793, 146, 8).
+word(like, 7793, 146, 12).
+word(fairly, 7793, 146, 17).
+word(easily, 7793, 146, 18).
+word(short, 7793, 146, 24).
+word(paper, 7793, 146, 25).
+word(conference, 7793, 146, 28).
+word(category, 7793, 146, 32).
+word(general, 7793, 1976, 1).
+word(scope, 7793, 1976, 5).
+word(paper, 7793, 1976, 8).
+word(like, 7793, 1976, 12).
+word(fairly, 7793, 1976, 17).
+word(easily, 7793, 1976, 18).
+word(short, 7793, 1976, 24).
+word(paper, 7793, 1976, 25).
+word(conference, 7793, 1976, 28).
+word(category, 7793, 1976, 32).
+word(discussion, 7793, 1976, 36).
+word(difference, 7793, 1976, 39).
+word(helpful, 7793, 1976, 42).
+word(general, 7793, 2040, 1).
+word(scope, 7793, 2040, 5).
+word(paper, 7793, 2040, 8).
+word(like, 7793, 2040, 12).
+word(fairly, 7793, 2040, 17).
+word(easily, 7793, 2040, 18).
+word(short, 7793, 2040, 24).
+word(paper, 7793, 2040, 25).
+word(conference, 7793, 2040, 28).
+word(category, 7793, 2040, 32).
+word(important, 7793, 2040, 36).
+word(problem, 7793, 2040, 37).
+word(active, 7793, 2040, 40).
+word(area, 7793, 2040, 41).
+word(research, 7793, 2040, 43).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(7793, 146, -1, 0, 0, 0, 0, 0, 0, 0).
+sentiment(7793, 1976, -1, 0, 0, 0, -1, 0, 0, 0).
+sentiment(7793, 2040, -1, 0, 0, 0, 0, 0, 1, 0).

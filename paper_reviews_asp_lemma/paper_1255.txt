@@ -1,0 +1,58 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(12551,1255,6,3).
+% id paper, Reject/Accept
+paperProperties(1255, 0).
+% sourceId, line
+sentence(12551,322).
+sentence(12551,1965).
+sentence(12551,1973).
+sentence(12551,2097).
+% W, sourceId, line, position
+word(interesting, 12551, 322, 4).
+word(idea, 12551, 322, 5).
+word(limitation, 12551, 322, 10).
+word(applicability, 12551, 322, 12).
+word(propose, 12551, 322, 15).
+word(approach, 12551, 322, 16).
+word(clear, 12551, 322, 19).
+word(interesting, 12551, 1965, 4).
+word(idea, 12551, 1965, 5).
+word(limitation, 12551, 1965, 10).
+word(applicability, 12551, 1965, 12).
+word(propose, 12551, 1965, 15).
+word(approach, 12551, 1965, 16).
+word(clear, 12551, 1965, 19).
+word(display, 12551, 1965, 25).
+word(page, 12551, 1965, 27).
+word(change, 12551, 1965, 30).
+word(x, 12551, 1965, 31).
+word(x, 12551, 1965, 33).
+word(indicate, 12551, 1965, 37).
+word(upper, 12551, 1965, 38).
+word(limit, 12551, 1965, 39).
+word(sum, 12551, 1965, 42).
+word(interesting, 12551, 1973, 4).
+word(idea, 12551, 1973, 5).
+word(limitation, 12551, 1973, 10).
+word(applicability, 12551, 1973, 12).
+word(propose, 12551, 1973, 15).
+word(approach, 12551, 1973, 16).
+word(clear, 12551, 1973, 19).
+word(experimentation, 12551, 1973, 24).
+word(need, 12551, 1973, 26).
+word(interesting, 12551, 2097, 4).
+word(idea, 12551, 2097, 5).
+word(limitation, 12551, 2097, 10).
+word(applicability, 12551, 2097, 12).
+word(propose, 12551, 2097, 15).
+word(approach, 12551, 2097, 16).
+word(clear, 12551, 2097, 19).
+word(find, 12551, 2097, 28).
+word(relevant, 12551, 2097, 37).
+word(reference, 12551, 2097, 38).
+word(cite, 12551, 2097, 42).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(12551, 322, 0, 0, 1, 0, 0, 0, 0, 0).
+sentiment(12551, 1965, 0, -1, 1, 0, 0, 0, 0, 0).
+sentiment(12551, 1973, 0, 0, 1, -1, 0, 0, 0, 0).
+sentiment(12551, 2097, 0, 0, 1, 0, -1, 0, 0, 0).

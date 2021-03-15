@@ -1,0 +1,194 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(21,2,8,4).
+source(22,2,9,5).
+source(23,2,6,4).
+% id paper, Reject/Accept
+paperProperties(2, 1).
+% sourceId, line
+sentence(21,114).
+sentence(21,254).
+sentence(21,655).
+sentence(21,2374).
+sentence(21,2388).
+sentence(21,2586).
+sentence(22,70).
+sentence(22,110).
+sentence(22,212).
+sentence(22,263).
+sentence(22,287).
+sentence(22,310).
+sentence(22,339).
+sentence(22,343).
+sentence(22,365).
+sentence(22,394).
+sentence(22,414).
+sentence(22,570).
+sentence(22,611).
+sentence(22,881).
+sentence(22,939).
+sentence(22,1029).
+sentence(22,1213).
+sentence(22,1590).
+sentence(22,1748).
+sentence(22,1836).
+sentence(22,2126).
+sentence(22,2479).
+sentence(22,2560).
+sentence(22,2587).
+sentence(22,2588).
+sentence(23,9).
+sentence(23,2211).
+% W, sourceId, line, position
+word(interesting, 21, 114, 3).
+word(paper, 21, 114, 4).
+word(accept, 21, 114, 8).
+word(propose, 21, 254, 1).
+word(approach, 21, 254, 2).
+word(necessary, 21, 655, 4).
+word(dataset, 21, 655, 7).
+word(big, 21, 655, 9).
+word(layer, 21, 2374, 4).
+word(mlp, 21, 2374, 7).
+word(read, 21, 2388, 2).
+word(revise, 21, 2388, 4).
+word(version, 21, 2388, 5).
+word(end, 21, 2388, 9).
+word(sec, 21, 2388, 11).
+word(extremely, 21, 2586, 2).
+word(easy, 21, 2586, 3).
+word(understand, 21, 2586, 5).
+word(strong, 22, 70, 3).
+word(paper, 22, 70, 4).
+word(content, 22, 110, 1).
+word(paper, 22, 110, 4).
+word(fundamental, 22, 212, 3).
+word(understand, 22, 212, 8).
+word(paper, 22, 212, 11).
+word(main, 22, 263, 1).
+word(idea, 22, 263, 2).
+word(new, 22, 263, 4).
+word(potentially, 22, 287, 2).
+word(interesting, 22, 287, 4).
+word(idea, 22, 287, 5).
+word(interesting, 22, 310, 3).
+word(proposition, 22, 310, 4).
+word(secondly, 22, 339, 0).
+word(experimental, 22, 339, 3).
+word(result, 22, 339, 4).
+word(unconvincing, 22, 339, 6).
+word(experiment, 22, 343, 3).
+word(convincing, 22, 343, 6).
+word(experiment, 22, 365, 1).
+word(incomplete, 22, 365, 3).
+word(conclusive, 22, 365, 6).
+word(experimental, 22, 394, 0).
+word(result, 22, 394, 1).
+word(convincing, 22, 394, 4).
+word(empirical, 22, 414, 0).
+word(study, 22, 414, 1).
+word(clearly, 22, 414, 3).
+word(present, 22, 414, 4).
+word(paper, 22, 570, 1).
+word(need, 22, 570, 2).
+word(substantial, 22, 570, 3).
+word(revision, 22, 570, 4).
+word(major, 22, 611, 5).
+word(concern, 22, 611, 6).
+word(paper, 22, 611, 9).
+word(give, 22, 611, 11).
+word(hyper, 22, 881, 2).
+word(parameter, 22, 881, 4).
+word(present, 22, 881, 5).
+word(svm, 22, 939, 4).
+word(try, 22, 939, 6).
+word(dnn, 22, 939, 9).
+word(zsc, 22, 939, 11).
+word(embedding, 22, 939, 12).
+word(need, 22, 1029, 1).
+word(superscript, 22, 1029, 3).
+word(unbiased, 22, 1213, 3).
+word(look, 22, 1590, 0).
+word(experimental, 22, 1590, 4).
+word(setting, 22, 1590, 5).
+word(suppose, 22, 1590, 8).
+word(svms, 22, 1590, 11).
+word(clear, 22, 1748, 1).
+word(easy, 22, 1748, 3).
+word(follow, 22, 1748, 5).
+word(apple, 22, 1836, 3).
+word(apple, 22, 1836, 7).
+word(comparison, 22, 1836, 8).
+word(good, 22, 1836, 14).
+word(paper, 22, 1836, 15).
+word(strong, 22, 2126, 3).
+word(paper, 22, 2126, 4).
+word(backpropagate, 22, 2126, 11).
+word(main, 22, 2479, 1).
+word(concern, 22, 2479, 2).
+word(follow, 22, 2479, 5).
+word(suggestion, 22, 2479, 10).
+word(algorithm, 22, 2479, 12).
+word(alternative, 22, 2560, 2).
+word(solution, 22, 2560, 3).
+word(paper, 22, 2560, 10).
+word(lack, 22, 2560, 11).
+word(grasp, 22, 2587, 2).
+word(paper, 22, 2587, 4).
+word(easily, 22, 2587, 5).
+word(understand, 22, 2588, 2).
+word(paper, 22, 2588, 5).
+word(pro, 23, 9, 0).
+word(interesting, 23, 9, 4).
+word(feasible, 23, 9, 6).
+word(approach, 23, 9, 7).
+word(meta, 23, 9, 9).
+word(learn, 23, 9, 11).
+word(competitive, 23, 9, 13).
+word(result, 23, 9, 14).
+word(proper, 23, 9, 16).
+word(comparison, 23, 9, 17).
+word(state, 23, 9, 19).
+word(art, 23, 9, 25).
+word(good, 23, 9, 27).
+word(recommendation, 23, 9, 28).
+word(practical, 23, 9, 30).
+word(system, 23, 9, 31).
+word(idea, 23, 2211, 1).
+word(minor, 23, 2211, 5).
+word(fix, 23, 2211, 7).
+word(margin, 23, 2211, 8).
+word(formula, 23, 2211, 10).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(21, 114, 0, 0, 1, 0, 0, 0, 1, 1).
+sentiment(21, 254, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(21, 655, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(21, 2374, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(21, 2388, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(21, 2586, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(22, 70, 0, 0, 0, 0, 0, 0, 1, 0).
+sentiment(22, 110, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(22, 212, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(22, 263, 0, 0, 1, 0, 0, 0, 0, 0).
+sentiment(22, 287, 0, 0, 1, 0, 0, 0, 0, 0).
+sentiment(22, 310, 0, 0, 1, 0, 0, 0, 0, 0).
+sentiment(22, 339, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(22, 343, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(22, 365, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(22, 394, 0, 0, 0, 1, 0, 0, 0, 0).
+sentiment(22, 414, 0, 0, 0, 1, 0, 0, 0, 0).
+sentiment(22, 570, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(22, 611, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(22, 881, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(22, 939, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(22, 1029, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(22, 1213, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(22, 1590, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(22, 1748, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(22, 1836, 0, 0, 0, 0, -1, 0, 1, 0).
+sentiment(22, 2126, 0, -1, 0, 0, 0, 0, 1, 0).
+sentiment(22, 2479, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(22, 2560, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(22, 2587, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(22, 2588, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(23, 9, 0, 0, 0, 0, 0, 1, 0, 0).
+sentiment(23, 2211, 0, 0, 0, 0, 0, 0, 0, 0).

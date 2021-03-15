@@ -1,0 +1,74 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(4932,493,6,2).
+source(4933,493,6,3).
+% id paper, Reject/Accept
+paperProperties(493, 1).
+% sourceId, line
+sentence(4932,679).
+sentence(4932,801).
+sentence(4933,802).
+sentence(4933,1988).
+sentence(4933,2176).
+% W, sourceId, line, position
+word(experimental, 4932, 679, 0).
+word(result, 4932, 679, 1).
+word(cifar, 4932, 679, 3).
+word(dataset, 4932, 679, 4).
+word(support, 4932, 679, 5).
+word(usefulness, 4932, 679, 7).
+word(method, 4932, 679, 10).
+word(transport, 4932, 801, 1).
+word(cost, 4932, 801, 2).
+word(sinkhorn, 4932, 801, 7).
+word(learn, 4932, 801, 10).
+word(adversarial, 4932, 801, 13).
+word(fashion, 4932, 801, 14).
+word(proposal, 4933, 802, 1).
+word(make, 4933, 802, 2).
+word(sense, 4933, 802, 3).
+word(generative, 4933, 802, 6).
+word(standpoint, 4933, 802, 7).
+word(clear, 4933, 802, 11).
+word(paper, 4933, 802, 14).
+word(key, 4933, 802, 17).
+word(contribution, 4933, 802, 18).
+word(design, 4933, 802, 21).
+word(transport, 4933, 802, 24).
+word(cost, 4933, 802, 25).
+word(proposal, 4933, 1988, 1).
+word(make, 4933, 1988, 2).
+word(sense, 4933, 1988, 3).
+word(generative, 4933, 1988, 6).
+word(standpoint, 4933, 1988, 7).
+word(clear, 4933, 1988, 11).
+word(paper, 4933, 1988, 14).
+word(key, 4933, 1988, 17).
+word(contribution, 4933, 1988, 18).
+word(design, 4933, 1988, 21).
+word(transport, 4933, 1988, 24).
+word(cost, 4933, 1988, 25).
+word(paper, 4933, 1988, 29).
+word(propose, 4933, 1988, 30).
+word(new, 4933, 1988, 32).
+word(proposal, 4933, 2176, 1).
+word(make, 4933, 2176, 2).
+word(sense, 4933, 2176, 3).
+word(generative, 4933, 2176, 6).
+word(standpoint, 4933, 2176, 7).
+word(clear, 4933, 2176, 11).
+word(paper, 4933, 2176, 14).
+word(key, 4933, 2176, 17).
+word(contribution, 4933, 2176, 18).
+word(design, 4933, 2176, 21).
+word(transport, 4933, 2176, 24).
+word(cost, 4933, 2176, 25).
+word(paper, 4933, 2176, 29).
+word(write, 4933, 2176, 32).
+word(clearly, 4933, 2176, 34).
+word(present, 4933, 2176, 35).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(4932, 679, 0, 0, 0, 0, 0, 0, 1, 0).
+sentiment(4932, 801, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4933, 802, 0, 0, 0, 0, 0, 0, 1, 0).
+sentiment(4933, 1988, 0, 0, 1, 0, 0, 0, 1, 0).
+sentiment(4933, 2176, 0, 1, 0, 0, 0, 0, 1, 0).

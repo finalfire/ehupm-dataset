@@ -1,0 +1,59 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(5581,558,7,4).
+source(5582,558,7,4).
+% id paper, Reject/Accept
+paperProperties(558, 1).
+% sourceId, line
+sentence(5581,540).
+sentence(5581,1489).
+sentence(5582,97).
+sentence(5582,1147).
+sentence(5582,1148).
+sentence(5582,2544).
+% W, sourceId, line, position
+word(paper, 5581, 540, 1).
+word(write, 5581, 540, 5).
+word(structure, 5581, 540, 7).
+word(evolution, 5581, 1489, 0).
+word(accord, 5581, 1489, 1).
+word(physics, 5581, 1489, 4).
+word(engine, 5581, 1489, 5).
+word(paper, 5582, 97, 2).
+word(suggest, 5582, 1147, 1).
+word(change, 5582, 1147, 2).
+word(title, 5582, 1147, 4).
+word(reflect, 5582, 1147, 6).
+word(revise, 5582, 1147, 12).
+word(abstract, 5582, 1147, 14).
+word(introduction, 5582, 1147, 16).
+word(scope, 5582, 1147, 20).
+word(clear, 5582, 1147, 21).
+word(adversarial, 5582, 1148, 1).
+word(process, 5582, 1148, 2).
+word(construct, 5582, 1148, 5).
+word(mislabele, 5582, 1148, 10).
+word(exploit, 5582, 1148, 12).
+word(kind, 5582, 1148, 14).
+word(weakness, 5582, 1148, 16).
+word(natural, 5582, 1148, 24).
+word(distribution, 5582, 1148, 25).
+word(input, 5582, 1148, 27).
+word(adversarial, 5582, 2544, 1).
+word(process, 5582, 2544, 2).
+word(construct, 5582, 2544, 5).
+word(mislabele, 5582, 2544, 10).
+word(exploit, 5582, 2544, 12).
+word(kind, 5582, 2544, 14).
+word(weakness, 5582, 2544, 16).
+word(natural, 5582, 2544, 24).
+word(distribution, 5582, 2544, 25).
+word(input, 5582, 2544, 27).
+word(issue, 5582, 2544, 31).
+word(paper, 5582, 2544, 36).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(5581, 540, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(5581, 1489, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5582, 97, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5582, 1147, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(5582, 1148, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(5582, 2544, 0, 0, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,69 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(10482,1048,6,4).
+source(10483,1048,6,4).
+% id paper, Reject/Accept
+paperProperties(1048, 0).
+% sourceId, line
+sentence(10482,1061).
+sentence(10483,500).
+sentence(10483,1062).
+sentence(10483,2209).
+sentence(10483,2400).
+% W, sourceId, line, position
+word(line, 10482, 1061, 2).
+word(hypothesis, 10482, 1061, 7).
+word(class, 10482, 1061, 8).
+word(set, 10482, 1061, 12).
+word(paper, 10483, 500, 2).
+word(write, 10483, 500, 5).
+word(address, 10483, 500, 7).
+word(important, 10483, 500, 9).
+word(topic, 10483, 500, 10).
+word(point, 10483, 500, 16).
+word(discuss, 10483, 500, 19).
+word(lifelong, 10483, 1062, 0).
+word(learning, 10483, 1062, 1).
+word(imply, 10483, 1062, 2).
+word(continual, 10483, 1062, 4).
+word(learning, 10483, 1062, 5).
+word(address, 10483, 1062, 7).
+word(catastrophic, 10483, 1062, 9).
+word(forget, 10483, 1062, 10).
+word(issue, 10483, 1062, 11).
+word(lifelong, 10483, 2209, 0).
+word(learning, 10483, 2209, 1).
+word(imply, 10483, 2209, 2).
+word(continual, 10483, 2209, 4).
+word(learning, 10483, 2209, 5).
+word(address, 10483, 2209, 7).
+word(catastrophic, 10483, 2209, 9).
+word(forget, 10483, 2209, 10).
+word(issue, 10483, 2209, 11).
+word(addition, 10483, 2209, 15).
+word(achieve, 10483, 2209, 17).
+word(good, 10483, 2209, 19).
+word(performance, 10483, 2209, 20).
+word(topic, 10483, 2209, 24).
+word(surprising, 10483, 2209, 27).
+word(rcv, 10483, 2209, 31).
+word(v2, 10483, 2209, 33).
+word(lifelong, 10483, 2400, 0).
+word(learning, 10483, 2400, 1).
+word(imply, 10483, 2400, 2).
+word(continual, 10483, 2400, 4).
+word(learning, 10483, 2400, 5).
+word(address, 10483, 2400, 7).
+word(catastrophic, 10483, 2400, 9).
+word(forget, 10483, 2400, 10).
+word(issue, 10483, 2400, 11).
+word(example, 10483, 2400, 15).
+word(fig, 10483, 2400, 17).
+word(necessary, 10483, 2400, 21).
+word(preamble, 10483, 2400, 28).
+word(section, 10483, 2400, 29).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(10482, 1061, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10483, 500, 0, 1, 0, 0, 0, 0, 1, 0).
+sentiment(10483, 1062, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10483, 2209, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10483, 2400, 0, 0, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,45 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(683,68,5,4).
+% id paper, Reject/Accept
+paperProperties(68, 1).
+% sourceId, line
+sentence(683,308).
+sentence(683,313).
+sentence(683,318).
+sentence(683,1567).
+sentence(683,2569).
+% W, sourceId, line, position
+word(propose, 683, 308, 1).
+word(idea, 683, 308, 2).
+word(novel, 683, 308, 4).
+word(interesting, 683, 308, 6).
+word(propose, 683, 313, 1).
+word(approach, 683, 313, 2).
+word(appear, 683, 313, 3).
+word(promising, 683, 313, 4).
+word(original, 683, 313, 6).
+word(propose, 683, 318, 1).
+word(idea, 683, 318, 2).
+word(novel, 683, 318, 4).
+word(finally, 683, 1567, 0).
+word(weight, 683, 1567, 4).
+word(jointly, 683, 1567, 7).
+word(train, 683, 1567, 8).
+word(finally, 683, 2569, 0).
+word(weight, 683, 2569, 4).
+word(jointly, 683, 2569, 7).
+word(train, 683, 2569, 8).
+word(addition, 683, 2569, 12).
+word(achieve, 683, 2569, 14).
+word(good, 683, 2569, 16).
+word(performance, 683, 2569, 17).
+word(topic, 683, 2569, 21).
+word(surprising, 683, 2569, 24).
+word(rcv, 683, 2569, 28).
+word(v2, 683, 2569, 30).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(683, 308, 0, 0, 1, 0, 0, 0, 1, 0).
+sentiment(683, 313, 0, 0, 1, 0, 0, 0, 1, 0).
+sentiment(683, 318, 0, 0, 1, 0, 0, 0, 1, 0).
+sentiment(683, 1567, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(683, 2569, 0, 0, 0, 0, 0, 0, 0, 0).

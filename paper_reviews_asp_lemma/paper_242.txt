@@ -1,0 +1,47 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(2421,242,6,5).
+source(2423,242,5,3).
+% id paper, Reject/Accept
+paperProperties(242, 0).
+% sourceId, line
+sentence(2421,701).
+sentence(2421,1887).
+sentence(2421,2036).
+sentence(2423,1228).
+sentence(2423,1513).
+% W, sourceId, line, position
+word(result, 2421, 701, 0).
+word(strong, 2421, 701, 2).
+word(simple, 2421, 701, 6).
+word(dataset, 2421, 701, 7).
+word(result, 2421, 1887, 0).
+word(strong, 2421, 1887, 2).
+word(simple, 2421, 1887, 6).
+word(dataset, 2421, 1887, 7).
+word(think, 2421, 1887, 11).
+word(experiment, 2421, 1887, 13).
+word(interesting, 2421, 1887, 15).
+word(result, 2421, 2036, 0).
+word(strong, 2421, 2036, 2).
+word(simple, 2421, 2036, 6).
+word(dataset, 2421, 2036, 7).
+word(page, 2421, 2036, 12).
+word(use, 2421, 2036, 18).
+word(sigmoid, 2421, 2036, 19).
+word(instead, 2421, 2036, 20).
+word(relu, 2421, 2036, 22).
+word(show, 2421, 2036, 27).
+word(extensively, 2421, 2036, 28).
+word(work, 2421, 2036, 30).
+word(better, 2421, 2036, 32).
+word(timit, 2421, 2036, 34).
+word(experiment, 2423, 1228, 0).
+word(section, 2423, 1228, 2).
+word(suggest, 2423, 1513, 1).
+word(remove, 2423, 1513, 3).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(2421, 701, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(2421, 1887, 0, 0, 0, 0, 1, 0, -1, 0).
+sentiment(2421, 2036, 0, -1, 0, 0, 0, 0, -1, 0).
+sentiment(2423, 1228, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(2423, 1513, 0, 0, 0, 0, 0, 0, 0, 0).

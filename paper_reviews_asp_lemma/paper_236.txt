@@ -1,0 +1,147 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(2361,236,4,4).
+source(2362,236,4,4).
+source(2363,236,4,4).
+% id paper, Reject/Accept
+paperProperties(236, 0).
+% sourceId, line
+sentence(2361,20).
+sentence(2361,22).
+sentence(2361,1841).
+sentence(2362,23).
+sentence(2362,1066).
+sentence(2362,2315).
+sentence(2363,12).
+sentence(2363,13).
+sentence(2363,14).
+sentence(2363,24).
+sentence(2363,25).
+sentence(2363,302).
+sentence(2363,584).
+sentence(2363,2162).
+% W, sourceId, line, position
+word(strided, 2361, 20, 2).
+word(convolution, 2361, 20, 3).
+word(pooling, 2361, 20, 6).
+word(actually, 2361, 20, 9).
+word(novel, 2361, 20, 10).
+word(eg, 2361, 20, 12).
+word(author, 2361, 22, 0).
+word(merge, 2361, 22, 1).
+word(new, 2361, 22, 5).
+word(layer, 2361, 22, 6).
+word(brand, 2361, 22, 8).
+word(new, 2361, 22, 12).
+word(type, 2361, 22, 13).
+word(layer, 2361, 22, 15).
+word(unfortunately, 2361, 1841, 0).
+word(short, 2361, 1841, 6).
+word(apple, 2361, 1841, 12).
+word(apple, 2361, 1841, 16).
+word(comparison, 2361, 1841, 17).
+word(replace, 2362, 23, 0).
+word(layer, 2362, 23, 2).
+word(single, 2362, 23, 4).
+word(layer, 2362, 23, 5).
+word(relatively, 2362, 23, 8).
+word(standard, 2362, 23, 9).
+word(procedure, 2362, 23, 10).
+word(accuracy, 2362, 1066, 2).
+word(loss, 2362, 1066, 3).
+word(specific, 2362, 1066, 6).
+word(model, 2362, 1066, 7).
+word(accuracy, 2362, 2315, 2).
+word(loss, 2362, 2315, 3).
+word(specific, 2362, 2315, 6).
+word(model, 2362, 2315, 7).
+word(author, 2362, 2315, 10).
+word(claim, 2362, 2315, 11).
+word(issue, 2363, 12, 1).
+word(paper, 2363, 12, 5).
+word(introduce, 2363, 12, 6).
+word(concept, 2363, 12, 8).
+word(deeprebirth, 2363, 12, 12).
+word(layer, 2363, 12, 13).
+word(like, 2363, 12, 22).
+word(go, 2363, 12, 25).
+word(new, 2363, 12, 29).
+word(architecture, 2363, 12, 30).
+word(time, 2363, 13, 3).
+word(writing, 2363, 13, 5).
+word(author, 2363, 13, 8).
+word(provide, 2363, 13, 11).
+word(detail, 2363, 13, 13).
+word(research, 2363, 13, 18).
+word(reproducible, 2363, 13, 19).
+word(particular, 2363, 13, 22).
+word(depth, 2363, 13, 25).
+word(fuse, 2363, 13, 28).
+word(layer, 2363, 13, 29).
+word(relate, 2363, 13, 30).
+word(depth, 2363, 13, 33).
+word(original, 2363, 13, 36).
+word(layer, 2363, 13, 37).
+word(experiment, 2363, 13, 42).
+word(paper, 2363, 14, 1).
+word(need, 2363, 14, 2).
+word(lot, 2363, 14, 4).
+word(improvement, 2363, 14, 6).
+word(suitable, 2363, 14, 9).
+word(publication, 2363, 14, 11).
+word(mid, 2363, 24, 0).
+word(way, 2363, 24, 2).
+word(discover, 2363, 24, 5).
+word(convolution, 2363, 24, 13).
+word(actually, 2363, 24, 18).
+word(different, 2363, 24, 20).
+word(kind, 2363, 24, 21).
+word(convolution, 2363, 24, 23).
+word(depend, 2363, 24, 24).
+word(fuse, 2363, 24, 28).
+word(serial, 2363, 24, 29).
+word(parallel, 2363, 24, 31).
+word(pooling, 2363, 24, 32).
+word(layer, 2363, 24, 33).
+word(understand, 2363, 25, 1).
+word(desire, 2363, 25, 3).
+word(technique, 2363, 25, 10).
+word(case, 2363, 25, 15).
+word(name, 2363, 25, 16).
+word(layer, 2363, 25, 18).
+word(actually, 2363, 25, 24).
+word(multiple, 2363, 25, 25).
+word(thing, 2363, 25, 26).
+word(non, 2363, 25, 28).
+word(new, 2363, 25, 32).
+word(architecturally, 2363, 25, 33).
+word(confuse, 2363, 25, 35).
+word(argument, 2363, 25, 37).
+word(lot, 2363, 25, 39).
+word(idea, 2363, 302, 1).
+word(fine, 2363, 302, 3).
+word(paper, 2363, 584, 1).
+word(need, 2363, 584, 2).
+word(lot, 2363, 584, 4).
+word(improvement, 2363, 584, 6).
+word(suitable, 2363, 584, 9).
+word(publication, 2363, 584, 11).
+word(idea, 2363, 2162, 1).
+word(fine, 2363, 2162, 3).
+word(paper, 2363, 2162, 7).
+word(write, 2363, 2162, 9).
+word(clearly, 2363, 2162, 10).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(2361, 20, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(2361, 22, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(2361, 1841, 0, 0, 0, -1, -1, 0, 0, 0).
+sentiment(2362, 23, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(2362, 1066, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(2362, 2315, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(2363, 12, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(2363, 13, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(2363, 14, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(2363, 24, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(2363, 25, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(2363, 302, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(2363, 584, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(2363, 2162, 0, 1, 0, 0, 0, 0, 0, 0).

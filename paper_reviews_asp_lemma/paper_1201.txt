@@ -1,0 +1,61 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(12011,1201,6,5).
+% id paper, Reject/Accept
+paperProperties(1201, 0).
+% sourceId, line
+sentence(12011,311).
+sentence(12011,1078).
+sentence(12011,1909).
+sentence(12011,1958).
+% W, sourceId, line, position
+word(idea, 12011, 311, 1).
+word(simple, 12011, 311, 3).
+word(intuitive, 12011, 311, 5).
+word(right, 12011, 1078, 0).
+word(paper, 12011, 1078, 4).
+word(feel, 12011, 1078, 5).
+word(couple, 12011, 1078, 7).
+word(exist, 12011, 1078, 10).
+word(deep, 12011, 1078, 11).
+word(voice, 12011, 1078, 12).
+word(system, 12011, 1078, 14).
+word(right, 12011, 1909, 0).
+word(paper, 12011, 1909, 4).
+word(feel, 12011, 1909, 5).
+word(couple, 12011, 1909, 7).
+word(exist, 12011, 1909, 10).
+word(deep, 12011, 1909, 11).
+word(voice, 12011, 1909, 12).
+word(system, 12011, 1909, 14).
+word(comparison, 12011, 1909, 18).
+word(fair, 12011, 1909, 21).
+word(idea, 12011, 1958, 1).
+word(simple, 12011, 1958, 3).
+word(intuitive, 12011, 1958, 5).
+word(convince, 12011, 1958, 11).
+word(claim, 12011, 1958, 14).
+word(paper, 12011, 1958, 17).
+word(test, 12011, 1958, 21).
+word(interaction, 12011, 1958, 24).
+word(capability, 12011, 1958, 26).
+word(agent, 12011, 1958, 28).
+word(task, 12011, 1958, 32).
+word(phrase, 12011, 1958, 34).
+word(kind, 12011, 1958, 37).
+word(interaction, 12011, 1958, 39).
+word(think, 12011, 1958, 42).
+word(aptly, 12011, 1958, 46).
+word(describe, 12011, 1958, 47).
+word(simply, 12011, 1958, 49).
+word(infer, 12011, 1958, 51).
+word(important, 12011, 1958, 52).
+word(unknown, 12011, 1958, 53).
+word(variable, 12011, 1958, 54).
+word(important, 12011, 1958, 60).
+word(related, 12011, 1958, 64).
+word(reasoning, 12011, 1958, 66).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(12011, 311, 0, 0, 1, 0, 0, 0, 0, 0).
+sentiment(12011, 1078, 0, 0, -1, 0, 0, 0, 0, 0).
+sentiment(12011, 1909, 0, 0, -1, 0, -1, 0, 0, 0).
+sentiment(12011, 1958, 0, 0, 1, -1, 0, 0, 0, 0).

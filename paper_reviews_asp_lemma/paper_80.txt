@@ -1,0 +1,26 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(801,80,7,3).
+% id paper, Reject/Accept
+paperProperties(80, 1).
+% sourceId, line
+sentence(801,170).
+sentence(801,1828).
+% W, sourceId, line, position
+word(paper, 801, 170, 1).
+word(easy, 801, 170, 3).
+word(read, 801, 170, 5).
+word(paper, 801, 1828, 1).
+word(easy, 801, 1828, 3).
+word(read, 801, 1828, 5).
+word(target, 801, 1828, 9).
+word(somewhat, 801, 1828, 10).
+word(niche, 801, 1828, 14).
+word(audience, 801, 1828, 15).
+word(accessible, 801, 1828, 21).
+word(general, 801, 1828, 24).
+word(representation, 801, 1828, 25).
+word(learn, 801, 1828, 26).
+word(community, 801, 1828, 27).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(801, 170, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(801, 1828, -1, 1, 0, 0, 0, 0, 0, 0).

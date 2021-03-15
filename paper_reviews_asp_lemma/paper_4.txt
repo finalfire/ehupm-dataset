@@ -1,0 +1,114 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(41,4,8,3).
+source(42,4,10,5).
+source(43,4,7,4).
+% id paper, Reject/Accept
+paperProperties(4, 1).
+% sourceId, line
+sentence(41,1460).
+sentence(42,916).
+sentence(42,1016).
+sentence(42,1515).
+sentence(43,725).
+sentence(43,842).
+sentence(43,868).
+sentence(43,928).
+sentence(43,1019).
+sentence(43,1059).
+sentence(43,1442).
+sentence(43,1456).
+sentence(43,1488).
+sentence(43,1696).
+sentence(43,1714).
+sentence(43,1786).
+sentence(43,2290).
+% W, sourceId, line, position
+word(bit, 41, 1460, 1).
+word(detailed, 41, 1460, 3).
+word(analysis, 41, 1460, 4).
+word(result, 41, 1460, 7).
+word(useful, 41, 1460, 10).
+word(experiment, 42, 916, 1).
+word(early, 42, 916, 3).
+word(stop, 42, 916, 5).
+word(vs, 42, 916, 6).
+word(early, 42, 916, 7).
+word(stop, 42, 916, 9).
+word(skipping, 42, 916, 11).
+word(rereading, 42, 916, 13).
+word(interesting, 42, 916, 15).
+word(day, 42, 1016, 3).
+word(depend, 42, 1016, 5).
+word(size, 42, 1016, 8).
+word(network, 42, 1016, 11).
+word(experimental, 42, 1515, 1).
+word(setup, 42, 1515, 2).
+word(unfair, 42, 1515, 4).
+word(clear, 42, 1515, 11).
+word(convince, 43, 725, 4).
+word(section, 43, 725, 6).
+word(page, 43, 842, 0).
+word(distribution, 43, 842, 3).
+word(possible, 43, 842, 6).
+word(distribution, 43, 842, 9).
+word(possible, 43, 842, 11).
+word(fill, 43, 868, 1).
+word(water, 43, 868, 2).
+word(coffee, 43, 868, 4).
+word(maker, 43, 868, 5).
+word(logm, 43, 928, 1).
+word(define, 43, 928, 3).
+word(average, 43, 928, 6).
+word(log, 43, 928, 7).
+word(cnn, 43, 928, 10).
+word(weigth, 43, 928, 11).
+word(significance, 43, 1019, 3).
+word(main, 43, 1019, 6).
+word(theme, 43, 1019, 7).
+word(paper, 43, 1019, 10).
+word(good, 43, 1059, 5).
+word(describe, 43, 1059, 7).
+word(problem, 43, 1059, 10).
+word(formulate, 43, 1059, 12).
+word(detail, 43, 1059, 15).
+word(con, 43, 1442, 0).
+word(discussion, 43, 1442, 2).
+word(related, 43, 1442, 4).
+word(work, 43, 1442, 5).
+word(function, 43, 1456, 0).
+word(hide, 43, 1456, 5).
+word(unit, 43, 1456, 6).
+word(block, 43, 1488, 3).
+word(place, 43, 1488, 4).
+word(precarious, 43, 1488, 9).
+word(position, 43, 1488, 10).
+word(large, 43, 1714, 2).
+word(successful, 43, 1714, 3).
+word(evaluation, 43, 1714, 4).
+word(section, 43, 1714, 5).
+word(provide, 43, 1714, 6).
+word(end, 43, 1786, 2).
+word(par, 43, 1786, 5).
+word(clear, 43, 2290, 1).
+word(summary, 43, 2290, 2).
+word(finding, 43, 2290, 5).
+word(clarity, 43, 2290, 9).
+word(presentation, 43, 2290, 11).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(41, 1460, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(42, 916, 0, 0, 0, 0, 1, 0, 0, 0).
+sentiment(42, 1016, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(42, 1515, 0, -1, 0, -1, 0, 0, 0, 0).
+sentiment(43, 725, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(43, 842, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(43, 868, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(43, 928, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(43, 1019, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(43, 1059, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(43, 1442, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(43, 1456, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(43, 1488, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(43, 1696, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(43, 1714, 0, 0, 0, 1, 0, 0, 0, 0).
+sentiment(43, 1786, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(43, 2290, 0, 0, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,70 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(10761,1076,5,4).
+source(10762,1076,5,5).
+% id paper, Reject/Accept
+paperProperties(1076, 0).
+% sourceId, line
+sentence(10761,894).
+sentence(10761,2057).
+sentence(10761,2096).
+sentence(10762,893).
+sentence(10762,2480).
+sentence(10762,2497).
+% W, sourceId, line, position
+word(prototype, 10761, 894, 1).
+word(loss, 10761, 894, 2).
+word(simplistic, 10761, 894, 5).
+word(capture, 10761, 894, 7).
+word(co, 10761, 894, 8).
+word(bind, 10761, 894, 10).
+word(tendency, 10761, 894, 11).
+word(combinationlstm, 10761, 894, 14).
+word(motivated, 10761, 894, 18).
+word(prototype, 10761, 2057, 1).
+word(loss, 10761, 2057, 2).
+word(simplistic, 10761, 2057, 5).
+word(capture, 10761, 2057, 7).
+word(co, 10761, 2057, 8).
+word(bind, 10761, 2057, 10).
+word(tendency, 10761, 2057, 11).
+word(combinationlstm, 10761, 2057, 14).
+word(motivated, 10761, 2057, 18).
+word(problem, 10761, 2057, 23).
+word(understand, 10761, 2057, 24).
+word(motivation, 10761, 2057, 26).
+word(paper, 10761, 2057, 29).
+word(prototype, 10761, 2096, 1).
+word(loss, 10761, 2096, 2).
+word(simplistic, 10761, 2096, 5).
+word(capture, 10761, 2096, 7).
+word(co, 10761, 2096, 8).
+word(bind, 10761, 2096, 10).
+word(tendency, 10761, 2096, 11).
+word(combinationlstm, 10761, 2096, 14).
+word(motivated, 10761, 2096, 18).
+word(believe, 10761, 2096, 24).
+word(author, 10761, 2096, 26).
+word(gradient, 10761, 2096, 28).
+word(evaluate, 10761, 2096, 30).
+word(model, 10761, 2096, 32).
+word(item, 10762, 893, 3).
+word(duplicate, 10762, 893, 5).
+word(item, 10762, 2480, 3).
+word(duplicate, 10762, 2480, 5).
+word(problem, 10762, 2480, 14).
+word(scale, 10762, 2480, 19).
+word(item, 10762, 2497, 3).
+word(duplicate, 10762, 2497, 5).
+word(system, 10762, 2497, 10).
+word(present, 10762, 2497, 12).
+word(short, 10762, 2497, 16).
+word(story, 10762, 2497, 17).
+word(answer, 10762, 2497, 21).
+word(question, 10762, 2497, 23).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(10761, 894, 0, 0, -1, 0, 0, 0, 0, 0).
+sentiment(10761, 2057, 0, 0, -1, 0, 0, 0, 0, 0).
+sentiment(10761, 2096, 0, 0, -1, -1, 0, 0, 0, 0).
+sentiment(10762, 893, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10762, 2480, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(10762, 2497, 0, 0, 0, 0, 0, 0, 0, 0).

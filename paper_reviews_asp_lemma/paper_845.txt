@@ -1,0 +1,40 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(8453,845,7,4).
+% id paper, Reject/Accept
+paperProperties(845, 0).
+% sourceId, line
+sentence(8453,442).
+sentence(8453,1641).
+sentence(8453,2438).
+% W, sourceId, line, position
+word(secondly, 8453, 442, 0).
+word(report, 8453, 442, 3).
+word(result, 8453, 442, 4).
+word(agree, 8453, 442, 7).
+word(original, 8453, 442, 12).
+word(publication, 8453, 442, 13).
+word(wrong, 8453, 1641, 2).
+word(d, 8453, 1641, 3).
+word(dcc, 8453, 1641, 4).
+word(perform, 8453, 1641, 5).
+word(bad, 8453, 1641, 6).
+word(rcc, 8453, 1641, 8).
+word(mnist, 8453, 1641, 10).
+word(similar, 8453, 1641, 12).
+word(reuter, 8453, 1641, 14).
+word(analysis, 8453, 2438, 2).
+word(author, 8453, 2438, 4).
+word(claim, 8453, 2438, 5).
+word(wrong, 8453, 2438, 10).
+word(d, 8453, 2438, 11).
+word(dcc, 8453, 2438, 12).
+word(perform, 8453, 2438, 13).
+word(bad, 8453, 2438, 14).
+word(rcc, 8453, 2438, 16).
+word(mnist, 8453, 2438, 18).
+word(similar, 8453, 2438, 20).
+word(reuter, 8453, 2438, 22).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(8453, 442, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(8453, 1641, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(8453, 2438, 0, 0, 0, 0, 0, 0, 0, 0).

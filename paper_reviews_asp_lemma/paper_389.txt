@@ -1,0 +1,71 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(3891,389,3,5).
+source(3892,389,3,3).
+source(3893,389,3,2).
+% id paper, Reject/Accept
+paperProperties(389, 0).
+% sourceId, line
+sentence(3891,444).
+sentence(3891,1614).
+sentence(3891,2539).
+sentence(3892,719).
+sentence(3892,1615).
+sentence(3892,2368).
+sentence(3893,1613).
+% W, sourceId, line, position
+word(author, 3891, 444, 0).
+word(claim, 3891, 444, 1).
+word(cnn, 3891, 1614, 0).
+word(figure, 3891, 1614, 2).
+word(game, 3891, 1614, 4).
+word(rule, 3891, 1614, 5).
+word(cnn, 3891, 2539, 0).
+word(figure, 3891, 2539, 2).
+word(game, 3891, 2539, 4).
+word(rule, 3891, 2539, 5).
+word(pro, 3891, 2539, 8).
+word(con, 3891, 2539, 10).
+word(rss, 3891, 2539, 14).
+word(ac, 3891, 2539, 15).
+word(sum, 3891, 2539, 17).
+word(thought, 3891, 2539, 20).
+word(nicely, 3891, 2539, 21).
+word(propose, 3892, 719, 2).
+word(dataset, 3892, 719, 3).
+word(think, 3892, 1615, 0).
+word(paper, 3892, 1615, 2).
+word(identify, 3892, 1615, 3).
+word(choice, 3892, 1615, 6).
+word(think, 3892, 2368, 0).
+word(paper, 3892, 2368, 2).
+word(identify, 3892, 2368, 3).
+word(choice, 3892, 2368, 6).
+word(know, 3892, 2368, 11).
+word(network, 3892, 2368, 14).
+word(expressibility, 3892, 2368, 15).
+word(highly, 3892, 2368, 17).
+word(related, 3892, 2368, 18).
+word(depth, 3892, 2368, 21).
+word(eldan, 3892, 2368, 23).
+word(shamir, 3892, 2368, 25).
+word(concern, 3893, 1613, 4).
+word(contrive, 3893, 1613, 7).
+word(scenario, 3893, 1613, 9).
+word(big, 3893, 1613, 14).
+word(expressive, 3893, 1613, 16).
+word(cnn, 3893, 1613, 17).
+word(simple, 3893, 1613, 21).
+word(game, 3893, 1613, 22).
+word(domain, 3893, 1613, 23).
+word(particular, 3893, 1613, 27).
+word(cnn, 3893, 1613, 28).
+word(visualization, 3893, 1613, 29).
+word(method, 3893, 1613, 30).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(3891, 444, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3891, 1614, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3891, 2539, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3892, 719, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3892, 1615, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3892, 2368, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3893, 1613, 0, 0, 0, -1, 0, 0, 0, 0).

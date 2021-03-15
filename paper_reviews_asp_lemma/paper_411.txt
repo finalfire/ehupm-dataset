@@ -1,0 +1,56 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(4111,411,4,3).
+source(4113,411,4,4).
+% id paper, Reject/Accept
+paperProperties(411, 0).
+% sourceId, line
+sentence(4111,15).
+sentence(4111,1041).
+sentence(4111,1042).
+sentence(4113,368).
+sentence(4113,1989).
+% W, sourceId, line, position
+word(need, 4111, 15, 2).
+word(perform, 4111, 15, 4).
+word(thorough, 4111, 15, 6).
+word(experiment, 4111, 15, 7).
+word(present, 4111, 15, 9).
+word(result, 4111, 15, 10).
+word(tell, 4111, 15, 12).
+word(clear, 4111, 15, 14).
+word(story, 4111, 15, 15).
+word(strength, 4111, 15, 18).
+word(weakness, 4111, 15, 20).
+word(approach, 4111, 15, 23).
+word(model, 4111, 1041, 3).
+word(restrict, 4111, 1041, 5).
+word(linear, 4111, 1041, 9).
+word(decoder, 4111, 1041, 10).
+word(presentation, 4111, 1042, 2).
+word(muddled, 4111, 1042, 5).
+word(especially, 4111, 1042, 7).
+word(model, 4111, 1042, 9).
+word(definition, 4111, 1042, 10).
+word(sec, 4111, 1042, 12).
+word(experiment, 4113, 368, 1).
+word(propose, 4113, 368, 5).
+word(method, 4113, 368, 6).
+word(work, 4113, 368, 7).
+word(entirely, 4113, 368, 13).
+word(convincing, 4113, 368, 14).
+word(experiment, 4113, 1989, 1).
+word(propose, 4113, 1989, 5).
+word(method, 4113, 1989, 6).
+word(work, 4113, 1989, 7).
+word(entirely, 4113, 1989, 13).
+word(convincing, 4113, 1989, 14).
+word(think, 4113, 1989, 20).
+word(paper, 4113, 1989, 22).
+word(suitable, 4113, 1989, 24).
+word(iclr, 4113, 1989, 26).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(4111, 15, 0, 0, 0, 0, 0, -1, 0, 0).
+sentiment(4111, 1041, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4111, 1042, 0, -1, 0, 0, 0, 0, 0, 0).
+sentiment(4113, 368, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4113, 1989, -1, 0, 0, 0, 0, 0, 0, 0).

@@ -1,0 +1,13 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(8333,833,4,4).
+% id paper, Reject/Accept
+paperProperties(833, 0).
+% sourceId, line
+sentence(8333,378).
+% W, sourceId, line, position
+word(experiment, 8333, 378, 1).
+word(offer, 8333, 378, 2).
+word(empirical, 8333, 378, 4).
+word(comparison, 8333, 378, 5).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(8333, 378, 0, 0, 0, -1, 0, 0, 0, 0).

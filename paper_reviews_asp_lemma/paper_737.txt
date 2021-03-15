@@ -1,0 +1,16 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(7373,737,6,4).
+% id paper, Reject/Accept
+paperProperties(737, 1).
+% sourceId, line
+sentence(7373,1325).
+% W, sourceId, line, position
+word(convex, 7373, 1325, 0).
+word(combination, 7373, 1325, 1).
+word(natural, 7373, 1325, 3).
+word(image, 7373, 1325, 4).
+word(result, 7373, 1325, 7).
+word(natural, 7373, 1325, 9).
+word(image, 7373, 1325, 10).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(7373, 1325, 0, 0, 0, 0, 0, 0, 0, 0).

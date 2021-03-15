@@ -1,0 +1,92 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(9261,926,5,5).
+source(9262,926,4,4).
+source(9263,926,4,4).
+% id paper, Reject/Accept
+paperProperties(926, 0).
+% sourceId, line
+sentence(9261,628).
+sentence(9261,677).
+sentence(9261,2413).
+sentence(9262,1493).
+sentence(9263,552).
+sentence(9263,1494).
+sentence(9263,1968).
+% W, sourceId, line, position
+word(propose, 9261, 628, 1).
+word(approach, 9261, 628, 2).
+word(evaluate, 9261, 628, 4).
+word(camvid, 9261, 628, 7).
+word(dataset, 9261, 628, 8).
+word(propose, 9261, 677, 1).
+word(approach, 9261, 677, 2).
+word(evaluate, 9261, 677, 4).
+word(camvid, 9261, 677, 7).
+word(dataset, 9261, 677, 8).
+word(compare, 9261, 677, 13).
+word(standard, 9261, 677, 16).
+word(large, 9261, 677, 18).
+word(pascal, 9261, 677, 19).
+word(voc, 9261, 677, 20).
+word(dataset, 9261, 677, 21).
+word(propose, 9261, 2413, 1).
+word(approach, 9261, 2413, 2).
+word(evaluate, 9261, 2413, 4).
+word(camvid, 9261, 2413, 7).
+word(dataset, 9261, 2413, 8).
+word(concern, 9261, 2413, 11).
+word(black, 9261, 2413, 12).
+word(box, 9261, 2413, 14).
+word(attack, 9261, 2413, 15).
+word(bnns, 9261, 2413, 20).
+word(beneficial, 9261, 2413, 22).
+word(way, 9261, 2413, 25).
+word(try, 9261, 2413, 27).
+word(type, 9261, 2413, 29).
+word(attack, 9261, 2413, 31).
+word(andor, 9261, 2413, 32).
+word(delve, 9261, 2413, 33).
+word(bit, 9261, 2413, 35).
+word(deepe, 9261, 2413, 36).
+word(nice, 9261, 2413, 42).
+word(apply, 9262, 1493, 0).
+word(propose, 9262, 1493, 2).
+word(dae, 9262, 1493, 3).
+word(time, 9262, 1493, 7).
+word(time, 9262, 1493, 10).
+word(consume, 9262, 1493, 11).
+word(image, 9262, 1493, 14).
+word(technical, 9263, 552, 1).
+word(contribution, 9263, 552, 2).
+word(paper, 9263, 552, 5).
+word(small, 9263, 552, 7).
+word(paper, 9263, 1494, 1).
+word(aim, 9263, 1494, 2).
+word(answer, 9263, 1494, 4).
+word(single, 9263, 1494, 6).
+word(question, 9263, 1494, 7).
+word(dae, 9263, 1494, 12).
+word(network, 9263, 1494, 13).
+word(segmentation, 9263, 1494, 18).
+word(network, 9263, 1494, 19).
+word(output, 9263, 1494, 20).
+word(condition, 9263, 1494, 24).
+word(predict, 9263, 1494, 27).
+word(ground, 9263, 1494, 31).
+word(truth, 9263, 1494, 32).
+word(segmentation, 9263, 1494, 33).
+word(technical, 9263, 1968, 1).
+word(contribution, 9263, 1968, 2).
+word(paper, 9263, 1968, 5).
+word(small, 9263, 1968, 7).
+word(advice, 9263, 1968, 11).
+word(submit, 9263, 1968, 15).
+word(venue, 9263, 1968, 18).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(9261, 628, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9261, 677, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(9261, 2413, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9262, 1493, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(9263, 552, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(9263, 1494, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(9263, 1968, -1, 0, 0, 0, 0, 0, -1, 0).

@@ -1,0 +1,42 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(3551,355,3,4).
+source(3553,355,4,4).
+% id paper, Reject/Accept
+paperProperties(355, 0).
+% sourceId, line
+sentence(3551,1152).
+sentence(3553,409).
+sentence(3553,1150).
+sentence(3553,1151).
+sentence(3553,2072).
+% W, sourceId, line, position
+word(recommend, 3551, 1152, 1).
+word(chair, 3551, 1152, 3).
+word(discuss, 3551, 1152, 4).
+word(claim, 3553, 409, 3).
+word(paragraph, 3553, 409, 6).
+word(stand, 3553, 409, 7).
+word(matter, 3553, 1150, 1).
+word(discover, 3553, 1150, 4).
+word(experiment, 3553, 1150, 7).
+word(show, 3553, 1150, 11).
+word(zzgaussian, 3553, 1150, 12).
+word(zpiecewise, 3553, 1150, 14).
+word(multimodal, 3553, 1150, 17).
+word(believe, 3553, 1151, 3).
+word(author, 3553, 1151, 5).
+word(gradient, 3553, 1151, 7).
+word(evaluate, 3553, 1151, 9).
+word(model, 3553, 1151, 11).
+word(claim, 3553, 2072, 3).
+word(paragraph, 3553, 2072, 6).
+word(stand, 3553, 2072, 7).
+word(nice, 3553, 2072, 13).
+word(simple, 3553, 2072, 15).
+word(idea, 3553, 2072, 16).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(3551, 1152, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3553, 409, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(3553, 1150, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3553, 1151, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(3553, 2072, 0, 0, 1, -1, 0, 0, 0, 0).

@@ -1,0 +1,68 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(6381,638,7,3).
+% id paper, Reject/Accept
+paperProperties(638, 1).
+% sourceId, line
+sentence(6381,470).
+sentence(6381,1861).
+sentence(6381,2105).
+sentence(6381,2129).
+% W, sourceId, line, position
+word(related, 6381, 470, 1).
+word(work, 6381, 470, 2).
+word(section, 6381, 470, 3).
+word(include, 6381, 470, 4).
+word(recent, 6381, 470, 6).
+word(work, 6381, 470, 7).
+word(comparison, 6381, 470, 12).
+word(work, 6381, 470, 15).
+word(previous, 6381, 470, 17).
+word(work, 6381, 470, 18).
+word(clear, 6381, 470, 21).
+word(related, 6381, 1861, 1).
+word(work, 6381, 1861, 2).
+word(section, 6381, 1861, 3).
+word(include, 6381, 1861, 4).
+word(recent, 6381, 1861, 6).
+word(work, 6381, 1861, 7).
+word(comparison, 6381, 1861, 12).
+word(work, 6381, 1861, 15).
+word(previous, 6381, 1861, 17).
+word(work, 6381, 1861, 18).
+word(clear, 6381, 1861, 21).
+word(concern, 6381, 1861, 26).
+word(paper, 6381, 1861, 30).
+word(suit, 6381, 1861, 37).
+word(iclr, 6381, 1861, 39).
+word(true, 6381, 2105, 3).
+word(small, 6381, 2105, 6).
+word(dataset, 6381, 2105, 7).
+word(related, 6381, 2105, 10).
+word(work, 6381, 2105, 11).
+word(section, 6381, 2105, 12).
+word(include, 6381, 2105, 13).
+word(recent, 6381, 2105, 15).
+word(work, 6381, 2105, 16).
+word(comparison, 6381, 2105, 21).
+word(work, 6381, 2105, 24).
+word(previous, 6381, 2105, 26).
+word(work, 6381, 2105, 27).
+word(clear, 6381, 2105, 30).
+word(idea, 6381, 2129, 1).
+word(incremental, 6381, 2129, 3).
+word(related, 6381, 2129, 6).
+word(work, 6381, 2129, 7).
+word(section, 6381, 2129, 8).
+word(include, 6381, 2129, 9).
+word(recent, 6381, 2129, 11).
+word(work, 6381, 2129, 12).
+word(comparison, 6381, 2129, 17).
+word(work, 6381, 2129, 20).
+word(previous, 6381, 2129, 22).
+word(work, 6381, 2129, 23).
+word(clear, 6381, 2129, 26).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(6381, 470, 0, 0, 0, 0, -1, 0, 0, 0).
+sentiment(6381, 1861, -1, 0, 0, 0, -1, 0, 0, 0).
+sentiment(6381, 2105, 0, 0, 0, 0, -1, 0, -1, 0).
+sentiment(6381, 2129, 0, 0, 1, 0, -1, 0, 0, 0).

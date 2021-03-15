@@ -1,0 +1,55 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(3562,356,5,4).
+source(3563,356,5,4).
+% id paper, Reject/Accept
+paperProperties(356, 0).
+% sourceId, line
+sentence(3562,148).
+sentence(3563,644).
+sentence(3563,1449).
+sentence(3563,1450).
+sentence(3563,2033).
+% W, sourceId, line, position
+word(overall, 3562, 148, 0).
+word(paper, 3562, 148, 3).
+word(suitable, 3562, 148, 13).
+word(workshop, 3562, 148, 16).
+word(main, 3562, 148, 21).
+word(conference, 3562, 148, 22).
+word(dataset, 3563, 644, 3).
+word(task, 3563, 644, 6).
+word(non, 3563, 644, 8).
+word(standard, 3563, 644, 10).
+word(result, 3563, 644, 12).
+word(provide, 3563, 644, 14).
+word(single, 3563, 644, 18).
+word(baseline, 3563, 644, 19).
+word(torken, 3563, 1449, 2).
+word(token, 3563, 1449, 7).
+word(table, 3563, 1450, 4).
+word(pointer, 3563, 1450, 5).
+word(paragraph, 3563, 1450, 7).
+word(assume, 3563, 1450, 10).
+word(mean, 3563, 1450, 12).
+word(outer, 3563, 1450, 13).
+word(product, 3563, 1450, 15).
+word(instead, 3563, 1450, 16).
+word(cross, 3563, 1450, 18).
+word(product, 3563, 1450, 20).
+word(dataset, 3563, 2033, 3).
+word(task, 3563, 2033, 6).
+word(non, 3563, 2033, 8).
+word(standard, 3563, 2033, 10).
+word(result, 3563, 2033, 12).
+word(provide, 3563, 2033, 14).
+word(single, 3563, 2033, 18).
+word(baseline, 3563, 2033, 19).
+word(clear, 3563, 2033, 27).
+word(extent, 3563, 2033, 30).
+word(true, 3563, 2033, 33).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(3562, 148, -1, 0, 0, 0, 0, -1, 0, 0).
+sentiment(3563, 644, 0, 0, 0, 0, 0, 0, -1, 0).
+sentiment(3563, 1449, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3563, 1450, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(3563, 2033, 0, 0, 0, 0, -1, 0, -1, 0).

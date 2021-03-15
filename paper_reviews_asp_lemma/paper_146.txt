@@ -1,0 +1,9 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+
+% id paper, Reject/Accept
+paperProperties(146, 1).
+% sourceId, line
+
+% W, sourceId, line, position
+
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation

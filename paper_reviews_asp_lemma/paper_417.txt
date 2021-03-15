@@ -1,0 +1,49 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(4171,417,7,4).
+source(4172,417,4,5).
+% id paper, Reject/Accept
+paperProperties(417, 0).
+% sourceId, line
+sentence(4171,798).
+sentence(4171,2024).
+sentence(4172,799).
+sentence(4172,800).
+% W, sourceId, line, position
+word(paper, 4171, 798, 1).
+word(present, 4171, 798, 2).
+word(architecture, 4171, 798, 4).
+word(incrementally, 4171, 798, 6).
+word(attend, 4171, 798, 7).
+word(image, 4171, 798, 9).
+word(region, 4171, 798, 10).
+word(multiple, 4171, 798, 13).
+word(layer, 4171, 798, 14).
+word(deep, 4171, 798, 17).
+word(cnn, 4171, 798, 18).
+word(paper, 4171, 2024, 1).
+word(present, 4171, 2024, 2).
+word(architecture, 4171, 2024, 4).
+word(incrementally, 4171, 2024, 6).
+word(attend, 4171, 2024, 7).
+word(image, 4171, 2024, 9).
+word(region, 4171, 2024, 10).
+word(multiple, 4171, 2024, 13).
+word(layer, 4171, 2024, 14).
+word(deep, 4171, 2024, 17).
+word(cnn, 4171, 2024, 18).
+word(paper, 4171, 2024, 22).
+word(novelty, 4171, 2024, 24).
+word(limited, 4171, 2024, 28).
+word(lack, 4172, 799, 3).
+word(novelty, 4172, 799, 5).
+word(significant, 4172, 799, 8).
+word(result, 4172, 799, 9).
+word(progressive, 4172, 800, 2).
+word(baseline, 4172, 800, 3).
+word(evaluate, 4172, 800, 5).
+word(e, 4172, 800, 7).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(4171, 798, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(4171, 2024, 0, 1, 0, 0, 0, 0, 0, 0).
+sentiment(4172, 799, 0, 0, -1, 0, -1, 0, 0, 0).
+sentiment(4172, 800, 0, 0, 0, 0, -1, 0, 0, 0).

@@ -1,0 +1,49 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(4092,409,3,4).
+% id paper, Reject/Accept
+paperProperties(409, 0).
+% sourceId, line
+sentence(4092,1259).
+sentence(4092,1941).
+sentence(4092,2059).
+% W, sourceId, line, position
+word(certainly, 4092, 1259, 2).
+word(possible, 4092, 1259, 3).
+word(lstms, 4092, 1259, 5).
+word(solve, 4092, 1259, 7).
+word(static, 4092, 1259, 8).
+word(analysis, 4092, 1259, 9).
+word(technically, 4092, 1259, 13).
+word(timid, 4092, 1259, 14).
+word(right, 4092, 1259, 18).
+word(way, 4092, 1259, 19).
+word(certainly, 4092, 1941, 2).
+word(possible, 4092, 1941, 3).
+word(lstms, 4092, 1941, 5).
+word(solve, 4092, 1941, 7).
+word(static, 4092, 1941, 8).
+word(analysis, 4092, 1941, 9).
+word(technically, 4092, 1941, 13).
+word(timid, 4092, 1941, 14).
+word(right, 4092, 1941, 18).
+word(way, 4092, 1941, 19).
+word(introduce, 4092, 1941, 27).
+word(noise, 4092, 1941, 28).
+word(line, 4092, 1941, 32).
+word(training, 4092, 1941, 38).
+word(certainly, 4092, 2059, 2).
+word(possible, 4092, 2059, 3).
+word(lstms, 4092, 2059, 5).
+word(solve, 4092, 2059, 7).
+word(static, 4092, 2059, 8).
+word(analysis, 4092, 2059, 9).
+word(technically, 4092, 2059, 13).
+word(timid, 4092, 2059, 14).
+word(right, 4092, 2059, 18).
+word(way, 4092, 2059, 19).
+word(comparison, 4092, 2059, 27).
+word(fair, 4092, 2059, 30).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(4092, 1259, 0, 0, 0, -1, 0, 0, 0, 0).
+sentiment(4092, 1941, 0, -1, 0, -1, 0, 0, 0, 0).
+sentiment(4092, 2059, 0, 0, 0, -1, -1, 0, 0, 0).

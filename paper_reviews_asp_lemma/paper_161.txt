@@ -1,0 +1,37 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(1613,161,5,3).
+% id paper, Reject/Accept
+paperProperties(161, 1).
+% sourceId, line
+sentence(1613,163).
+sentence(1613,1242).
+sentence(1613,2412).
+% W, sourceId, line, position
+word(strict, 1613, 163, 4).
+word(page, 1613, 163, 5).
+word(limit, 1613, 163, 6).
+word(conference, 1613, 163, 9).
+word(feel, 1613, 163, 13).
+word(push, 1613, 163, 15).
+word(spirit, 1613, 163, 17).
+word(conference, 1613, 163, 20).
+word(publication, 1613, 163, 21).
+word(c, 1613, 1242, 2).
+word(c, 1613, 2412, 2).
+word(conclusion, 1613, 2412, 6).
+word(paper, 1613, 2412, 9).
+word(training, 1613, 2412, 12).
+word(high, 1613, 2412, 14).
+word(momentum, 1613, 2412, 15).
+word(require, 1613, 2412, 16).
+word(additional, 1613, 2412, 17).
+word(training, 1613, 2412, 18).
+word(epoch, 1613, 2412, 19).
+word(a, 1613, 2412, 22).
+word(reach, 1613, 2412, 23).
+word(equilibrium, 1613, 2412, 25).
+word(value, 1613, 2412, 26).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(1613, 163, 0, 0, 0, 0, 0, 1, 0, 0).
+sentiment(1613, 1242, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(1613, 2412, 0, 0, 0, 0, 0, 0, 0, 0).

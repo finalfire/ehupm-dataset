@@ -1,0 +1,65 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(4861,486,7,4).
+source(4862,486,7,4).
+% id paper, Reject/Accept
+paperProperties(486, 1).
+% sourceId, line
+sentence(4861,273).
+sentence(4862,1060).
+sentence(4862,2231).
+sentence(4862,2355).
+sentence(4862,2391).
+sentence(4862,2456).
+% W, sourceId, line, position
+word(find, 4861, 273, 1).
+word(basic, 4861, 273, 3).
+word(idea, 4861, 273, 4).
+word(compelling, 4861, 273, 6).
+word(voxel, 4862, 1060, 3).
+word(occupancy, 4862, 1060, 4).
+word(grid, 4862, 1060, 5).
+word(small, 4862, 1060, 8).
+word(resolution, 4862, 1060, 9).
+word(voxel, 4862, 2231, 3).
+word(occupancy, 4862, 2231, 4).
+word(grid, 4862, 2231, 5).
+word(small, 4862, 2231, 8).
+word(resolution, 4862, 2231, 9).
+word(kh, 4862, 2231, 15).
+word(suggest, 4862, 2355, 1).
+word(remove, 4862, 2355, 3).
+word(voxel, 4862, 2355, 11).
+word(occupancy, 4862, 2355, 12).
+word(grid, 4862, 2355, 13).
+word(small, 4862, 2355, 16).
+word(resolution, 4862, 2355, 17).
+word(voxel, 4862, 2391, 3).
+word(occupancy, 4862, 2391, 4).
+word(grid, 4862, 2391, 5).
+word(small, 4862, 2391, 8).
+word(resolution, 4862, 2391, 9).
+word(experiment, 4862, 2391, 13).
+word(include, 4862, 2391, 14).
+word(fish, 4862, 2391, 16).
+word(specie, 4862, 2391, 17).
+word(canine, 4862, 2391, 20).
+word(specie, 4862, 2391, 21).
+word(vehicle, 4862, 2391, 24).
+word(class, 4862, 2391, 25).
+word(voxel, 4862, 2456, 3).
+word(occupancy, 4862, 2456, 4).
+word(grid, 4862, 2456, 5).
+word(small, 4862, 2456, 8).
+word(resolution, 4862, 2456, 9).
+word(validate, 4862, 2456, 13).
+word(applicability, 4862, 2456, 15).
+word(different, 4862, 2456, 17).
+word(task, 4862, 2456, 18).
+word(domain, 4862, 2456, 20).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(4861, 273, 0, 0, 1, 0, 0, 0, 0, 0).
+sentiment(4862, 1060, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4862, 2231, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4862, 2355, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4862, 2391, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(4862, 2456, 0, 0, 0, 0, 0, 0, 0, 0).

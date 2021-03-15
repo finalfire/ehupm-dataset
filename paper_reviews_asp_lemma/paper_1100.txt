@@ -1,0 +1,100 @@
+% justapp(id+review_id), id, rating(1-10), confidence(1-5)
+source(11002,1100,6,4).
+% id paper, Reject/Accept
+paperProperties(1100, 0).
+% sourceId, line
+sentence(11002,796).
+sentence(11002,797).
+sentence(11002,2338).
+sentence(11002,2417).
+sentence(11002,2548).
+% W, sourceId, line, position
+word(new, 11002, 796, 3).
+word(architecture, 11002, 796, 4).
+word(compose, 11002, 796, 6).
+word(generator, 11002, 796, 8).
+word(base, 11002, 796, 9).
+word(mixture, 11002, 796, 12).
+word(weak, 11002, 796, 14).
+word(generator, 11002, 796, 15).
+word(main, 11002, 796, 18).
+word(intended, 11002, 796, 19).
+word(purpose, 11002, 796, 20).
+word(unique, 11002, 796, 23).
+word(generator, 11002, 796, 24).
+word(suffer, 11002, 796, 26).
+word(mode, 11002, 796, 27).
+word(collapse, 11002, 796, 28).
+word(long, 11002, 796, 32).
+word(generator, 11002, 796, 35).
+word(collapse, 11002, 796, 36).
+word(distinct, 11002, 796, 39).
+word(mode, 11002, 796, 40).
+word(combination, 11002, 796, 43).
+word(generator, 11002, 796, 45).
+word(cover, 11002, 796, 47).
+word(image, 11002, 796, 50).
+word(distribution, 11002, 796, 51).
+word(generator, 11002, 797, 2).
+word(approach, 11002, 797, 3).
+word(exist, 11002, 797, 4).
+word(single, 11002, 797, 7).
+word(generator, 11002, 797, 8).
+word(discriminator, 11002, 797, 10).
+word(gan, 11002, 797, 11).
+word(generator, 11002, 2338, 2).
+word(approach, 11002, 2338, 3).
+word(exist, 11002, 2338, 4).
+word(single, 11002, 2338, 7).
+word(generator, 11002, 2338, 8).
+word(discriminator, 11002, 2338, 10).
+word(gan, 11002, 2338, 11).
+word(task, 11002, 2338, 18).
+word(include, 11002, 2338, 20).
+word(new, 11002, 2417, 3).
+word(architecture, 11002, 2417, 4).
+word(compose, 11002, 2417, 6).
+word(generator, 11002, 2417, 8).
+word(base, 11002, 2417, 9).
+word(mixture, 11002, 2417, 12).
+word(weak, 11002, 2417, 14).
+word(generator, 11002, 2417, 15).
+word(main, 11002, 2417, 18).
+word(intended, 11002, 2417, 19).
+word(purpose, 11002, 2417, 20).
+word(unique, 11002, 2417, 23).
+word(generator, 11002, 2417, 24).
+word(suffer, 11002, 2417, 26).
+word(mode, 11002, 2417, 27).
+word(collapse, 11002, 2417, 28).
+word(long, 11002, 2417, 32).
+word(generator, 11002, 2417, 35).
+word(collapse, 11002, 2417, 36).
+word(distinct, 11002, 2417, 39).
+word(mode, 11002, 2417, 40).
+word(combination, 11002, 2417, 43).
+word(generator, 11002, 2417, 45).
+word(cover, 11002, 2417, 47).
+word(image, 11002, 2417, 50).
+word(distribution, 11002, 2417, 51).
+word(finally, 11002, 2417, 54).
+word(weight, 11002, 2417, 58).
+word(jointly, 11002, 2417, 61).
+word(train, 11002, 2417, 62).
+word(generator, 11002, 2548, 2).
+word(approach, 11002, 2548, 3).
+word(exist, 11002, 2548, 4).
+word(single, 11002, 2548, 7).
+word(generator, 11002, 2548, 8).
+word(discriminator, 11002, 2548, 10).
+word(gan, 11002, 2548, 11).
+word(instruction, 11002, 2548, 15).
+word(overloaded, 11002, 2548, 18).
+word(word, 11002, 2548, 19).
+word(roomtype, 11002, 2548, 25).
+% SourceID,Line, Appropriatness, Clarity, Originality, Empirical_Theoretical Soudness, Meaningful Comparison, Substance, Impact of Dataset_Software_Ideas, Recommendation
+sentiment(11002, 796, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11002, 797, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11002, 2338, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11002, 2417, 0, 0, 0, 0, 0, 0, 0, 0).
+sentiment(11002, 2548, 0, 0, 0, 0, 0, 0, 0, 0).
